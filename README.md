@@ -21,7 +21,13 @@
 
 ## :wave: Introduction
 
-**Context of the bounty**: please see this [post](https://forum.polkadot.network/t/we-need-to-make-ink-showcase-projects/592) first. Currently, based on the data, smart contract Parachains are leading the Polkadot ecosystem in terms of market adoption. More projects are deploying dApps on Polkadot Parachains than making Parachains today and this trend will likely continue due to the high resource requirement to deploy a chain. The core problem is that the Polkadot ecosystem only supports EVM at the time of writing this and we are reproducing something which other L1s/L2s can do. One of Polkadot’s main differentiators and default environment is Wasm . In this bounty, we would like to push Wasm smart contracts adoption. 
+**Context of the bounty**: please see this [post](https://forum.polkadot.network/t/we-need-to-make-ink-showcase-projects/592) first.
+Astar Network joins forces with Parity and select Parachain teams to create the ink!ubator Bounty, a program to support and encourage the development of ink! projects, open-source templates, and contract auditing for Polkadot’s native Wasm environment.
+
+Parachains on Polkadot are the unique unlock that enables the network's shared security and native interoperability to be utilized by a diverse variety of dApps. This has been demonstrated with smart contract focused parachains in particular, which currently lead the network in terms of adoption and activity. While this trend will certainly continue, there is still a largely underutilized opportunity to create more sophisticated and user-friendly applications through Polkadot’s Wasm compatibility and native smart-contracting language, ink!. 
+
+As it stands, Polkadot has yet to take full advantage of its superior technical infrastructure and, consequently, resembles other EVM chains in terms of meaningful activity. With the final audit of ink! soon to be completed, we still see a few blockers to unleash the potential of Wasm in the ecosystem.
+
 
 ### Guidelines
 
