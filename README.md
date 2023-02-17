@@ -1,4 +1,5 @@
-# Wasm Smart Contract Bounty - 01<!-- omit in toc -->
+# Wasm Smart Contract Bounty<!-- omit in toc -->
+## 01
 
 - [:wave: Introduction](#wave-introduction)
   - [Guidelines](#guidelines)
