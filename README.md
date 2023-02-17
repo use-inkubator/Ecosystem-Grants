@@ -31,7 +31,7 @@ As it stands, Polkadot has yet to take full advantage of its superior technical 
 
 ### Guidelines
 
-Anyone is welcome to apply for a grant. Projects funded through our programs are broad in scope, but our focus lies on strong **technical** projects that add value to the ecosystem.
+Anyone is welcome to apply for a grant. Projects funded through our bounty are limited in scope, but our focus lies on strong **Wasm** template that add value to the Wasm smart contract ecosystem.
 
 Generally, your project will have better chances to be accepted if:
 
