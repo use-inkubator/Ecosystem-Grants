@@ -12,9 +12,7 @@
   - [Changes to a Grant after Approval](#changes-to-a-grant-after-approval)
 - [:mailbox\_with\_mail: Suggest a Project](#mailbox_with_mail-suggest-a-project)
 - [:bulb: Help](#bulb-help)
-  - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
-  - [Office Hours](#office-hours)
 
 ## :wave: Introduction
 
