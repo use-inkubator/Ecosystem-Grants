@@ -43,9 +43,9 @@ Additionally, it must fulfill the following requirements:
 - As a general rule, teams are asked to finish a grant before applying for another one.
 - Lastly, we do not fund projects that actively encourage gambling, illicit trade, money laundering or criminal activities in general.
 
-In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](...). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required.
+In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required.
 
-Please also heed our [Announcement Guidelines](...) for grant-related communications.
+Please also heed our [Announcement Guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) for grant-related communications.
 
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
@@ -95,12 +95,12 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 ### 1. Application
 
-   0. Please read our [FAQs](..), [category guidelines](..), [announcement guidelines](..) and [Terms & Conditions](..)) to familiarize yourself with the subtleties of bounty, applications and the program as a whole.
+   0. Please read our [FAQs](..), [category guidelines](..), [announcement guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) and [Terms & Conditions](..)) to familiarize yourself with the subtleties of bounty, applications and the program as a whole.
    1. [Fork](..) this repository.
    2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](..)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](..) of the template inside the new one. Make sure you **do not modify the template file directly**. In the case of a maintenance application, use the maintenance template ([`maintenance template`](..)) instead. In the case of a research application, use the research template ([`research template`](..)) instead.
    3. Name the new file after your project: `project_name.md`.
    4. Fill out the template with the details of your project. The more information you provide, the faster the review. Please refer to our [Bounty guidelines for most popular bounty categories](..) and make sure your deliverables present a similar same level of detail. To get an idea of what a strong application looks like, you can have a look at the following examples:  [1](..), [3](..), [4](..). Naturally, if you're only applying for a smaller bounty that only consists of, say, UI work, you don't need to provide as much detail.
-   5. Once you're done, create a pull request in **our** main [Bounty-Program repository](..). The pull request should only contain _one new file_—the Markdown file you created from the template.
+   5. Once you're done, create a pull request in **our** main [Bounty Program repository](https://github.com/smart-contract-bounty/Bounty-Milestone-Delivery). The pull request should only contain _one new file_—the Markdown file you created from the template.
    6. You will see a comment template that contains a checklist. You can leave it as is and tick the checkboxes once the pull request has been created. Please read through these items and check all of them.
 
 ### 2. Application Review
@@ -112,7 +112,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 ### 3. Milestone Delivery and Payment
 
-   Milestones are to be delivered on the [Bounty Milestone Delivery](..) repository following the [process](..) described therein.
+   Milestones are to be delivered on the [Bounty Milestone Delivery](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md) repository following the [process](..) described therein.
 
 ### Changes to a Bounty after Approval
 
@@ -126,7 +126,7 @@ If you think that we should support the development of certain tools or projects
 
 **Submit an idea:**
 
-If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](..). We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
+If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/smart-contract-bounty/Wasm-Bounty-01/issues). We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
 
 ## :bulb: Help
 ### Real-time conversation
