@@ -45,7 +45,7 @@ Additionally, it must fulfill the following requirements:
 
 In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required.
 
-Please also heed our [Announcement Guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) for grant-related communications.
+Please also read our [Announcement Guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) for grant-related communications.
 
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
@@ -69,7 +69,7 @@ These dApps listed below are ideas and not prescriptive to what may be funded. W
 
 The scope of our Bounty Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a bounty, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on ink! on the [use.ink website](https://use.ink/).
 
-For questions about the grants program itself, see our [FAQ](...).
+For questions about the grants program itself, see our [FAQ](https://github.com/smart-contract-bounty/Support-Docs/blob/master/faq.md).
 
 ### Team
 
@@ -95,11 +95,11 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 ### 1. Application
 
-   0. Please read our [FAQs](..), [category guidelines](..), [announcement guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) and [Terms & Conditions](..)) to familiarize yourself with the subtleties of bounty, applications and the program as a whole.
-   1. [Fork](..) this repository.
-   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](..)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](..) of the template inside the new one. Make sure you **do not modify the template file directly**. In the case of a maintenance application, use the maintenance template ([`maintenance template`](..)) instead. In the case of a research application, use the research template ([`research template`](..)) instead.
+   0. Please read our [FAQs](https://github.com/smart-contract-bounty/Support-Docs/blob/master/faq.md), [announcement guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) to familiarize yourself with the subtleties of bounty, applications and the program as a whole.
+   1. [Fork](https://github.com/smart-contract-bounty/Wasm-Bounty-01/fork) this repository.
+   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Wasm-Bounty-01/applications/application-template.md)). 
    3. Name the new file after your project: `project_name.md`.
-   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Please refer to our [Bounty guidelines for most popular bounty categories](..) and make sure your deliverables present a similar same level of detail. To get an idea of what a strong application looks like, you can have a look at the following examples:  [1](..), [3](..), [4](..). Naturally, if you're only applying for a smaller bounty that only consists of, say, UI work, you don't need to provide as much detail.
+   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Make sure your deliverables present a similar same level of detail.
    5. Once you're done, create a pull request in **our** main [Bounty Program repository](https://github.com/smart-contract-bounty/Bounty-Milestone-Delivery). The pull request should only contain _one new file_—the Markdown file you created from the template.
    6. You will see a comment template that contains a checklist. You can leave it as is and tick the checkboxes once the pull request has been created. Please read through these items and check all of them.
 
@@ -112,7 +112,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 ### 3. Milestone Delivery and Payment
 
-   Milestones are to be delivered on the [Bounty Milestone Delivery](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md) repository following the [process](..) described therein.
+   Milestones are to be delivered on the [Bounty Milestone Delivery](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md) repository following the process described therein.
 
 ### Changes to a Bounty after Approval
 
@@ -131,10 +131,10 @@ If you have an idea for a project or would like to highlight an area in which yo
 ## :bulb: Help
 ### Real-time conversation
 
-We have Matrix/Element channels for real-time discussions on Web3 and Polkadot. Join the conversation.
+We have Matrix/Element channels for real-time support regarding running bounties. Join the conversation.
 
-- [Bounty Support Chat](..)
+- [Bounty Support Chat](https://matrix.to/#/#sm-bounty-support:matrix.org)
 
 Besides, we also have a **community room for all bounty recipients**. Head over to that room to share your experience with other grantees, ask bounty-related questions or simply hang out:
 
-- [Bounty Community](..)
+- [Bounty Community](https://matrix.to/#/#sm-bounty-community:matrix.org)
