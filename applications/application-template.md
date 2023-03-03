@@ -5,7 +5,6 @@
 > See the [Bounty Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
 - **Team Name:** Legal name of your team (e.g. Duo)
 - **Payment Address:** Polkadot payment address.
-- **[Level](https://github.com/smart-contract-bounty/Support-Docs/blob/master/levels.md):** 1, 2 or 3
 
 > :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
