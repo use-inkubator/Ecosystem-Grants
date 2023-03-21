@@ -28,8 +28,7 @@ Anyone is welcome to apply for a grant. This program funds projects that are ded
 Generally, your project will have better chances to be accepted if:
 - It clearly shows the advantage of ink! over other smart contract languages (e.g. Solidity)
 - It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
-- Your idea is innovative and contributes to the general growth of web3, Polkadot and ink! ecosystem. 
-
+- Your idea is innovative and contributes to the general growth of web3, Polkadot and ink! ecosystem. We would usually prefer innovation over duplication of what already exist on EVM.
 - You can demonstrate that the project will be **maintained** after completion of the grant.
 - Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine for past activity and code quality. Naturally, you can also link to projects on other platforms.
 - Your application is **rich in technical details** and well-defined.
