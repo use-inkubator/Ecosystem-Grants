@@ -23,11 +23,13 @@ Ecosystem Grants focuses on funding core ink! infrastructure products and ink! c
 
 ### Guidelines
 
-Anyone is welcome to apply for a grant. Projects funded through our bounty are limited in scope, but our focus lies on strong **Wasm** template that add value to the Wasm smart contract ecosystem.
+Anyone is welcome to apply for a grant. This program funds projects that are dedicated to ink! ecosystem growth. We focus on strong technical ideas that contribute to ink! infrastructure, demonstate ink! potential, and unveil applicable business side thus growing the ecosystem. 
 
 Generally, your project will have better chances to be accepted if:
-- Your idea is innovative and contributes to the general growth of web3, Polkadot and ink! ecosystem. 
+- It clearly shows the advantage of ink! over other smart contract languages (e.g. Solidity)
 - It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
+- Your idea is innovative and contributes to the general growth of web3, Polkadot and ink! ecosystem. 
+
 - You can demonstrate that the project will be **maintained** after completion of the grant.
 - Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine for past activity and code quality. Naturally, you can also link to projects on other platforms.
 - Your application is **rich in technical details** and well-defined.
@@ -145,3 +147,7 @@ If you have an idea for a project or would like to highlight an area in which yo
 We have Matrix/Element channels for real-time support regarding running bounties. Join the conversation.
 
 - [Ecosystem Grants Community](https://matrix.to/#/#sm-bounty-support:matrix.org)
+
+Other channels
+- [Smart contracts & Parity's ink!](https://matrix.to/#/#ink:matrix.parity.io)
+- [Brushfam ink! community](https://matrix.to/#/!utTuYglskDvqRRMQta:matrix.org?via=matrix.org&via=t2bot.io&via=web3.foundation)
