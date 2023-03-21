@@ -1,4 +1,4 @@
-# Wasm Smart Contract Bounty<!-- omit in toc -->
+# Polkadot ink! Ecosystem Grants<!-- omit in toc -->
 
 - [:wave: Introduction](#wave-introduction)
   - [Guidelines](#guidelines)
@@ -15,13 +15,10 @@
   - [Real-time conversation](#real-time-conversation)
 
 ## :wave: Introduction
+Ecosystem Grants are part of the ink!ubator, a holistic bounty program that evolves ink! smart contacts, funded and approved by the Polkadot community/treasury. Initially pioneered by Astar Network, now includes Curators from [Parity](https://www.parity.io/), Phala Network, Brushfam, Aleph Zero teams. As WASM is the future of smart contracts and one of the key differentiators of Polkadot, ink!ubator believes the growth of its field will greatly empower Polkadot ecosystem.  
+Read more - [Bounty](https://polkadot.polkassembly.io/bounty/19)
 
-**Context of the bounty**: please see this [post](https://forum.polkadot.network/t/we-need-to-make-ink-showcase-projects/592) first.
-Astar Network joins forces with Parity and select Parachain teams to create the ink!ubator Bounty, a program to support and encourage the development of ink! projects, open-source templates, and contract auditing for Polkadot’s native Wasm environment.
-
-Parachains on Polkadot are the unique unlock that enables the network's shared security and native interoperability to be utilized by a diverse variety of dApps. This has been demonstrated with smart contract focused parachains in particular, which currently lead the network in terms of adoption and activity. While this trend will certainly continue, there is still a largely underutilized opportunity to create more sophisticated and user-friendly applications through Polkadot’s Wasm compatibility and native smart-contracting language, ink!. 
-
-As it stands, Polkadot has yet to take full advantage of its superior technical infrastructure and, consequently, resembles other EVM chains in terms of meaningful activity. With the final audit of ink! soon to be completed, we still see a few blockers to unleash the potential of Wasm in the ecosystem.
+Ecosystem Grants focuses on funding core ink! infrastructure products and ink! canary dapps, applications aimed to demostrate ink! potential and its superiority compared to other smart contract languages and ecosystems. 
 
 
 ### Guidelines
@@ -29,7 +26,7 @@ As it stands, Polkadot has yet to take full advantage of its superior technical 
 Anyone is welcome to apply for a grant. Projects funded through our bounty are limited in scope, but our focus lies on strong **Wasm** template that add value to the Wasm smart contract ecosystem.
 
 Generally, your project will have better chances to be accepted if:
-
+- Your idea is innovative and contributes to the general growth of web3, Polkadot and ink! ecosystem. 
 - It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
 - You can demonstrate that the project will be **maintained** after completion of the grant.
 - Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine for past activity and code quality. Naturally, you can also link to projects on other platforms.
@@ -50,6 +47,29 @@ Please also read our [Announcement Guidelines](https://github.com/smart-contract
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
 ### Project Ideas
+The main acceptance criteria of any submitted project would be its impact on the ink! ecosystem. 
+We would like to advise 3 following categories:
+**Industry Canary dApp**
+A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps.
+Some examples:
+- **Lending application** that allows users to earn interest on deposits and borrow assets with a variable or stable interest rate. (2 types)
+- **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
+- **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
+
+**Ink! cutting-edge showcase**
+This category implies developing full-stack application that clearly demonstrates the advantages of ink! over other smart contract languages(e.g. Solidity). In this category you should focus on opening the full potential of ink. The case doesn't necessarily needs to be business oriented. However it should clearly and visually demostrate superiority of ink. 
+You can use following aspects as indicators:
+- gas
+- smart contract size (find a use case where the size of smart contract will be smaller then solidity - application with complex calculations)
+- code writing experience (how comfortable to write code)
+- debugging experience
+
+
+**Ink! infrastructure**
+On this stage ink! ecosystem lacks a lof of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather then tools that simply duplicate EVM. 
+Examples of successful infrastructure products:
+- [OpenBrush](https://openbrush.io/)
+- [Swanky](https://github.com/AstarNetwork/swanky-cli)
 
 **Canary dApps**: One of the goals of this bounty is to encourage the development of so-called Canary dApps. A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps. We assume that a Canary dApp is one which can be built by a small team of developers (1-3) in a relatively short period of time (1-3 months). We would like these dApps to also be audited. This will give teams from the Contract Auditor Program an opportunity to test their skills in a low-stakes environment, and to give confidence to the teams who may want to use these as references.
 
@@ -73,7 +93,7 @@ For questions about the grants program itself, see our [FAQ](https://github.com/
 
 ### Team
 
-#### ink!ubators<!-- omit in toc -->
+#### Ink!ubator Curators<!-- omit in toc -->
 
 The curators consists of individuals, and are responsible for evaluating bounty applications and providing feedback on these.
 
@@ -133,8 +153,4 @@ If you have an idea for a project or would like to highlight an area in which yo
 
 We have Matrix/Element channels for real-time support regarding running bounties. Join the conversation.
 
-- [Bounty Support Chat](https://matrix.to/#/#sm-bounty-support:matrix.org)
-
-Besides, we also have a **community room for all bounty recipients**. Head over to that room to share your experience with other grantees, ask bounty-related questions or simply hang out:
-
-- [Bounty Community](https://matrix.to/#/#sm-bounty-community:matrix.org)
+- [Ecosystem Grants Community](https://matrix.to/#/#sm-bounty-support:matrix.org)
