@@ -71,20 +71,6 @@ Examples of successful infrastructure products:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
 
-**Canary dApps**: One of the goals of this bounty is to encourage the development of so-called Canary dApps. A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps. We assume that a Canary dApp is one which can be built by a small team of developers (1-3) in a relatively short period of time (1-3 months). We would like these dApps to also be audited. This will give teams from the Contract Auditor Program an opportunity to test their skills in a low-stakes environment, and to give confidence to the teams who may want to use these as references.
-
-**Canary dApps**
-These dApps listed below are ideas and not prescriptive to what may be funded. We will fund up to 5 projects as the first track of this bounty.
-- **Lending application** that allows users to earn interest on deposits and borrow assets with a variable or stable interest rate. (2 types)
-- **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
-- **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
-- **Stablecoin** that enables over-collateralized loans by locking DOT assets in a smart contract and minting stablecoin pegged to the US dollar.
-- **Stablecoin Swap** optimized for low slippage swaps between stablecoins or similar assets that peg to the same value.
-- **Derivatives and Synthetic Asset Platform** that provides on-chain exposure to real-world currencies, commodities, stocks, and indices.
-- **NFT Marketplace** that allows people to list, exchange and mint NFTs
-- **Guild Platform** like DAO which seeks to provide a key on-ramp to the world of Play-to-Earn gaming.
-- **ink! Domain Name Service** a distributed and open-source naming system that maps human-readable names to machine-readable identifiers.
-
 ### Support
 
 The scope of our Bounty Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a bounty, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on ink! on the [use.ink website](https://use.ink/).
