@@ -79,9 +79,11 @@ Examples of successful infrastructure products:
 
 ### Support
 
-The scope of our Bounty Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a bounty, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on ink! on the [use.ink website](https://use.ink/).
+The scope of our Grant Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on ink! on the [use.ink](https://use.ink/) website.
 
-For questions about the grants program itself, see our [FAQ](https://github.com/smart-contract-bounty/Support-Docs/blob/master/faq.md).
+Also, you can visit community support channels:
+- [Smart contract & Parity's ink! Element](https://matrix.to/#/#ink:matrix.parity.io)
+- [Brushfam ink! community Discord](https://discord.gg/9FRETSPmp9)
 
 ### Team
 
@@ -106,39 +108,29 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 > **:loudspeaker:** Payment is made in DOT (on Polkadot).
 
 ### 1. Application
-
-   0. Please read our [FAQs](https://github.com/smart-contract-bounty/Support-Docs/blob/master/faq.md), [announcement guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) to familiarize yourself with the subtleties of bounty, applications and the program as a whole.
    1. [Fork](https://github.com/smart-contract-bounty/Wasm-Bounty-01/fork) this repository.
    2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Wasm-Bounty-01/applications/application-template.md)). 
    3. Name the new file after your project: `project_name.md`.
-   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Make sure your deliverables present a similar same level of detail.
-   5. Once you're done, create a pull request in **our** main [Bounty Program repository](https://github.com/smart-contract-bounty/Bounty-Milestone-Delivery). The pull request should only contain _one new file_—the Markdown file you created from the template.
-   6. You will see a comment template that contains a checklist. You can leave it as is and tick the checkboxes once the pull request has been created. Please read through these items and check all of them.
+   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Make sure your deliverables present a similar level of detail.
+   5. Once you're done, create a pull request in **this repozitory**. The pull request should only contain _one new file_—the Markdown file you created from the template.
 
 ### 2. Application Review
 
-   1. The Curators can (and usually does) issue comments and request changes on the pull request.
+   1. Curators can (and usually do) issue comments and request changes on the pull request.
    2. Clarifications and amendments made in the comments _need to be included in the application_. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
    3. When all requested changes are addressed and the terms and conditions have been signed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
-   4. The application will be accepted and merged as soon as it receives the required number of approvals, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
+   4. The application will be accepted and merged as soon as it receives **3 approvals**, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
 
 ### 3. Milestone Delivery and Payment
 
-   Milestones are to be delivered on the [Bounty Milestone Delivery](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md) repository following the process described therein.
+   Milestones are to be delivered on the [Grant Milestone Delivery](https://github.com/smart-contract-bounty/Grant-Milestone-Delivery) repository following the process described therein.
 
-### Changes to a Bounty after Approval
+### Changes to a Grant after Approval
 
-- Accepted bounty applications can be amended at any time. However, this _necessitates a reevaluation by the committee_ and the same number of approvals as an application. If your application has been accepted and, during development, you find that your project significantly deviates from the original specification, please open a new pull request that modifies the existing application. This also applies in case of significant delays.
+- Accepted grant applications can be amended at any time. However, this _necessitates a curators reevaluation_ and the same number of approvals as an application. If your application has been accepted and, during development, you find that your project significantly deviates from the original specification, please open a new pull request that modifies the existing application. This also applies in case of significant delays.
 - If your _delivery schedule_ significantly changes, please also open a pull request with an updated timeline.
-- If your deliveries are significantly delayed and we cannot get a hold of you, we will terminate the grant (3 approvals required, regardless of level. If a member of the committee creates the termination PR, only 2 more approvals are required).
+- If your deliveries are significantly delayed and we cannot get a hold of you, we will terminate the grant (3 approvals required. If Curator creates the termination PR, only 2 more approvals are required).
 
-## :mailbox_with_mail: Suggest a Project
-
-If you think that we should support the development of certain tools or projects that aren't in the bounty application, feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
-
-**Submit an idea:**
-
-If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/smart-contract-bounty/Wasm-Bounty-01/issues). We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
 
 ## :bulb: Help
 ### Real-time conversation
