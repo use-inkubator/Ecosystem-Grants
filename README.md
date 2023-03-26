@@ -107,7 +107,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 ### 1. Application
    1. [Fork](https://github.com/smart-contract-bounty/Wasm-Bounty-01/fork) this repository.
-   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Ecosystem-Grants/applications/application-template.md)). 
+   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Ecosystem-Grants/blob/master/applications/application-template.md)). 
    3. Name the new file after your project: `project_name.md`.
    4. Fill out the template with the details of your project. The more information you provide, the faster the review. Make sure your deliverables present a similar level of detail.
    5. Once you're done, create a pull request in **this repozitory**. The pull request should only contain _one new file_—the Markdown file you created from the template.
