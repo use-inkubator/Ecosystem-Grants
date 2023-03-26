@@ -27,9 +27,9 @@ Anyone is welcome to apply for a grant. This program funds projects that are ded
 
 Generally, your project will have better chances to be accepted if:
 - It clearly shows the advantage of ink! over other smart contract languages (e.g. Solidity)
-- It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
 - Your idea is innovative and contributes to the general growth of web3, Polkadot and ink! ecosystem. We would usually prefer innovation over duplication of what already exist on EVM.
-- You can demonstrate that the project will be **maintained** after completion of the grant.
+- It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
+- You can demonstrate that the project will be **maintained** after completion of the grant if applicable.
 - Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine for past activity and code quality. Naturally, you can also link to projects on other platforms.
 - Your application is **rich in technical details** and well-defined.
 
@@ -41,9 +41,7 @@ Additionally, it must fulfill the following requirements:
 - As a general rule, teams are asked to finish a grant before applying for another one.
 - Lastly, we do not fund projects that actively encourage gambling, illicit trade, money laundering or criminal activities in general.
 
-In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required.
-
-Please also read our [Announcement Guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) for grant-related communications.
+We require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required.
 
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
@@ -118,7 +116,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
    1. Curators can (and usually do) issue comments and request changes on the pull request.
    2. Clarifications and amendments made in the comments _need to be included in the application_. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
-   3. When all requested changes are addressed and the terms and conditions have been signed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
+   3. When all requested changes are addressed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
    4. The application will be accepted and merged as soon as it receives **3 approvals**, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
 
 ### 3. Milestone Delivery and Payment
