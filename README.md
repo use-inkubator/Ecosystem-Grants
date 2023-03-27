@@ -15,7 +15,14 @@
   - [Real-time conversation](#real-time-conversation)
 
 ## :wave: Introduction
-Ecosystem Grants are part of the **ink!ubator**, a holistic bounty program that evolves ink! smart contacts, funded and approved by the Polkadot community/treasury. Initially pioneered by Astar Network, now includes Curators from the [Parity](https://www.parity.io/), [Phala Network](https://www.phala.network/en/), [Brushfam](https://brushfam.io/), and [Aleph Zero](https://alephzero.org/) teams. As Wasm is the future of smart contracts and one of the key differentiators of Polkadot, ink!ubator believes the growth of its field will greatly empower Polkadot ecosystem.  
+Ecosystem Grants are part of the **ink!ubator**, a holistic bounty program with the goal of furthering the ink! smart contracting ecosystem. This bounty program is funded by the Polkadot treasury with the support of the community.
+
+The bounty includes Curators from the following Polkadot ecosystem teams:
+- [Astar Network](https://astar.network/)
+- [Parity](https://www.parity.io/)
+- [Phala Network](https://www.phala.network/en/)
+- [Brushfam](https://brushfam.io/)
+- [Aleph Zero](https://alephzero.org/)
 
 The Ecosystem Grants focus on funding projects which will demonstrate the potential of ink! and well as those which push the ink! ecosystem forward, such as infrastructure projects or developer tooling.
 
@@ -52,7 +59,7 @@ The main acceptance criteria of any submitted project would be its impact on the
 
 We would like to advise 3 following categories:
 
-**Industry Canary dApp**
+**Canary Dapp**
 
 A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps.
 Some examples:
@@ -60,7 +67,7 @@ Some examples:
 - **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
 - **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
 
-**ink! Cutting-edge Showcase**
+**Technical Showcase**
 
 This category implies developing full-stack application that clearly demonstrates the advantages of ink! over other smart contract languages (e.g. Solidity). In this category you should focus on opening the full potential of ink. The case doesn't necessarily needs to be business oriented. However it should clearly and visually demostrate superiority of the ink! language.
 You can use following aspects as indicators:
@@ -69,9 +76,9 @@ You can use following aspects as indicators:
 - improved developer experience
 - improved debugging experience
 
-**ink! Infrastructure**
+**Infrastructure**
 
-On this stage ink! ecosystem lacks a lof of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather then tools that simply duplicate EVM. 
+On this stage ink! ecosystem lacks a lot of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather then tools that simply duplicate EVM. 
 Examples of successful infrastructure products:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
