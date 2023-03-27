@@ -15,7 +15,7 @@
   - [Real-time conversation](#real-time-conversation)
 
 ## :wave: Introduction
-Ecosystem Grants are part of the **ink!ubator**, a holistic bounty program that evolves ink! smart contacts, funded and approved by the Polkadot community/treasury. Initially pioneered by Astar Network, now includes Curators from the [Parity](https://www.parity.io/), [Phala Network](https://www.phala.network/en/), [Brushfam](https://brushfam.io/), and [Aleph Zero](https://alephzero.org/) teams. As WASM is the future of smart contracts and one of the key differentiators of Polkadot, ink!ubator believes the growth of its field will greatly empower Polkadot ecosystem.  
+Ecosystem Grants are part of the **ink!ubator**, a holistic bounty program that evolves ink! smart contacts, funded and approved by the Polkadot community/treasury. Initially pioneered by Astar Network, now includes Curators from the [Parity](https://www.parity.io/), [Phala Network](https://www.phala.network/en/), [Brushfam](https://brushfam.io/), and [Aleph Zero](https://alephzero.org/) teams. As Wasm is the future of smart contracts and one of the key differentiators of Polkadot, ink!ubator believes the growth of its field will greatly empower Polkadot ecosystem.  
 
 The Ecosystem Grants focus on funding projects which will demonstrate the potential of ink! and well as those which push the ink! ecosystem forward, such as infrastructure projects or developer tooling.
 
@@ -94,7 +94,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 - **Hernando Castano from Parity Technologies**: Hernando is a Core Developer at Parity Technologies. Hernando joined the blockchain space in 2017, initially curious about the world of smart contracts on Ethereum. In 2019, Hernando joined Parity Technologies to work on the Parity Ethereum client, and has since transitioned to the team working on the ink! programming language.
 
-- **Markian Ivanichok 727 Ventures**: Founder & CEO at 727.ventures, Brushfam & Dedali Metaverse. Web3 entrepreneur, Software Engineer. Brushfam onboards businesses to Polkadot WASM. Projects: Openbrush(Openzeppelin of WASM ink!), Typechain for ink!, sol2ink (transpiler from solidity to ink!), and substrate/ink! contribution itself. Also, WASM conference, was the first web3 WASM conference and gathered ~1000 participants.
+- **Markian Ivanichok 727 Ventures**: Founder & CEO at 727.ventures, Brushfam & Dedali Metaverse. Web3 entrepreneur, Software Engineer. Brushfam onboards businesses to Polkadot Wasm. Projects: Openbrush(Openzeppelin of Wasm ink!), Typechain for ink!, sol2ink (transpiler from solidity to ink!), and substrate/ink! contribution itself. Also, Wasm conference, was the first web3 Wasm conference and gathered ~1000 participants.
 
 - **Hang Yin from Phala Network**: Co-founder and CTO at Phala Network. 5 years of Web3 core development and entrepreneur experience. Author of Phala Network Technical Whitepaper. Lead the team to build an off-chain computing protocol based on ink! and Substrate with 30k online servers. Ex-Googler on Machine Learning before joining Web3.
 
