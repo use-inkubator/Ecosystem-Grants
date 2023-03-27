@@ -1,4 +1,4 @@
-# Polkadot ink! Ecosystem Grants<!-- omit in toc -->
+# ink!ubator: Ecosystem Grants<!-- omit in toc -->
 
 - [:wave: Introduction](#wave-introduction)
   - [Guidelines](#guidelines)
@@ -15,11 +15,11 @@
   - [Real-time conversation](#real-time-conversation)
 
 ## :wave: Introduction
-Ecosystem Grants are part of the **Ink!ubator**, a holistic bounty program that evolves ink! smart contacts, funded and approved by the Polkadot community/treasury. Initially pioneered by Astar Network, now includes Curators from [Parity](https://www.parity.io/), Phala Network, Brushfam, Aleph Zero teams. As WASM is the future of smart contracts and one of the key differentiators of Polkadot, ink!ubator believes the growth of its field will greatly empower Polkadot ecosystem.  
-Read more - [Bounty](https://polkadot.polkassembly.io/bounty/19)
+Ecosystem Grants are part of the **ink!ubator**, a holistic bounty program that evolves ink! smart contacts, funded and approved by the Polkadot community/treasury. Initially pioneered by Astar Network, now includes Curators from the [Parity](https://www.parity.io/), [Phala Network](https://www.phala.network/en/), [Brushfam](https://brushfam.io/), and [Aleph Zero](https://alephzero.org/) teams. As WASM is the future of smart contracts and one of the key differentiators of Polkadot, ink!ubator believes the growth of its field will greatly empower Polkadot ecosystem.  
 
-Ecosystem Grants focuses on funding core ink! infrastructure products and ink! canary dapps, applications aimed to demostrate ink! potential and its superiority compared to other smart contract languages and ecosystems. 
+The Ecosystem Grants focus on funding projects which will demonstrate the potential of ink! and well as those which push the ink! ecosystem forward, such as infrastructure projects or developer tooling.
 
+The Ecosystem Grants are only one aspect of the ink!ubator. For more details on the rest of the initiative see the [Polkadot Treasury Bounty Proposal](https://polkadot.polkassembly.io/bounty/19).
 
 ### Guidelines
 
@@ -56,21 +56,20 @@ We would like to advise 3 following categories:
 
 A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps.
 Some examples:
-- **Lending application** that allows users to earn interest on deposits and borrow assets with a variable or stable interest rate. (2 types)
+- **Lending application** that allows users to earn interest on deposits and borrow assets with a variable or stable interest rate.
 - **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
 - **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
 
-**Ink! Cutting-edge Showcase**
+**ink! Cutting-edge Showcase**
 
-This category implies developing full-stack application that clearly demonstrates the advantages of ink! over other smart contract languages(e.g. Solidity). In this category you should focus on opening the full potential of ink. The case doesn't necessarily needs to be business oriented. However it should clearly and visually demostrate superiority of ink. 
+This category implies developing full-stack application that clearly demonstrates the advantages of ink! over other smart contract languages (e.g. Solidity). In this category you should focus on opening the full potential of ink. The case doesn't necessarily needs to be business oriented. However it should clearly and visually demostrate superiority of the ink! language.
 You can use following aspects as indicators:
-- gas
-- smart contract size (find a use case where the size of smart contract will be smaller then solidity - application with complex calculations)
-- code writing experience (how comfortable to write code)
-- debugging experience
+- efficient gas usage
+- decreased smart contract size
+- improved developer experience
+- improved debugging experience
 
-
-**Ink! Infrastructure**
+**ink! Infrastructure**
 
 On this stage ink! ecosystem lacks a lof of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather then tools that simply duplicate EVM. 
 Examples of successful infrastructure products:
