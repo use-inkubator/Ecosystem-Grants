@@ -84,7 +84,7 @@ For questions about the grants program itself, see our [FAQ](https://github.com/
 
 ### Team
 
-#### Ink!ubator Curators<!-- omit in toc -->
+#### ink!ubator Curators<!-- omit in toc -->
 
 The curators consists of individuals, and are responsible for evaluating bounty applications and providing feedback on these.
 
@@ -94,7 +94,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 - **Hernando Castano from Parity Technologies**: Hernando is a Core Developer at Parity Technologies. Hernando joined the blockchain space in 2017, initially curious about the world of smart contracts on Ethereum. In 2019, Hernando joined Parity Technologies to work on the Parity Ethereum client, and has since transitioned to the team working on the ink! programming language.
 
-- **Markian Ivanichok 727 Ventures**: Founder & CEO at 727.ventures, Brushfam & Dedali Metaverse. Web3 entrepreneur, Software Engineer. Brushfam onboards businesses to Polkadot Wasm. Projects: Openbrush(Openzeppelin of Wasm ink!), Typechain for ink!, sol2ink (transpiler from solidity to ink!), and substrate/ink! contribution itself. Also, Wasm conference, was the first web3 Wasm conference and gathered ~1000 participants.
+- **Markian Ivanichok 727 Ventures**: Founder & CEO at 727.ventures, Brushfam & Dedali Metaverse. Web3 entrepreneur, Software Engineer. Brushfam onboards businesses to Polkadot Wasm. Projects: OpenBrush (OpenZeppelin of Wasm ink!), Typechain for ink!, sol2ink (transpiler from Solidity to ink!), and substrate/ink! contribution itself. Also, Wasm conference, was the first web3 Wasm conference and gathered ~1000 participants.
 
 - **Hang Yin from Phala Network**: Co-founder and CTO at Phala Network. 5 years of Web3 core development and entrepreneur experience. Author of Phala Network Technical Whitepaper. Lead the team to build an off-chain computing protocol based on ink! and Substrate with 30k online servers. Ex-Googler on Machine Learning before joining Web3.
 
