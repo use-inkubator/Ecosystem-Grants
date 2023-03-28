@@ -71,9 +71,13 @@ You can use following aspects as indicators:
 **Ink! Infrastructure**
 
 On this stage ink! ecosystem lacks a lof of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather then tools that simply duplicate EVM. 
-Examples of successful infrastructure products:
+Examples of successful infrastructure products and potential area to work on:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
+- oracles (price feed, VRF, customizable oracles, ...)
+- automation & account abstraction
+- DAO toolings (smart contract implementations, UI, SDKs)
+- bridges (XCM integration, and bridges to external blockchains)
 
 ### Support
 
