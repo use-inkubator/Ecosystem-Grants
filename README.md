@@ -95,13 +95,11 @@ The Smart Contract Bounty Program offers different bounty levels to help you bes
 - **Amount:** Up to $10,000
 - **Requirements:** 4 approvals, Pitch call
 
-
 #### :baby_chick: Level 2
 
 - **Target:** Small teams/start-ups
 - **Amount:** Up to $30,000
 - **Requirements:** 4 approvals, Pitch call
-
 
 #### :rooster: Level 3
 
@@ -111,7 +109,7 @@ The Smart Contract Bounty Program offers different bounty levels to help you bes
 
 ---
 
-**Benefits** for all levels: Feedback during application process and evaluation, introduction to related teams/projects, audit, co-promotion. 
+**Benefits** for all levels: Feedback during application process and evaluation, introduction to related teams/projects, audit, co-promotion.
 
 ### Support
 
