@@ -75,6 +75,34 @@ Examples of successful infrastructure products:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
 
+
+### Bounty Levels
+The Smart Contract Bounty Program offers different bounty levels to help you best depending on your current stage.
+
+#### :hatching_chick: Level 1
+
+- **Target:** Individuals & small teams
+- **Amount:** Up to $10,000
+- **Requirements:** 4 approvals, Pitch call
+
+
+#### :baby_chick: Level 2
+
+- **Target:** Small teams/start-ups
+- **Amount:** Up to $30,000
+- **Requirements:** 4 approvals, Pitch call
+
+
+#### :rooster: Level 3
+
+- **Target:** Companies/foundations with a proven track record
+- **Amount:** Up to $250,000
+- **Requirements:** 5 approvals (for >$100k: Smart Contract Bounty Council approval + Pitch call)
+
+---
+
+**Benefits** for all levels: Feedback during application process and evaluation, introduction to related teams/projects, audit, co-promotion. 
+
 ### Support
 
 The scope of our Grant Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on ink! on the [use.ink](https://use.ink/) website.
