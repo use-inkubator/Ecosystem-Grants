@@ -2,7 +2,7 @@
 
 > This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
 >
-> See the [Bounty Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
+> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
 - **Team Name:** Legal name of your team (e.g. Duo)
 - **Payment Address:** Polkadot payment address.
 
@@ -15,12 +15,13 @@ Please provide the following:
 
 - If the name of your project is not descriptive, a tag line (one sentence summary).
 - A brief description of the template building.
-- An indication of how your template relates to this bounty.
-- An indication of why your team is interested in creating this template.
+- An indication of how your project relates to ink! ecosystem.
+- Choosen project idea category or your alternative category with explanation of its importance
+- An indication of why your team is interested in creating this project.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the template expected final state. Therefore, we ask the teams to submit (where relevant):
+We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Data models / API specifications of the core functionality
 - An overview of the technology stack to be used
@@ -30,7 +31,7 @@ We expect the teams to already have a solid idea about the template expected fin
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 
-Things that shouldn’t be part of the application (see also our [FAQ](https://github.com/smart-contract-bounty/Support-Docs/blob/master/faq.md)):
+Things that shouldn’t be part of the application:
 - The (future) tokenomics of your project 
 - For non-infrastructure projects—deployment and hosting costs, maintenance or audits
 - Business-oriented activities (marketing, business planning), events or outreach

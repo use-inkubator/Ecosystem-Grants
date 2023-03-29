@@ -34,9 +34,9 @@ Anyone is welcome to apply for a grant. This program funds projects that are ded
 
 Generally, your project will have better chances to be accepted if:
 - It clearly shows the advantage of ink! over other smart contract languages (e.g. Solidity)
-- It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
 - Your idea is innovative and contributes to the general growth of web3, Polkadot and ink! ecosystem. We would usually prefer innovation over duplication of what already exist on EVM.
-- You can demonstrate that the project will be **maintained** after completion of the grant.
+- It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
+- You can demonstrate that the project will be **maintained** after completion of the grant if applicable.
 - Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine for past activity and code quality. Naturally, you can also link to projects on other platforms.
 - Your application is **rich in technical details** and well-defined.
 
@@ -48,9 +48,7 @@ Additionally, it must fulfill the following requirements:
 - As a general rule, teams are asked to finish a grant before applying for another one.
 - Lastly, we do not fund projects that actively encourage gambling, illicit trade, money laundering or criminal activities in general.
 
-In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required.
-
-Please also read our [Announcement Guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) for grant-related communications.
+We require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required.
 
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
@@ -78,16 +76,47 @@ You can use following aspects as indicators:
 
 **Infrastructure**
 
-On this stage ink! ecosystem lacks a lot of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather then tools that simply duplicate EVM. 
+On this stage ink! ecosystem lacks a lot of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather than tools that simply duplicate EVM. 
+
 Examples of successful infrastructure products:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
 
+
+### Bounty Levels
+The Smart Contract Bounty Program offers different bounty levels to help you best depending on your current stage.
+
+#### :hatching_chick: Level 1
+
+- **Target:** Individuals & small teams
+- **Amount:** Up to $10,000
+- **Requirements:** 4 approvals, Pitch call
+
+
+#### :baby_chick: Level 2
+
+- **Target:** Small teams/start-ups
+- **Amount:** Up to $30,000
+- **Requirements:** 4 approvals, Pitch call
+
+
+#### :rooster: Level 3
+
+- **Target:** Companies/foundations with a proven track record
+- **Amount:** Up to $250,000
+- **Requirements:** 5 approvals (for >$100k: Smart Contract Bounty Council approval + Pitch call)
+
+---
+
+**Benefits** for all levels: Feedback during application process and evaluation, introduction to related teams/projects, audit, co-promotion. 
+
 ### Support
 
-The scope of our Bounty Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a bounty, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on ink! on the [use.ink website](https://use.ink/).
+The scope of our Grant Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on ink! on the [use.ink](https://use.ink/) website.
 
-For questions about the grants program itself, see our [FAQ](https://github.com/smart-contract-bounty/Support-Docs/blob/master/faq.md).
+Also, you can visit community support channels:
+- [Smart contract & Parity's ink! Element](https://matrix.to/#/#ink:matrix.parity.io)
+- [Brushfam ink! community Discord](https://discord.gg/9FRETSPmp9)
 
 ### Team
 
@@ -112,39 +141,29 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 > **:loudspeaker:** Payment is made in DOT (on Polkadot).
 
 ### 1. Application
-
-   0. Please read our [FAQs](https://github.com/smart-contract-bounty/Support-Docs/blob/master/faq.md), [announcement guidelines](https://github.com/smart-contract-bounty/Support-Docs/blob/master/announcement-guidelines.md) to familiarize yourself with the subtleties of bounty, applications and the program as a whole.
    1. [Fork](https://github.com/smart-contract-bounty/Wasm-Bounty-01/fork) this repository.
-   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Wasm-Bounty-01/applications/application-template.md)). 
+   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Ecosystem-Grants/blob/master/applications/application-template.md)). 
    3. Name the new file after your project: `project_name.md`.
-   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Make sure your deliverables present a similar same level of detail.
-   5. Once you're done, create a pull request in **our** main [Bounty Program repository](https://github.com/smart-contract-bounty/Bounty-Milestone-Delivery). The pull request should only contain _one new file_—the Markdown file you created from the template.
-   6. You will see a comment template that contains a checklist. You can leave it as is and tick the checkboxes once the pull request has been created. Please read through these items and check all of them.
+   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Make sure your deliverables present a similar level of detail.
+   5. Once you're done, create a pull request in **this repozitory**. The pull request should only contain _one new file_ — the Markdown file you created from the template.
 
 ### 2. Application Review
 
-   1. The Curators can (and usually does) issue comments and request changes on the pull request.
+   1. Curators can (and usually do) issue comments and request changes on the pull request.
    2. Clarifications and amendments made in the comments _need to be included in the application_. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
-   3. When all requested changes are addressed and the terms and conditions have been signed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
-   4. The application will be accepted and merged as soon as it receives the required number of approvals, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
+   3. When all requested changes are addressed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
+   4. The application will be accepted and merged as soon as it receives **3 approvals**, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
 
 ### 3. Milestone Delivery and Payment
 
-   Milestones are to be delivered on the [Bounty Milestone Delivery](https://github.com/smart-contract-bounty/Support-Docs/blob/master/milestone-deliverables-guidelines.md) repository following the process described therein.
+   Milestones are to be delivered on the [Grant Milestone Delivery](https://github.com/smart-contract-bounty/Grant-Milestone-Delivery) repository following the process described therein.
 
-### Changes to a Bounty after Approval
+### Changes to a Grant after Approval
 
-- Accepted bounty applications can be amended at any time. However, this _necessitates a reevaluation by the committee_ and the same number of approvals as an application. If your application has been accepted and, during development, you find that your project significantly deviates from the original specification, please open a new pull request that modifies the existing application. This also applies in case of significant delays.
+- Accepted grant applications can be amended at any time. However, this _necessitates a curators reevaluation_ and the same number of approvals as an application. If your application has been accepted and, during development, you find that your project significantly deviates from the original specification, please open a new pull request that modifies the existing application. This also applies in case of significant delays.
 - If your _delivery schedule_ significantly changes, please also open a pull request with an updated timeline.
-- If your deliveries are significantly delayed and we cannot get a hold of you, we will terminate the grant (3 approvals required, regardless of level. If a member of the committee creates the termination PR, only 2 more approvals are required).
+- If your deliveries are significantly delayed and we cannot get a hold of you, we will terminate the grant (4 approvals required. If Curator creates the termination PR, only 3 more approvals are required).
 
-## :mailbox_with_mail: Suggest a Project
-
-If you think that we should support the development of certain tools or projects that aren't in the bounty application, feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
-
-**Submit an idea:**
-
-If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/smart-contract-bounty/Wasm-Bounty-01/issues). We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
 
 ## :bulb: Help
 ### Real-time conversation
