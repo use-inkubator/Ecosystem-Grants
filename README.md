@@ -1,4 +1,6 @@
-# Polkadot ink! Ecosystem Grants<!-- omit in toc -->
+<img src="./assets/logo-white.svg" alt="logo" style="height: 48px;">
+
+# Ecosystem Grants<!-- omit in toc -->
 
 - [:wave: Introduction](#wave-introduction)
   - [Guidelines](#guidelines)
@@ -13,6 +15,8 @@
 - [:mailbox\_with\_mail: Suggest a Project](#mailbox_with_mail-suggest-a-project)
 - [:bulb: Help](#bulb-help)
   - [Real-time conversation](#real-time-conversation)
+
+<img src="./assets/inkubator-tanks.svg" style="width: 100%;">
 
 ## :wave: Introduction
 Ecosystem Grants are part of the **Ink!ubator**, a holistic bounty program that evolves ink! smart contacts, funded and approved by the Polkadot community/treasury. Initially pioneered by Astar Network, now includes Curators from [Parity](https://www.parity.io/), Phala Network, Brushfam, Aleph Zero teams. As WASM is the future of smart contracts and one of the key differentiators of Polkadot, ink!ubator believes the growth of its field will greatly empower Polkadot ecosystem.  
@@ -50,6 +54,8 @@ The main acceptance criteria of any submitted project would be its impact on the
 
 We would like to advise 3 following categories:
 
+<img src="./assets/canary.svg" style="width:33%;">
+
 **Canary dApp**
 
 A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps.
@@ -57,6 +63,9 @@ Some examples:
 - **Lending application** that allows users to earn interest on deposits and borrow assets with a variable or stable interest rate. (2 types)
 - **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
 - **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
+
+
+<img src="./assets/cutting-edge.svg" style="width: 33%;">
 
 **Technical Showcase**
 
@@ -67,6 +76,7 @@ You can use following aspects as indicators:
 - code writing experience (how comfortable to write code)
 - debugging experience
 
+<img src="./assets/infrastructure.svg" style="width: 33%;">
 
 **Infrastructure**
 
@@ -129,7 +139,8 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 - **Michał Świętek , Development Lead at Aleph Zero**: For a couple of years, Michał has been fully devoted to the Aleph Zero project. From co-designing novel consensus mechanisms, and writing the first lines of code in core repositories, to the high-level architecture of Aleph Zero node implementation.
 
-## :pencil: Process
+
+##  :pencil: Process
 
 > **:loudspeaker:** Payment is made in DOT (on Polkadot).
 
