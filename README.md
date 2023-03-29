@@ -53,13 +53,14 @@ We require all projects to create documentation that explains how their project 
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
 ### Project Ideas
-The main acceptance criteria of any submitted project would be its impact on the ink! ecosystem. 
+The main acceptance criteria of any submitted project would be its impact on the ink! ecosystem.
 
 We would like to advise 3 following categories:
 
 **Canary Dapp**
 
-A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps.
+A Canary Dapp is a full-stack application which _could_ be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps.
+
 Some examples:
 - **Lending application** that allows users to earn interest on deposits and borrow assets with a variable or stable interest rate.
 - **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
@@ -67,7 +68,10 @@ Some examples:
 
 **Technical Showcase**
 
-This category implies developing full-stack application that clearly demonstrates the advantages of ink! over other smart contract languages (e.g. Solidity). In this category you should focus on opening the full potential of ink. The case doesn't necessarily needs to be business oriented. However it should clearly and visually demostrate superiority of the ink! language.
+This category involes the development of applications which demonstrate the advantages of ink! over other smart contract languages (e.g. Solidity).
+
+The case doesn't necessarily need to be business oriented, but it should showcase ink!'s unique strengths.
+
 You can use following aspects as indicators:
 - efficient gas usage
 - decreased smart contract size
@@ -76,12 +80,11 @@ You can use following aspects as indicators:
 
 **Infrastructure**
 
-On this stage ink! ecosystem lacks a lot of infrastructure. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to Polkadot/ink! ecosystem, rather than tools that simply duplicate EVM. 
+The goal of this track is to improve the ink! ecosystem's developer infrastructure and tooling. We welcome you to be innovative and submit your ideas. We will prefer ideas that add differentiation to the Polkadot/ink! ecosystem, rather than tools that simply duplicate EVM.
 
 Examples of successful infrastructure products:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
-
 
 ### Bounty Levels
 The Smart Contract Bounty Program offers different bounty levels to help you best depending on your current stage.
