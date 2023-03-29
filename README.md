@@ -3,6 +3,7 @@
 - [:wave: Introduction](#wave-introduction)
   - [Guidelines](#guidelines)
   - [Project Ideas](#project-ideas)
+  - [Bounty Levels](#bounty-levels)
   - [Support](#support)
   - [Team](#team)
 - [:pencil: Process](#pencil-process)
@@ -109,7 +110,7 @@ The Smart Contract Bounty Program offers different bounty levels to help you bes
 
 ---
 
-**Benefits** for all levels: Feedback during application process and evaluation, introduction to related teams/projects, audit, co-promotion.
+**Benefits** for all levels: Feedback during application process and evaluation, introduction to related teams/projects, code review or audit (depending on scope), co-promotion.
 
 ### Support
 
