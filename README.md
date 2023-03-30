@@ -1,3 +1,5 @@
+<img src="./assets/logo-white.svg" alt="logo" style="height: 48px;">
+
 # ink!ubator: Ecosystem Grants<!-- omit in toc -->
 
 - [:wave: Introduction](#wave-introduction)
@@ -14,6 +16,8 @@
 - [:mailbox\_with\_mail: Suggest a Project](#mailbox_with_mail-suggest-a-project)
 - [:bulb: Help](#bulb-help)
   - [Real-time conversation](#real-time-conversation)
+
+<img src="./assets/inkubator-tanks.svg" style="width: 100%;">
 
 ## :wave: Introduction
 Ecosystem Grants are part of the **ink!ubator**, a holistic bounty program with the goal of furthering the ink! smart contracting ecosystem. This bounty program is funded by the Polkadot treasury with the support of the community.
@@ -66,6 +70,7 @@ Some examples:
 - **Lending application** that allows users to earn interest on deposits and borrow assets with a variable or stable interest rate.
 - **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
 - **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
+
 
 **Technical Showcase**
 
@@ -138,7 +143,8 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 - **Michał Świętek , Development Lead at Aleph Zero**: For a couple of years, Michał has been fully devoted to the Aleph Zero project. From co-designing novel consensus mechanisms, and writing the first lines of code in core repositories, to the high-level architecture of Aleph Zero node implementation.
 
-## :pencil: Process
+
+##  :pencil: Process
 
 > **:loudspeaker:** Payment is made in DOT (on Polkadot).
 
