@@ -54,8 +54,6 @@ The main acceptance criteria of any submitted project would be its impact on the
 
 We would like to advise 3 following categories:
 
-<img src="./assets/canary.svg" style="width:33%;">
-
 **Canary dApp**
 
 A Canary dApp is one that could be deployed on to a value bearing network, but may not necessarily be battle hardened enough for serious use cases. They are meant to be a step beyond simple tutorials while still being self-contained enough to provide a useful reference for developers building production grade dApps.
@@ -65,8 +63,6 @@ Some examples:
 - **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
 
 
-<img src="./assets/cutting-edge.svg" style="width: 33%;">
-
 **Technical Showcase**
 
 This category implies developing full-stack application that clearly demonstrates the advantages of ink! over other smart contract languages(e.g. Solidity). In this category you should focus on opening the full potential of ink. The case doesn't necessarily needs to be business oriented. However it should clearly and visually demostrate superiority of ink. 
@@ -75,8 +71,6 @@ You can use following aspects as indicators:
 - smart contract size (find a use case where the size of smart contract will be smaller then solidity - application with complex calculations)
 - code writing experience (how comfortable to write code)
 - debugging experience
-
-<img src="./assets/infrastructure.svg" style="width: 33%;">
 
 **Infrastructure**
 
