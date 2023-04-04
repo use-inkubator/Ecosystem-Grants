@@ -74,10 +74,10 @@ On this stage ink! ecosystem lacks a lof of infrastructure. We welcome you to be
 Examples of successful infrastructure products and potential area to work on:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
-- oracles (price feed, VRF, customizable oracles, ...)
-- automation & account abstraction
+- Oracles (price feed, VRF, customizable oracles, ...)
+- Automation & account abstraction
 - DAO toolings (smart contract implementations, UI, SDKs)
-- bridges (XCM integration, and bridges to external blockchains)
+- Bridges (XCM integration, and bridges to external blockchains)
 
 ### Support
 
