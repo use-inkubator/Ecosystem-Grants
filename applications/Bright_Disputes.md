@@ -58,34 +58,18 @@ This project will not provide any UI. All the functionality can be tested by the
 
 ### Contact
 
-* **Katarzyna Łukasiewicz:** 
+* **Contact Name:** Katarzyna Łukasiewicz
 * **Contact Email:** katarzyna.lukasiewicz@brightinventions.pl
 * **Website** https://brightinventions.pl/
 
 ### Legal Structure
 
-
-Bright Inventions is a limited liability company based in Gdansk, Poland. Company was founded in 2012 by Daniel Makurat and Michał Łukasiewicz.
-
-
-Full address details:
-
-
-Bright Inventions Sp. z o. o.
-
-ul. Jana Matejki 12
-
-80-232 Gdańsk, Poland
+- **Registered Address:** ul. Jana Matejki 12, 80-232 Gdańsk, Poland
+- **Registered Legal Entity:** Bright Inventions Sp. z o. o.
 
 info@brightinventions.pl
 
 www.brightinventions.pl
-
-Company registration number: 0000687244
-
-VAT EU: PL5842761920
-
-REGON: 367805647 
 
 
 Bright Inventions is a team of oveer 70 full-time onsite developers, project managers & UX/UI designers - experts in mobile and web applications, systems integration, IOT devices and Blockchain platforms. 
@@ -106,6 +90,10 @@ Who would work on Bright Disputes?
 ### Team Code Repos
 
 -  https://github.com/bright
+
+Team Members:
+-  Michał: https://github.com/mgralinski-bright
+-  Kasia: https://github.com/bufta
 
 ### Team LinkedIn Profiles
 
@@ -187,6 +175,6 @@ Our plan for the future is to create a protocol that would allow the use of Brig
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?**  personal recommendation from W3F team
+**How did you hear about the Bounty Program?**  personal recommendation from W3F Grants team
 
-Additionally to the Dispute module, we've been researching the potential use case for it. We've already started to develop a POC for private funding bounties mechanism, using WASM and IPFS. We see this as potential showcase and next step for Bright Disputes.  
+In addition to the Dispute module, we've been researching the potential use case for it. We've already started to develop a POC for private funding bounties mechanism, using WASM and IPFS. We see this as a potential showcase and next step for Bright Disputes.  
