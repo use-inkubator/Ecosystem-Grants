@@ -1,16 +1,10 @@
 # Bright Disputes
 
-
 - **Team Name:** Bright Inventions
-- **Payment Address:** 0xD75dDC4Aa3618e1417c68E5Df79ef9D66E4B1Ed9
-
-
+- **Payment Address:** 15LpomjmegxcrVwT7zDPvScWtx6FVYoTLxEkSzqwr3po9TCc
 
 ## Project Overview :page_facing_up:
 ### Overview
-
-
-
 
 Bright Disputes is a dApp for solving disputes. Our goal is to create a smart contract (written in ink!) which could be used to raise and solve disputes on the Substrate-based blockchains. We would like to leverage a Zk-Snarks to accomplish privacy of voting.
 
@@ -33,11 +27,6 @@ Beneath is the diagram showing the basic logic of the Bright Disputes, which wer
 ![](https://i.imgur.com/jWWw54D.png)
 
 ### Project Details
-
-
-
-
-
 
 "Bright Disputes" is a smart contract fully written in ink! From the development perspective, the most chalenging and interesting part will be the zk-snarks. Privacy is very important in our dispute system while the Juries publishes the encrypted votes, and the Judge counts them to reach a verdict. Role of the Judge requires honesty, he is the only one who can decrypt the votes. That's why we want to use zk-snarks to prove Judge honesty and correctness of the vote counting. Especially when the verdict is not clear and we need to repeat the voting round. The jury cannot see how others vote, otherwise the verdict will not be fair.
 
@@ -74,9 +63,7 @@ www.brightinventions.pl
 
 Bright Inventions is a team of oveer 70 full-time onsite developers, project managers & UX/UI designers - experts in mobile and web applications, systems integration, IOT devices and Blockchain platforms. 
 
-
 We believe that building a software product is about people working together in a collective way. By offering complex support – mobile and web development as well as IT consultancy we try to eliminate roadblocks towards engaging clients as partners at every step of the process. 
-
 
 We support startups, digital agencies as well as medium to big businesses. We cooperate with startups, accelerators and incubators. Whatever the client profile is, we always  aim to establish a satisfying partnership for both sides. Since 2012 we have built software for more than 40 businesses worldwide.
 
@@ -100,13 +87,11 @@ Team Members:
 - https://www.linkedin.com/in/michal-gralinski-b464152/
 - https://www.linkedin.com/in/katarzyna-łukasiewicz-b473901aa/
 
-
 ## Development Status :open_book:
 
 The result of our research regarding the solutions and architecture has been described in this proposal.
 
 ## Development Roadmap :nut_and_bolt:
-
 
 
 ### Overview
@@ -120,8 +105,6 @@ The result of our research regarding the solutions and architecture has been des
 - **Estimated duration:** 1 month
 - **FTE:**  1,1
 - **Costs:**  10 000 USD
-
-
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -170,8 +153,6 @@ The result of our research regarding the solutions and architecture has been des
 ## Future Plans
 
 Our plan for the future is to create a protocol that would allow the use of Bright Disputes from various smart contracts. Our goal would be to create a real use case scenario where our dispute system could resolve issues, such as bounties disputes. The next step would be to create a user interface and an ecourage community to use our dApp.
-
-
 
 ## Additional Information :heavy_plus_sign:
 
