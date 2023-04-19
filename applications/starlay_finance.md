@@ -6,7 +6,7 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-This project demonstrates the Starlay team's dedication to advancing the DeFi space by developing a WebAssembly (Wasm) version of Compound V2, which bolsters both its performance and security capabilities. By making the project's source code open and accessible, we aim to empower developers within the Polkadot ecosystem to seamlessly and securely integrate lending-related functionalities using Wasm technology. This Wasm lending contract is designed to be compatible with all Wasm-supporting parachains, including prominent networks such as Astar Network, Phala Network, Alphazero, and more.　
+This project demonstrates the Starlay team's dedication to advancing the DeFi space by developing a WebAssembly (Wasm) version of Compound V2, which bolsters both its performance and security capabilities. By making the project's source code open and accessible, we aim to empower developers within the Polkadot ecosystem to seamlessly and securely integrate lending-related functionalities using Wasm technology. This Wasm lending contract is designed to be compatible with all Wasm-supporting parachains, including prominent networks such as Astar Network, Phala Network, Alpha zero, and more.　
 
 
 ### Project Details
@@ -29,11 +29,11 @@ Dashboard Overview (as the same UI as Starlay Finance)
 
 ### Team members
 
-Shumpei Koike (CEO)
+Shumpei Koike (CEO): Shumpei is a highly skilled developer with comprehensive experience in the blockchain industry. He has spearheaded the development of CEXs, contributed to Ethereum community through token standard proposals, and built multiple DeFi protocols.
 
-Seiya Chida (COO)
+Seiya Chida (COO): With a background in two Japanese venture capitals, Seiya has dedicated his career to the startup world. He has successfully assisted numerous crypto startups in accelerating their growth and expanding their industry presence.
 
-David Lee (Lead Dev)
+David Lee (Lead Dev): A seasoned web3 developer with over 4 years of experience, David has contributed to various projects, including DeFi platforms and NFT marketplaces. He specializes in crafting high-quality, low-risk smart contracts and web3 frontends.
 
 And three other devs
 
@@ -50,12 +50,9 @@ We are Starlay Finance, a team of experienced DeFi developers, designers and mar
 
 ### Team Code Repos
 
-- https://github.com/starlay-finance/<Starlay Finance>
-- https://github.com/kagla-finance/<Kagla Finance>
-- https://github.com/muuu-finance/<Muuu Finance>
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
+- [Stalay Finance](https://github.com/starlay-finance/)
+- [Kagla Finance](https://github.com/kagla-finance/)
+- [Muuu Finance](https://github.com/muuu-finance/)
 - https://github.com/artat9
 - https://github.com/un-ast
 - https://github.com/wolfwarrier14
@@ -76,14 +73,14 @@ We have completed the basic implementation and are currently adding test code an
 ### Overview
 
 - **Total Estimated Duration:** 12 weeks
-- **Full-Time Equivalent (FTE):**  2FTE, 4PTE
+- **Full-Time Equivalent (FTE), Half-Time Equivalent (HTE):**  2FTE, 4HTE
 - **Total Costs:** 180,000 - 230,000 USD
 
 ### Milestone 1 — Basic functionality
 
-- **Estimated duration:** 5 weeks
-- **FTE:**  2FTE, 4PTE
-- **Costs:** 50,000 USD
+- **Estimated duration:** 3 weeks
+- **FTE:**  2FTE, 4HTE
+- **Costs:** 30,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -91,13 +88,22 @@ We have completed the basic implementation and are currently adding test code an
 | **0b.** | Documentation | We will provide both documentation of the code and a basic video tutorial that explains how a user can easily use Starlay app |
 | 1. | Deposit function| Allow users to deposit assets into our lending platform and receive interest-bearing tokens |
 | 2. | Borrow function| Allow users to borrow an asset at a low-interest rate by offering the users assets as collateral |
-| 2. | Mint function| Allow users to supply assets to a Starlay market and earn interest on their deposits|
-| 3. | Redeem function| Allow users to convert their lTokens (lay ibTokens) back into the underlying assets they initially supplied |
-| 4. | Repay_borrow function| Allow users to repay their loans and release the collateral that was locked during the borrowing process |
-| 5. | Liquidate_borrow function |　Repay a part of the borrower's outstanding loan on behalf of the borrower　|
-| 6. | List tokens (by the onwer)| Allow users to deposit and borrow ERC-20 based tokens as well as the native token(ASTR) |
-| 7. | Switch between EVM and Polkadot| Allow users to switch between EVM and Polkadot wallet |
+| 3. | Mint function| Allow users to supply assets to a Starlay market and earn interest on their deposits|
+| 4. | Redeem function| Allow users to convert their lTokens (lay ibTokens) back into the underlying assets they initially supplied |
+| 5. | Repay_borrow function| Allow users to repay their loans and release the collateral that was locked during the borrowing process |
 
+
+- **Estimated duration:** 2 weeks
+- **FTE:**  2FTE, 4HTE
+- **Costs:** 20,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both documentation of the code and a basic video tutorial that explains how a user can easily use Starlay app |
+| 1. | Liquidate_borrow function |　Repay a part of the borrower's outstanding loan on behalf of the borrower　|
+| 2. | List tokens (by the onwer)| Allow users to deposit and borrow ERC-20 based tokens as well as the native token(ASTR) |
+| 3. | Switch between EVM and Polkadot| Allow users to switch between EVM and Polkadot wallet |
 
 
 ### Milestone 2 - Audit
@@ -113,7 +119,7 @@ We have completed the basic implementation and are currently adding test code an
   
 ### Milestone 3 - 1st release
 
-- **Estimated Duration:** 3 week
+- **Estimated Duration:** 3 weeks
 - **FTE:**  2FTE, 4PTE
 - **Costs:** 30,000 USD
   
