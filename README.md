@@ -16,6 +16,7 @@
 - [:mailbox\_with\_mail: Suggest a Project](#mailbox_with_mail-suggest-a-project)
 - [:bulb: Help](#bulb-help)
   - [Real-time conversation](#real-time-conversation)
+- [FAQ](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/FAQ.md)
 
 <img src="./assets/inkubator-tanks.svg" style="width: 100%;">
 
@@ -35,7 +36,7 @@ The Ecosystem Grants are only one aspect of the ink!ubator. For more details on 
 
 ### Guidelines
 
-Anyone is welcome to apply for a grant. This program funds projects that are dedicated to ink! ecosystem growth. We focus on strong technical ideas that contribute to ink! infrastructure, demonstate ink! potential, and unveil applicable business side thus growing the ecosystem. 
+Anyone is welcome to apply for a grant. This program funds projects that are dedicated to ink! ecosystem growth. We focus on strong technical ideas that contribute to ink! infrastructure, demonstate ink! potential, and unveil applicable business side thus growing the ecosystem.
 
 Generally, your project will have better chances to be accepted if:
 - It clearly shows the advantage of ink! over other smart contract languages (e.g. Solidity)
@@ -150,7 +151,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
 
 ### 1. Application
    1. [Fork](https://github.com/smart-contract-bounty/Wasm-Bounty-01/fork) this repository.
-   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Ecosystem-Grants/blob/master/applications/application-template.md)). 
+   2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Ecosystem-Grants/blob/master/applications/application-template.md)).
    3. Name the new file after your project: `project_name.md`.
    4. Fill out the template with the details of your project. The more information you provide, the faster the review. Make sure your deliverables present a similar level of detail.
    5. Once you're done, create a pull request in **this repozitory**. The pull request should only contain _one new file_ — the Markdown file you created from the template.
