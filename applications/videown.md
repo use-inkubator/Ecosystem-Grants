@@ -14,11 +14,33 @@ VIDEOWN is a decentralized video NFT platform, built on the CESS blockchain, to 
 
 #### Main Frame Diagram
 
+![main_frame_diagram](https://user-images.githubusercontent.com/96568736/234214842-9fcb43ed-1010-46f0-9dc9-f15f4bcff3a3.png)
 
+#### Designs of UI
+
+![home](https://user-images.githubusercontent.com/96568736/234215702-b51ec983-45ff-4566-b65d-30c01b539bce.png)
+
+*Figure 1. VIDEOWN homepage*
+
+The VIEDOWN homepage consists of a search bar, a video upload button, a wallet account button, and video information. Each video shows the cover, title, account, view count, price, and other related information, which is convenient for users to quickly review videos they are interested in; click on the cover to enter the video playback page, as shown in Figure 2.
+
+![playback](https://user-images.githubusercontent.com/96568736/234217487-ecf8aed1-92dc-4f8a-ace3-c806c4c9322c.png)
+
+*Figure 2. Video playback page*
+
+On the right side of the webpage is a list of related videos, below the video are its title, account owners, and description. At the bottom of the page are the addresses of the miners who saved the video fragments. It is showing that video fragments are stored among six miners in the CESS blockchain network. On the lower right corner of the video shows the view count. Click into “View Detail” found next to the video title to get more information, as shown in Figure 3.
+
+![detail](https://user-images.githubusercontent.com/96568736/234217554-41e65fae-c0dd-4082-972d-460f6b965bee.png)
+
+*Figure 3. Video NFT detailed information*
+
+Right side of the video window displays the detailed information including the video creator, owner, size, chain information for storage, etc. The file hash at the bottom shows the unique data fingerprint of the video for data ownership protection purposes. The video status shows that the video has been safely uploaded to the storage miners. The NFT status shows that the video NFT is currently being minted (metadata has been generated but not minted). At the bottom of the page, the event list shows all the NFT metadata, under the “To” column of the list is the creator of the video. Since the video NFT is not yet available, no buy button is displayed.
+
+#### Modules
 
 This grant application includes one smart contract, two backend and one frontend. We aim to provide the following key features.
 
-#### videown-nft
+**videown-nft**
 
 Smart contract written in ink!. 
 
@@ -27,7 +49,7 @@ Smart contract written in ink!.
 - Buy NFT
 - Transfer NFT
 
-#### videown-server
+**videown-server**
 
 Backend service written in golang and GSRPC. 
 
@@ -39,7 +61,7 @@ Backend service written in golang and GSRPC.
 - Purchase NFT page interface
 - Transfer NFT page interface
 
-#### CMPS (CESS Media Proxy Server)
+**CMPS** (CESS Media Proxy Server)
 
 Backend service written in golang and cess-sdk-go. 
 
@@ -48,7 +70,7 @@ Backend service written in golang and cess-sdk-go.
 - File status query
 - File upload status push
 
-#### videown-web
+**videown-web**
 
 Frontend UI written in React.js, Polkadot.js and antd UI.
 
