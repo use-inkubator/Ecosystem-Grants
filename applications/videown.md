@@ -10,6 +10,8 @@ Redirecting monetization opportunities to creators in their best interest in Web
 
 VIDEOWN is a decentralized video NFT platform, built on the CESS blockchain, to provide users a smooth video streaming experience. Users not only can upload, play or search for all tagged video content on VIDEOWN, but also mint the content as NFT in a smart contract (written in ink!). NFT is no longer just implemented in the form of smart contracts. VIDEOWN realized the concept that NFT is the data itself, and users can exchange data ownership, whether it is pictures, music or videos.
 
+This project demonstrates our team's dedication to advancing the NFT area by developing a WebAssembly (Wasm) contract, which bolsters both its performance and security capabilities. This NFT market Wasm contract is designed to be compatible with all Wasm-supporting parachains. By making the project's source code open and accessible, we aim to empower developers within the Polkadot ecosystem to seamlessly and securely integrate NFT market related functionalities using Wasm technology. 
+
 ### Project Details
 
 #### Main Frame Diagram
@@ -38,7 +40,7 @@ Right side of the video window displays the detailed information including the v
 
 #### Modules
 
-This grant application includes one smart contract, two backend and one frontend. We aim to provide the following key features.
+This project includes one smart contract, two backend and one frontend. We aim to provide the following key features.
 
 **videown-nft**
 
@@ -161,7 +163,6 @@ The result of our research regarding the solutions and architecture has been des
 
 ## Future Plans
 
-- Creator economy model design and realize
 - Smart contract optimization design
 - Network-wide video accurate rights confirmation system
 - Ad slot auction system
