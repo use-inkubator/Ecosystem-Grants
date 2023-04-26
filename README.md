@@ -72,7 +72,7 @@ Some examples:
 - **Liquid staking** a liquid staking provider takes token deposits, stakes those tokens, and gives the depositor a receipt which is redeemable for the staked tokens.
 - **Aggregator** that unites separate decentralized protocols and aggregates liquidity from a variety of decentralized exchanges to facilitate cost-efficient transactions.
 
-We encourage you to use [Sol2ink](https://github.com/Brushfam/sol2ink) to accelerate your work and reduce development scope. With Sol2ink you can transpile existing solidity contracts(f.e. uniwswap) in a matter of seconds. Read more in [Sol2ink docs](https://learn.brushfam.io/Sol2ink)
+We encourage you to use [Sol2ink](https://github.com/Brushfam/sol2ink) to accelerate your work and reduce development scope. Read more in [Sol2ink docs](https://learn.brushfam.io/Sol2ink)
 
 **Technical Showcase**
 
