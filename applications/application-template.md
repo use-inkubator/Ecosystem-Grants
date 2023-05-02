@@ -19,6 +19,12 @@ Please provide the following:
 - Choosen project idea category or your alternative category with explanation of its importance
 - An indication of why your team is interested in creating this project.
 
+### Ink! Ecosystem Impact
+
+Please clearly describe how exactly your project will benefit the ecosystem. If it's infrastructure - how it's going to be applied and by who. If it's canary dapp we would you to clearly demonstrate how this code will be used by other people. If it's technical showcase we would like you to demonstrate how ink! will be promoted using your results. 
+
+If it's a business case we would like to see business model and future production plans. 
+
 ### Project Details
 
 We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
