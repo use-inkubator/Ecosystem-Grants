@@ -93,6 +93,10 @@ The goal of this track is to improve the ink! ecosystem's developer infrastructu
 Examples of successful infrastructure products:
 - [OpenBrush](https://openbrush.io/)
 - [Swanky](https://github.com/AstarNetwork/swanky-cli)
+- Oracles (price feed, VRF, customizable oracles, ...)
+- Automation & account abstraction
+- DAO toolings (smart contract implementations, UI, SDKs)
+- Bridges (XCM integration, and bridges to external blockchains)
 
 ### Bounty Levels
 The Smart Contract Bounty Program offers different bounty levels to help you best depending on your current stage.
