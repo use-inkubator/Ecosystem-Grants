@@ -61,7 +61,11 @@ Finally, we take licensing and the right of all teams in and outside the ecosyst
 ### Project Ideas
 The main acceptance criteria of any submitted project would be its impact on the ink! ecosystem.
 
-We would like to advise 3 following categories:
+We would like to advise 4 following categories:
+
+
+**Business Dapp**
+Business category is for early-stage startups (utilizing ink!) that are looking for grant support. You must demonstrate willingness to turn your idea into a working company, as well as viable business model and capable team. Pitch deck is welcomed. 
 
 **Canary Dapp**
 
