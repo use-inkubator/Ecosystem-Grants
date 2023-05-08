@@ -8,7 +8,7 @@
 ### Overview
 Redirecting monetization opportunities to creators in their best interest in Web3 is the crux the industry has been longing to solve. Content is not truly owned by creators in most cases in Web3, most data is still being stored in centralized storage where the ownership issue prevails. VIDEOWN provides a platform where creators share and trade content with data ownership and privacy protection, bringing creators the unprecedented experience of content creation, sharing and trading in the world of Web3.
 
-VIDEOWN is a decentralized video NFT platform, built on the CESS blockchain, to provide users a smooth video streaming experience. Users not only can upload, play or search for all tagged video content on VIDEOWN, but also mint the content as NFT in a smart contract (written in ink!). NFT is no longer just implemented in the form of smart contracts. VIDEOWN realized the concept that NFT is the data itself, and users can exchange data ownership, whether it is pictures, music or videos.
+VIDEOWN is a decentralized video NFT platform, built on the any Wasm-supporting parachain, to provide users a smooth video streaming experience. Users not only can upload, play or search for all tagged video content on VIDEOWN, but also mint the content as NFT in a smart contract (written in ink!). NFT is no longer just implemented in the form of smart contracts. VIDEOWN realized the concept that NFT is the data itself, and users can exchange data ownership, whether it is pictures, music or videos.
 
 This project demonstrates our team's dedication to advancing the NFT area by developing a WebAssembly (Wasm) contract, which bolsters both its performance and security capabilities. This NFT market Wasm contract is designed to be compatible with all Wasm-supporting parachains. By making the project's source code open and accessible, we aim to empower developers within the Polkadot ecosystem to seamlessly and securely integrate NFT market related functionalities using Wasm technology. 
 
@@ -16,7 +16,7 @@ This project demonstrates our team's dedication to advancing the NFT area by dev
 
 #### Main Frame Diagram
 
-![main_frame_diagram](https://user-images.githubusercontent.com/96568736/234214842-9fcb43ed-1010-46f0-9dc9-f15f4bcff3a3.png)
+![main_frame_diagram](https://user-images.githubusercontent.com/96568736/236778080-1ee0bc4f-b704-4e51-bd08-44e2304dbe3d.png)
 
 #### Designs of UI
 
@@ -30,7 +30,7 @@ The VIEDOWN homepage consists of a search bar, a video upload button, a wallet a
 
 *Figure 2. Video playback page*
 
-On the right side of the webpage is a list of related videos, below the video are its title, account owners, and description. At the bottom of the page are the addresses of the miners who saved the video fragments. It is showing that video fragments are stored among six miners in the CESS blockchain network. On the lower right corner of the video shows the view count. Click into “View Detail” found next to the video title to get more information, as shown in Figure 3.
+On the right side of the webpage is a list of related videos, below the video are its title, account owners, and description. At the bottom of the page are the addresses of the miners who saved the video fragments. It is showing that video fragments are stored among six miners in the decentralized storage network. On the lower right corner of the video shows the view count. Click into “View Detail” found next to the video title to get more information, as shown in Figure 3.
 
 ![detail](https://user-images.githubusercontent.com/96568736/234217554-41e65fae-c0dd-4082-972d-460f6b965bee.png)
 
@@ -63,9 +63,9 @@ Backend service written in golang and GSRPC.
 - Purchase NFT page interface
 - Transfer NFT page interface
 
-**CMPS** (CESS Media Proxy Server)
+**CMPS** (Media Proxy Server)
 
-Backend service written in golang and cess-sdk-go. 
+Backend service written in golang. 
 
 - File upload
 - File download(video playback address)
@@ -143,7 +143,7 @@ The result of our research regarding the solutions and architecture has been des
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 1. | Smart contract: videown-nft | We will deliver a ink! smart contract that will realize the function of NFT market and comply with [psp-34](https://github.com/w3f/PSPs/blob/master/PSPs/psp-34.md). |
-| 2. | Backend: videown-server | We will deliver a golang server that will provide api for frontend and interact with the CESS chain |
+| 2. | Backend: videown-server | We will deliver a golang server that will provide api for frontend and interact with the chain |
 
 ### Milestone 2 — Additional features
 
