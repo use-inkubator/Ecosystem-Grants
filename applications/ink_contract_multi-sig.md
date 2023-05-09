@@ -25,9 +25,13 @@ We plan to implement our approach through a series of steps:
 
 #### <a name="step1"></a>1.- Discovery & Proof of Concept (PoC) phase 
 
-We will initiate the project with a thorough Discovery & Proof of Concept phase. During this stage, we will delve into the existing implementations and explore how we can enhance their value. The primary objective of this phase is to create a basic ink! smart contract that can interact with other contracts on behalf of the owners, with a preset threshold. This will enable us to evaluate the architecture and establish the feasibility of the project.
+We will initiate the project with a thorough Discovery & Proof of Concept phase. At this stage, we will delve into the existing implementations and explore how we can enhance their value. The primary objective of this phase is to create a basic ink! smart contract that can interact with other contracts on behalf of the owners. During this phase, we expect to detect potential challenges. However, we are confident that our experienced team will be able to find the best strategies to overcome them, which can only be fully understood when the project has been initiated.
 
 By undertaking this approach, we aim to gain a comprehensive understanding of the current landscape and identify the areas where we can introduce innovative solutions. This will facilitate the development of a robust and effective smart contract that can fulfill the project's requirements.
+
+One of the major limitations we highlighted in the proposal is the inability to add or remove owners of the multisig wallet once it is created. To address this, our design will incorporate methods in the smart contract that allows this flexibility.
+
+Our ink! multisig smart contract will maintain an array of wallet owners and a threshold number that will be used to validate the transactions. When a proposal to add or remove an owner is created, owners of the wallet will have to confirm the change. If the number of confirmations crosses the defined threshold, the change will be committed.
 
 #### <a name="step2"></a>2.- Multi-sig Mininimum Viable Product (MVP)
 
