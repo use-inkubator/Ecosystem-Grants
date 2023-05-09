@@ -208,7 +208,6 @@ Below we provide an **example roadmap**.
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-
 | 1. | Set up a development environment | that supports both ink! and substrate, as well as a test network for executing the contracts and measuring their gas costs |
 | 2. | Prepare a test suite | for gas usage and performance benchmark |
 | 3. | Frame-benchmarking module | Use a substrate runtime benchmarking tool to measure the gas costs of pallet operations|
