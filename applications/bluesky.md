@@ -8,7 +8,7 @@
 ### Overview
 
 - If the name of your project is not descriptive, a tag line (one sentence summary). 
-	- Sky is the limit riding on the Ink! tailwind  
+	- Bluesky is the limit riding on the Ink! tailwind  
 - A brief description of the template building.
 	- A technical showcase implementing a use case with specific business logic that requires frequent updates due to changing requirements, that could benefit from using custom pallet implemented Ink! macros for code simplicity, reusability and readability, for flexible on-chain smart contract upgrades, for cost effective gas fees, as compared to Solidity / EVM, in order to promote Ink! / WASM based smart contracts on Polkadot and other blockchains. Notice this is from an Ink! novice perspective without prior knowledge of Ink! / Substrate / Polkadot.
 - An indication of how your project relates to ink! ecosystem
