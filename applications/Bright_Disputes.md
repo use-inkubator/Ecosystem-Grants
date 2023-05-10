@@ -26,6 +26,11 @@ Beneath is the diagram showing the basic logic of the Bright Disputes, which wer
 
 ![](https://i.imgur.com/jWWw54D.png)
 
+
+More specifically, BrightDisputes would be used in connection with a job advertising platform. In the following diagram our own project SubFunds is used as an example of such platform. The diagram illustrates the whole use case scenario that involves a funding part that advertised the job (Bob), a contractor obliged to perform it (Alice) and a judge selected for the case (Charlie):
+
+![](https://i.imgur.com/aLGOXbJ.png)
+
 ### Project Details
 
 "Bright Disputes" is a smart contract fully written in ink! From the development perspective, the most chalenging and interesting part will be the zk-snarks. Privacy is very important in our dispute system while the Juries publishes the encrypted votes, and the Judge counts them to reach a verdict. Role of the Judge requires honesty, he is the only one who can decrypt the votes. That's why we want to use zk-snarks to prove Judge honesty and correctness of the vote counting. Especially when the verdict is not clear and we need to repeat the voting round. The jury cannot see how others vote, otherwise the verdict will not be fair.
