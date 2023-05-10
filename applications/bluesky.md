@@ -4,11 +4,8 @@
 - **Team Name:** Bluesky
 - **Payment Address:** TBP
 
-
 ## Project Overview :page_facing_up:
 ### Overview
-
-Please provide the following: 
 
 - If the name of your project is not descriptive, a tag line (one sentence summary). 
 	- Sky is the limit riding on the Ink! tailwind  
@@ -107,14 +104,18 @@ Things that shouldn’t be part of the application:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Name of team leader: Daniel Deng
+- Names of team members: 
+	- Daniel Deng, project manager, product and technology leadership at bigtechs and startups, Libra / Diem / Novi / Web3 / smart contract infrastructure 
+	- Developer1, former Parity team lead, lecturer at Polkadot Academy, running local Rust meetups, to be finalized
+	- Developer2, Rust / Substrate develdoper, lecturer of Polkadot Academy, to be finalized 
+	- Developer3, TBD
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Daniel Deng
+- **Contact Email:** gotellme@proton.me 
+- **Website:** 
 
 ### Legal Structure
 
@@ -123,43 +124,35 @@ Things that shouldn’t be part of the application:
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Lecturers of 2022 Polkadot Academy with in-depth domain knowledge and many years of Substrate / Rust software experiences actively developing in Polkadot ecosystem, running local Rust meetups
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/layerhero
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/coax1d
+- https://github.com/drahnr
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/dengdaniel
 
+## Development Status 
 
-## Development Status :open_book:
-
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
+- references to conversations you might have had related to building this template: convosations in private chats 
 
 ## Development Roadmap :nut_and_bolt:
 
 This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
 - **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
 	- 6 months
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-	- 2,3 FTE
+	- 3+ FTE
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
 	- 150,000 USD
 
@@ -177,7 +170,7 @@ Below we provide an **example roadmap**.
 | 4. | Smart contracts | Write Ink! smart contract with macros integrated with custom pallets to fulfil use case business functions |
 | 5. | End-to-end integration | Organically integrate all pieces together to ensure working end-to-end |
 | 6. | Deployment | Deploy to a Polkadot smart contract parachain, say Shiden, etc to also explore interoperability |
-| 7. | Article | We will publish article 1 of 3 walking through the technical showcase focusing on Ink! macros and substrate pallets. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
+| 7. | Articles | We will publish article 1 of 3 walking through the technical showcase focusing on Ink! macros and substrate pallets. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
 
 ### Milestone 2 —  On-chain Ink! smart contract upgrades, compared to Solidity upgrades. Publish Article 2/3   
 
@@ -193,13 +186,13 @@ Below we provide an **example roadmap**.
 | 4. | Expose Ink!'s Dispatcher module | To handle contract upgrades and routing of function calls between different versions of the same contract. When a contract is upgraded, the Dispatcher module creates a new contract instance on the blockchain for the upgraded version of the contract |
 | 5. | Copying data from the old contract | Migrate data from the old contract instance to the new one, demonstrating copying data from the old contract instance to the new one, using migrate function|
 | 6. | Demo Ink! upgradability and parachain flexibility without hard fork | Compare to Solidity smart contract upgrades |
-| 7. | Article | We will publish article 1 of 3 using the same technical showcase focusing on Ink! smart contract upgrade flow, ease of upgradability and flexibility. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
+| 7. | Articles | We will publish article 2 of 3 using the same technical showcase focusing on Ink! smart contract upgrade flow, ease of upgradability and flexibility. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
 
 
 ### Milestone 3 —  Gas usage / performance benchmarks compared, Ink!+WASM vs Solidity+EVM, Publish Article 3/3
 
 - **Estimated Duration:** 2 month
-- **FTE:**  3
+- **FTE:**  3+
 - **Costs:** 60,000 USD
 
 | Number | Deliverable | Specification |
@@ -208,6 +201,7 @@ Below we provide an **example roadmap**.
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| **0e.**  | Articles | We will publish article 3 of 3 that explains Ink!+WASM's competitive advantage against Solidity/EVM, with tangible technical examples and benchmark metrics, to lower the adoption barrier and increase developer confidence. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
 | 1. | Set up a development environment | that supports both ink! and substrate, as well as a test network for executing the contracts and measuring their gas costs |
 | 2. | Prepare a test suite | for gas usage and performance benchmark |
 | 3. | Frame-benchmarking module | Use a substrate runtime benchmarking tool to measure the gas costs of pallet operations|
@@ -215,8 +209,7 @@ Below we provide an **example roadmap**.
 | 5. | Smart contract / macro / pallet tuning | Compare the gas costs between ink! smart contracts and substrate custom pallets, one could write equivalent smart contracts in both languages and use a test suite to measure the gas costs of each |
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
 | 7. | Optional performnace benchmark | Smart contract performance using Ink! / WASM VM as compared to Solidity / WASM. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons|
-| 8. | Article | We will publish an article that explains Ink!+WASM's competitive advantage against Solidity/EVM, with tangible technical examples and benchmark metrics, to lower the adoption barrier and increase developer confidence. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
- 
+
 	- 
 ## Future Plans
 
@@ -224,9 +217,10 @@ Please include here if you have a future plan after building this template in ma
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Bounty Program?** Substrate Builders Program
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+- Previous work on migrating MOVE EVM to Polkadot helped to learn Polkadot tech stack including Substrate, smart contract, etc as compared to competitions 
+- We believe this technical showcase targeting Ink! / WASM doubtfuls will be able to have a long lasting impact to future developers to convert, adopt and contribute in the Ink! / Polkadot / Substrate ecosystem      
+- If there are any other teams who have already contributed (financially) to the project. None
