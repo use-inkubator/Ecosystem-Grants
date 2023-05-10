@@ -19,9 +19,255 @@ Please provide the following:
 
 We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Data models / API specifications of the core functionality
+- Data models / API specifications of the core functionality:
+see RUST interfaces below:
+
+```rs
+type Balance = <ink::env::DefaultEnvironment as ink::env::Environment>::Balance;
+type AccountId = <ink::env::DefaultEnvironment as ink::env::Environment>::AccountId;
+type Hash = <ink::env::DefaultEnvironment as ink::env::Environment>::Hash;
+​
+/// The ERC-20 error types.
+#[derive(Debug, PartialEq, Eq, scale::Encode, scale::Decode)]
+#[cfg_attr(feature = "std", derive(scale_info::TypeInfo))]
+pub enum Error {
+    /// Returned if not enough balance to fulfill a request is available.
+    InsufficientBalance,
+    /// Returned if not enough allowance to fulfill a request is available.
+    InsufficientAllowance,
+}
+​
+#[ink::trait_definition]
+pub trait ERC20 {
+    #[ink(message)]
+    fn name(&self) -> String;
+​
+    #[ink(message)]
+    fn symbol(&self) -> String;
+​
+    #[ink(message)]
+    fn decimals(&self) -> u8;
+​
+    #[ink(message)]
+    fn total_supply(&self) -> Balance;
+​
+    #[ink(message)]
+    fn balance_of(&self, owner: AccountId) -> Balance;
+​
+    #[ink(message)]
+    fn allowance(&self, owner: AccountId, spender: AccountId) -> Balance;
+​
+    #[ink(message)]
+    fn transfer(&mut self, to: AccountId, value: Balance) -> Result<(), ()>;
+​
+    #[ink(message)]
+    fn approve(&mut self, spender: AccountId, value: Balance) -> Result<(), ()>;
+​
+    #[ink(message)]
+    fn transfer_from(&mut self, from: AccountId, to: AccountId, value: Balance) -> Result<(), ()>;
+}
+​
+#[ink::trait_definition]
+pub trait InkswapERC20: ERC20 {
+    #[ink(message)]
+    fn domain_separator(&self) -> Hash;
+​
+    #[ink(message)]
+    fn permit_typehash(&self) -> Hash;
+​
+    #[ink(message)]
+    fn nonces(&self, owner: AccountId) -> u128;
+​
+    #[ink(message)]
+    fn permit(
+        &mut self,
+        owner: AccountId,
+        address: AccountId,
+        value: Balance,
+        deadline: u128,
+        v: u8,
+        r: Hash,
+        s: Hash,
+    ) -> Result<()>;
+}
+​
+#[ink::trait_definition]
+pub trait InkswapERC20: InkswapERC20 {
+    #[ink(message)]
+    fn minimum_liquidity(&self) -> u256;
+​
+    #[ink(message)]
+    fn factory(&self) -> AccountId;
+​
+    #[ink(message)]
+    fn token0(&self) -> AccountId;
+​
+    #[ink(message)]
+    fn token1(&self) -> AccountId;
+​
+    #[ink(message)]
+    fn get_reserves(&self) -> (u112, u112, u32);
+​
+    #[ink(message)]
+    fn price0_cumulative_last(&self) -> Balance;
+​
+    #[ink(message)]
+    fn price1_cumulative_last(&self) -> Balance;
+​
+    #[ink(message)]
+    fn k_last(&self) -> u128;
+​
+    #[ink(message)]
+    fn mint(&mut self, to: AccountId) -> Result<Balance, ()>;
+​
+    #[ink(message)]
+    fn burn(&mut self, to: AccountId) -> Result<(Balance, Balance), ()>;
+​
+    #[ink(message)]
+    fn swap(
+        &mut self,
+        amount0_out: Balance,
+        amount1_out: Balance,
+        to: AccountId,
+        data: [u8],
+    ) -> Result<()>;
+​
+    #[ink(message)]
+    fn skim(&mut self, to: AccountId) -> Result<()>;
+​
+    #[ink(message)]
+    fn sync(&mut self) -> Result<()>;
+​
+    #[ink(message)]
+    fn initialize(&mut self, t1: AccountId, t2: AccountId) -> Result<()>;
+}
+​
+#[ink::trait_definition]
+pub trait InkswapFactory {
+    #[ink(message)]
+    fn fee_to(&self) -> AccountId;
+​
+    #[ink(message)]
+    fn fee_to_setter(&self) -> AccountId;
+​
+    #[ink(message)]
+    fn get_pair(&self, token_a: AccountId, token_b: AccountId) -> Result<AccountId, ()>;
+​
+    #[ink(message)]
+    fn all_pairs(&self, num: u128) -> [AccountId];
+​
+    #[ink(message)]
+    fn all_pairs_length(&self) -> u128;
+​
+    #[ink(message)]
+    fn create_pair(&mut self, token_a: AccountId, token_b: AccountId) -> Result<AccountId, ()>;
+​
+    #[ink(message)]
+    fn set_fee_To(&mut self, addr: AccountId) -> Result<(), ()>;
+​
+    #[ink(message)]
+    fn set_fee_to_setter(&mut self, addr: AccountId) -> Result<(), ()>;
+}
+​
+#[ink::trait_definition]
+pub trait InkswapRouter {
+    #[ink(message)]
+    fn factory(&self) -> AccountId;
+​
+    #[ink(message)]
+    fn add_liquidity(
+        &mut self,
+        token_a: AccountId,
+        token_b: AccountId,
+        amount_adesired: Balance,
+        amount_bdesired: Balance,
+        amount_amin: Balance,
+        amount_bmin: Balance,
+        to: AccountId,
+        deadline: u32,
+    ) -> Result<(Balance, Balance, Balance), ()>;
+​
+    #[ink(message)]
+    fn remove_liquidity(
+        &mut self,
+        token_a: AccountId,
+        token_b: AccountId,
+        liquidity: Balance,
+        amount_amin: Balance,
+        amount_bmin: Balance,
+        to: AccountId,
+        deadline: u32,
+    ) -> Result<(Balance, Balance), ()>;
+​
+    #[ink(message)]
+    fn remove_liquidity_with_permit(
+        &mut self,
+        token_a: AccountId,
+        token_b: AccountId,
+        liquidity: Balance,
+        amount_amin: Balance,
+        amount_bmin: Balance,
+        to: AccountId,
+        deadline: u32,
+        approve_max: bool,
+        v: u8,
+        r: Hash,
+        s: Hash,
+    ) -> Result<(Balance, Balance), ()>;
+​
+    #[ink(message)]
+    fn swap_exact_tokens_for_tokens(
+        &mut self,
+        amount_in: Balance,
+        amount_out_min: Balance,
+        path: [AccountId; 2],
+        to: AccountId,
+        deadline: u32,
+    ) -> Result<[Balance], ()>;
+​
+    #[ink(message)]
+    fn swap_tokens_for_exact_tokens(
+        &mut self,
+        amount_out: Balance,
+        amount_in_max: Balance,
+        path: [AccountId; 2],
+        to: AccountId,
+        deadline: u32,
+    ) -> Result<[Balance], ()>;
+​
+    #[ink(message)]
+    fn quote(
+        &self,
+        amount_a: Balance,
+        reserve_a: Balance,
+        reserve_b: Balance,
+    ) -> Result<Balance, ()>;
+​
+    #[ink(message)]
+    fn get_amount_out(
+        &self,
+        amount_in: Balance,
+        reserve_in: Balance,
+        reserve_out: Balance,
+    ) -> Result<Balance, ()>;
+​
+    #[ink(message)]
+    fn get_amount_in(
+        &self,
+        amount_out: Balance,
+        reserve_in: Balance,
+        reserve_out: Balance,
+    ) -> Result<Balance, ()>;
+​
+    #[ink(message)]
+    fn get_amounts_out(&self, amount_in: Balance, path: [AccountId; 2]) -> Result<[Balance], ()>;
+​
+    #[ink(message)]
+    fn get_amounts_in(&self, amount_out: Balance, apath: [AccountId; 2]) -> Result<[Balance], ()>;
+}
+```
 - An overview of the technology stack to be used: Rust, !ink
-- Documentation of core components, protocols, architecture, etc. to be deployed
+- Documentation of core components, protocols, architecture, etc. : to be deployed
 - PoC/MVP or other relevant prior work or research on the topic: we only have a detailed desciption of the workflow of the project, would be happy to provide per request.
 - What your project is _not_ or will _not_ provide or implement : not sure, what to say. 
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious:
@@ -37,8 +283,8 @@ Things that shouldn’t be part of the application:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Ramil Amerzyanov, Technical lead
+- Ilnur Galiev, Rust developer
 
 ### Contact
 
@@ -48,27 +294,27 @@ Things that shouldn’t be part of the application:
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Illinois, Chicago
+- **Registered Legal Entity:** Consideritdone LLC
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Please see our portfolio here: https://docsend.com/view/fjrvjtyzgm7wgrkj
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+https://github.com/ConsiderItDone
+
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/ramilexe
+- https://github.com/n0cte
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/ramil-amerzyanov/
+- https://www.linkedin.com/in/ilnur-galiev-9a587375/
 
 
 ## Development Status :open_book:
@@ -124,13 +370,10 @@ Below we provide an **example roadmap**.
 
 ## Future Plans
 
-Please include here if you have a future plan after building this template in making it in to production.
+Support the tool and share it with the community.
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / **personal recommendation** / etc.
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+Our team had been working on a bunch of Polkadot projets including Nodle - 11th Parachain, and have a lot of experience with WASM VM. 
