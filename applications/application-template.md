@@ -35,12 +35,16 @@ We expect the teams to already have a solid idea about the project expected fina
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+- Do you need an audit for the contacts? **YES/NO**
+(don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
+- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
 
 
 Things that shouldn’t be part of the application:
 - The (future) tokenomics of your project 
 - For non-infrastructure projects—deployment and hosting costs, maintenance or audits
 - Business-oriented activities (marketing, business planning), events or outreach
+
 
 ## Team :busts_in_silhouette:
 
