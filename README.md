@@ -109,19 +109,19 @@ The Smart Contract Bounty Program offers different bounty levels to help you bes
 
 - **Target:** Individuals & small teams
 - **Amount:** Up to $10,000
-- **Requirements:** 4 approvals, Pitch call
+- **Requirements:** 4 approvals
 
 #### :baby_chick: Level 2
 
 - **Target:** Small teams/start-ups
 - **Amount:** Up to $30,000
-- **Requirements:** 4 approvals, Pitch call
+- **Requirements:** 4 approvals
 
 #### :rooster: Level 3
 
 - **Target:** Companies/foundations with a proven track record
 - **Amount:** Up to $250,000
-- **Requirements:** 5 approvals (for >$100k: Smart Contract Bounty Council approval + Pitch call)
+- **Requirements:** 5 approvals (for >$100k: Smart Contract Bounty Council approval + Pitch call by request)
 
 ---
 
@@ -170,7 +170,7 @@ The curators consists of individuals, and are responsible for evaluating bounty 
    1. Curators can (and usually do) issue comments and request changes on the pull request.
    2. Clarifications and amendments made in the comments _need to be included in the application_. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
    3. When all requested changes are addressed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
-   4. The application will be accepted and merged as soon as it receives **3 approvals**, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
+   4. The application will be accepted and merged as soon as it receives **4 approvals**, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
 
 ### 3. Milestone Delivery and Payment
 
