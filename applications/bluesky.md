@@ -41,7 +41,7 @@ Here's a list of more details of ink! smart contract, Substrate custom pallets, 
 - ink! Macros
 	-  ink! macros are a way to define custom syntax or code that can be reused within a smart contract. Macros in ink! are defined using the Rust programming language's macro system, which provides a powerful set of tools for code generation and metaprogramming.
 	- Code simplicity via macros: use ink! macros to simplify the code by abstracting away the complexity of the application logic. 
-	- Design a list of ink! macros for the use case to demonstrate reusable code patterns for functions, data structures, and other elements of a smart contract, ehich can help to simplify code and reduce repetition, making it easier to write and maintain complex contracts
+	- Design a list of ink! macros for the use case to demonstrate reusable code patterns for functions, data structures, and other elements of a smart contract, which can help to simplify code and reduce repetition, making it easier to write and maintain complex contracts
 
 - Substrate custom pallets
 	- Demonstrate the flexibility of substrate's modular architecture 
@@ -206,7 +206,7 @@ This section should break the development roadmap down into milestones and deliv
 | 2. | Prepare a test suite | for gas usage and performance benchmark |
 | 3. | Frame-benchmarking module | Use a substrate runtime benchmarking tool to measure the gas costs of pallet operations|
 | 4. | Ink-bench tool | Use the ink-bench tool to measure the gas costs of the ink! smart contract |
-| 5. | Smart contract / macro / pallet tuning | Compare the gas costs between ink! smart contracts and substrate custom pallets, one could write equivalent smart contracts in both languages and use a test suite to measure the gas costs of each |
+| 5. | Optional tuning between smart contract / macro / pallet code implementing the same logic | Compare the gas costs between ink! smart contract with macros (including custom pallet costs) vs one without macros, use a test suite to measure the gas costs, then tune the logic placement in macros/custom pallets/smart contract code to optimize for overall gas costs |
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
 | 7. | ink!'s string feature | ink's string feature ends to add code bloat. Explore solution via macro/pallet combo to ease the pain |
 | 8. | Compare Solidity binary size vs Wasm by business logic | Compare Solidity compiled binaries compare to Wasm via ink! using the latest versions of each | 
