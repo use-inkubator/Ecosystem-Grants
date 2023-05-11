@@ -112,6 +112,7 @@ Key integration points:
 (a) code hash – [example](https://polkaholic.io/wasmcode/0x608fa39ebbdfcee274fcaf23d7bc2d08b8c69d07ca842721edc03388ad9b782e)
 (b) contract address [example](https://polkaholic.io/account/5EqUn3aSBdCsyyEcYfAMKQg45cirj9L9pKEDWs2kCzeJAmXu?group=overview&chainfilters=all)
 (c) contract call [example](https://polkaholic.io/tx/0xb952286cb2dc342fe6db4cb9e24a7084b274cd759b0750f6de95905f19f131d7)
+
 2. [ChainIDE] After uploading and Deploying Code (which will generate a new code hash) and/or a new Contract (which will generate a new Contract Address), the developer will be asked whether they wish to (a) share the ABI/metadata (b) have their code verified and submitted for open source.  After obtaining, they may link to the Polkaholic.io code hash or contract address endpoint
 
 <img src="https://cdn.polkaholic.io/screenshots/chainide-wasmcontract0.png"/>
@@ -129,6 +130,16 @@ Key integration points:
 6. [Colorful Notion] Provide ChainIDE with a WASM Developer dashboard, which when provided an address, shows all code hashes, contract addresses, and contract calls made by that address.
 
 7. [ChainIDE] ChainIDE will include an iframe including the WASM Developer dashboard, or directly link to the dashboard using the developers wallet address; this can be used to link any developer dashboard.
+
+Scope of work for Colorful Notion:
+* Indexing: real-time writes into BigTable (polkaholic.io) / BigQuery (substrate-etl) + Backfill operations
+* Implementing API endpoints to be consistent with above, specifically new metadata and source code incoming frm ChainIDE
+* Documenting the API 
+* Updating WASM Contract UI to take advantage of { meta data, source code } data source
+* Developing Apache Superset dashboard datasets backend  
+* Working very closely with ChainIDE on UX ; addressing normal / failure conditions of API fully
+* End-to-end Testing the above in several dev chains with the contract pallet
+* Working with a few WASM Contract Developers to get their feedback and make sure our integration matches expectations
 
 ## Future Milestones
 
