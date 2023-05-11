@@ -209,7 +209,6 @@ This section should break the development roadmap down into milestones and deliv
 | 5. | Smart contract / macro / pallet tuning | Compare the gas costs between ink! smart contracts and substrate custom pallets, one could write equivalent smart contracts in both languages and use a test suite to measure the gas costs of each |
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
 | 7. | ink!'s string feature | ink's string feature ends to add code bloat. Explore solution via macro/pallet combo to ease the pain |
-tential
 | 8. | Compare Solidity binary size vs Wasm by business logic | Compare Solidity compiled binaries compare to Wasm via ink! using the latest versions of each | 
 | 9. | Optional performnace benchmark | Smart contract performance using ink! / WASM VM as compared to Solidity / WASM. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons|
 
