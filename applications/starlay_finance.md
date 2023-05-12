@@ -72,9 +72,9 @@ We have completed the basic implementation and are currently adding test code an
 
 ### Overview
 
-- **Total Estimated Duration:** 12 weeks
+- **Total Estimated Duration:** 8 weeks
 - **Full-Time Equivalent (FTE), Half-Time Equivalent (HTE):**  2FTE, 4HTE
-- **Total Costs:** 180,000 - 230,000 USD
+- **Total Costs:** 80,000 USD
 
 ### Milestone 1 — Basic functionality
 
@@ -105,21 +105,10 @@ We have completed the basic implementation and are currently adding test code an
 | 2. | List tokens (by the onwer)| Allow users to deposit and borrow ERC-20 based tokens as well as the native token(ASTR) |
 | 3. | Switch between EVM and Polkadot| Allow users to switch between EVM and Polkadot wallet |
 
-
-### Milestone 2 - Audit
-
-- **Estimated Duration:** 4 weeks
-- **Costs:** 100,000-150,000 USD (Pay for Audit Firm)
   
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 |
-| **1.** | Audit | Provide information and organize documents to audit companies|
+### Milestone 2 - 1st release
 
-  
-### Milestone 3 - 1st release
-
-- **Estimated Duration:** 3 weeks
+- **Estimated Duration:** 3 week
 - **FTE:**  2FTE, 4PTE
 - **Costs:** 30,000 USD
   
