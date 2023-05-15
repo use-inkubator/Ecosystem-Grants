@@ -1,7 +1,7 @@
 # VIDEOWN
 
 - **Team Name:** CONTRACT LAB
-- **Project Category:** Canary DApp
+- **Project Category:** Business case
 - **Payment Address:** 13uNZKG1Nqmkp4usxzeBK5htuUFgcY4agGLxMWm9TPgQdAgB
 
 ## Project Overview :page_facing_up:
@@ -10,7 +10,13 @@ Redirecting monetization opportunities to creators in their best interest in Web
 
 VIDEOWN is a decentralized video NFT platform, built on the any Wasm-supporting parachain, to provide users a smooth video streaming experience. Users not only can upload, play or search for all tagged video content on VIDEOWN, but also mint the content as NFT in a smart contract (written in ink!). NFT is no longer just implemented in the form of smart contracts. VIDEOWN realized the concept that NFT is the data itself, and users can exchange data ownership, whether it is pictures, music or videos.
 
+### Ink! Ecosystem Impact
+
 This project demonstrates our team's dedication to advancing the NFT area by developing a WebAssembly (Wasm) contract, which bolsters both its performance and security capabilities. This NFT market Wasm contract is designed to be compatible with all Wasm-supporting parachains. By making the project's source code open and accessible, we aim to empower developers within the Polkadot ecosystem to seamlessly and securely integrate NFT market related functionalities using Wasm technology. 
+
+In our planned business model, the four roles of Video Creator, NFT Controller, Audience and Advertiser will all benefit from the platform. Advertisers can bid for d slots. Users will watch a short advertising video before watching the video on VIDEOWN, and the holder of the video NFT and Audience will share the advertising fee. Video NTF can be minted by the video uploader himself, or purchased from the holder.
+
+![business_model](https://github.com/contract-lab-collections/Ecosystem-Grants/assets/96568736/d5654bee-2d47-4e00-992b-b50a58b745ee)
 
 ### Project Details
 
@@ -47,9 +53,13 @@ This project includes one smart contract, two backend and one frontend. We aim t
 Smart contract written in ink!. 
 
 - Mint NFT
+- Burn NFT
+- Transfer NFT
 - List/Unlist NFT
 - Buy NFT
-- Transfer NFT
+- Bid ad slot
+- Tipping video
+- Distribute NFT holding income
 
 **videown-server**
 
@@ -88,6 +98,7 @@ Frontend UI written in React.js, Polkadot.js and antd UI.
 - Listing/UnListing NFT page
 - Buy NFT page
 - Transfer NFT page
+- Bid ad slot page
 
 ## Team :busts_in_silhouette:
 
@@ -142,7 +153,7 @@ The result of our research regarding the solutions and architecture has been des
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how use the product, display and explain the function of each component. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | Smart contract: videown-nft | We will deliver a ink! smart contract that will realize the function of NFT market and comply with [psp-34](https://github.com/w3f/PSPs/blob/master/PSPs/psp-34.md). |
+| 1. | Smart contract: videown-nft | We will deliver a ink! smart contract that will contains three types of functions. 1) NFT basic functions, such as mint, burn and transfer. 2) NTF market functions, such as list, unlist and buy. 3) Economic model, such as bid ad slot, tipping video and distribute NFT holding income. |
 | 2. | Backend: videown-server | We will deliver a golang server that will provide api for frontend and interact with the chain |
 
 ### Milestone 2 — Additional features
@@ -163,10 +174,11 @@ The result of our research regarding the solutions and architecture has been des
 
 ## Future Plans
 
-- Smart contract optimization design
-- Network-wide video accurate rights confirmation system
-- Ad slot auction system
-- Large file processing system
+- Smart Contract Optimization Design
+- Autonomous Community Governance System Release
+- Network-wide Video Accurate Rights Confirmation System Release
+- Large File Processing System Release
+- Ecosystem Support Tool Release
 
 ## Additional Information :heavy_plus_sign:
 
