@@ -10,11 +10,11 @@
 - If the name of your project is not descriptive, a tag line (one sentence summary). 
 	- Bluesky is the limit riding on the ink! tailwind  
 - A brief description of the template building.
-	- A technical showcase implementing a use case with specific business logic that requires frequent updates due to changing requirements, that could benefit from using custom pallet implemented ink! macros for code simplicity, reusability and readability, for flexible on-chain smart contract upgrades, for cost effective gas fees, as compared to Solidity / EVM, in order to promote ink! / WASM based smart contracts on Polkadot and other blockchains. Notice this is from an ink! novice perspective without prior knowledge of ink! / Substrate / Polkadot.
+	- A technical showcase implementing a use case with specific business logic that requires frequent updates due to changing requirements, that could benefit from ink! macros for code simplicity, reusability and readability, for flexible on-chain smart contract upgrades, for cost effective gas fees, as compared to Solidity / EVM, in order to promote ink! / WASM based smart contracts on Polkadot and other blockchains. Notice this is from an ink! novice perspective without prior knowledge of ink! / Substrate / Polkadot.
 - An indication of how your project relates to ink! ecosystem
 	- On-chain smart contract upgradability
 	- Simplified, reusable and easy-to-read ink! code via macros 
-	- Custom pallets implemented ink! macros for balacing common logic abstration from application logic
+	- ink! macros for balacing common logic abstration from application logic
 	- Cost effective and predictable gas fees via benchmark against Solidity
 - Choosen project idea category or your alternative category with explanation of its importance
 	- Technical showcase to domonstrate multiple benefits of ink! / WASM based smart contracts, especially as compared to Solidity / EVM based ones
@@ -29,35 +29,29 @@ Please clearly describe how exactly your project will benefit the ecosystem. If 
 As a techbical showcase project, ink! will be promoted competitively against Solidity/EVM based smart contracts with clear quanfitied  
 
 - Simplified, reusable and easy-to-read ink! code via macros 
-- Custom substrate pallets coupled with ink! macros to allow developers abstract common reusable logic from application logic and optimize over iterations to balance, yet still organically fused via ink!
+- ink! macros to allow developers abstract common reusable logic from application logic and optimize over iterations to balance, yet still organically fused via ink!
 - Cost effective and predictable gas fees via benchmark against Solidity/EVM resulting in quantifiable metrics 
 - On-chain WASM based smart contract upgradability, as compared to EVM based smart contract upgrades on Ethereum  
 - Increase ink! adoption and future growth via competitive analysis against Solidity / EVM
 
 ### Project Details
 
-Here's a list of more details of ink! smart contract, Substrate custom pallets, etc to showcase simplified smart contract code, lower gas fees and better perfromance.  
+Here's a list of more details of ink! smart contract etc to showcase simplified smart contract code, lower gas fees and better perfromance.  
 
 - ink! Macros
 	-  ink! macros are a way to define custom syntax or code that can be reused within a smart contract. Macros in ink! are defined using the Rust programming language's macro system, which provides a powerful set of tools for code generation and metaprogramming.
 	- Code simplicity via macros: use ink! macros to simplify the code by abstracting away the complexity of the application logic. 
 	- Design a list of ink! macros for the use case to demonstrate reusable code patterns for functions, data structures, and other elements of a smart contract, which can help to simplify code and reduce repetition, making it easier to write and maintain complex contracts
 
-- Substrate custom pallets
-	- Demonstrate the flexibility of substrate's modular architecture 
-	- Pallet macros are used to define custom pallets, which are modules that contain storage items and dispatchable functions. ink! macros can then call these dispatchable functions to interact with the pallet's storage and logic.
-	- Use custom pallets to implement the macros and optimize the gas usage. Use macros that call custom pallets can potentially result in significant gas savings as it can allow for reusable code and more efficient execution.
-	- The gas savings can be quantified via comparative benchmarks detailed below
-
-- Reduced gas fees: use custom pallets to implement the macros and optimize the gas usage as compared to implementing the same logic in the smart contract code directly. 
+- Reduced gas fees: reduce gas fees 
 	- Benchmark & measurement
 		- Set up a development environment that supports both ink! and substrate, as well as a test network for executing the contracts and measuring their gas costs
 		- Prepare a test suite
-		- Use a substrate runtime benchmarking tool, such as the frame-benchmarking module, to measure the gas costs of pallet operations
+		- Use a substrate runtime benchmarking tool, such as the frame-benchmarking module, to measure the gas costs
 		- Use the ink-bench tool to measure the gas costs of the ink! smart contract
 	- Compare
-		- Compare the gas costs between ink! smart contracts and substrate custom pallets, one could write equivalent smart contracts in both languages and use a test suite to measure the gas costs of each
-		- Smart contract / macro / pallet tuning to balance the allocation of logic optimized for selected goal: lower gas fees, maximal code reuse, simplify smart contract code, performance, interoperability, etc. 
+		- Compare the gas costs of ink! smart contract implementations, one could write equivalent smart contracts in both languages and use a test suite to measure the gas costs of each
+		- Smart contract code tuning to balance the allocation of logic optimized for selected goal: lower gas fees, maximal code reuse, simplify smart contract code, performance, interoperability, etc. 
 	- Compare with Solidity / EVM
 		- Implment the same logic in Solidity smart contract 
 		- Measure and compare the gas fees of the simplified ink! smart contract, vs Solidity / EVM based one 
@@ -153,24 +147,23 @@ This section should break the development roadmap down into milestones and deliv
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 	- 3+ FTE
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
-	- 160,000 USD
+	- 150,000 USD
 
-### Milestone 1 — Technical showcase example implemented in ink! Macros and Substrate custom pallets for ink! / Substrate / Polkadot novice. Publish Article 1/3 
+### Milestone 1 — Technical showcase example implemented in ink! Macros. Publish Article 1/3 
 
 - **Estimated duration:** 2 month
 - **FTE:**  2,3
-- **Costs:** 45,000 USD
+- **Costs:** 40,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 1. | Define use case | define a contrived use case that requires 1) business logic 2) reusable components 3) features needing smart contract upgrades 4) performance and low gas fees |
 | 2. | OpenZepplin's features like Roles, Ownership | Investigate OpenZepplin's's roles / ownership to see how it might fit this showcase |
 | 3. | define list of ink! Macros | that captures reusable logic to simplify code |
-| 4. | Substrate modules | implement substrate custom pallets corresponding to above macros |
-| 5. | Smart contracts | Write ink! smart contract with macros integrated with custom pallets to fulfil use case business functions |
-| 6. | End-to-end integration | Organically integrate all pieces together to ensure working end-to-end |
-| 7. | Deployment | Deploy to a Polkadot smart contract parachain, say Shiden, etc to also explore interoperability |
-| 8. | Articles | We will publish article 1 of 3 walking through the technical showcase focusing on ink! macros and substrate pallets. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
+| 4. | Smart contracts | Write ink! smart contract with macros to fulfil use case business functions |
+| 5. | End-to-end integration | Organically integrate all pieces together to ensure working end-to-end |
+| 6. | Deployment | Deploy to a Polkadot smart contract parachain, say Shiden, etc to also explore interoperability |
+| 7. | Articles | We will publish article 1 of 3 walking through the technical showcase focusing on ink! macros in comparison to Solidity. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
 
 ### Milestone 2 —  On-chain ink! smart contract upgrades, compared to Solidity upgrades. Publish Article 2/3   
 
@@ -193,7 +186,7 @@ This section should break the development roadmap down into milestones and deliv
 
 - **Estimated Duration:** 2 month
 - **FTE:**  3+
-- **Costs:** 65,000 USD
+- **Costs:** 60,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -204,15 +197,14 @@ This section should break the development roadmap down into milestones and deliv
 | **0e.**  | Articles | We will publish article 3 of 3 that explains ink!+WASM's competitive advantage against Solidity/EVM, with tangible technical examples and benchmark metrics, to lower the adoption barrier and increase developer confidence. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
 | 1. | Set up a development environment | that supports both ink! and substrate, as well as a test network for executing the contracts and measuring their gas costs |
 | 2. | Prepare a test suite | for gas usage and performance benchmark |
-| 3. | Frame-benchmarking module | Use a substrate runtime benchmarking tool to measure the gas costs of pallet operations|
+| 3. | Frame-benchmarking module | Use a substrate runtime benchmarking tool to measure the gas costs of variations |
 | 4. | Ink-bench tool | Use the ink-bench tool to measure the gas costs of the ink! smart contract |
-| 5. | Optional tuning between smart contract / macro / pallet code implementing the same logic | Compare the gas costs between ink! smart contract with macros (including custom pallet costs) vs one without macros, use a test suite to measure the gas costs, then tune the logic placement in macros/custom pallets/smart contract code to optimize for overall gas costs |
+| 5. | Optional tuning between smart contract code implementing the same logic | Compare the gas costs between ink! smart contract implementations, use a test suite to measure the gas costs, then tune smart contract code to optimize for overall gas costs |
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
-| 7. | ink!'s string feature | ink's string feature ends to add code bloat. Explore solution via macro/pallet combo to ease the pain |
+| 7. | ink!'s string feature | ink's string feature ends to add code bloat. Explore solutions to reduce the footprint |
 | 8. | Compare Solidity binary size vs Wasm by business logic | Compare Solidity compiled binaries compare to Wasm via ink! using the latest versions of each | 
 | 9. | Optional performnace benchmark | Smart contract performance using ink! / WASM VM as compared to Solidity / WASM. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons|
 
-	- 
 ## Future Plans
 
 Please include here if you have a future plan after building this template in making it in to production.
