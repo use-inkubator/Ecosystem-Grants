@@ -157,7 +157,7 @@ Currently serving as the Special Projects Lead at Parity Technologies, Tom has s
 - **Oleh KulyKovskyi**  - [linkedin.com/in/oleh-kulykovskyi-329523234/](http://www.linkedin.com/in/oleh-kulykovskyi-329523234/)
 
 
-## Development Status :open_book:## 
+## Development Status :open_book:
 
 - [Medium](https://medium.com/@archisinal)
 - [Twitter](https://twitter.com/archisinal)
