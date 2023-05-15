@@ -1,9 +1,7 @@
-**Archisinal - NFT Marketplace**
+## Archisinal - NFT Marketplace ##
 
 - **Team Name:** Archisinal Technologies
 - **Payment Address:** 14xeAxD7LSJQmNXn2RQcm6WTJiByv6HKn6T8fTjqX1HeCMwR
-
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 ### Overview
