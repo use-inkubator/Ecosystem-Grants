@@ -334,7 +334,7 @@ Below we provide an **example roadmap**.
 
 - **Total Estimated Duration:** 4-5 weeks
 - **Full-Time Equivalent (FTE):**  1.5 FTE
-- **Total Costs:** 20 000
+- **Total Costs:** 30 000
 
 ### Milestone 1  — Basic functionality
 
