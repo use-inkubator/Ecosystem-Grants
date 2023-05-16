@@ -332,15 +332,15 @@ Below we provide an **example roadmap**.
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
+- **Total Estimated Duration:** 4-5 weeks
+- **Full-Time Equivalent (FTE):**  1.5 FTE
+- **Total Costs:** 20 000
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1  — Basic functionality
 
 - **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **FTE:**  1,3
+- **Costs:** 20 000
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
@@ -351,21 +351,13 @@ Below we provide an **example roadmap**.
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 1. | Core contract token + tests  | We will create a basic contract token and cover the code with tests |
+| 2. | Trade pair token + tests| We will develop a trade pair token and cover the code with tests|
+| 3. | Trade pair fabric contract + tests | We will create a trade pair fabric contract and cover the code with tests |
+| 4. | Router contract realization + tests | We will develop a router contract and vocer it with tests |
+| 5. | E2E tests| Additionally we will provide end to end tests |
 
 
-### Milestone 2 Example — Additional features
-
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
-
-...
 
 
 ## Future Plans
