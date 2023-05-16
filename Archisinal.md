@@ -240,7 +240,7 @@ The development roadmap for Archisinal includes multiple milestones to ensure th
 | 8. | Back-end Layer | We will develop simple node.js back-end layer for interaction with UI and orchestrating and indexing users and projects related data. |
 | 9. | UI/UX Design | We will implement UI/UX that reflects the marketplace's focus on architecture, engineering, and design, using visual elements and layouts tailored for the target audience. This will include a minimalist and mono-chrome theme, with a focus on showcasing the NFTs. |
 | 10. | Web app testing and deployment | We will implement E2E tests to cover basic user flows and deploy Web app on production. |
-| 11. | Production Network Deployment | Deploy the developed smart contracts on a production - Shiden network on Polkadot. |
+| 11. | Production Network Deployment | Deploy the developed smart contracts on a production - Shiden network on Kusama. |
 
 ...
 
