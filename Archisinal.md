@@ -152,7 +152,7 @@ Currently serving as the Special Projects Lead at Parity Technologies, Tom has s
 
 ### Team LinkedIn Profiles (if available)
 
-- **Tom Humber ** https://www.linkedin.com/in/tom-humber-b65888118
+- **Tom Humber** https://www.linkedin.com/in/tom-humber-b65888118
 - **Danylo Semirazov** - [linkedin.com/in/danylosemirazov/](https://www.linkedin.com/in/danylosemirazov/)
 - **Oleh KulyKovskyi**  - [linkedin.com/in/oleh-kulykovskyi-329523234/](http://www.linkedin.com/in/oleh-kulykovskyi-329523234/)
 
