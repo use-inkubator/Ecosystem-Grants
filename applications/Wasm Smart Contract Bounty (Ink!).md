@@ -1,6 +1,6 @@
 #  Wasm Smart Contract Bounty (Ink!)
 
-- **Team Name:** DAosign
+- **Team Name:** Wasm Smart Contract Bounty (Ink!)
 - **Payment Address:** cidt.eth 
 
 
@@ -368,4 +368,4 @@ Support the tool and share it with the community.
 
 **How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / **personal recommendation** / etc.
 
-Our team had been working on a bunch of Polkadot projets including Nodle - 11th Parachain, and have a lot of experience with WASM VM. 
+Our team had been working on a bunch of Polkadot projets including Nodle - 11th Parachain, and have a lot of experience with WASM VM.
