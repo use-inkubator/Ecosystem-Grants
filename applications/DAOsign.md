@@ -339,8 +339,8 @@ Below we provide an **example roadmap**.
 ### Milestone 1  — Basic functionality
 
 - **Estimated duration:** 1 month
-- **FTE:**  1,3
-- **Costs:** 20 000
+- **FTE:**  1,5
+- **Costs:** 30 000
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
