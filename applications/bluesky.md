@@ -8,16 +8,21 @@
 ### Overview
 
 - If the name of your project is not descriptive, a tag line (one sentence summary). 
-	- Bluesky is the limit riding on the ink! tailwind  
+	- Bluesky is the limit riding the ink! & Wasm tailwind 
 - A brief description of the template building.
-	- A technical showcase implementing a use case with specific business logic that requires frequent updates due to changing requirements, that could benefit from ink! macros for code simplicity, reusability and readability, for flexible on-chain smart contract upgrades, for cost effective gas fees, as compared to Solidity / EVM, in order to promote ink! / WASM based smart contracts on Polkadot and other blockchains. Notice this is from an ink! novice perspective without prior knowledge of ink! / Substrate / Polkadot.
+	- A technical showcase dApp implementing a Polkadot native use cases that leverage on ink! and Wasm demonstrating comparative advantages over Solidity+EVM. 
+	- The contrived dApp requires frequent feature changes or updates, that could benefit from flexible on-chain smart contract upgrades as compared to Ethereum.
+	- The showcase leverages ink! macros for code simplicity, reusability and readability. 
+	- Benchmark to showcase reduced gas fees, tangible cost savings over gas spike otherwise implemented in Solidity + EVM
+	- The goal is to promote ink! + Wasm based smart contract development on Polkadot and Substrate blockchains with code template and tangible metrics to boost adoption confidence.  
+	- Notice the showcase is mainly targeting Solidity developers who are considering alternatives yet may or may not have prior exposure to ink! / Substrate / Polkadot, or new smart contract developers who wants to compare options and choose a stack based on latest objective matrix comparisons.  
 - An indication of how your project relates to ink! ecosystem
 	- On-chain smart contract upgradability
 	- Simplified, reusable and easy-to-read ink! code via macros 
 	- ink! macros for balacing common logic abstration from application logic
 	- Cost effective and predictable gas fees via benchmark against Solidity
 - Choosen project idea category or your alternative category with explanation of its importance
-	- Technical showcase to domonstrate multiple benefits of ink! / WASM based smart contracts, especially as compared to Solidity / EVM based ones
+	- Technical showcase to domonstrate multiple benefits of ink! / Wasm based smart contracts, especially as compared to Solidity / EVM based ones
 - An indication of why your team is interested in creating this project.
 	- Unlock Polkadot / Kusama / ink! ecosystem's technical strength and potentials as an smart contract alternative to Solidity / EVM 
 	- Help ink! novice, especially Solidity developers. without prior knowledge of ink! / Substrate / Polkadot
@@ -31,7 +36,7 @@ As a techbical showcase project, ink! will be promoted competitively against Sol
 - Simplified, reusable and easy-to-read ink! code via macros 
 - ink! macros to allow developers abstract common reusable logic from application logic and optimize over iterations to balance, yet still organically fused via ink!
 - Cost effective and predictable gas fees via benchmark against Solidity/EVM resulting in quantifiable metrics 
-- On-chain WASM based smart contract upgradability, as compared to EVM based smart contract upgrades on Ethereum  
+- On-chain Wasm based smart contract upgradability, as compared to EVM based smart contract upgrades on Ethereum  
 - Increase ink! adoption and future growth via competitive analysis against Solidity / EVM
 
 ### Project Details
@@ -58,7 +63,7 @@ Here's a list of more details of ink! smart contract etc to showcase simplified 
 	- The same gas usage benchmark suite can be reused in the future to measure different blockchains as each chain gas implmentation could differ. 
 	
 - Performance 
-	- Smart contract performance using ink! / WASM VM as compared to Solidity / WASM. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons. 
+	- Smart contract performance using ink! / Wasm VM as compared to Solidity / Wasm. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons. 
 	- One of the main advantages of WebAssembly is its performance. Because it is a low-level language, it can be executed more efficiently than high-level languages like Solidity. This can result in faster transaction processing times and lower gas costs for users.
 	- ink! leverages the benefits of WebAssembly to provide a more efficient and secure environment for executing smart contracts. The use of the Wasmer Runtime and the flexibility of WebAssembly allow for faster transaction processing times, lower gas costs, and a more robust development experience.
 	- On reducing on-chain storage footprint, ink! provides two main types of storage: contract storage and contract env storage. Contract storage is designed to hold data that needs to be persisted on the blockchain, while contract env storage is intended for storing data that does not need to be persisted on-chain.
@@ -75,7 +80,7 @@ Here's a list of more details of ink! smart contract etc to showcase simplified 
 - Interoperability
 	- While ink! is designed to be used on the Polkadot network, it would be beneficial for the language to be interoperable with other blockchain networks as well. 
 	- This would allow developers to write smart contracts once and deploy them on multiple networks, increasing ink! adoption
-	- This showcase project could experiment on Shiden chain and expldore
+	- This showcase project could experiment on Shiden chain or other parachains to expldore
 
 - Adoption
 	- Document this technical showcase to make it tangible for potentail developers to better understand ink! smart contract potentials and related Substrate technology stack  
@@ -182,7 +187,7 @@ This section should break the development roadmap down into milestones and deliv
 | 7. | Articles | We will publish article 2 of 3 using the same technical showcase focusing on ink! smart contract upgrade flow, ease of upgradability and flexibility. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
 
 
-### Milestone 3 —  Gas usage / performance benchmarks compared, ink!+WASM vs Solidity+EVM, Publish Article 3/3
+### Milestone 3 —  Gas usage / performance benchmarks compared, ink!+Wasm vs Solidity+EVM, Publish Article 3/3
 
 - **Estimated Duration:** 2 month
 - **FTE:**  3+
@@ -194,7 +199,7 @@ This section should break the development roadmap down into milestones and deliv
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| **0e.**  | Articles | We will publish article 3 of 3 that explains ink!+WASM's competitive advantage against Solidity/EVM, with tangible technical examples and benchmark metrics, to lower the adoption barrier and increase developer confidence. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
+| **0e.**  | Articles | We will publish article 3 of 3 that explains ink!+Wasm's competitive advantage against Solidity/EVM, with tangible technical examples and benchmark metrics, to lower the adoption barrier and increase developer confidence. Can publish the blog in Medium in English, or recommended medium to target designated audiences |
 | 1. | Set up a development environment | that supports both ink! and substrate, as well as a test network for executing the contracts and measuring their gas costs |
 | 2. | Prepare a test suite | for gas usage and performance benchmark |
 | 3. | Frame-benchmarking module | Use a substrate runtime benchmarking tool to measure the gas costs of variations |
@@ -203,7 +208,7 @@ This section should break the development roadmap down into milestones and deliv
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
 | 7. | ink!'s string feature | ink's string feature ends to add code bloat. Explore solutions to reduce the footprint |
 | 8. | Compare Solidity binary size vs Wasm by business logic | Compare Solidity compiled binaries compare to Wasm via ink! using the latest versions of each | 
-| 9. | Optional performnace benchmark | Smart contract performance using ink! / WASM VM as compared to Solidity / WASM. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons|
+| 9. | Optional performnace benchmark | Smart contract performance using ink! / Wasm VM as compared to Solidity / Wasm. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons|
 
 ## Future Plans
 
@@ -217,8 +222,8 @@ Here you can also add any additional information that you think is relevant to t
 
 - Previous work on migrating MOVE EVM to Polkadot helped to learn Polkadot tech stack including Substrate, smart contract, etc as compared to competitions 
 - We believe this technical showcase will be able to:
-	- reach out to many ink! / WASM doubtfuls, especially ink! novice / hard core Solidity devs, with tangible examples and metrics to increase adoption confidence level
+	- reach out to many ink! / Wasm doubtfuls, especially ink! novice / hard core Solidity devs, with tangible examples and metrics to increase adoption confidence level
 	- publish articles have a long lasting impact to future developers to convert, adopt and contribute in the ink! / Polkadot / Substrate ecosystem     
 	- some assets be reused to develop useful tools to benefit ink! ecosystem in the future  
-	- share unique comparative advantages of ink! + wasm, especially as increasing bitcoin / ethereum congestions causing fee spikes and waitings, to position ink! as an attractive smart contract alternative against competition
+	- share unique comparative advantages of ink! + Wasm, especially as increasing bitcoin / ethereum congestions causing fee spikes and waitings, to position ink! as an attractive smart contract alternative against competition
 - If there are any other teams who have already contributed (financially) to the project. None
