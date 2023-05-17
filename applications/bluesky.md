@@ -12,10 +12,10 @@
 - A brief description of the template building.
 	- A technical showcase dApp implementing a Polkadot native use cases that leverage on ink! and Wasm demonstrating comparative advantages over Solidity+EVM. 
 	- The contrived dApp requires frequent feature changes or updates, that could benefit from flexible on-chain smart contract upgrades as compared to Ethereum.
-	- The showcase leverages ink! macros for code simplicity, reusability and readability. 
+	- The showcase leverages ink! macros for code simplicity, reusability and readability, a unique ink! faeture as comapred to Solidity.
 	- Benchmark to showcase reduced gas fees, tangible cost savings over gas spike otherwise implemented in Solidity + EVM
 	- The goal is to promote ink! + Wasm based smart contract development on Polkadot and Substrate blockchains with code template and tangible metrics to boost adoption confidence.  
-	- Notice the showcase is mainly targeting Solidity developers who are considering alternatives yet may or may not have prior exposure to ink! / Substrate / Polkadot, or new smart contract developers who wants to compare options and choose a stack based on latest objective matrix comparisons.  
+	- Notice the showcase is mainly targeting Solidity developers who are considering alternatives yet may or may not have prior exposure to ink! / Substrate / Polkadot, or new smart contract developers who want to compare options and choose a stack based on latest objective matrix comparisons.  
 - An indication of how your project relates to ink! ecosystem
 	- On-chain smart contract upgradability
 	- Simplified, reusable and easy-to-read ink! code via macros 
