@@ -340,10 +340,14 @@ We have completed the RUST interfaces and an architecture roadmap.
 
 ## Future Plans
 
-Support the tool and share it with the community.
+To increase the adoption of the Trade pairs funcionality, our team plans to:
+
+- Collaborate closely with Wasm-supporting communities for announcements and partnerships.
+- Enhance our tutorials and supplementary materials to better support users and developers.
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / **personal recommendation** / etc.
+**How did you hear about the Bounty Program?** 
+As per the recommendation of Rohan Joseph to Maarten and Toma. 
 
 Our team had been working on a bunch of Polkadot projets including Nodle - 11th Parachain, and have a lot of experience with WASM VM.
