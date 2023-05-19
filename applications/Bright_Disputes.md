@@ -41,13 +41,25 @@ Based on our knowlage of zk-snarks ([zk-snarks-in-substrate](https://brightinven
 
 Our target plaform for the deployment will be AlephZero, which provides zk-snarks verification.
 
-This project will not provide any UI. All the functionality can be tested by the polkadot.js dApp.
+As a part of this project we will also provide UI that will allow users to test the functionality and already create an environment for solving disputes, without any connection with external job advertising platform.
+
+It will be available as a web application, connecting with our BrightDisputes CLI. 
+
+Example screens from the app:
+
+#### A. Creating a dispute
+![](https://i.imgur.com/HqXeBmQ.png)
+
+#### B. Judging a dispute
+![](https://i.imgur.com/AXw8JCp.png)
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
 - Michał Graliński - Rust Developer
+- Maciej Sawicki - Frontend Developer
+- Joanna Cieszyńska - Product Designer
 - Katarzyna Łukasiewicz - Project Manager
 
 ### Contact
@@ -76,7 +88,9 @@ We support startups, digital agencies as well as medium to big businesses. We co
 As a company we have a 4 year experience with blockchain technologies, including cooperation with Parity. Since almost 2 years we’re developing our own Substrate based product [BrightTreasury](https://treasury.bright.dev/), that's been funded first by Web3 Foundation Grants program and has been supported by Polkadot and Kusama treasuries since. More recently, we’ve engaged in Rust development for Substrate as well, with two Web3 Foundation grants: [ZK-Snarks tutorial](https://github.com/w3f/Grants-Program/pull/1290) and [High-availability validator setup with Raft](https://github.com/w3f/Grant-Milestone-Delivery/pull/813).
 
 Who would work on Bright Disputes?
-- Michał - Rust Developer, for over 12 years he has been working as a C++ developer. In his career he participate in various projects, starting from the embedded devices, automotive, mobile games and ending on the financial systems. Right now he is focused on the blockchain technology.
+- Michał - Rust Developer, for over 12 years he has been working as a C++ developer. In his career he participated in various projects, starting from the embedded devices, automotive, mobile games and ending on the financial systems. Right now he is focused on the blockchain technology.
+- Maciej - Frontend Developer with over 15 years of experience, for the last couple of years working mainly with React. He has been taking part in projects for various industries - always keen to get to know new business domains.
+- Joanna - Product Designer, who’s passionate not only about the aesthetic part of the products, but also the accessibility aspect of it. Likes to make sure that the products she designs are inclusive and users get to experience them equally.
 - Kasia - she has been working with agile methods for over 10 years, both as a researcher and a practitioner. She believes in teamwork and a power of user centered mindset. With experience in leading international projects, she knows how to support and encourage timely and high quality deliveries.
 
 ### Team Code Repos
@@ -85,11 +99,15 @@ Who would work on Bright Disputes?
 
 Team Members:
 -  Michał: https://github.com/mgralinski-bright
+-  Maciej: https://github.com/unagigd
+-  Joanna: https://www.behance.net/joannacieszynska
 -  Kasia: https://github.com/bufta
 
 ### Team LinkedIn Profiles
 
 - https://www.linkedin.com/in/michal-gralinski-b464152/
+- https://www.linkedin.com/in/maciej-sawicki-69306648/
+- https://www.linkedin.com/in/joannacieszynska/
 - https://www.linkedin.com/in/katarzyna-łukasiewicz-b473901aa/
 
 ## Development Status :open_book:
@@ -101,11 +119,11 @@ The result of our research regarding the solutions and architecture has been des
 
 ### Overview
 
-- **Total Estimated Duration:** 4,5 months
-- **Full-Time Equivalent (FTE):** 1,1
-- **Total Costs:** 42 000 USD
+- **Total Estimated Duration:** 5,5 months
+- **Full-Time Equivalent (FTE):** 1,2
+- **Total Costs:** 53 000 USD
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 — Basic functionality
 
 - **Estimated duration:** 1 month
 - **FTE:**  1,1
@@ -121,7 +139,7 @@ The result of our research regarding the solutions and architecture has been des
 | 2. | Smart contract | Create a smart contract according to documentation, where voting is public.
 | 3. | Script | Create a `deploy` script, it will allows to setup the local environment (run aleph-node, deploy smart contract)
 
-### Milestone 2 Example — Additional features
+### Milestone 2 — Additional features
 
 - **Estimated Duration:** 1,5 month
 - **FTE:**  1,1
@@ -136,7 +154,7 @@ The result of our research regarding the solutions and architecture has been des
 | 1. | CLI | Create a CLI (in Rust) for calling smart contract messages.
 | 2. | Library | Create `R1CS` relations library for vote counting. We are going to use primitives from the `liminal`.
 
-### Milestone 3 Example — Additional features
+### Milestone 3 — Additional features
 
 - **Estimated Duration:** 2 month
 - **FTE:**  1,1
@@ -149,15 +167,37 @@ The result of our research regarding the solutions and architecture has been des
 | **0b.** | Documentation | We will provide **inline documentation** of the code. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
+| 0e. | Article | We will publish an **article**/workshop that explains the dispute resolution solution. (Content, language and medium should reflect your target audience described above.) |
 | 1. | Smart contract | Modify a smart contract to accomplish a private voting goal, by encrypting votes using Judge's public key and signing them with their private keys.
 | 2. | Smart contract | Modify smart contract with the private vote counting and zk-snarks.
 | 3. | CLI | Extend CLI to use created relations from the Milestone 2.
 | 4. | Script | Extend `deploy` script to accomplish for the smart contract (ex: generate veryfications / proving keys)
 
+### Milestone 4 - User Interface
+
+- **Estimated Duration:** 1 month
+- **FTE:** 1,3 
+- **Costs:**  11 000 USD
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | MIT |
+| **0b.** | Documentation | We will provide **inline documentation** of the code. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article** that explains how to use the BrightDispute user interface. (Content, language and medium should reflect your target audience described above.) |
+| 0f. | YouTube video | We will publish a **tutorial video** that explains how to use the BrightDispute user interface and how the solution behind it. (Content, language and medium should reflect your target audience described above.) |
+| 1. | Add new dispute | Allow users to log in using the polkadot.js plugin and add a new dispute, specifying who's a part of the dispute and adding a link to an external service (description of the case)
+| 2. | Add defending info | Once a dispute is created, a defendant of the dispute can present their own side of the case (adding a link to the external service).
+| 3. | Follow the status of the dispute |Both sides of the dispute can follow the status of the dispute status and outcome.
+| 4. | Application to the jury pool | A user, after loging in with their wallet address, can request to become a part of the jury pool
+| 5. | Confirm jury role in a case | For each case, a jury is randomly selected from the jury pool. A user selected for a specific case should confirm their participation in order to take part in the case.
+| 6. | Vote on a case | A jury member that confirmed their participation in a case is expected to vote in a voting round.
+
 ## Future Plans
 
-Our plan for the future is to create a protocol that would allow the use of Bright Disputes from various smart contracts. Our goal would be to create a real use case scenario where our dispute system could resolve issues, such as bounties disputes. The next step would be to create a user interface and an ecourage community to use our dApp.
+Our plan for the future is to create a protocol that would allow the use of Bright Disputes from various smart contracts. Our goal would be to create a real use case scenario where our dispute system could resolve issues, such as bounties disputes. 
 
 ## Additional Information :heavy_plus_sign:
 
