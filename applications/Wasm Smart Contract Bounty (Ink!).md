@@ -6,21 +6,12 @@
 
 ## Project Overview :page_facing_up:
 ### Overview
+The project goal is to build the trade pairs liquidity system for Astar network in order to implement the Uniswap-like functionality on !ink. 
 
-Please provide the following:
-
-- Project description: Trade pairs liquidity system
-- A brief description of the template building: see deliverables. 
-- An indication of how your project relates to ink! ecosystem: implementation of Uniswap-like functionality on !ink
-- Choosen project idea category or your alternative category with explanation of its importance
-- An indication of why your team is interested in creating this project: 
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Data models / API specifications of the core functionality:
-see RUST interfaces below:
+We've prepared simple RUST interfaces, please see them below: 
 
 ```rs
 type Balance = <ink::env::DefaultEnvironment as ink::env::Environment>::Balance;
@@ -266,18 +257,10 @@ pub trait InkswapRouter {
     fn get_amounts_in(&self, amount_out: Balance, apath: [AccountId; 2]) -> Result<[Balance], ()>;
 }
 ```
-- An overview of the technology stack to be used: Rust, !ink
-- Documentation of core components, protocols, architecture, etc. : to be deployed
-- PoC/MVP or other relevant prior work or research on the topic: we only have a detailed desciption of the workflow of the project, would be happy to provide per request.
-- What your project is _not_ or will _not_ provide or implement : not sure, what to say. 
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious:
-Rust monorepository with the source code, and some basic UI for the functionality (can be discussed further)
+Technology stack to be used: Rust, !ink . We will also provide a documentation of the core components and architecture. 
+Deliverables will include a Rust monorepository with the source code, and some basic UI for the functionality (can be discussed further)
 
 
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
 
 ## Team :busts_in_silhouette:
 
@@ -319,20 +302,15 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues: see our project portfolio: https://docsend.com/view/fjrvjtyzgm7wgrkj
-- references to conversations you might have had related to building this template, : all is kept in the private corporative slack, but would be happy to discuss it further with you. 
+We have completed the RUST interfaces and an architecture roadmap. 
+
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
-- **Total Estimated Duration:** 4-5 weeks
+- **Total Estimated Duration:** 4-6 weeks
 - **Full-Time Equivalent (FTE):**  1.5 FTE
 - **Total Costs:** 30 000
 
