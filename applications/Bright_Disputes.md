@@ -16,7 +16,7 @@ The brief descritpion of this project, we will start by presenting the roles:
 
 Dispute can be raise by the person who is the Owner. He points a Contractor, who is a side here, to join the dispute. Both of them need to provide a description of the dispute and their position on the matter as well as paying the fees. When all formalities are fulfilled, the dispute can start. The first step is to appoint a Judge, who will be responsible for counting the votes. Than we choose Juries, who will vote against one of the sides. Jurieas as well as Judge are radonomly picked by the smart contract from the pool of Juries.
 
-Voteing phase will start when all Juries and Judge confirm their assignment for the dispute, by providing an escrow. If someone will not confirm their assigment, Owner / Contractor can trigger smart contract to repick persons from the Juries pool. 
+Voting phase will start when all Juries and Judge confirm their assignment for the dispute, by providing an escrow. If someone will not confirm their assignment, Owner / Contractor can trigger smart contract to repick persons from the Juries pool. 
 
 In the voting phase, the Jury votes for one of the parties. The vote is encrypted with the public key of the Judge and a proof of a valid vote is delivered to smart contract. From now only the Judge can read the votes.
 
