@@ -1,7 +1,7 @@
 #  Wasm Smart Contract Bounty (Ink!)
 
 - **Team Name:** Wasm Smart Contract Bounty (Ink!)
-- **Payment Address:** cidt.eth 
+- **Payment Address:** 13s3c37rwrZfa8WQcZPdqE1zi1hGAguf2TWfWMr8f5aLBrg
 
 
 ## Project Overview :page_facing_up:
