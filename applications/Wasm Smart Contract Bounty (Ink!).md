@@ -6,7 +6,7 @@
 
 ## Project Overview :page_facing_up:
 ### Overview
-The project goal is to build the trade pairs liquidity system for Astar network in order to implement the Uniswap-like functionality on !ink. 
+The project goal is to build the trade pairs liquidity system for Astar network in order to implement the Uniswap-like functionality on !ink. The idea of the project came from https://github.com/use-inkubator/Ecosystem-Grants/blob/master/README.md , as a Canary DApp showcase in order to enrich the !ink Ecosystem. 
 
 
 ### Project Details
