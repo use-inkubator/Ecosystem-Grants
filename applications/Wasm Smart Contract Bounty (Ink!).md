@@ -258,7 +258,7 @@ pub trait InkswapRouter {
 }
 ```
 Technology stack to be used: Rust, !ink . We will also provide a documentation of the core components and architecture. 
-Deliverables will include a Rust monorepository with the source code, and some basic UI for the functionality (can be discussed further)
+Deliverables will include a Rust repository with the source code, and a basic UI for the functionality (can be discussed further).
 
 
 
@@ -310,17 +310,16 @@ We have completed the RUST interfaces and an architecture roadmap.
 
 ### Overview
 
-- **Total Estimated Duration:** 4-6 weeks
-- **Full-Time Equivalent (FTE):**  1.5 FTE
-- **Total Costs:** 30 000
+- **Total Estimated Duration:** 6-8 weeks
+- **Full-Time Equivalent (FTE):**  3 FTE
+- **Total Costs:** 40 000
 
-### Milestone 1  — Basic functionality
+### Milestone 1  — Smartcontract functionality
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
+- **Estimated duration:** 4-6 weeks
+- **FTE:**  2
 - **Costs:** 30 000
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -335,7 +334,20 @@ We have completed the RUST interfaces and an architecture roadmap.
 | 4. | Router contract realization + tests | We will develop a router contract and vocer it with tests |
 | 5. | E2E tests| Additionally we will provide end to end tests |
 
+### Milestone 2  — UI, E2E tests, bug fixing.
 
+- **Estimated duration:** 2-3 weeks
+- **FTE:**  1
+- **Costs:** 10 000
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 1. | DApp UI: assets (trade pairs) list  | We will create DApp UI to interact with  |
+| 2. | DApp UI: trade pairs review, trading functionality| Includes a UI for the trade pairs review and trading functionality, such as sell and buy|
+| 3. | DApp UI: trade pairs creation| A UI for the trade pairs creation page|
+| 3. | DApp UI: personal account | Includes connect wallet and account assets review |
+| 4. | DApp UI: assets deposit and withdraw | A UI for the withdraw and assets functionality |
+| 5. | E2E tests| Additionally we will provide end to end tests |
 
 
 ## Future Plans
