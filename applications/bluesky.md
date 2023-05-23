@@ -2,8 +2,7 @@
 
 
 - **Team Name:** Bluesky
-- **Payment Address:** TBP
-
+- **Payment Address:** 14bPDTAigrV3GCgcem7LJHJ7rb4aEzKMtWrG2V4VcGbvyKxM 
 ## Project Overview :page_facing_up:
 ### Overview
 
@@ -126,8 +125,6 @@ Lecturers of 2022 Polkadot Academy with in-depth domain knowledge and many years
 
 ### Team Code Repos
 
-- https://github.com/layerhero
-
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/coax1d
@@ -206,7 +203,7 @@ This section should break the development roadmap down into milestones and deliv
 | 4. | Ink-bench tool | Use the ink-bench tool to measure the gas costs of the ink! smart contract |
 | 5. | Optional tuning between smart contract code implementing the same logic | Compare the gas costs between ink! smart contract implementations, use a test suite to measure the gas costs, then tune smart contract code to optimize for overall gas costs |
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
-| 7. | ink!'s string feature | ink's string feature ends to add code bloat. Explore solutions to reduce the footprint |
+| 7. | ink!'s string feature | ink's string feature tends to add code bloat. Explore solutions to reduce the footprint |
 | 8. | Compare Solidity binary size vs Wasm by business logic | Compare Solidity compiled binaries compare to Wasm via ink! using the latest versions of each | 
 | 9. | Optional performnace benchmark | Smart contract performance using ink! / Wasm VM as compared to Solidity / Wasm. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons|
 
