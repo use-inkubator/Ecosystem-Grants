@@ -205,7 +205,7 @@ This section should break the development roadmap down into milestones and deliv
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
 | 7. | ink!'s string feature | ink's string feature tends to add code bloat. Explore solutions to reduce the footprint |
 | 8. | Compare Solidity binary size vs Wasm by business logic | Compare Solidity compiled binaries compare to Wasm via ink! using the latest versions of each | 
-| 9. | Optional performnace benchmark | Smart contract performance using ink! / Wasm VM as compared to Solidity / Wasm. Future perfromance benchmark can be conducted to do side-by-side performance metrics comparisons|
+| 9. | Github repo and publications | Github repo serving as a website including code, documentations, benchmark results, competitive analysis, etc. We'll publish a series of Medium posts to summarize the outcome targeting smart contract developers. | 
 
 ## Future Plans
 
