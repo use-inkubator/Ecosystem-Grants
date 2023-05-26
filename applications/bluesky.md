@@ -205,7 +205,8 @@ This section should break the development roadmap down into milestones and deliv
 | 6. | Compare with Solidity / EVM | Implment the same logic in Solidity smart contract and benchmark against Solidity / EVM |
 | 7. | ink!'s string feature | ink's string feature tends to add code bloat. Explore solutions to reduce the footprint |
 | 8. | Compare Solidity binary size vs Wasm by business logic | Compare Solidity compiled binaries compare to Wasm via ink! using the latest versions of each | 
-| 9. | Github repo and publications | Github repo serving as a website including code, documentations, benchmark results, competitive analysis, etc. We'll publish a series of Medium posts to summarize the outcome targeting smart contract developers. | 
+| 9. | Compare OpenZepplin and OpenBrush | Explore difference between OpenZepplin and OpenBrush in this context and share learning in documents |  
+| 10. | Website and publications | Website hosted via Github Pagers with all collaterals including code, documentations, benchmark results, comparative analysis, etc. We'll publish a series of Medium posts to summarize the outcome targeting smart contract developers. | 
 
 ## Future Plans
 
