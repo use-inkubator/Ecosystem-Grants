@@ -7,9 +7,15 @@
 ## Project Overview :page_facing_up:
 ### Overview
 The project goal is to build the trade pairs liquidity system for Astar network in order to implement the Uniswap-like functionality on !ink. The idea of the project came from https://github.com/use-inkubator/Ecosystem-Grants/blob/master/README.md , as a Canary DApp showcase in order to enrich the !ink Ecosystem. 
+All trading pairs suppose to support PSP22 while ERC20 is used as an internal interface. 
 
 
 ### Project Details
+
+As we develop the trade pairs liquidity system to implement the Uniswap-like exchange functionality , the next features will be provided:
+Deposit: trading pairs creator should provide the initial liquidity through depositing coins.
+Exchange: users are allowed to exchange ERC20 to ERC20 tokens .
+Withdraw: users are allowed to withdraw coins
 
 We've prepared simple RUST interfaces, please see them below: 
 
