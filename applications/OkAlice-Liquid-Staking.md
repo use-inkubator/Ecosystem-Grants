@@ -1,9 +1,7 @@
 # Liquid Staking - okAlice
 
-**⚠️ okAlice TODO ⚠️**
-
 - **Team Name:** okAlice LS
-- **Payment Address:** Polkadot payment address.
+- **Payment Address:** 1xgDfXcNuB94dDcKmEG8rE9x9JVoqozCBnnitkN9nAe3Nyx
 
 
 ## Project Overview :page_facing_up:
