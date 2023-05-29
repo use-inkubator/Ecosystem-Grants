@@ -1,31 +1,29 @@
-# Name of your Project
+# Liquid Staking - okAlice
 
-> This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
-> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
-- **Team Name:** Legal name of your team (e.g. Duo)
+**⚠️ okAlice TODO ⚠️**
+
+- **Team Name:** okAlice LS
 - **Payment Address:** Polkadot payment address.
 
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 ### Overview
 
-Please provide the following:
-
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to ink! ecosystem.
-- Choosen project idea category or your alternative category with explanation of its importance
-- An indication of why your team is interested in creating this project.
+The goal of this project is to create an Ink! based liquid staking DAO which will implement the following functionality:
+- Users can participate in securing the network by staking their tokens.
+- Receive rewards for their staked tokens.
+- Receive a derivative token in exchange for the staked token, which they can use on other dapps or chains, hence the name liquid staking.
+- Participate in the validator selection through an on-chain governance.
 
 ### Ink! Ecosystem Impact
 
-Please clearly describe how exactly your project will benefit the ecosystem. If it's infrastructure - how it's going to be applied and by who. If it's canary dapp we would you to clearly demonstrate how this code will be used by other people. If it's technical showcase we would like you to demonstrate how ink! will be promoted using your results. 
+Regarding the value that the Ink! ecosystem can derive from our Dapp, we plan to deploy it on Astar and hope that it will bring in a whole new wave of users into the Ink! ecosystem. Our aim is to eliminate the need for users to have technical knowledge about the back-end of the Dapp.
+We will make all of our code open-source, and we plan to document our development journey through articles and videos. We hope that our Dapp can serve as an inspiration for future projects alongside the existing smart contracts.
 
-If it's a business case we would like to see business model and future production plans. 
 
 ### Project Details
+
+**⚠️ okAlice TODO ⚠️**
 
 We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
 
@@ -50,10 +48,14 @@ Things that shouldn’t be part of the application:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Wouter Godefroy - https://github.com/zabuxx
+- Michael Assaf - https://github.com/michaelassaf
+- Kenneth Verbeure - https://github.com/KennethVrb
+- Samuel Yi - https://github.com/s-yi
 
 ### Contact
+
+**⚠️ okAlice TODO ⚠️**
 
 - **Contact Name:** Full name of the contact person in your team
 - **Contact Email:** Contact email (e.g. john@duo.com)
@@ -61,35 +63,47 @@ Things that shouldn’t be part of the application:
 
 ### Legal Structure
 
+**⚠️ okAlice TODO?? ⚠️**
+
 - **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
 - **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Our first project that we built in the Polkadot ecosystem was ‘Rooster Dao’. The project [won 3 prizes](https://devpost.com/software/rooster-dao?utm_campaign=winner_email&utm_content=submission_won&utm_medium=tweet&utm_source=twitter) during the Polkadot North-America hackathon in the summer of 2022:
+- Winner of the community choice
+- First place for the RMRK challenges
+- Second place for Dao & Governance
+Based on this project we have been invited by the Astar team to adapt the Rooster Dao’ contract to be usable on Swanky node.
+In 2023 we participated in the Polkadot EU hackathon with a project called ‘Pallet Rent’. The project won the first prize in the NFT category.
+
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/ok-Alice
+- https://github.com/RoosterDao
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/kenneth-verbeure-2b151571/
+- https://www.linkedin.com/in/michael-assaf/
+- https://www.linkedin.com/in/woutergodefroy/
+- https://www.linkedin.com/in/dagmar-duportail-50919150/
+- https://www.linkedin.com/in/samuel-yi-54796b141/
+- https://www.linkedin.com/in/am-prajwal/
+
 
 
 ## Development Status :open_book:
+
+**⚠️ okAlice TODO ⚠️**
 
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
 - references to conversations you might have had related to building this template,
 
 ## Development Roadmap :nut_and_bolt:
+
+**⚠️ okAlice TODO ⚠️**
 
 This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
@@ -99,11 +113,15 @@ Below we provide an **example roadmap**.
 
 ### Overview
 
+**⚠️ okAlice TODO ⚠️**
+
 - **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
 
 ### Milestone 1 Example — Basic functionality
+
+**⚠️ okAlice TODO ⚠️**
 
 - **Estimated duration:** 1 month
 - **FTE:**  1,5
@@ -128,6 +146,8 @@ Below we provide an **example roadmap**.
 
 ### Milestone 2 Example — Additional features
 
+**⚠️ okAlice TODO ⚠️**
+
 - **Estimated Duration:** 1 month
 - **FTE:**  1,5
 - **Costs:** 8,000 USD
@@ -137,9 +157,13 @@ Below we provide an **example roadmap**.
 
 ## Future Plans
 
+**⚠️ okAlice TODO ⚠️**
+
 Please include here if you have a future plan after building this template in making it in to production.
 
 ## Additional Information :heavy_plus_sign:
+
+**⚠️ okAlice TODO ⚠️**
 
 **How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
