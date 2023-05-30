@@ -161,7 +161,7 @@ This section should break the development roadmap down into milestones and deliv
 | -----: | ----------- | ------------- |
 | 1. | Define use case | define a contrived use case that requires 1) business logic 2) reusable components 3) features needing smart contract upgrades 4) performance and low gas fees |
 | 2. | OpenZepplin's features like Roles, Ownership | Investigate OpenZepplin's's roles / ownership to see how it might fit this showcase |
-| 3. | define list of ink! Macros | that captures reusable logic to simplify code |
+| 3. | Define list of ink! Macros | that captures reusable logic to simplify code |
 | 4. | Smart contracts | Write ink! smart contract with macros to fulfil use case business functions |
 | 5. | End-to-end integration | Organically integrate all pieces together to ensure working end-to-end |
 | 6. | Deployment | Deploy to a Polkadot smart contract parachain, say Shiden, etc to also explore interoperability |
