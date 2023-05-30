@@ -112,7 +112,7 @@ Below we provide an **example roadmap**.
 
 ### Overview
 
-- **Total Estimated Duration:** 2-4 months
+- **Total Estimated Duration:** 3-4 months
 - **Full-Time Equivalent (FTE):**  2
 - **Total Costs:** 80,000 USD
 
@@ -120,7 +120,7 @@ Below we provide an **example roadmap**.
 
 *NB: do we need to add infra fees?*
 
-- **Estimated duration:** 2-4 months
+- **Estimated duration:** 3-4 months
 - **FTE:**  2
 - **Costs:** 80,000 USD
 
@@ -143,7 +143,7 @@ Below we provide an **example roadmap**.
 | 8. | Testing and Audit | Testing|
 | 9. | Maintenance | Reviewer can continuously read the state of the contract to get an asset's price|
 | 10. | Infrastructure | Hosting cost - Storage, GCP|
-| 11. | Monitoring | 24/7 monitoring service ensures the continuous operation of the relayer|
+| 11. | Monitoring | 24/7 monitoring service ensures the continuous operation of the relayer. This includes the comprehensive monitoring of both the Astar EVM and Astar WASM chains for a duration of one year|
 
 
 ## Future Plans
