@@ -147,8 +147,8 @@ Currently serving as the Special Projects Lead at Parity Technologies, Tom has s
 ### Team Code Repos
 
 - **Archisinal** [https://github.com/Archisinal](https://github.com/Archisinal)
-- **Danylo Semirazov** - [github.com/sventime](https://github.com/sventime), [gitlab.com/asylum-space](https://gitlab.com/asylum-space)
-- **Oleh Kulykovskyi**  - [github.com/blindbeat](http://github.com/blindbeat), [gitlab.com/asylum-space](https://gitlab.com/asylum-space)
+- **Danylo Semirazov** - [github.com/sventime](https://github.com/sventime), [gitlab.com/asylum-space](https://gitlab.com/asylum-space). Contributions Github: [Openbrush Contracts](https://github.com/Supercolony-net/openbrush-contracts), [Grants-Program: Asylum](https://github.com/w3f/Grants-Program/blob/master/applications/asylum.md),[Grants-Program: Asylum follow-up](https://github.com/w3f/Grants-Program/blob/master/applications/asylum_follow_up_1.md), [Asylum Grant Milestone Delivery](https://github.com/w3f/Grant-Milestone-Delivery/pull/563),[Astar](https://github.com/AstarNetwork/Astar/pull/593), [Workshop: Blockchain from scratch on Rust](https://github.com/sventime/blockchain_workshop_oct_16)
+- **Oleh Kulykovskyi**  - [github.com/blindbeat](http://github.com/blindbeat), [gitlab.com/asylum-space](https://gitlab.com/asylum-space).
 
 ### Team LinkedIn Profiles (if available)
 
