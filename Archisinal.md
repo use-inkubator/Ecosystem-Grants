@@ -304,7 +304,7 @@ In conclusion, the Archisinal roadmap outlines the development of a fully functi
 **How did you hear about the Bounty Program?** Announcement by another team
 
 - The Astar Grants program was highlighted through a Medium blogpost.
-- Basic POC entry in the Encode Club Spring 2023 Hackathon - [Here](https://github.com/Archisinal/Encode_Hackathon)
+- Basic POC entry in the Encode Club Spring 2023 Hackathon - [Here](https://encode-hackathon-jordang7.vercel.app/)
 - This project is currently bootstrapped by the Founder.
 - Do you need an audit for the contacts? **YES**
 - CATEGORY: Canary Dapp
