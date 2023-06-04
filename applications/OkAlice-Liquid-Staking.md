@@ -7,7 +7,7 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-The goal of this project is to create an Ink! based liquid staking DAO which will implement the following functionality:
+The goal of this project is to create an Ink! based liquid staking solution with the following functionality:
 - Users can participate in securing the network by staking their tokens.
 - Receive rewards for their staked tokens.
 - Receive a derivative token in exchange for the staked token, which they can use on other dapps or chains, hence the name liquid staking.
