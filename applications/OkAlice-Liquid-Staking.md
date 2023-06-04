@@ -11,7 +11,6 @@ The goal of this project is to create an Ink! based liquid staking solution with
 - Users can participate in securing the network by staking their tokens.
 - Receive rewards for their staked tokens.
 - Receive a derivative token in exchange for the staked token, which they can use on other dapps or chains, hence the name liquid staking.
-- Participate in the validator selection through an on-chain governance.
 
 ### Ink! Ecosystem Impact
 
@@ -21,38 +20,19 @@ We will make all of our code open-source, and we plan to document our developmen
 
 ### Project Details
 
+#### Architecture 
 
+![image](https://github.com/ok-Alice/Ecosystem-Grants/assets/18469570/249ae6ea-e83a-4765-9137-0fc91cc2b48e)
 
-![image](https://github.com/ok-Alice/docs/assets/18469570/9d784a76-98f3-4bca-b019-d9358e93c3a7)
-
-Components:
+Runtime Components:
 
 - **XCM CE:** XCM chain-extension for all contract interactions with the nomination pool on the relay chain. This chain-extension will only be used during development phase of the project. We anticipate to use Ink! native XCM support in our final release.
+
+Ink! Contracts:
+
 - **issuer-staker:** Implements an asset with PSP22 interface for the derivative token. Manages staking operations on the nomination pool.
 - **Validator Selector:** Optimized management of nomination pool based on the validator statistics published by *Oracle.* 
 - **Oracle:** Oracle providing validator statistics to the *Validator Selector* contract
-
-**⚠️ okAlice TODO ⚠️**
-
-
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-- Do you need an audit for the contacts? **YES/NO**
-(don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
-- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
-
-
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
-
 
 ## Team :busts_in_silhouette:
 
@@ -65,18 +45,9 @@ Things that shouldn’t be part of the application:
 
 ### Contact
 
-**⚠️ okAlice TODO ⚠️**
-
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
-
-### Legal Structure
-
-**⚠️ okAlice TODO?? ⚠️**
-
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Contact Name:** Wouter Godefroy
+- **Contact Email:** wouter@okalice.dev
+- **Website:** www.okalice.dev
 
 ### Team's experience
 
@@ -106,21 +77,7 @@ In 2023 we participated in the Polkadot EU hackathon with a project called ‘Pa
 
 ## Development Status :open_book:
 
-**⚠️ okAlice TODO ⚠️**
-
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
-
 ## Development Roadmap :nut_and_bolt:
-
-![image](https://github.com/ok-Alice/docs/assets/18469570/9d784a76-98f3-4bca-b019-d9358e93c3a7)
-
-Components:
-
-- **XCM CE:** XCM chain-extension for all contract interactions with the nomination pool on the relay chain.
-- **issuer-staker:** Implements an asset with PSP22 interface for the derivative token. Manages staking operations on the nomination pool.
-- **Validator Selector:** Optimized management of nomination pool based on the validator statistics published by *Oracle.* 
-- **Oracle:** Oracle providing validator statistics to the *Validator Selector* contract
 
 ### Overview 
 
@@ -145,8 +102,6 @@ Components:
 | 2. | Oracle | Implement simple oracle that allows publication of validator statistics |
 | 3. | Oracle prov | Implement backend scripts for provisioning oracle of data |
 | 4. | Validator Selector | Implement contract for optimized selection of nomination pool based on the validator statistics published by *Oracle.* |
-
-
 
 
 ### Milestone 2 Issuer-Staker
