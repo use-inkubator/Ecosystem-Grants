@@ -21,7 +21,19 @@ We will make all of our code open-source, and we plan to document our developmen
 
 ### Project Details
 
+
+
+![image](https://github.com/ok-Alice/docs/assets/18469570/9d784a76-98f3-4bca-b019-d9358e93c3a7)
+
+Components:
+
+- **XCM CE:** XCM chain-extension for all contract interactions with the nomination pool on the relay chain.
+- **issuer-staker:** Implements an asset with PSP22 interface for the derivative token. Manages staking operations on the nomination pool.
+- **Validator Selector:** Optimized management of nomination pool based on the validator statistics published by *Oracle.* 
+- **Oracle:** Oracle providing validator statistics to the *Validator Selector* contract
+
 **⚠️ okAlice TODO ⚠️**
+
 
 We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
 
