@@ -27,7 +27,7 @@ We will make all of our code open-source, and we plan to document our developmen
 
 Components:
 
-- **XCM CE:** XCM chain-extension for all contract interactions with the nomination pool on the relay chain.
+- **XCM CE:** XCM chain-extension for all contract interactions with the nomination pool on the relay chain. This chain-extension will only be used during development phase of the project. We anticipate to use Ink! native XCM support in our final release.
 - **issuer-staker:** Implements an asset with PSP22 interface for the derivative token. Manages staking operations on the nomination pool.
 - **Validator Selector:** Optimized management of nomination pool based on the validator statistics published by *Oracle.* 
 - **Oracle:** Oracle providing validator statistics to the *Validator Selector* contract
