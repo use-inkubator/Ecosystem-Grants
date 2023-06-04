@@ -177,10 +177,11 @@ Components:
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** that explains how liquid staking was implemented in an Ink! environment |
-| 1. | Deploy | We will deploy an instance of the contract on Shibuya(Westend) |
-| 2. | Documentation | We will provide online documentation detailing functioning of first pool instance |
-| 3. | Documentation | We will provide online documentation for deploying your own strategy for managing pool |
-| 4. | Audit | We will have an external organisation audit the contract |
-| 5. | Deploy | We will deploy an instance of the contract on Shiden(Kusama) |
+| 1. | XCM CE | Replace the CE with Ink! native XCM functions
+| 2. | Deploy | We will deploy an instance of the contract on Shibuya(Westend) |
+| 3. | Documentation | We will provide online documentation detailing functioning of first pool instance |
+| 4. | Documentation | We will provide online documentation for deploying your own strategy for managing pool |
+| 5. | Audit | We will have an external organisation audit the contract |
+| 6. | Deploy | We will deploy an instance of the contract on Shiden(Kusama) |
 
 
