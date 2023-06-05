@@ -45,6 +45,7 @@ Ink! Contracts:
 - Michael Assaf - https://github.com/michaelassaf
 - Kenneth Verbeure - https://github.com/KennethVrb
 - Samuel Yi - https://github.com/s-yi
+- Prajwel
 - Dagmar Duportail - https://github.com/DagieDee
 
 ### Contact
