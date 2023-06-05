@@ -8,6 +8,7 @@
 
 ### Overview
 
+okAlice is on a mission to be at the forefront of building the Ink! ecosystem.
 The goal of this project is to create an Ink!-based liquid staking solution for Relay chain native tokens with the following functionality:
 
 - Enable users to participate in securing the network by staking their tokens.
