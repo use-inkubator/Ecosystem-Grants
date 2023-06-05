@@ -145,3 +145,9 @@ In 2023, we participated in the Polkadot EU hackathon with a project called 'Pal
 | 4. | Documentation | Online documentation for deploying your own strategy for managing the pool |
 | 5. | Audit | External organization audit of the contract |
 | 6. | Deploy | Deployment of the contract on Shiden (Kusama) |
+
+## Future Plans
+We are planning to fully decentralise the Dapp in a later fase by adding a governance system and giving sudo privileges to a democratic body. 
+
+## Additional information
+We've heard about the Ink!ubator through team members from Astar. 
