@@ -8,17 +8,17 @@
 
 ### Overview
 
-The goal of this project is to create an Ink!-based liquid staking solution with the following functionality:
+The goal of this project is to create an Ink!-based liquid staking solution for Relay chain native tokens with the following functionality:
 
 - Enable users to participate in securing the network by staking their tokens.
 - Provide rewards for the staked tokens.
-- Offer a derivative token in exchange for the staked token, allowing users to utilize it on other dapps or chains, hence the name "liquid staking."
+- Offer a derivative token in exchange for the staked token and thus allowing users to utilize the derivative tokens on other dapps or chains, hence the name "liquid staking."
 
 ### Ink! Ecosystem Impact
 
-Our Dapp aims to contribute significant value to the Ink! ecosystem by deploying this DEFI solution on Astar. We anticipate that this deployment will attract a fresh wave of users, fostering growth and engagement within the Ink! community. One of our primary objectives is to eliminate the requirement for users to possess technical expertise in the Dapp's backend operations.
+Our Dapp is designed to bring substantial value to the Ink! ecosystem by implementing this DEFI solution on Astar. We expect that this implementation will attract a new influx of users, promoting growth and active participation within the Ink! community. One of our main goals is to remove the need for users to have technical knowledge about the Dapp's backend processes. Our Dapp will offer a straightforward liquid staking solution that can be completed with just a few clicks to stake the tokens.
 
-To facilitate knowledge sharing and inspire future projects, we are committed to making all our code open-source. Additionally, we plan to document our development journey through articles and videos, ensuring transparency and accessibility. We aspire to provide an inspiring reference point for other projects alongside the existing smart contracts within the Ink! ecosystem.
+To facilitate knowledge sharing and inspire future projects, we are committed to making all our code open-source. Moreover, we intend to document our development process through articles and videos, ensuring transparency and easy access for everyone. Our goal is to create an inspiring point of reference for other projects, complementing the existing smart contracts within the Ink! ecosystem.
 
 ### Project Details
 
@@ -44,12 +44,16 @@ Ink! Contracts:
 - Michael Assaf - https://github.com/michaelassaf
 - Kenneth Verbeure - https://github.com/KennethVrb
 - Samuel Yi - https://github.com/s-yi
+- Dagmar Duportail - 
 
 ### Contact
 
 - **Contact Name:** Wouter Godefroy
 - **Contact Email:** wouter@okalice.dev
 - **Website:** www.okalice.dev
+
+### Legal structure
+- In process.
 
 ### Team's experience
 
