@@ -90,7 +90,7 @@ In 2023, we participated in the Polkadot EU hackathon with a project called 'Pal
 
 - **Total Estimated Duration:** 5 months
 - **Full-Time Equivalent (FTE):**  1.5
-- **Total Costs:** 55
+- **Total Costs:** 55,000 USD
 
 ### Milestone 1: Validator Selector
 
