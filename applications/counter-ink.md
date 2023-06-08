@@ -6,11 +6,11 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-A PoC for a smart-contract based OTC desk built with the ink! framework on the Azero blockchain, which is focused on privacy using zero-knowledge proof. This OTC desk will be a v1 and a proof of concept for further development on Liminal, and deployment of a matching engine on DotSama.
+A PoC for a smart-contract based OTC desk built with the ink! framework on the Azero blockchain, focused on permissionlessness and privacy. This OTC desk will be a v1 and a proof of concept for further development on Liminal, and deployment of a matching engine for DotSama by using parathreads and XCM.
 
 ### Project Details
 
-We plan to build this OTC smart contract on Azero, which will enable cross-contract peer-to-peer trading between parties. Users will be able to create and execute trades without the need for any DEX listing or existing liquidity. We will use the ink! framework to build this smart contract, and enable counter-offers for takers.
+We plan to build and deploy this OTC smart contract on Azero, which will enable cross-contract peer-to-peer trading for experienced traders as well as early supporters of newly issued projects. Users will be able to create and execute trades without the need for any DEX listing or existing liquidity. We will use the ink! framework to build this smart contract, and partial fill for enhanced liquidity.
 
 ## Team :busts_in_silhouette:
 
@@ -19,6 +19,7 @@ We plan to build this OTC smart contract on Azero, which will enable cross-contr
 - David Germain (Product Manager)
 - Matthieu Moreau (Blockchain Developer)
 - JS Full Stack Developer (external)
+- UI/UX designer (external)
 
 ### Contact
 
@@ -41,26 +42,25 @@ Our team has extensive experience in blockchain development, particularly on the
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
 - https://github.com/Matthiewm23
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
+- https://www.linkedin.com/in/david-germanowicz-57151a236
 - https://www.linkedin.com/in/matthiew23/
 
 
 ## Development Status :open_book:
 
-- A first version not finalized and not tested can be found here : https://github.com/Matthiewm23/OTC_ink. This is the main logic that our smart contract will be based on. 
-- We will need to finalize it with all features, test it in order no attack is possible and integrate it to the front end. 
+- We already have a prototype ready to be implemented (90% finished): https://www.figma.com/proto/Q10yEXOp0rha3dlY1T7Qt0.
+- A first version of our smart contract (not finalized and not tested) can be found here (80% finished): https://github.com/stated-tech/Counter.ink. This is the main logic that our smart contract will be based on. We will need to finalize it with all features, test it in order to make sure no attack is possible and integrate it to the front end.
 
 ## Development Roadmap :nut_and_bolt:
 
 ### Overview
 
-- **Total Estimated Duration:** 2 months
-- **Full-Time Equivalent (FTE):**  2 FTE
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):**  3 FTE
 - **Total Costs:** 30 000
 
 ### Milestone 1 Maker contract — Trade setup
@@ -80,7 +80,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | 2. | Substrate module: Asset Registery | We will create an ink! smart contract that will allow users to register the assets they want to trade. |
 | 3. | Smart contracts | We will integrate the Maker Contract and Asset Registry smart contracts to enable the creation of trade offers using registered assets. |
 
-### Milestone 2 Taker contract — Taking offer or making counter-offers
+### Milestone 2 Taker contract — Taking offer and partial fill
 
 - **Estimated Duration:** 1 month
 - **FTE:**  2
@@ -99,7 +99,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 ### Milestone 3 UI and JS (React) development
 
 - **Estimated Duration:** 1 month
-- **FTE:**  3
+- **FTE:**  4
 - **Costs:** 12,000 USD
 
 | Number | Deliverable | Specification |
@@ -122,15 +122,13 @@ Our team has several exciting plans for the future development of our platform. 
 
 - Add batch transactions for multi-assets OTC trades and NFT support.
 
-Our long-term goal is to build a Parachain on DotSama that enables peer-to-peer OTC trades using XCM and ink!. This will create a decentralized and trustless platform for OTC trading, which is currently dominated by centralized exchanges. We may also explore the possibility of integrating with the EVM with Shiden. We're planning for this parachain to build a matching engine to aggregate orders and build a native orderbook dex that grows organically from OTC trades to aggregated liquiddity pools.
-
-We are excited to continue working on our platform and bringing these plans to fruition.
+Our long-term goal is to build a Parachain on DotSama (or use parathreads) that enables peer-to-peer OTC trades using XCM and ink!. This will create a decentralized and trustless platform for OTC trading, which is currently dominated by centralized exchanges. We may also explore the possibility of integrating with EVM with Shiden/Astar, when cross VM will be enabled. We're planning for this parachain/parathread to build a matching engine to aggregate orders and build a native orderbook dex that grows organically from OTC trades to aggregated orderbook-inspired liquiddity pools.
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / **All of the above**
+**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / **All of the above.** We already are strong supporters of Substrate technology and want to contribute to this ecosystem by providing useful and simple usecases ready for adoption.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+- Work you have already done: see development status.
+- If there are any other teams who have already contributed (financially) to the project: none.
