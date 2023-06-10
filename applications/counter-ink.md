@@ -29,7 +29,7 @@ We plan to build and deploy this OTC smart contract on Azero, which will enable 
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
+- **Registered Address:** Siret : 889280939 Matthieu Moreau, Avenue Edouard Michelin Tours, France.
 - **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
@@ -39,9 +39,6 @@ Our team has extensive experience in blockchain development, particularly on the
 ### Team Code Repos
 
 - https://github.com/stated-tech/
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
 - https://github.com/Matthiewm23
 
 ### Team LinkedIn Profiles (if available)
@@ -65,9 +62,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Milestone 1 Maker contract — Trade setup
 
-- **Estimated duration:** 1 month
+- **Estimated duration:** 1.5 month
 - **FTE:**  2
-- **Costs:** 8,000 USD
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -76,31 +73,16 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** that explains how we created the Maker Contract for trade setup, with a step-by-step guide on how to setup your own OTC trade or add a contract by its address. |
-| 1. | Substrate module: Maker Contract | We will create a Substrate module that will allow users to create trade offers with specific terms and conditions, such as price, quantity, and expiration date. The Maker Contract will store this information on-chain and emit events for trade creation. |
-| 2. | Substrate module: Asset Registery | We will create an ink! smart contract that will allow users to register the assets they want to trade. |
-| 3. | Smart contracts | We will integrate the Maker Contract and Asset Registry smart contracts to enable the creation of trade offers using registered assets. |
+| 0f. | Article | We will publish an article/workshop that explains the taking offer or making counter-offer functionality implemented in the Taker Contract. The article will be aimed at developers and will describe the technical aspects of the implementation. |
+| 1. | Smart Contract : Maker Contract | We will create an ink! smart contract that will allow users to create trade offers with specific terms and conditions, such as price, quantity, and expiration date. The Maker Contract will store this information on-chain and emit events for trade creation. We will allow users to register the assets they want to trade. The user will have the possibility to accept partial fill|
+| 2. | Smart Contract : Taker Contract | We will then allow takers to take offers or make counter-offers. |
+| 3. | Smart Contract : Partial Fill | If the maker accepted the partial fill, the taker will have the opportunity to accept only a percentage of the trade (e.g the maker sell 10ETH for each 2000 USDT and the taker will only tale 5ETH for each 2000 USDT. |
 
-### Milestone 2 Taker contract — Taking offer and partial fill
+### Milestone 2 UI and TSX (React) development
 
-- **Estimated Duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article |We will publish an article/workshop that explains the taking offer or making counter-offer functionality implemented in the Taker Contract. The article will be aimed at developers and will describe the technical aspects of the implementation. |
-| 1. | Substrate module: Taker Contract | We will create a new ink! smart contract that allows takers to take offers or make counter-offers. |
-| 2. | Substrate module: Integration | We will integrate the Taker contract with the Maker contract from Milestone 1. |
-
-### Milestone 3 UI and JS (React) development
-
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 1.5 month
 - **FTE:**  4
-- **Costs:** 12,000 USD
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
