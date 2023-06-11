@@ -58,7 +58,7 @@ Our team has extensive experience in blockchain development, particularly on the
 
 - **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  3 FTE
-- **Total Costs:** 30 000
+- **Total Costs:** 30 000 USD
 
 ### Milestone 1 Maker contract — Trade setup
 
