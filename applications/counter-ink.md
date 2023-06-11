@@ -50,7 +50,7 @@ Our team has extensive experience in blockchain development, particularly on the
 ## Development Status :open_book:
 
 - We already have a prototype ready to be implemented (90% finished): https://www.figma.com/proto/Q10yEXOp0rha3dlY1T7Qt0.
-- A first version of our smart contract (not finalized and not tested) can be found here (80% finished): https://github.com/stated-tech/Counter.ink. This is the main logic that our smart contract will be based on. We will need to finalize it with all features, test it in order to make sure no attack is possible and integrate it to the front end.
+- A first version of our smart contract (not finalized and not tested) can be found here (70% finished): https://github.com/stated-tech/Counter.ink. This is the main logic that our smart contract will be based on. We will need to finalize it with all features, test it in order to make sure no attack is possible and integrate it to the front end.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -75,8 +75,10 @@ Our team has extensive experience in blockchain development, particularly on the
 | 0e. | Article | We will publish an **article** that explains how we created the Maker Contract for trade setup, with a step-by-step guide on how to setup your own OTC trade or add a contract by its address. |
 | 0f. | Article | We will publish an article/workshop that explains the taking offer or making counter-offer functionality implemented in the Taker Contract. The article will be aimed at developers and will describe the technical aspects of the implementation. |
 | 1. | Smart Contract : Maker Contract | We will create an ink! smart contract that will allow users to create trade offers with specific terms and conditions, such as price, quantity, and expiration date. The Maker Contract will store this information on-chain and emit events for trade creation. We will allow users to register the assets they want to trade. The user will have the possibility to accept partial fill|
-| 2. | Smart Contract : Taker Contract | We will then allow takers to take offers or make counter-offers. |
-| 3. | Smart Contract : Partial Fill | If the maker accepted the partial fill, the taker will have the opportunity to accept only a percentage of the trade (e.g the maker sell 10ETH for each 2000 USDT and the taker will only tale 5ETH for each 2000 USDT. |
+| 2. | Substrate module: Asset Registery | Users will be able to register the assets they want to trade. |
+| 3. | Smart Contract : Taker Contract | We will then allow takers to take offers or make counter-offers. |
+| 4. | Smart Contract : Partial Fill | If the maker accepted the partial fill, the taker will have the opportunity to accept only a percentage of the trade (e.g the maker sell 10ETH for each 2000 USDT and the taker will only take 5ETH. |
+| 5. | Tests and testnet : | We will implement testing procedures to ensure there are no vulnerabilities present. Initial testing will be conducted on the testnet for optimal security assurance.|
 
 ### Milestone 2 UI and TSX (React) development
 
@@ -91,7 +93,7 @@ Our team has extensive experience in blockchain development, particularly on the
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article |We will publish an article/workshop that explains the taking offer or making counter-offer functionality implemented in the Taker Contract. The article will be aimed at developers and will describe the technical aspects of the implementation. |
-| 1. | Figma module: UI Design | We will design a user-friendly and intuitive UI for the Maker and Taker contracts. Mockups and wireframes will be made on Figma. |
+| 1. | Figma module: UI Design | We will design a user-friendly and intuitive UI for the Maker and Taker contracts. Mockups and wireframes will be made on Figma. We will propose filters to make the user interface more efficient. |
 | 2. | React module: Front-end Development | We will develop the front-end of the platform using React, including all necessary components and interactions with the smart contracts. |
 
 ## Future Plans
