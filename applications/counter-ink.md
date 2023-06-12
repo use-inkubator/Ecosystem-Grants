@@ -1,7 +1,7 @@
 # Counter.ink
 
 - **Team Name:** stated.tech
-- **Payment Address:** Polkadot payment address.
+- **Payment Address:** 14HhananesXW9VXWpiw4SKmTZ9zAuPaRryk7Fk1Y4a7R436U
 
 ## Project Overview :page_facing_up:
 ### Overview
@@ -29,8 +29,8 @@ We plan to build and deploy this OTC smart contract on Azero, which will enable 
 
 ### Legal Structure
 
-- **Registered Address:** Siret : 889280939 Matthieu Moreau, Avenue Edouard Michelin Tours, France.
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Avenue Edouard Michelin Tours, 75 RUE DE LONGCHAMP 75116 PARIS.
+- **Registered Legal Entity:**  MATTHIEU MOREAU (French Siret : 889280939), DAVID GERMAIN 
 
 ### Team's experience
 
