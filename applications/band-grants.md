@@ -38,13 +38,18 @@ If it's a business case we would like to see business model and future productio
 We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Data models / API specifications of the core functionality
+    - Not applicable
 - An overview of the technology stack to be used
 - Documentation of core components, protocols, architecture, etc. to be deployed
+    - Cannot be shared with other parties
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+    - We have the capability to offer up to 15 symbols from our standard dataset, not all of the symbols will be available
+    - VRF will not be included in ink contracts at this time
 - Do you need an audit for the contacts? **YES/NO**
 (don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
+    - Yes
 - CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
 
 
