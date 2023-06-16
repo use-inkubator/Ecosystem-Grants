@@ -42,7 +42,7 @@ Ink! Contracts:
 ### Team members
 
 - Wouter Godefroy - https://github.com/zabuxx
-- Michael Assaf - https://github.com/michaelassaf
+- Michael Assaf - https://github.com/snowmead
 - Kenneth Verbeure - https://github.com/KennethVrb
 - Samuel Yi - https://github.com/s-yi
 - Prajwel Mastyappa Ambiga - https://github.com/Prajwalin2
