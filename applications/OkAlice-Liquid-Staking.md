@@ -92,7 +92,7 @@ In 2023, we participated in the Polkadot EU hackathon with a project called 'Pal
 
 - **Total Estimated Duration:** 5 months
 - **Full-Time Equivalent (FTE):**  1.5
-- **Total Costs:** 55,000 USD
+- **Total Costs:** 69,500 USD
 
 ### Milestone 1: Validator Selector
 
@@ -115,7 +115,7 @@ In 2023, we participated in the Polkadot EU hackathon with a project called 'Pal
 
 - **Estimated Duration:** 2 months 
 - **FTE:**  1.5 
-- **Costs:** 22,000 USD 
+- **Costs:** 30,000 USD 
 
 | Number | Deliverable | Specification |
 | ------:| ----------- | ------------- |
@@ -125,12 +125,15 @@ In 2023, we participated in the Polkadot EU hackathon with a project called 'Pal
 | **0d.** | Docker | Dockerfile(s) for testing the milestone functionality |
 | 1. | Issuer-Staker | Contract implementation providing PSP22 interface for the derivative token and managing staking operations |
 | 2. | Staking UI | End-user UI implementation for staking operations | 
+| 3. | Branding | Define branding guidelines, logo, colors, fonts, ...
+| 4. | UX | Graphical design of Dapp user interface, including related governance, info pages and documentation
+
 
 ### Milestone 3: Bootstrap phase
 
-- **Estimated Duration:** 2 weeks
+- **Estimated Duration:** 4 weeks
 - **FTE:**  1.5 
-- **Costs:** 11,000 USD 
+- **Costs:** 17,500 USD 
 
 | Number | Deliverable | Specification |
 | ------:| ----------- | ------------- |
@@ -138,13 +141,14 @@ In 2023, we participated in the Polkadot EU hackathon with a project called 'Pal
 | **0b.** | Documentation | Inline documentation of the code and a basic tutorial on using the Substrate nodes and test transactions |
 | **0c.** | Testing and Testing Guide | Comprehensive unit tests and a guide on running these tests |
 | **0d.** | Docker | Dockerfile(s) for testing the milestone functionality |
-| **0e.** | Article | Article explaining the implementation of liquid staking in an Ink! environment |
+| **0e.** | Article | Article and video explaining the implementation of liquid staking in an Ink! environment |
 | 1. | XCM CE | Replacement of the CE with Ink! native XCM functions
 | 2. | Deploy | Deployment of the contract on Shibuya (Westend) |
 | 3. | Documentation | Online documentation detailing the functioning of the first pool instance |
 | 4. | Documentation | Online documentation for deploying your own strategy for managing the pool |
 | 5. | Audit | External organization audit of the contract |
 | 6. | Deploy | Deployment of the contract on Shiden (Kusama) |
+| 7. | Marketting | Appoint community manager, setup discord server, incentivising LPs, ... |
 
 ## Future Plans
 We are planning to fully decentralise the Dapp in a later fase by adding a governance system and giving sudo privileges to a democratic body. 
