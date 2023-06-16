@@ -94,13 +94,13 @@ _Monetization and Royalties:_ Archisinal enables creators to monetize their desi
 
 The marketplace will have the following functionalities:
 
-_Wallet Connectivity_ - Users will be able to connect their wallets to the marketplace via Metamask, Polkadot.js and Talisman.
-_Accepted Tokens_ - The marketplace will accept the following tokens in transactions: ETH, DOT, ASTR and USDT.
-_Auction through Smart Functionality_ - Users will be able to auction their NFTs by minting, listing, buying it now, and transferring between accounts.
-_Display Lister’s Credentials_ - The marketplace will display their lister’s credentials, such as previous volume, rating etc.
-_Master Access to Delist Items_ - The marketplace will have a master access feature that will allow administrators to delist items that are not appropriate for the site.
-_Royalties from Secondary Sales_ - The marketplace will have a smooth user interface and fast transaction time to ensure seamless transactions and user experience. 
-_Chat Feature_ - As a nice-to-have feature, the marketplace may have a chat feature that will allow users to communicate with each other
+- _Wallet Connectivity_ - Users will be able to connect their wallets to the marketplace via Metamask, Polkadot.js and Talisman.
+- _Accepted Tokens_ - The marketplace will accept the following tokens in transactions: ETH, DOT, ASTR and USDT.
+- _Auction through Smart Functionality_ - Users will be able to auction their NFTs by minting, listing, buying it now, and transferring between accounts.
+- _Display Lister’s Credentials_ - The marketplace will display their lister’s credentials, such as previous volume, rating etc.
+- _Master Access to Delist Items_ - The marketplace will have a master access feature that will allow administrators to delist items that are not appropriate for the site.
+- _Royalties from Secondary Sales_ - The marketplace will have a smooth user interface and fast transaction time to ensure seamless transactions and user experience. 
+- _Chat Feature_ - As a nice-to-have feature, the marketplace may have a chat feature that will allow users to communicate with each other
 
 **User Interface/Design Spec**
 The UI design for the marketplace should include the following elements:
