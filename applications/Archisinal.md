@@ -242,8 +242,6 @@ The development roadmap for Archisinal includes multiple milestones to ensure th
 | 10. | Web app testing and deployment | We will implement E2E tests to cover basic user flows and deploy Web app on production. |
 | 11. | Production Network Deployment | Deploy the developed smart contracts on a production - Shiden network on Kusama. |
 
-...
-
 
 ## Future Plans
 
