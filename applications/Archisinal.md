@@ -84,11 +84,11 @@ Archisinal is a revolutionary NFT marketplace designed specifically for architec
 
 **Key Features:**
 
-_Ownership of Creations:_ Creators have full ownership of their designs, allowing them to benefit from the creator economy and have control over how their work is used and distributed.
-Access to Creators: Purchasers of NFTs have access to the original creators through the metadata of the file, allowing them to engage with them for work.
-_Document Control:_ Archisinal aims to become the ‘go-to’ hub for document control, allowing creators to track and manage their designs, ensuring they are always in control, allowing creators to track and manage their designs, ensuring they are always in control of their IP.
-_IP Transfer and Dispute Resolution:_ Archisinal provides a safe and secure platform for the transfer of IP, and dispute resolution if necessary.
-_Monetization and Royalties:_ Archisinal enables creators to monetize their designs by selling them as NFTs on the marketplace, with the ability to set royalties on secondary sales.
+- _Ownership of Creations:_ Creators have full ownership of their designs, allowing them to benefit from the creator economy and have control over how their work is used and distributed.
+- _Access to Creators_: Purchasers of NFTs have access to the original creators through the metadata of the file, allowing them to engage with them for work.
+- _Document Control:_ Archisinal aims to become the ‘go-to’ hub for document control, allowing creators to track and manage their designs, ensuring they are always in control, allowing creators to track and manage their designs, ensuring they are always in control of their IP.
+- _IP Transfer and Dispute Resolution:_ Archisinal provides a safe and secure platform for the transfer of IP, and dispute resolution if necessary.
+- _Monetization and Royalties:_ Archisinal enables creators to monetize their designs by selling them as NFTs on the marketplace, with the ability to set royalties on secondary sales.
 
 **Technical Spec**
 
