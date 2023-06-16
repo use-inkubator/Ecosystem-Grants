@@ -104,11 +104,11 @@ _Chat Feature_ - As a nice-to-have feature, the marketplace may have a chat feat
 
 **User Interface/Design Spec**
 The UI design for the marketplace should include the following elements:
-_Homepage_ - The homepage should display the featured NFTs, popular NFTs and latest NFTs available for sale
-_Search_ - The search functionality should allow users to search for NFTs based on different parameters such as creator, title and tags.
-_Categories_ - The categories should allow users to browse NFTs based on different categories such as art, architecture and engineering.
-_NFT Details_ - The NFT details page should display information about the NFT, including the creator, title, description, image and price.
-_Wallet Functionality_ - The wallet functionality should be easy and intuitive, allowing users to connect their wallets and view their balances.
+- _Homepage_ - The homepage should display the featured NFTs, popular NFTs and latest NFTs available for sale
+- _Search_ - The search functionality should allow users to search for NFTs based on different parameters such as creator, title and tags.
+- _Categories_ - The categories should allow users to browse NFTs based on different categories such as art, architecture and engineering.
+- _NFT Details_ - The NFT details page should display information about the NFT, including the creator, title, description, image and price.
+- _Wallet Functionality_ - The wallet functionality should be easy and intuitive, allowing users to connect their wallets and view their balances.
 
 ## Team :busts_in_silhouette:
 
