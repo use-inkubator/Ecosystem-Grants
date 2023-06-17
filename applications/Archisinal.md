@@ -305,4 +305,4 @@ In conclusion, the Archisinal roadmap outlines the development of a fully functi
 - Basic POC entry in the Encode Club Spring 2023 Hackathon - [Here](https://encode-hackathon-jordang7.vercel.app/)
 - This project is currently bootstrapped by the Founder.
 - Do you need an audit for the contacts? **YES**
-- CATEGORY: Canary Dapp
+- CATEGORY: Business Dapp
