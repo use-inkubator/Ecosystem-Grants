@@ -30,7 +30,7 @@ When this milestone will be completed, we would like to use this offchain rollup
  -  - send the output to the ink! smart contract
 
 For both oracle, we will provide:
- - the phala offchain rollup to compute the VRF or access SubQuery/SubSquid
+ - the phala offchain rollup for the VRF or access SubQuery/SubSquid
  - the ink! smart contracts to interact with the offchain rollup
  - a UI to test and play with these smart contracts. For the Graph API Oracle, we will index the data from the dApps Staking on Astar and return the information about the stakers.
  - a documentation to use these oracles
