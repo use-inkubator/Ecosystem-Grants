@@ -14,13 +14,13 @@ This project will focus on building two oracles:
 
 ### Project Details
 
-Recently the Phala team released the Lens Api Oracle.
+Recently the Phala team released the Lens Api Oracle.  
 https://medium.com/phala-network/lensapi-oracle-supercharge-your-web3-social-app-a413c936df2b
 
-This oracle is built on offchain rollup request-response for EVM smart contracts.
+This oracle is built on offchain rollup request-response for EVM smart contracts.  
 https://github.com/Phala-Network/phat-bricks/tree/master/phat/contracts/action_offchain_rollup
 
-Our team has applied to the Phala's builder program to develop the offchain rollup request-response for ink! smart contracts.
+Our team has applied to the Phala builder program to develop the offchain rollup request-response for ink! smart contracts.
 
 When this milestone is completed, we would like to use this offchain rollup request-response model to build:
  - VRF Oracle. It should generate cryptographically secure random numbers for ink! smart contracts
@@ -35,11 +35,13 @@ For both oracle, we will provide:
  - a UI to test and play with these smart contracts. For the Graph API Oracle, we will index the data from the dApps Staking on Astar and return the information about the stakers
  - the documentation to use these oracles
 
+The smart contracts will be deployed on Shiden and Khala.
+
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- GuiGou is application architect in Web 2 (Java technology) and works more and more in web3.   
+- GuiGou is application architect in Web 2  and works more and more in web3.   
 As a technical ambassador for Astar and ambassador for Phala, he promotes the ink! smart contracts via some tutorials (https://polkaverse.com/11143) and replies about the technical questions on ink! smart contracts via Astar's discord.
 - Arno is a software engineer, web developer and ambassador for Polkadot, Phala, Acala and Talisman Sentinel
 
@@ -47,8 +49,7 @@ As a technical ambassador for Astar and ambassador for Phala, he promotes the in
 ### Team's experience
 
 We developed the Lucky dApp, built on top of dApp Staking in Astar Network.  
-If the user stakes on the Lucky dApp, he will still receive the rewards from the dApp Staking, and furthermore, he will have a chance to win extra rewards.  
-It’s a no-loss lottery!  
+If the user stakes on the Lucky dApp, he will still receive the rewards from the dApp Staking, and furthermore, he will have a chance to win extra rewards. It’s a no-loss lottery!  
 The dApp is built with several ink! smart contracts, a subquery indexer, and off-chain workers (scheduled jobs).  
 We plan to replace the scheduled jobs with phat contracts to improve decentralization and demonstrate the interoperability between ink! smart contracts (Shiden/Astar) and ink! phat contracts (Khala/Phala).
 
