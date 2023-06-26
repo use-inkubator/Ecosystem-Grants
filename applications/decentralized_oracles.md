@@ -1,12 +1,7 @@
 # Decentralized Oracles
 
-> This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
-> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
 - **Team Name:** Lucky Team
 - **Payment Address:** 5FsPMucWPWHGaKD6TiHV2fpbd1497m5sgA7drbBtYic6rhsK.
-
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 ### Overview
@@ -15,7 +10,7 @@ We would like to bring decentralized and trustless oracles for ink! smart contra
 Now that phat contracts are live on Khala and Phala Networks, we are able to provide decentralized oracles for any ink! smart contracts deployed on the Polkadot ecosystem.
 This project will focus to build two oracles:
  - VFR
- - Graph Api Oracles
+ - Graph Api Oracle
 
 ### Project Details
 
@@ -37,35 +32,35 @@ When this milestone will be completed, we would like to use this offchain rollup
 For both oracle, we will provide:
  - the phala offchain rollup to compute the VRF or access SubQuery/SubSquid
  - the ink! smart contracts to interact with the offchain rollup
- - a UI to test and play with these smart contracts. For the Graph API Oracle, we will index the data from the dApps Staking on Astar and returns the information about the stakers.
+ - a UI to test and play with these smart contracts. For the Graph API Oracle, we will index the data from the dApps Staking on Astar and return the information about the stakers.
  - a documentation to use these oracles
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- GuiGou is application architect in Web 2 (Java technology) and progressively work more and more in web3. 
-As technical ambassador for Astar and ambassador for Phala, I already write some tutorials to build ink! smart contracts (https://polkaverse.com/11143) and reply about the technical questions on ink! smart contracts via the Astar's discord.
+- GuiGou is application architect in Web 2 (Java technology) and work more and more in web3.   
+As technical ambassador for Astar and ambassador for Phala, I promote the ink! smart contracts via some tutorials (https://polkaverse.com/11143) and I reply about the technical questions on ink! smart contracts via the Astar's discord.
 
 - Arno is web developer and ambassadors for Polkadot, Phala, Acala and Talisman Sentinel
 
 
 ### Team's experience
 
-We developed the dApp Lucky.
-Lucky is a dApp built on top of dApp Staking in Astar Network. If the user stakes on the Lucky dApp, he will still receive the rewards from the dApp Staking, and furthermore, he will have a chance to win extra rewards. It’s a no-loss lottery!
-The dApp is built with several ink! smart contracts, a subquery indexer, and off-chain workers (scheduled jobs). We plan to replace the scheduled jobs with phat contracts to improve decentralization and demonstrate the interoperability between ink! smart contracts (Shiden/Astar) and ink! phat contracts (Khala/Phala).
+We developed the dApp Lucky, built on top of dApp Staking in Astar Network.  
+If the user stakes on the Lucky dApp, he will still receive the rewards from the dApp Staking, and furthermore, he will have a chance to win extra rewards.  
+It’s a no-loss lottery!  
+The dApp is built with several ink! smart contracts, a subquery indexer, and off-chain workers (scheduled jobs).  
+We plan to replace the scheduled jobs with phat contracts to improve decentralization and demonstrate the interoperability between ink! smart contracts (Shiden/Astar) and ink! phat contracts (Khala/Phala).
 
-The dApp is already live in Shiden.
+The dApp is already live in Shiden  
 https://portal.astar.network/shiden/dapp-staking/dapp?dapp=x6ykus6l6ch4eozitzsyjscxh2agk2ky9g6a2xeu1w9fftp
 
-Website:
-https://lucky.substrate.fi/
+Website:  https://lucky.substrate.fi/  
 
-Documentation:
-https://polkaverse.com/11201/introducing-the-d-app-lucky-37998
+Documentation: https://polkaverse.com/11201/introducing-the-d-app-lucky-37998  
 
-The dApp was awarded in the Polkadot Hackathon Europe Edition, in the category ink! Smart Contracts.
+The dApp was awarded in the Polkadot Hackathon Europe Edition, in the category ink! Smart Contracts.  
 
 
 ### Team Code Repos
@@ -84,13 +79,13 @@ GitHub for the smart contracts used in the dApp Lucky:
 
 - **Total Estimated Duration:** 2 months
 - **Full-Time Equivalent (FTE):**  1 FTE
-- **Total Costs:** 14,000 USD
+- **Total Costs:** 16,000 USD
 
 ### Milestone 1  — VRF
 
 - **Estimated duration:** 1 month
 - **FTE:**  1 FTE 
-- **Costs:** 7,000 USD
+- **Costs:** 8,000 USD
 
 |  Number | Deliverable                                             | Specification                                                                                                                                                                                                                               |
 |--------:|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -107,7 +102,7 @@ GitHub for the smart contracts used in the dApp Lucky:
 
 - **Estimated duration:** 1 month
 - **FTE:**  1 FTE
-- **Costs:** 7,000 USD
+- **Costs:** 8,000 USD
 
 |  Number | Deliverable                                    | Specification                                                                                                                                                                                                                                     |
 |--------:|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -123,19 +118,20 @@ GitHub for the smart contracts used in the dApp Lucky:
 
 ## Future Plans
 
-We will help other teams to use these oracles and we will provide the help to customize them in function of their business.
-
-We will deploy these oracles as phat bricks to allow the developers to deploy custom, no-code oracles in few minutes!
+We will help other teams to use these oracles and customize them in function of their business.  
+  
+We will deploy these oracles as phat bricks to allow the developers to deploy custom, no-code oracles in few minutes.  
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Personal recommendation of the Phala Team.
+**How did you hear about the Bounty Program?**   
+Personal recommendation of Phala Team.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 - Work you have already done.
-We already build the library to query and call ink! smart contracts inner phat contracts:
+We already built the library to query and call ink! smart contracts inner phat contracts:  
 https://github.com/GuiGou12358/phala-blockchain/commits/master/crates/pink-libs/subrpc/src/lib.rs
 
-- If there are any other teams who have already contributed (financially) to the project.
+- If there are any other teams who have already contributed (financially) to the project.  
 We are applied in the Phala Builder Program
