@@ -41,7 +41,7 @@ The smart contracts will be deployed on Shiden and Khala.
 
 ### Team members
 
-- GuiGou is application architect in Web 2  and works more and more in web3.   
+- GuiGou is application architect in Web 2 and works more and more in web3.   
 As a technical ambassador for Astar and ambassador for Phala, he promotes the ink! smart contracts via some tutorials (https://polkaverse.com/11143) and replies about the technical questions on ink! smart contracts via Astar's discord.
 - Arno is a software engineer, web developer and ambassador for Polkadot, Phala, Acala and Talisman Sentinel
 
@@ -86,15 +86,15 @@ GitHub for the smart contracts used in the dApp Lucky:
 - **FTE:**  1 FTE 
 - **Costs:** 8,000 USD
 
-|  Number | Deliverable                                             | Specification                                                                                                                                                                                                                               |
-|--------:|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **0a.** | License                                                 | Apache 2.0                                                                                                                                                                                                                                  |
-| **0b.** | Documentation                                           | We will provide documentation that explains how to use these oracles and test them                                                                                                                                                  |
-| **0c.** | Testing and Testing Guide                               | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                             |
-|      1. | Phat contract: VRF Oracle                               | We will deliver the phala offchain rollup to compute the VRF                                                                                                                                                                                |
-|      2. | Library: crate to connect the client and the VRF Oracle | We will deliver a rust library to allow the developers to integrate easily the VRF Oracle into the ink! smart contracts. The crate will contain the traits and a default implementation for these traits following the OpenBrush standards. |
-|      3. | Ink! smart contract: vrf client                         | We will deliver an ink! smart contracts to test the VRF Oracle                                                                                                                                                                              |
-|      4. | UI                                                      | We will deliver a simple UI to test and play with the delivered smarts contracts                                                                                                                                                           |
+|  Number | Deliverable                                   | Specification                                                                                                                                                                                                                                 |
+|--------:|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0a.** | License                                       | Apache 2.0                                                                                                                                                                                                                                    |
+| **0b.** | Documentation                                 | We will provide documentation that explains how to use these oracles and test them                                                                                                                                                            |
+| **0c.** | Testing and Testing Guide                     | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
+|      1. | Phat contract: VRF Oracle                     | We will deliver the phala offchain rollup to compute the VRF                                                                                                                                                                                  |
+|      2. | Library: crate to develop easily the client   | We will deliver a rust library to allow the developers to integrate easily the VRF Oracle into their ink! smart contracts. The crate will contain the traits and a default implementation for these traits following the OpenBrush standards. |
+|      3. | Ink! smart contract: vrf client               | We will deliver an example of ink! smart contracts to test the VRF Oracle                                                                                                                                                                     |
+|      4. | UI                                            | We will deliver a simple UI to test and play with the delivered smarts contracts                                                                                                                                                              |
 
 
 ### Milestone 2 — Graph Api Oracle
@@ -103,15 +103,16 @@ GitHub for the smart contracts used in the dApp Lucky:
 - **FTE:**  1 FTE
 - **Costs:** 8,000 USD
 
-|  Number | Deliverable                                    | Specification                                                                                                                                                                                                                                     |
-|--------:|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **0a.** | License                                        | Apache 2.0                                                                                                                                                                                                                                        |
-| **0b.** | Documentation                                  | We will provide documentation that explains how to use these oracles and test them                                                                                                                                                        |
-| **0c.** | Testing and Testing Guide                      | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                   |
-|      1. | Phat contract: Graph Api Oracle                | We will deliver the phala offchain rollup to query SubQuery/SubSquid                                                                                                                                                                              |
-|      2. | Library: crate to develop easily the client    | We will deliver a rust library to allow the developers to integrate easily the Graph Api Oracle into the ink! smart contracts. The crate will contain the traits and a default implementation for these traits following the OpenBrush standards. |
-|      3. | Ink! smart contract: Graph Api Oracle client   | We will deliver an ink! smart contracts to test the Graph Api Oracle                                                                                                                                                                              |
-|      4. | UI                                             | We will deliver a simple UI to test and play with the delivered smarts contracts                                                                                                                                                                 |
+|  Number | Deliverable                                  | Specification                                                                                                                                                                                                                                       |
+|--------:|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0a.** | License                                      | Apache 2.0                                                                                                                                                                                                                                          |
+| **0b.** | Documentation                                | We will provide documentation that explains how to use these oracles and test them                                                                                                                                                                  |
+| **0c.** | Testing and Testing Guide                    | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                     |
+|      1. | Phat contract: Graph Api Oracle              | We will deliver the phala offchain rollup to query SubQuery/SubSquid                                                                                                                                                                                |
+|      2. | Library: crate to develop easily the client  | We will deliver a rust library to allow the developers to integrate easily the Graph Api Oracle into their ink! smart contracts. The crate will contain the traits and a default implementation for these traits following the OpenBrush standards. |
+|      3. | Ink! smart contract: Graph Api Oracle client | We will deliver an example of ink! smart contracts to test the Graph Api Oracle                                                                                                                                                                     |
+|      4. | UI                                           | We will deliver a simple UI to test and play with the delivered smarts contracts                                                                                                                                                                    |
+|      5. | Indexer                                      | We will deliver the source code to index all data of dApps Staking Shiden/Astar. For the demo purpose, we will index the data from Shiden on a SubQuery Managed Service or in SubSquid Aquarium                                                     |
 
 ## Future Plans
 
@@ -128,7 +129,7 @@ Here you can also add any additional information that you think is relevant to t
 
 - Work you have already done.
 We already built the library to query and call ink! smart contracts inner phat contracts:  
-https://github.com/GuiGou12358/phala-blockchain/commits/master/crates/pink-libs/subrpc/src/lib.rs
+https://github.com/GuiGou12358/phala-blockchain/commit/ed86ec04606426995ed5b6b956fedd22cef8c741
 
 - If there are any other teams who have already contributed (financially) to the project.  
-We are currently paticipating to Phala's Builder Program
+We are currently paticipating to Phala Builder Program
