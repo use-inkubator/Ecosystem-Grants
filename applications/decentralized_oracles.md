@@ -35,6 +35,8 @@ For both oracle, we will provide:
  - a UI to test and play with these smart contracts. For the Graph API Oracle, we will index the data from the dApps Staking on Astar and return the information about the stakers.
  - a documentation to use these oracles
 
+The smart contracts will be deployed on Khala and Shiden.
+
 ## Team :busts_in_silhouette:
 
 ### Team members
