@@ -6,8 +6,8 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-We would like to bring decentralized and trustless oracles for ink! smart contracts.
-Now that phat contracts are live on Khala and Phala Networks, we are able to provide decentralized oracles for any ink! smart contracts deployed on the Polkadot ecosystem.
+We would like to bring decentralized and trustless oracles for ink! smart contracts.  
+Now that phat contracts are live on Khala and Phala Networks, we are able to provide decentralized oracles for any ink! smart contracts deployed on the Polkadot ecosystem.  
 This project will focus on building two oracles:
  - VFR
  - Graph Api Oracle
