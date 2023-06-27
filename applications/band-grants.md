@@ -19,7 +19,7 @@ Please provide the following:
 - A brief description of the template building.
     - BandChain is based on Cosmos SDK, designed to be compatible with all smart contract platforms and blockchain development frameworks. In a trustless and decentralized manner, BandChain does all the heavy lifting jobs of pulling data from external sources, aggregating, and packaging them into a format that is easy to use and cryptographically verified across multiple blockchains. Unlike general-purpose blockchains, BandChain is designed explicitly for oracle data requests and computation. Data request transactions are both received and resolved very quickly. Furthermore, our data source scripts and oracle scripts allow maximum customization and flexibility for the user to query and compute their desired data feed.
 - An indication of how your project relates to ink! ecosystem.
-    - Band Protocol has the potential to become a crucial infrastructure provider for the ink! Ecosystem. As projects develop on Astar, they will require reliable oracle services to deliver precise real-world data, and VRF to produce randomized results in their gaming and lottery mechanisms. By integrating with Astar, we can prepare and offer these essential services to Dapps building on the platform. Additionally, developers can be assured that they will receive high-quality data from a team of experienced professionals managing the price feed. By leveraging Band Protocol's expertise, Astar can enhance its offerings and provide a more comprehensive, reliable ecosystem for its users. Furthermore, we have a strong track record of collaborating with and offering oracle solutions for astar for more than a year now. This extensive experience positions us as a knowledgeable and skilled team in supporting the polkadot ecosystem and we are truly enthusiastic about continuing our involvement to its growth.
+    - Band Protocol has the potential to become a crucial infrastructure provider for the ink! Ecosystem. As projects develop on Astar, they will require reliable oracle services to deliver precise real-world data. By integrating with Astar, we can prepare and offer these essential services to Dapps building on the platform. Additionally, developers can be assured that they will receive high-quality data from a team of experienced professionals managing the price feed. By leveraging Band Protocol's expertise, Astar can enhance its offerings and provide a more comprehensive, reliable ecosystem for its users. Furthermore, we have a strong track record of collaborating with and offering oracle solutions for astar for more than a year now. This extensive experience positions us as a knowledgeable and skilled team in supporting the polkadot ecosystem and we are truly enthusiastic about continuing our involvement to its growth.
 - Choosen project idea category or your alternative category with explanation of its importance
     - Band Protocol's decentralized oracle solutions provide critical infrastructure for blockchain networks to access external data and integrate it into their smart contracts and decentralized applications. This enables blockchain networks to become more powerful and versatile, creating new opportunities for developers and users alike.
 - An indication of why your team is interested in creating this project.
@@ -40,17 +40,25 @@ We expect the teams to already have a solid idea about the project expected fina
 - Data models / API specifications of the core functionality
     - Not applicable
 - An overview of the technology stack to be used
+    - Languages: Rust, Golang
+    - Infrastructure: Google Cloud
+    - Database: PostgreSQL
+    - Virtualization: Kubernetes, Docker
 - Documentation of core components, protocols, architecture, etc. to be deployed
-    - Cannot be shared with other parties
+    - The service comprises four key components: BandChain, the requester, the relayer, and the signer. The requester initiates data requests to BandChain, converting the received data into packets that are subsequently transmitted to the relayer. Acting as a bridge, the relayer transfers the data derived from BandChain to Astar. The signer, on the other hand, operates as a separate service responsible for signing verified transaction requests issued by the requester.
 - PoC/MVP or other relevant prior work or research on the topic
+    - Our prior experience, partners we've integrated with: https://www.bandpartners.io/partners
+    - Our team has been integrated with Astar EVM for over a year now, and we’ve already requested our technical team review the technical specifications and documentation of Astar Wasm. Our team has significant experience integrating with WASM projects, which gives us the expertise needed to provide excellent services for dapps looking to build on Astar Wasm.
 - What your project is _not_ or will _not_ provide or implement
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-    - We have the capability to offer up to 15 symbols from our standard dataset, not all of the symbols will be available
-    - VRF will not be included in ink contracts at this time
+    - To clarify, this integration will be for price feed only, the VRF will not be included in ink contracts at this time
+    - For price feed, we have the capability to offer up to 15 symbols from our standard dataset, not all of the symbols will be available
+    - We are excited about the opportunity to expand our oracle service to additional ink!-based blockchains. However, it is important to clarify that the grant we are seeking will be exclusively allocated to support the development and maintenance of Astar WASM.
 - Do you need an audit for the contacts? **YES/NO**
 (don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
     - Yes
 - CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
+    - Infrastructure
 
 
 Things that shouldn’t be part of the application:
@@ -63,8 +71,8 @@ Things that shouldn’t be part of the application:
 
 ### Team members
 
-- Name of team leader:Sireethorn Satchatippavarn
-- Names of team members:Nile Buranasiri, Warittorn Cheevachaipimol 
+- Name of team leader: Sireethorn Satchatippavarn
+- Names of team members: Nile Buranasiri, Warittorn Cheevachaipimol 
 
 ### Contact
 
@@ -142,7 +150,7 @@ Below we provide an **example roadmap**.
 | 2. | Oracle Script | An oracle script on BandChain which will verify and aggregate data from the data sources on BandChain|
 | 3. | BandChain Requester | A service that will prepare and request data from BandChain to be sent to Astar | 
 | 4. | Astar ink! Relayer | A service that will prepare and execute data to be bridged over to Astar|
-| 5. | ink! Signer | A seperate but crucial service that will used concurrently to Astar to send over data |
+| 5. | ink! Signer | A seperate service which upon request, creates and signs a transction which is sent to the relayer service. The signer service is run on an isolated VPC to prevent unauthorized requests and uses a key management service to keep the signing key secure |
 | 6. | PDS | A service on BandChain that will allow paid services to deliver data to BandChain safely and securely |
 | 7. | Smart contract | An ink! smart contract that will allow consumers to query various price feed from BandChain|
 | 8. | Testing and Audit | Testing|
