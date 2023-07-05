@@ -1,23 +1,19 @@
-# Name of your Project
-
-> This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
-> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
-- **Team Name:** Legal name of your team (e.g. Duo)
+# WASM Contract Decoder
+- **Team Name:** Tokenguard.io (Block Solutions Sp z o.o.)
 - **Payment Address:** Polkadot payment address.
-
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 ### Overview
 
-Please provide the following:
+On-chain analytics platform for Substrate chains
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to ink! ecosystem.
-- Choosen project idea category or your alternative category with explanation of its importance
-- An indication of why your team is interested in creating this project.
+Tokenguard is an on-chain growth analytics tool dedicated for Substrate based blockchains & dApps. With its no-code and no-SQL approach, Tokenguard provides access to core and advanced metrics with user-friendly & easy-to-use dashboards. It is a fully customizable tool that allows to add and change desired metrics and tracking data. Additionally, with its real-time chain monitoring feature, Tokenguard helps strengthen chain security by setting alert notifications for events such as rugpulls, hacks, or other abnormal behaviours.
+
+Main features:
+Ecosystem Analytics – dashboards with off and on-chain metrics that allow to get insights about ecosystem growth and marketing strategies efficiency.
+Advanced Analytics:
+dApps Analytics – dashboard with off & on-chain metrics for individual dApps. This feature allows to track inflow of new users into the ecosystem from specific dApps.
+Security Monitoring – real-time on-chain monitoring tool allowing to set-up security rules for abnormal activity and receive notifications to the Pendulum team.
 
 ### Ink! Ecosystem Impact
 
