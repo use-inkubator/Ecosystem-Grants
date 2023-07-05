@@ -1,3 +1,4 @@
+
 # WASM Contract Decoder
 - **Team Name:** Tokenguard.io (Block Solutions Sp z o.o.)
 - **Payment Address:** Polkadot payment address.
@@ -10,74 +11,69 @@ On-chain analytics platform for Substrate chains
 Tokenguard is an on-chain growth analytics tool dedicated for Substrate based blockchains & dApps. With its no-code and no-SQL approach, Tokenguard provides access to core and advanced metrics with user-friendly & easy-to-use dashboards. It is a fully customizable tool that allows to add and change desired metrics and tracking data. Additionally, with its real-time chain monitoring feature, Tokenguard helps strengthen chain security by setting alert notifications for events such as rugpulls, hacks, or other abnormal behaviours.
 
 Main features:
-Ecosystem Analytics – dashboards with off and on-chain metrics that allow to get insights about ecosystem growth and marketing strategies efficiency.
-Advanced Analytics:
-dApps Analytics – dashboard with off & on-chain metrics for individual dApps. This feature allows to track inflow of new users into the ecosystem from specific dApps.
-Security Monitoring – real-time on-chain monitoring tool allowing to set-up security rules for abnormal activity and receive notifications to the Pendulum team.
+
+ - Ecosystem Analytics - dashboards with off and on-chain metrics that allow to get insights about ecosystem growth and marketing strategies efficiency.
+ - Advanced Analytics:
+	 - dApps Analytics – dashboard with off & on-chain metrics for individual dApps. This feature allows to track inflow of new users into the ecosystem from specific dApps.
+	 - Security Monitoring – real-time on-chain monitoring tool allowing to set-up security rules for abnormal activity and receive notifications to the Pendulum team.
 
 ### Ink! Ecosystem Impact
 
-Please clearly describe how exactly your project will benefit the ecosystem. If it's infrastructure - how it's going to be applied and by who. If it's canary dapp we would you to clearly demonstrate how this code will be used by other people. If it's technical showcase we would like you to demonstrate how ink! will be promoted using your results. 
-
-If it's a business case we would like to see business model and future production plans. 
+Tokenguard simplifies the management of blockchain data, providing quick and easy access to information for informed business decisions. As an analytical tool, it provides insights necessary for the functioning and growth of both the community and the Core team:
+-   Transparency & Credibility
+    -   access to data and on-chain insights is the basis for a community driven blockchain
+    -   the ability to track and verify activity and growth in the Polkadot networks reinforces trust
+-   Investment
+    -   a tool that gives access to the performance of individual dApps and DeFi allows for a better assessment of the market situation in terms of investment
+    -   insight into data on developer activity and TVL allows to attract additional additional community members who want to invest in Vara and its ecosystem
+-   Engagement
+    -   a well-informed community is more likely to be involved in the building programs on a given chain and in ongoing activities
+    -   access to insights allows the community to actively promote chain in social media, at events and in ordinary media
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Data models / API specifications of the core functionality
 - An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
+	- SubSquid, TypeScript
 - PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-- Do you need an audit for the contacts? **YES/NO**
-(don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
-- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
+	- [app.tokenguard.io](http://app.tokenguard.io)
+- Do you need an audit for the contacts? **NO**
+- CATEGORY: Infrastructure 
 
-
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
 
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+Kamil Gorski - CEO (https://www.linkedin.com/in/gorskikamil/)
+Jakub Rojek - CTO / Backend developer (https://www.linkedin.com/in/jakub-rojek-dev/)
+Damian Rolek - CDO / Data Analyst (https://www.linkedin.com/in/damianrolek/)
+Matt Saczewski - Business Development Manager (https://www.linkedin.com/in/msaczewski/)
+Jacob Piorecki - UI/UX Designer (https://www.linkedin.com/in/jacobpiorecki/)
+Piotr Józefowicz - Backend Developer (https://www.linkedin.com/in/piotr-jozefowicz-529669220/)
+Adam Król - Backend Developer (https://www.linkedin.com/in/adam-kr%C3%B3l-7b3a831b6/)
+Krystian Trepczyński - Frontend Developer (https://www.linkedin.com/in/krystiantrepczynski/)
+Jan Kwiatkowski - Blockchain Developer (https://www.linkedin.com/in/jan-kwiatkowski-web3/)
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Matt Saczewski
+- **Contact Email:** matt@tokenguard.io
+- **Website:** Matt
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Foksal 3/5 St., 00-366 Warsaw, Poland
+- **Registered Legal Entity:** Block Solutions Sp z o.o.
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Tokenguard's clients include Swiss Sygnum Bank, [Bitcoin.com](http://Bitcoin.com), Astar and many others recognizable brands. Each of cofounders has tremendous web3 experience - Damian was co-creating DeFi analytics platform Kasuria. Jacob was working at OpenLoyalty, helping web3 projects engage their users and Kamil created web3 security analytics solutions, conducting more than 30+ audits.
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- [https://github.com/tokenguardio](https://github.com/tokenguardio)
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
-
-### Team LinkedIn Profiles (if available)
-
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
 
 
 ## Development Status :open_book:
