@@ -75,31 +75,29 @@ Tokenguard's clients include Swiss Sygnum Bank, [Bitcoin.com](http://Bitcoin.com
 - [https://github.com/tokenguardio](https://github.com/tokenguardio)
 
 
-
 ## Development Status :open_book:
 
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
+Tokenguard is currently developing the following features:
+
+- Publicly accessible core analytics for Substrate communities, available at https://app.tokenguard.io
+- Ecosystem Analytics for Astar
+- Ecosystem Analytics for Aleph Zero
+- Partnership with SubSquid
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
+- **Total Estimated Duration:** 2 months
+- **Full-Time Equivalent (FTE):**  3 FTE
+- **Total Costs:** 30,000 USD
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated duration:** 2 months
+- **FTE:**  3
+- **Costs:** 30,000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
@@ -117,12 +115,6 @@ Below we provide an **example roadmap**.
 | 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
 | 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
 
-
-### Milestone 2 Example — Additional features
-
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
 
 ...
 
