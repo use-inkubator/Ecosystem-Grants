@@ -1,5 +1,6 @@
 
 
+
 # WASM Contract Decoder
 - **Team Name:** Tokenguard.io (Block Solutions Sp z o.o.)
 - **Payment Address:** 15LN4SgUiVgavRwC9aKeh2H82gEStwYCsXoy3dzEyzo8qoAt
@@ -9,7 +10,7 @@
 
 Automated Ink! smart contract decoder using SubSquid
 
-In order to facilitate growth in Ink! and Substrate ecosystems, parachains using both of these technologies need a vast and thriving environment of developers creatings dApps and smart contracts. *Each new growing dApp, with its own marketing & growth strategy, brings in new active users to the ecosystem*. Each smart contract generates thousands of transactions that store important technical and business insights. These insights are currently hard to discover and the ecosystem needs infrastructure tools that would make it easy for developers and management teams to uncover them, similarly as it is done in EVM environment with tools like Tenderly or Dune Analytics.
+In order to facilitate growth in Ink! and Substrate ecosystems, parachains using both of these technologies need a vast and thriving environment of developers creatings dApps and smart contracts. Each new growing dApp, with its own marketing & growth strategy, **brings in new active users to the ecosystem**. Each smart contract generates thousands of transactions that store important technical and business insights. These insights are currently hard to discover and the ecosystem needs infrastructure tools that would make it easy for developers and management teams to uncover them, similarly as it is done in EVM environment with tools like Tenderly or Dune Analytics.
 
 Tokenguard is an on-chain growth analytics tool dedicated for Substrate based blockchains & dApps. With its no-code and no-SQL approach, Tokenguard provides access to core and advanced metrics with user-friendly & easy-to-use dashboards. It is a fully customizable tool that allows to add and change desired metrics and tracking data. Additionally, with its real-time chain monitoring feature, Tokenguard helps strengthen chain security by setting alert notifications for events such as rugpulls, hacks, or other abnormal behaviours.
 
@@ -37,17 +38,17 @@ Tokenguard simplifies the management of blockchain data, providing quick and eas
 
 In order to enable smart contracts analytics for Ink! builders, there needs to be a solution allowing infrastructure apps such as Tokenguard, Polkaholic and others decode on-chain contract activity. Currently there's no solution that would allow indexing on-chain data from Ink! smart contracts into normalized data available for parsing and presenting insights to dApp builders & creators in Ink!.
 
-As an effect, most of Ink! teams that we spoke with, are wasting hundreds of hours and thousands of $ to build their own indexing solutions and maintain them which effectively defocuses them from building and developing user-centric features. Most of these solutions are hard to maintain and manage, increasing the technological debt of each project.
+As an effect, most of Ink! teams that we spoke with **are wasting hundreds of hours and thousands of $** to build their own indexing solutions and maintain them which effectively defocuses them from building and developing user-centric features. Most of these solutions are hard to maintain and manage, increasing the technological debt of each project.
 
-Tokenguard proposes to create a universal smart contract decoding solution based on SubSquid technology which currently offers the most flawless indexing experience that could be used by any Ink! builder out there. The code can also be used by analytics tools created in the space. 
+Tokenguard proposes to create a universal smart contract decoding solution based on SubSquid technology which currently **offers the most flawless indexing experience that could be used by any Ink! builder out there**. The code can also be used by analytics tools created in the space. 
 
 Benefits of the proposed solution:
 
-- Allowing Ink! dApp builders focus on developing their products
-- Time and money savings on creating in-house smart contract indexers
+- Allowing Ink! dApp builders focus on **developing their products**
+- **Time and money savings** on creating in-house smart contract indexers
 - Smaller maintenance cost and technological debt
-- Faster growth of Ink! dApps
-- More developer-friendliness of the ecosystem in comparison to EVM which has numerous contract-indexing solutions
+- **Faster growth of Ink! dApps**
+- More developer-friendly ecosystem in comparison to EVM which has numerous contract-indexing solutions
 
 ### Project Details
 
