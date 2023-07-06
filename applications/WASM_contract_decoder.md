@@ -7,7 +7,9 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-On-chain analytics platform for Substrate chains
+Automated Ink! smart contract decoder using SubSquid
+
+In order to facilitate growth in Ink! and Substrate ecosystems, each of the parachains using these technologies needs a vast and thriving environment of developers creatings dApps and smart contracts. Each smart contract generates thousands of transactions that store important technical and business insights. These insights are currently hard to discover as the ecosystem needs infrastructure tools that would make it easy for developers and management teams to uncover them, similarly as it is done in EVM environment with tools like Tenderly or Dune Analytics.
 
 Tokenguard is an on-chain growth analytics tool dedicated for Substrate based blockchains & dApps. With its no-code and no-SQL approach, Tokenguard provides access to core and advanced metrics with user-friendly & easy-to-use dashboards. It is a fully customizable tool that allows to add and change desired metrics and tracking data. Additionally, with its real-time chain monitoring feature, Tokenguard helps strengthen chain security by setting alert notifications for events such as rugpulls, hacks, or other abnormal behaviours.
 
