@@ -67,7 +67,7 @@ Tokenguard proposes to create a universal smart contract decoding solution based
 
 - **Contact Name:** Matt Saczewski
 - **Contact Email:** matt@tokenguard.io
-- **Website:** Matt
+- **Telegram:** @mattsac
 
 ### Legal Structure
 
@@ -90,6 +90,7 @@ Tokenguard is currently developing the following features:
 - Publicly accessible core analytics for Substrate communities, available at https://app.tokenguard.io
 - Ecosystem Analytics for Astar
 - Ecosystem Analytics for Aleph Zero
+- dApp analytics for AZero ID, ArthSwap, Panjea and others
 - Partnership with SubSquid
 
 ## Development Roadmap :nut_and_bolt:
