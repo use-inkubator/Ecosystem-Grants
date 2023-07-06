@@ -135,5 +135,4 @@ Tokenguard is currently developing the following features:
 
 ## Future Plans
 
-After creating this contract-agnostic template we will follow with another grant to prepare a tool for Ink! builders to access the data from their smart contracts. 
-
+After creating this contract-agnostic template we will follow with another grant to prepare a tool for Ink! builders to transform data into useful insights.
