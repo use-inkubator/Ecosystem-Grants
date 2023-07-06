@@ -45,16 +45,15 @@ Tokenguard simplifies the management of blockchain data, providing quick and eas
 
 ### Team members
 
-Kamil Gorski - CEO (https://www.linkedin.com/in/gorskikamil/)
-
-Jakub Rojek - CTO / Backend developer (https://www.linkedin.com/in/jakub-rojek-dev/)
-Damian Rolek - CDO / Data Analyst (https://www.linkedin.com/in/damianrolek/)
-Matt Saczewski - Business Development Manager (https://www.linkedin.com/in/msaczewski/)
-Jacob Piorecki - UI/UX Designer (https://www.linkedin.com/in/jacobpiorecki/)
-Piotr Józefowicz - Backend Developer (https://www.linkedin.com/in/piotr-jozefowicz-529669220/)
-Adam Król - Backend Developer (https://www.linkedin.com/in/adam-kr%C3%B3l-7b3a831b6/)
-Krystian Trepczyński - Frontend Developer (https://www.linkedin.com/in/krystiantrepczynski/)
-Jan Kwiatkowski - Blockchain Developer (https://www.linkedin.com/in/jan-kwiatkowski-web3/)
+- Kamil Gorski - CEO (https://www.linkedin.com/in/gorskikamil/)
+- Jakub Rojek - CTO / Backend developer (https://www.linkedin.com/in/jakub-rojek-dev/)
+- Damian Rolek - CDO / Data Analyst (https://www.linkedin.com/in/damianrolek/)
+- Matt Saczewski - Business Development Manager (https://www.linkedin.com/in/msaczewski/)
+- Jacob Piorecki - UI/UX Designer (https://www.linkedin.com/in/jacobpiorecki/)
+- Piotr Józefowicz - Backend Developer (https://www.linkedin.com/in/piotr-jozefowicz-529669220/)
+- Adam Król - Backend Developer (https://www.linkedin.com/in/adam-kr%C3%B3l-7b3a831b6/)
+- Krystian Trepczyński - Frontend Developer (https://www.linkedin.com/in/krystiantrepczynski/)
+- Jan Kwiatkowski - Blockchain Developer (https://www.linkedin.com/in/jan-kwiatkowski-web3/)
 
 ### Contact
 
