@@ -46,6 +46,7 @@ Tokenguard simplifies the management of blockchain data, providing quick and eas
 ### Team members
 
 Kamil Gorski - CEO (https://www.linkedin.com/in/gorskikamil/)
+
 Jakub Rojek - CTO / Backend developer (https://www.linkedin.com/in/jakub-rojek-dev/)
 Damian Rolek - CDO / Data Analyst (https://www.linkedin.com/in/damianrolek/)
 Matt Saczewski - Business Development Manager (https://www.linkedin.com/in/msaczewski/)
