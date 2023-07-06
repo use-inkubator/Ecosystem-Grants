@@ -125,7 +125,7 @@ Tokenguard is currently developing the following features:
 | **0b.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can index, decode and vizualize any smart contract written in INK. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Manual & article | We will publish an article that explains deliverables achieved as part of the grant. We will explain how the universal data model was designed, allowing for efficient indexing and decoding of smart contracts and their storage in the database. In addition, we will explain the work done to create contract agnostic squid and how it allows you to index and decode smart contracts written in INK to obtain data on which functionalities are used, by whom and how often. Finally, we will describe how the GraphQL interface was created, the purpose of which is to visualize indexed data in the form of charts and numbers. |
-| 1. | Contract-agnostic Squid | Using SubSquid ecosystem we will prepare contract-agnostic squid which indexes normalized data about contract from provided ABI. |
+| 1. | Contract-agnostic Squid | Using SubSquid ecosystem we will prepare contract-agnostic squid which indexes normalized data about contract from provided ABI. The code will be delivered as an open-source repository on Github. |
 | 2. | GraphQL interface | We will prepare GraphQL access interface to indexed data for builders usage. |
 
 
@@ -135,13 +135,5 @@ Tokenguard is currently developing the following features:
 
 ## Future Plans
 
-Please include here if you have a future plan after building this template in making it in to production.
+After creating this contract-agnostic template we will follow with another grant to prepare a tool for Ink! builders to access the data from their smart contracts. 
 
-## Additional Information :heavy_plus_sign:
-
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
