@@ -17,7 +17,7 @@ Main features:
 	 - dApps Analytics – dashboard with off & on-chain metrics for individual dApps. This feature allows to track inflow of new users into the ecosystem from specific dApps.
 	 - Security Monitoring – real-time on-chain monitoring tool allowing to set-up security rules for abnormal activity and receive notifications to the Pendulum team.
 
-### Ink! Ecosystem Impact
+### Substrate Ecosystem Impact
 
 Tokenguard simplifies the management of blockchain data, providing quick and easy access to information for informed business decisions. As an analytical tool, it provides insights necessary for the functioning and growth of both the community and the Core team:
 -   Transparency & Credibility
@@ -29,6 +29,14 @@ Tokenguard simplifies the management of blockchain data, providing quick and eas
 -   Engagement
     -   a well-informed community is more likely to be involved in the building programs on a given chain and in ongoing activities
     -   access to insights allows the community to actively promote chain in social media, at events and in ordinary media
+      
+### Ink! Ecosystem Impact
+
+In order to enable smart contracts analytics for Ink! builders, there needs to be a solution allowing infrastructure apps such as Tokenguard, Polkaholic and others decode on-chain contract activity. Currently there's no solution that would allow indexing on-chain data from Ink! smart contracts into normalized data available for parsing and presenting insights to dApp builders & creators in Ink!.
+
+As an effect, most of Ink! teams that we spoke with, are wasting hundreds of hours and thousands of $ to build their own indexing solutions and maintain them which effectively defocuses them from building and developing user-centric features. Most of these solutions are hard to maintain and manage, increasing the technological debt of each project.
+
+Tokenguard proposes to create a universal smart contract decoding solution based on SubSquid technology which currently offers the most flawless indexing experience that could be used by any Ink! builder out there. The code can also be used by analytics tools created in the space. 
 
 ### Project Details
 
