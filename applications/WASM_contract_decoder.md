@@ -88,10 +88,10 @@ Tokenguard's clients include Swiss Sygnum Bank, [Bitcoin.com](http://Bitcoin.com
 Tokenguard is currently developing the following features:
 
 - Publicly accessible core analytics for Substrate communities, available at https://app.tokenguard.io
-- Ecosystem Analytics for Astar
-- Ecosystem Analytics for Aleph Zero
-- dApp analytics for AZero ID, ArthSwap, Panjea and others
-- Partnership with SubSquid
+- Ecosystem Analytics for [Astar](https://astar.network/)
+- Ecosystem Analytics for [Aleph Zero](https://alephzero.org/)
+- dApp analytics for [AZero ID](https://azero.id/), [ArthSwap](https://app.arthswap.org), [Panjea](https://panjea.io/), [Interlock](https://www.interlock.network/) and others
+- Partnership with [SubSquid](https://www.subsquid.io/)
 
 ## Development Roadmap :nut_and_bolt:
 
