@@ -38,6 +38,14 @@ As an effect, most of Ink! teams that we spoke with, are wasting hundreds of hou
 
 Tokenguard proposes to create a universal smart contract decoding solution based on SubSquid technology which currently offers the most flawless indexing experience that could be used by any Ink! builder out there. The code can also be used by analytics tools created in the space. 
 
+Benefits of the proposed solution:
+
+- Allowing Ink! dApp builders focus on developing their products
+- Time and money savings on creating in-house smart contract indexers
+- Smaller maintenance cost and technological debt
+- Faster growth of Ink! dApps
+- More developer-friendliness of the ecosystem in comparison to EVM which has numerous contract-indexing solutions
+
 ### Project Details
 
 - An overview of the technology stack to be used
