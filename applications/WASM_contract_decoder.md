@@ -114,10 +114,8 @@ Tokenguard is currently developing the following features:
 ### Milestone 1 
 
 - **Estimated duration:** 2 months
-- **FTE:**  3
-- **Costs:** 30,000 USD
-
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
+- **FTE:**  1
+- **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
