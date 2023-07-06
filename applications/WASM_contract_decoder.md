@@ -108,8 +108,8 @@ Tokenguard is currently developing the following features:
 ### Overview
 
 - **Total Estimated Duration:** 2 months
-- **Full-Time Equivalent (FTE):**  3 FTE
-- **Total Costs:** 30,000 USD
+- **Full-Time Equivalent (FTE):**  1 FTE
+- **Total Costs:** 20,000 USD
 
 ### Milestone 1 
 
@@ -122,7 +122,7 @@ Tokenguard is currently developing the following features:
 | **0a.** | License | MIT |
 | **0b.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can index, decode and vizualize any smart contract written in INK. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Manual & article | We will publish an article that explains deliverables achieved as part of the grant. We will explain how the universal data model was designed, allowing for efficient indexing and decoding of smart contracts and their storage in the database. In addition, we will explain the work done to create contract agnostic squid and how it allows you to index and decode smart contracts written in INK to obtain data on which functionalities are used, by whom and how often. Finally, we will describe how the GraphQL interface was created, the purpose of which is to visualize indexed data in the form of charts and numbers. |
+| 0e. | Manual & article | We will publish an article that explains deliverables and how to use them. We will explain how the universal data model is designed, allowing for efficient indexing and decoding of smart contracts and their storage in the database. In addition, we will explain how to use contract agnostic squid and how to index and decode smart contracts written in INK to obtain data on which functionalities are used, by whom and how often. Finally, we will describe how the GraphQL interface was created, the purpose of which is to visualize indexed data in the form of charts and numbers. |
 | 1. | Contract-agnostic Squid | Using SubSquid ecosystem we will prepare contract-agnostic squid which indexes normalized data about contract from provided ABI. The code will be delivered as an open-source repository on Github. |
 | 2. | GraphQL interface | We will prepare GraphQL access interface to indexed data for builders usage. |
 
