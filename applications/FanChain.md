@@ -16,8 +16,8 @@ By providing a user-friendly platform for creators to issue NFTs and manage thei
 FanChain is a platform that enables streamers and influencers to create and issue NFT collections, including generative and membership NFTs. Fans can purchase these NFTs on our marketplace and participate in exclusive community events on Discord and Telegram. Additionally, FanChain offers a crypto-based donation system for viewers to support their favorite creators.
 - NFT Creation: Streamers and influencers can create and issue NFT collections, including generative and membership NFTs, using ink! smart contracts.
 - Marketplace: Users can buy, sell, and trade NFTs on our platform, fostering a vibrant and active community around content creators and their fans.
-- Community Management: FanChain will offer tools for streamers and influencers to manage their Discord and Telegram communities, ensuring that only NFT holders can access exclusive channels and events.
-- Crypto Donations: Viewers can support their favorite creators by donating cryptocurrency, with donation information displayed during live streams.
+- Community Management: FanChain will offer tools for streamers and influencers to manage their Discord and Telegram communities, ensuring that only NFT holders can access exclusive channels and events. (Future plan)
+- Crypto Donations: Viewers can support their favorite creators by donating cryptocurrency, with donation information displayed during live streams. (Future plan)
 - Compatibility: FanChain will be compatible with all Wasm-supporting parachains, including prominent networks such as Astar Network, Phala Network, and more.
 
 Technology Stack: FanChain will be built using ink! for smart contracts for the underlying blockchain, and a combination of React and Node.js for the frontend and backend.
@@ -82,15 +82,15 @@ As an outsourcing company, we adhere to strict security and confidentiality poli
 
 ### Overview
 
-- **Total Estimated Duration:** 6 months
+- **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  8
-- **Total Costs:** 192,000 USD
+- **Total Costs:** 96,000 USD
 
-### Milestone 1 - NFT Creation and Marketplace
+### Milestone 1 - NFT Creation
 
-- **Estimated duration:** 3 months
+- **Estimated duration:** 2 months
 - **FTE:**  8
-- **Costs:** 96,000 USD
+- **Costs:** 64,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -105,30 +105,8 @@ As an outsourcing company, we adhere to strict security and confidentiality poli
 | 4. | Membership NFTs | Enable the creation of NFTs that grant access to exclusive content, events, or communities. |
 | 5. | Minting | Implement a user-friendly interface for minting and issuing NFTs, with options for limited editions and timed releases. Users can customize various layers and attributes of the NFTs. |
 | 6. | Search and filtering | mplement advanced search and filtering options, allowing users to find specific NFTs based on criteria such as creator, rarity, or price. |
-| 7. | Direct sales | Allow users to buy NFTs at fixed prices, with support for multiple cryptocurrencies. |
-| 8. | Exchange | Enable users to buy and sell NFTs, with options for reserve prices, time limits, and other customizable settings. |
-| 9. | Activity feed and notifications | Keep users informed about new listings, bids, and sales through an activity feed and customizable notifications. |
 
-### Milestone 2 - Community Management
-
-- **Estimated duration:** 2 months
-- **FTE:**  8
-- **Costs:** 64,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can easily use FanChain app. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains the dispute resolution solution. (Content, language and medium should reflect your target audience described above.) |
-| 1. | Role-based access control | Enable streamers and influencers to assign roles to their community members based on their NFT holdings, granting access to exclusive channels and events. |
-| 2. | Automated verification | Implement a system to automatically verify NFT ownership, ensuring that only eligible members can access exclusive content and participate in events. |
-| 3. | Event management | Provide an event management system that uses QR codes and NFTs to verify user access to a live event. |
-| 4. | Analytics and insights | Provide creators with data on community engagement, NFT ownership, and event participation, helping them make informed decisions about their content and community strategies. |
-| 5. | Notifications and announcements | Enable streamers and influencers to send targeted notifications and announcements to their community members, keeping them informed about new content, events, and updates. |
-
-### Milestone 3 - Crypto Donations
+### Milestone 2 - Marketplace
 
 - **Estimated duration:** 1 month
 - **FTE:**  8
@@ -141,13 +119,11 @@ As an outsourcing company, we adhere to strict security and confidentiality poli
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains the dispute resolution solution. (Content, language and medium should reflect your target audience described above.) |
-| 1. | Low transaction fees | Cryptocurrency transactions typically have lower fees compared to traditional payment methods, such as credit cards or PayPal. This means that a larger portion of the donation goes directly to the content creator, rather than being lost to fees. |
-| 2. | Global accessibility | Cryptocurrencies are accessible to anyone with an internet connection, making it easy for fans from around the world to support their favorite creators. This can help creators reach a wider audience and receive support from a diverse range of fans. |
-| 3. | Real-time donations | Crypto donations can be processed and displayed in real-time during live streams, allowing content creators to acknowledge and thank their supporters immediately. This can help foster a stronger connection between creators and their fans. |
-
-
+| 1. | Direct sales | Allow users to buy NFTs at fixed prices, with support for multiple cryptocurrencies. |
+| 2. | Exchange | Enable users to buy and sell NFTs, with options for reserve prices, time limits, and other customizable settings. |
+| 3. | Activity feed and notifications | Keep users informed about new listings, bids, and sales through an activity feed and customizable notifications. |
 ## Future Plans
-
+- Implementing Community Management and Crypto Donations features. This could also attract more creators to the platform who prefer to receive payments in cryptocurrency.
 - Integration with other social media platforms: In addition to Discord and Telegram, FanChain could integrate with other social media platforms, such as Twitter and Instagram, to broaden its reach and provide more opportunities for creators to engage with their fans.
 - Partnerships with brands and businesses: FanChain could partner with brands and businesses to create branded NFT collections, which could be used for marketing campaigns and promotions. This could also provide a new revenue stream for creators and FanChain.
 - NFT gamification: FanChain could introduce gamification features to its NFT collections, such as NFT-based games or challenges that reward users with exclusive NFTs. This could increase engagement and interest in the platform.
