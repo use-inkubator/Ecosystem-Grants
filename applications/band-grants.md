@@ -53,7 +53,7 @@ We expect the teams to already have a solid idea about the project expected fina
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
     - To clarify, this integration will be for price feed only, the VRF will not be included in ink contracts at this time
     - For price feed, we have the capability to offer up to 15 symbols from our standard dataset, not all of the symbols will be available
-    - We are excited about the opportunity to expand our oracle service to additional ink!-based blockchains. However, it is important to clarify that the grant we are seeking will be exclusively allocated to support the development and maintenance of Astar WASM.
+    - We are excited about the opportunity to expand our oracle service to additional ink!-based blockchains. The grant we are seeking will be allocated to support the development for Band Protocol's oracle service on ink-enabled blockchains and to support the running costs for the oracle service on Astar WASM.
 - Do you need an audit for the contacts? **YES/NO**
 (don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
     - Yes
