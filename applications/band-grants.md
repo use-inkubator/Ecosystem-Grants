@@ -129,13 +129,10 @@ Below we provide an **example roadmap**.
 - **Full-Time Equivalent (FTE):**  2
 - **Total Costs:** 80,000 USD
 
-### Milestone 
-
-*NB: do we need to add infra fees?*
-
-- **Estimated duration:** 3-4 months
+### Milestone 1
+- **Estimated duration:** 2-3 months
 - **FTE:**  2
-- **Costs:** 80,000 USD
+- **Costs:** 45,000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
@@ -148,16 +145,29 @@ Below we provide an **example roadmap**.
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
 | 1. | Data Source | Data sources on BandChain which will be the core of getting data that will be delivered to Astar |
 | 2. | Oracle Script | An oracle script on BandChain which will verify and aggregate data from the data sources on BandChain|
-| 3. | BandChain Requester | A service that will prepare and request data from BandChain to be sent to Astar | 
-| 4. | Astar ink! Relayer | A service that will prepare and execute data to be bridged over to Astar|
-| 5. | ink! Signer | A seperate service which upon request, creates and signs a transction which is sent to the relayer service. The signer service is run on an isolated VPC to prevent unauthorized requests and uses a key management service to keep the signing key secure |
-| 6. | PDS | A service on BandChain that will allow paid services to deliver data to BandChain safely and securely |
-| 7. | Smart contract | An ink! smart contract that will allow consumers to query various price feed from BandChain|
-| 8. | Testing and Audit | Testing|
-| 9. | Maintenance | Reviewer can continuously read the state of the contract to get an asset's price|
-| 10. | Infrastructure | Hosting cost - Storage, GCP|
-| 11. | Monitoring | 24/7 monitoring service ensures the continuous operation of the relayer. This includes the comprehensive monitoring of both the Astar EVM and Astar WASM chains for a duration of one year|
+| 3. | PDS | A service on BandChain that will allow paid services to deliver data to BandChain safely and securely |
+| 4. | Smart contract | An ink! smart contract that will allow consumers to query various price feed from BandChain|
+| 5. | Testing and Audit | Testing|
+### Milestone 2
+- **Estimated duration:** 1-2 months
+- **FTE:**  2
+- **Costs:** 35,000 USD
 
+> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
+
+|  Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0b.** | Documentation | We will provide inline documentation of the code, a basic tutorial on how to use the smart contract and an example consumer contract that shows a practical example on how to use the smart contract|
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests.|
+| **0d.** | Docker | N/A for smart contracts|
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
+| 1. | BandChain Requester | A service that will prepare and request data from BandChain to be sent to Astar | 
+| 2. | Astar ink! Relayer | A service that will prepare and execute data to be bridged over to Astar|
+| 3. | ink! Signer | A seperate service which upon request, creates and signs a transction which is sent to the relayer service. The signer service is run on an isolated VPC to prevent unauthorized requests and uses a key management service to keep the signing key secure |
+| 4. | Maintenance | Reviewer can continuously read the state of the contract to get an asset's price|
+| 5. | Infrastructure | Hosting cost - Storage, GCP|
+| 6. | Monitoring | 24/7 monitoring service ensures the continuous operation of the relayer. This includes the comprehensive monitoring of both the Astar EVM and Astar WASM chains for a duration of one year|
 
 ## Future Plans
 
