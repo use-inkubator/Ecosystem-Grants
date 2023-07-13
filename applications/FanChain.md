@@ -9,16 +9,22 @@ FanChain is dedicated to empowering streamers, influencers, and their communitie
 
 ### Ink! Ecosystem Impact
 
-By providing a user-friendly platform for creators to issue NFTs and manage their communities, FanChain will attract more users to the ink! ecosystem and demonstrate its versatility.
+The FanChain project will have a significant impact on the ink! ecosystem by demonstrating the capabilities and versatility of ink! smart contracts in the context of NFTs and community management.
+- **Increased adoption**: By providing a user-friendly platform for creators to issue NFTs and manage their communities using ink! smart contracts, FanChain will attract more users to the ink! ecosystem. This increased adoption will raise awareness of ink!'s potential and versatility for various applications.
+- **Showcase of ink! smart contracts**: FanChain will serve as an example of how ink! smart contracts can be employed to create secure, efficient, and scalable NFT and community management solutions. This will help establish ink! as a preferred framework for developers working on similar projects.
+- **Innovation and exploration of new use cases**: The FanChain platform will encourage innovation in the NFT space and uncover new use cases for ink! smart contracts. This could inspire other projects to leverage ink! for their applications, further expanding the ecosystem.
+- **Collaboration and partnerships**: FanChain's potential partnerships with brands and businesses, and its integration with other social media platforms, will create more opportunities for collaboration within the ink! ecosystem. This can lead to the development of new ink!-based solutions and further expansion of the ecosystem.
+
+Overall, the FanChain project will not only showcase the capabilities of ink! smart contracts but also promote their adoption, interoperability, and innovation within the Polkadot ecosystem. This will contribute to the growth and expansion of the ink! ecosystem as a whole.
 
 ### Project Details
 
 FanChain is a platform that enables streamers and influencers to create and issue NFT collections, including generative and membership NFTs. Fans can purchase these NFTs on our marketplace and participate in exclusive community events on Discord and Telegram. Additionally, FanChain offers a crypto-based donation system for viewers to support their favorite creators.
-- NFT Creation: Streamers and influencers can create and issue NFT collections, including generative and membership NFTs, using ink! smart contracts.
-- Marketplace: Users can buy, sell, and trade NFTs on our platform, fostering a vibrant and active community around content creators and their fans.
-- Community Management: FanChain will offer tools for streamers and influencers to manage their Discord and Telegram communities, ensuring that only NFT holders can access exclusive channels and events. (Future plan)
-- Crypto Donations: Viewers can support their favorite creators by donating cryptocurrency, with donation information displayed during live streams. (Future plan)
-- Compatibility: FanChain will be compatible with all Wasm-supporting parachains, including prominent networks such as Astar Network, Phala Network, and more.
+- **NFT Creation**: Streamers and influencers can create and issue NFT collections, including generative and membership NFTs, using ink! smart contracts.
+- **Marketplace**: Users can buy, sell, and trade NFTs on our platform, fostering a vibrant and active community around content creators and their fans.
+- **Community Management**: FanChain will offer tools for streamers and influencers to manage their Discord and Telegram communities, ensuring that only NFT holders can access exclusive channels and events. (Future plan)
+- **Crypto Donations**: Viewers can support their favorite creators by donating cryptocurrency, with donation information displayed during live streams. (Future plan)
+- **Compatibility**: FanChain will be compatible with all Wasm-supporting parachains, including prominent networks such as Astar Network, Phala Network, and more.
 
 Technology Stack: FanChain will be built using ink! for smart contracts for the underlying blockchain, and a combination of React and Node.js for the frontend and backend.
 
@@ -57,6 +63,7 @@ Var Meta was founded in 2020. We focused on blockchain and virtual reality/augme
 
 Our Head office is located in Hanoi, with representative offices in Danang. We work with customers from different parts of the globe like Hong Kong, Japan, Singapore, UK to help them build products like Crypto Trading Platform, Launchpad, Securities Tokenization Offerings, eWallets, and NFT Marketplace, etc.
 
+We have successfully developed the [VAR NFT Generator](https://var-nft-generator.vercel.app/), a platform where users can create and customize their own NFT collections, mint NFTs, and sell them directly. This demonstrates our team's expertise in the NFT space and our ability to build user-friendly tools for creators and collectors. By leveraging our experience and technical skills, we are confident in our ability to deliver the FanChain platform as an innovative solution for content creators and their fans within the ink! ecosystem.
 ### Team Code Repos
 
 As an outsourcing company, we adhere to strict security and confidentiality policies, and we cannot publicly share our source code on GitHub. However, we can provide code samples or demonstrate our expertise through other means, such as technical discussions, presentations, or anonymized case studies, upon request.
@@ -84,13 +91,13 @@ As an outsourcing company, we adhere to strict security and confidentiality poli
 
 - **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  8
-- **Total Costs:** 96,000 USD
+- **Total Costs:** 60,000 USD
 
 ### Milestone 1 - NFT Creation
 
 - **Estimated duration:** 2 months
 - **FTE:**  8
-- **Costs:** 64,000 USD
+- **Costs:** 40,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -110,7 +117,7 @@ As an outsourcing company, we adhere to strict security and confidentiality poli
 
 - **Estimated duration:** 1 month
 - **FTE:**  8
-- **Costs:** 32,000 USD
+- **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
