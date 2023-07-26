@@ -1,7 +1,7 @@
 # Decentralized Oracles
 
 - **Team Name:** Lucky Team
-- **Payment Address:** 5FsPMucWPWHGaKD6TiHV2fpbd1497m5sgA7drbBtYic6rhsK
+- **Payment Address:** 14ogWEsaFHYk1rDcRMLVApekUd3np4e1ker81tBF6odd39Q9
 
 ## Project Overview :page_facing_up:
 ### Overview
