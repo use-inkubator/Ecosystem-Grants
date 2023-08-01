@@ -1,6 +1,3 @@
-
-# Ink! dApp Marvels analytics
-
 # Ink! dApp Marvels analytics
 
   
@@ -98,14 +95,10 @@ CATEGORY: Infrastructure
   
 
 **Visualisation of the dApp Marvel set up @ Tokenguard interface**
-
-![](https://t31001708.p.clickup-attachments.com/t31001708/5569d8d4-7f1d-4655-b9b9-ad7a52198ebe/image.png)
-
-  
+<img src="https://imagizer.imageshack.com/img922/3403/DVC6iI.png" width="800" border="0">
 
 **Visualisation of the dApp Marvel set up @ Tokenguard interface**
-
-![](https://t31001708.p.clickup-attachments.com/t31001708/1eb7ea98-4bdc-42c5-9187-7db23e3f5bfc/image.png)
+<img src="https://imagizer.imageshack.com/img924/6769/p0JhTc.png" width="800" border="0">
 
 ## Team :busts\_in\_silhouette:
 
@@ -119,7 +112,6 @@ CATEGORY: Infrastructure
 *   Jakub Rojek - CTO / Backend developer ([https://www.linkedin.com/in/jakub-rojek-dev/](https://www.linkedin.com/in/jakub-rojek-dev/))
 *   Damian Rolek - CDO / Data Analyst ([https://www.linkedin.com/in/damianrolek/](https://www.linkedin.com/in/damianrolek/))
 *   Matt Saczewski - Business Development Manager ([https://www.linkedin.com/in/msaczewski/](https://www.linkedin.com/in/msaczewski/))
-*   Zaur Tarunov - Growth Manager ([https://www.linkedin.com/in/zaur-t/](https://www.linkedin.com/in/zaur-t/))
 *   Jacob Piorecki - UI/UX Designer ([https://www.linkedin.com/in/jacobpiorecki/](https://www.linkedin.com/in/jacobpiorecki/))
 *   Piotr Józefowicz - Backend Developer ([https://www.linkedin.com/in/piotr-jozefowicz-529669220/](https://www.linkedin.com/in/piotr-jozefowicz-529669220/))
 *   Adam Król - Backend Developer ([https://www.linkedin.com/in/adam-kr%C3%B3l-7b3a831b6/](https://www.linkedin.com/in/adam-kr%C3%B3l-7b3a831b6/))
