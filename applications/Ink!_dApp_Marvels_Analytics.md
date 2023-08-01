@@ -193,11 +193,11 @@ Tokenguard is currently developing the following features:
 
 | <br>Number<br> | Deliverable | Specification |
 | ---| ---| --- |
-| <br>**0a.**<br> | License | MIT |
-| <br>**0b.**<br> | Documentation | We will provide inline documentation. |
-| <br>**0c.**<br> | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. We will describe how to run these tests. |
-| <br>**0d.**<br> | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| <br>1.<br> | dApp Marvels storage | Database:<br>1. Developing a service of automated SQL database creation based on dApp Marvels defined by user<br>2. Connecting the database to SubSquid smart contract decoder:<br>a). collecting raw data separately as smart contract events with their respective arguments<br>b). aggregating the data based on defined dApp marvels<br>3. Implementing automated schema changes to the database based on real-time user changes and newly defined Marvels<br><br>Data processing and handling:<br>1. Prepare a data pipeline that allows accessing the data with low delay<br>a). automated data aggregation pipeline<br>b). processing events coming from numerous smart contracts based on user's dApp Marvel definition<br> |
+| **0a.** | License | MIT |
+| **0b.** | Documentation | We will provide inline documentation. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. We will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 1. | dApp Marvels storage | Database:<br>1. Developing a service of automated SQL database creation based on dApp Marvels defined by user<br>2. Connecting the database to SubSquid smart contract decoder:<br>a). collecting raw data separately as smart contract events with their respective arguments<br>b). aggregating the data based on defined dApp marvels<br>3. Implementing automated schema changes to the database based on real-time user changes and newly defined Marvels<br><br>Data processing and handling:<br>1. Prepare a data pipeline that allows accessing the data with low delay<br>a). automated data aggregation pipeline<br>b). processing events coming from numerous smart contracts based on user's dApp Marvel definition<br> |
 
   
 
@@ -209,11 +209,11 @@ Tokenguard is currently developing the following features:
 
 | <br>Number<br> | Deliverable | Specification |
 | ---| ---| --- |
-| <br>**0a.**<br> | License | MIT |
-| <br>**0b.**<br> | Documentation | We will provide inline documentation. |
-| <br>**0c.**<br> | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. We will describe how to run these tests. |
-| <br>**0d.**<br> | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| <br>2.<br> | dApp Marvels definition | Translating smart contract events into dApp Marvels:<br>1. Create a database that will collect ABIs of dApp's smart contracts and automatically process them using Ink! SubSquid decoder<br>2. Create a template to connect events from multiple smart contracts and set up required arguments & filters using logic rules<br>3. Design universal data model for transforming smart contract calls and methods with their respective arguments into previously user-specified dApp Marvels that need to be tracked & discovered<br>a). defining the database altering schema based on user changes of dApp Marvels<br> |
+| **0a.** | License | MIT |
+| **0b.** | Documentation | We will provide inline documentation. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. We will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 2. | dApp Marvels definition | Translating smart contract events into dApp Marvels:<br>1. Create a database that will collect ABIs of dApp's smart contracts and automatically process them using Ink! SubSquid decoder<br>2. Create a template to connect events from multiple smart contracts and set up required arguments & filters using logic rules<br>3. Design universal data model for transforming smart contract calls and methods with their respective arguments into previously user-specified dApp Marvels that need to be tracked & discovered<br>a). defining the database altering schema based on user changes of dApp Marvels<br> |
 
   
 
@@ -225,12 +225,12 @@ Tokenguard is currently developing the following features:
 
 | <br>Number<br> | Deliverable | Specification |
 | ---| ---| --- |
-| <br>**0a.**<br> | License | MIT |
-| <br>**0b.**<br> | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can specify, collect & display dApp marvels. |
-| <br>**0c.**<br> | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| <br>**0d.**<br> | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| <br>0e.<br> | Manual & article | We will publish a tutorial that explains deliverables and how to use them. In the tutorial we will extensively explain the following scope:<br>1. How does dApp Marvel Analytics work?<br>2. Setting up dApp Marvel Analytics<br>a). ABI generation & uploading<br>b). Defining dApp Marvels, including numerous smart contracts<br>c). Tracking dApp Marvels<br>d). Modifying dApp Marvels<br>3. Marvel visualisation & notifications<br>a). How to connect dApp Marvel Analytics to data visualisation tools<br>b). Setting up API notifications<br> |
-| <br>3.<br> | REST API interface & Marvel display | Creation of interactive REST API interface:<br>1. Creating a REST API service that will allow users to:<br>a). set up new trackable marvels<br>b). collect information about existing marvels<br>c). modify existing marvels<br>2. Connecting the API to the database for:<br>a). automated schema altering<br>b). events notifications<br>c). data processing<br>3. Adding a JSON outputting service to the database to allow displaying the data in a format readable to analytics tools such as Grafana, Tokenguard and others.<br> |
+| **0a.** | License | MIT |
+| **0b.** | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can specify, collect & display dApp marvels. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e.| Manual & article | We will publish a tutorial that explains deliverables and how to use them. In the tutorial we will extensively explain the following scope:<br>1. How does dApp Marvel Analytics work?<br>2. Setting up dApp Marvel Analytics<br>a). ABI generation & uploading<br>b). Defining dApp Marvels, including numerous smart contracts<br>c). Tracking dApp Marvels<br>d). Modifying dApp Marvels<br>3. Marvel visualisation & notifications<br>a). How to connect dApp Marvel Analytics to data visualisation tools<br>b). Setting up API notifications<br> |
+| 3. | REST API interface & Marvel display | Creation of interactive REST API interface:<br>1. Creating a REST API service that will allow users to:<br>a). set up new trackable marvels<br>b). collect information about existing marvels<br>c). modify existing marvels<br>2. Connecting the API to the database for:<br>a). automated schema altering<br>b). events notifications<br>c). data processing<br>3. Adding a JSON outputting service to the database to allow displaying the data in a format readable to analytics tools such as Grafana, Tokenguard and others.<br> |
 
   
 
