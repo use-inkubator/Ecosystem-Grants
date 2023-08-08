@@ -1,13 +1,6 @@
 # Band Protocol
-
-> This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
-> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
 - **Team Name:** World Data Corporation Foundation (“Band Protocol”)
 - **Payment Address:** 12aj1nedSqMsVhAH5LyYJtjKPNrFWYoEh4FeGmWW2aS4DQQh
-
-
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 ### Overview
@@ -59,14 +52,6 @@ We expect the teams to already have a solid idea about the project expected fina
     - Yes
 - CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
     - Infrastructure
-
-
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
-
-
 ## Team :busts_in_silhouette:
 
 ### Team members
@@ -98,6 +83,7 @@ Please describe the team's relevant experience. If your project involves develop
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/warittornc
+- https://github.com/taobun
 
 ### Team LinkedIn Profiles (if available)
 
@@ -121,8 +107,6 @@ This section should break the development roadmap down into milestones and deliv
 
 Below we provide an **example roadmap**.
 
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
 - **Total Estimated Duration:** 3-4 months
@@ -134,11 +118,9 @@ Below we provide an **example roadmap**.
 - **FTE:**  2
 - **Costs:** 45,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
-
 |  Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0a.** | License | MIT 
 | **0b.** | Documentation | We will provide inline documentation of the code, a basic tutorial on how to use the smart contract and an example consumer contract that shows a practical example on how to use the smart contract|
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests.|
 | **0d.** | Docker | N/A for smart contracts|
@@ -146,18 +128,16 @@ Below we provide an **example roadmap**.
 | 1. | Data Source | Data sources on BandChain which will be the core of getting data that will be delivered to Astar |
 | 2. | Oracle Script | An oracle script on BandChain which will verify and aggregate data from the data sources on BandChain|
 | 3. | PDS | A service on BandChain that will allow paid services to deliver data to BandChain safely and securely |
-| 4. | Smart contract | An ink! smart contract that will allow consumers to query various price feed from BandChain|
-| 5. | Testing and Audit | Testing|
+| 4. | Smart contract | An ink! smart contract that will allow consumers to query various price feed from BandChain |
+| 5. | Testing and Audit | Unit tests for each component and live testing and audits for the ink! smart contract on testnet |
 ### Milestone 2
 - **Estimated duration:** 1-2 months
 - **FTE:**  2
 - **Costs:** 35,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
-
 |  Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0a.** | License |  MIT 
 | **0b.** | Documentation | We will provide inline documentation of the code, a basic tutorial on how to use the smart contract and an example consumer contract that shows a practical example on how to use the smart contract|
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests.|
 | **0d.** | Docker | N/A for smart contracts|
