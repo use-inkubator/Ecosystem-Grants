@@ -18,17 +18,17 @@ We firmly believe that this template will greatly enhance security of future Ink
 
 ### Ink! Ecosystem Impact
 
-The major advantage of Ink! smart contracts over Solidity on Ethereum is that smart contracts offer code caching.
-With this it is very efficient to create many smart contracts using the same bytecode.
+The major advantage of Ink! smart contracts over Solidity on Ethereum is that smart contracts can utilize code caching.
+With this, it is very efficient to create many smart contracts using the same bytecode.
 In this project we showcase an excellent approach to splitting core contract logic and user finances.
 This approach offers steadfast security compared to a typical staking contract.
-By creating this open-source Ink! example we believe that the ecosystem at large will benefit from a secure staking smart contract.
-This will save all upcoming projects plenty of development time and they allocate resources towards other project goals.
+By creating this open-source Ink! example we believe that the ecosystem at large will benefit from a secure staking solution.
+This will save upcoming projects plenty of development time and will allow to allocate resources towards other project goals.
 
 ### Project Details
 
 The key component of the Federated staking architecture is the separation of user funds from the core staking logic.
-This is achieved by creating a master contract which holds all the staking logic and a separate escrow contract which holds the user funds.
+This is achieved by creating a master contract which holds all the staking logic and a separate escrow contracts which hold the user funds.
 With this approach, the master staking contract can be modified and adjusted to specific use cases without compromising user funds.
 
 In order to minimize the attack surface or chance for an error in code, core part of `Federated Staking` - `Escrow` will be a very simple contract.
@@ -159,7 +159,7 @@ Canary Dapp
 
 The team's experience spans across multiple industries and technologies.
 We have a significant blockchain experience with Rust and CosmWasm over the past two years as well as Solidity/EVM and Algorand.
-Our team members have contributed to open source projects, including core repositories of Algorand such as [PyTEAL](https://github.com/algorand/pyteal).
+Our team members have contributed to open source blockchain projects, including core repositories of Algorand such as [PyTEAL](https://github.com/algorand/pyteal).
 
 More information about our team can be found in the [Team LinkedIn Profiles](#team-linkedin-profiles) section as well as the [Dot3 Website](https://www.dot3.dev).
 
