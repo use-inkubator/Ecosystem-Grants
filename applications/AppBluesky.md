@@ -37,7 +37,7 @@ This techbical showcase project impacts the ecosystem by introducing ink! unique
 	
 ### Project Details
 
-Here's a list of more details of ink! smart contract etc to showcase simplified smart contract code, lower gas fees and better perfromance.  
+Here's a list of more details of ink! smart contract etc to showcase ink! macros and upgradability
 
 - ink! Macros
 	- ink! macros are a way to define custom syntax or code that can be reused within a smart contract. Macros in ink! are defined using the Rust programming language's macro system, which provides a powerful set of tools for code generation and metaprogramming.
@@ -51,10 +51,9 @@ Here's a list of more details of ink! smart contract etc to showcase simplified 
 	- When a new version of a smart contract is deployed, use set_code_hash to point to the new contract code, while persisting old contract data intact.
 	- Upgradability related storage layouts, collision / corruption scenarios, and best practices 
 
-- Adoption
+- Documentation and publications
 	- Document with screenshots in a step-by-step guide to make it tangible for potentail developers to better understand ink! smart contract potentials and related Substrate technology stack  
 	- Publish Medium articles to reach out to both technical and non-technical audience to better understand ink! smart contract especially against alternatives, especially to detail not well publicized ink! features as comparative advantges.     
-
 
 - What your project is _not_ or will _not_ provide or implement
   - It is not a canary dapp, not infrastructure, not business case 
