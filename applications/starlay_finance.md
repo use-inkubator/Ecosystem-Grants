@@ -110,6 +110,7 @@ We have completed the basic implementation and are currently adding test code an
 - **Estimated Duration:** 2 weeks
 - **FTE:** 2FTE, 4PTE
 - **Costs:** 20,000 USD
+
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 |
@@ -122,11 +123,10 @@ We have completed the basic implementation and are currently adding test code an
 - **Estimated Duration:** 1 week
 - **FTE:** 2FTE, 4PTE
 - **Costs:** 10,000 USD
+
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **1.** | Post-audit refinement | Replenish test cases based on audit findings to eliminate possible bugs | (edited) 
-2:53
-Just modified the estimated duration to 1 week cuz audit is not included. Also it matches the total dev time.
+| **1.** | Post-audit refinement | Replenish test cases based on audit findings to eliminate possible bugs |
 
 
 ## Future Plans
