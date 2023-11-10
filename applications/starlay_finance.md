@@ -142,3 +142,11 @@ To increase the adoption of Starlay Finance, our team plans to:
 **How did you hear about the Bounty Program?** 
 
 By referral from the Astar team
+
+**Why we're dividing the milestone 2 despite the initial approval**
+
+In response to the comments from @HCastano (https://github.com/use-inkubator/Grant-Milestone-Delivery/pull/9#issuecomment-1780102970), we have decided to divide the original milestone 2 into two separate milestones as stated in the change above. It will provide clearer scope and better manage expectations for both the development team and stakeholders. 
+
+Also this adjustment allows us to facilitate prompt payment for deliverables that are ready and to address post-audit work with the necessary attention it requires.
+
+I appreciate the understanding.
