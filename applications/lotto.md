@@ -26,7 +26,7 @@ In each game, the user will interact with one or more ink! smart contracts and t
 
 In the UI:
 - the user will choose a number between two values
-- the communication between the different contracts will be displayed and the user will see teh status of their request.
+- the communication between the different contracts will be displayed and the user will see the status of their request.
 - the user will be able to claim the rewards if he/she won
 - the user will be able to see all past games (and filter on their own games)
 
@@ -97,14 +97,14 @@ If the user stakes on the Lucky dApp, he will still receive the rewards from the
 The dApp is built with several ink! smart contracts, a subquery indexer, and off-chain workers (scheduled jobs).  
 We are replacing the scheduled jobs with phat contracts to improve decentralization and demonstrate the interoperability between ink! smart contracts (Shiden/Astar) and ink! phat contracts (Khala/Phala).
 
-The dApp is already live on Shiden and Astar.
-Website:  https://lucky.substrate.fi/
-Documentation: https://polkaverse.com/11201/introducing-the-d-app-lucky-37998  
-GitHub: https://github.com/LuckyDapp
+The dApp is already live on Shiden and Astar. 
+- Website:  https://lucky.substrate.fi/
+- Documentation: https://polkaverse.com/11201/introducing-the-d-app-lucky-37998  
+- GitHub: https://github.com/LuckyDapp 
 
-We built decentralized and trustless oracles for ink! smart contracts: [decentralized_oracles.md](decentralized_oracles.md)
-Website:  https://lucky.substrate.fi/
-GitHub: https://github.com/decentralized-oracles
+We built decentralized and trustless oracles for ink! smart contracts: [decentralized_oracles.md](decentralized_oracles.md) 
+- Website:  https://lucky.substrate.fi/ 
+- GitHub: https://github.com/decentralized-oracles 
 
 
 ### Team Code Repos
@@ -118,9 +118,9 @@ GitHub accounts of team members:
 
 ### Overview
 
-- **Total Estimated Duration:** 5.5 months
+- **Total Estimated Duration:** 6.5 months
 - **Full-Time Equivalent (FTE):**  1 FTE
-- **Total Costs:** 55,000 USD
+- **Total Costs:** 65,000 USD
 
 ### Milestone 1  — Game 1
 
@@ -136,7 +136,7 @@ GitHub accounts of team members:
 |      1. | Phat contracts                 | We will deliver the phala offchain rollup                                                                                                                       |
 |      2. | Ink! smart contracts           | We will deliver the ink! smart contracts                                                                                                                        |
 |      3. | UI                             | We will deliver the UI to test and play with the delivered smarts contracts                                                                                     |
-|      4. | SubQuery and SubSquid indexers | We will deliver the indexers used in teh UI side and also to automate the whole process                                                                         |
+|      4. | SubQuery and SubSquid indexers | We will deliver the indexers used in the UI side and also to automate the whole process                                                                         |
 
 
 ### Milestone 2  — Game 2
@@ -153,7 +153,7 @@ GitHub accounts of team members:
 |      1. | Phat contracts                 | We will deliver the phala offchain rollup                                                                                                                       |
 |      2. | Ink! smart contracts           | We will deliver the ink! smart contracts                                                                                                                        |
 |      3. | UI                             | We will deliver the UI to test and play with the delivered smarts contracts                                                                                     |
-|      4. | SubQuery and SubSquid indexers | We will deliver the indexers used in teh UI side and also to automate the whole process                                                                         |
+|      4. | SubQuery and SubSquid indexers | We will deliver the indexers used in the UI side and also to automate the whole process                                                                         |
 
 
 ### Milestone 3  — Ink! Smart contract and Phat Contract used for the game 3
@@ -184,7 +184,7 @@ GitHub accounts of team members:
 | **0b.** | Documentation                  | We will provide documentation that explains how to use and test                                                                                                 |
 | **0c.** | Testing and Testing Guide      | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 |      1. | UI                             | We will deliver the UI to test and play with the delivered smarts contracts                                                                                     |
-|      2. | SubQuery and SubSquid indexers | We will deliver the indexers used in teh UI side and also to automate the whole process                                                                         |
+|      2. | SubQuery and SubSquid indexers | We will deliver the indexers used in the UI side and also to automate the whole process                                                                         |
 
 
 ### Milestone 4  — NFT used in the game 2
@@ -199,7 +199,7 @@ GitHub accounts of team members:
 | **0b.** | Documentation                  | We will provide documentation that explains how to use and test                                                                                                 |
 | **0c.** | Testing and Testing Guide      | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 |      1. | UI                             | We will deliver the UI to test and play with the delivered smarts contracts                                                                                     |
-|      2. | SubQuery and SubSquid indexers | We will deliver the indexers used in teh UI side and also to automate the whole process                                                                         |
+|      2. | SubQuery and SubSquid indexers | We will deliver the indexers used in the UI side and also to automate the whole process                                                                         |
 
 
 ## Future Plans
