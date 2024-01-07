@@ -107,20 +107,26 @@ We have completed the basic implementation and are currently adding test code an
 
   
 ### Milestone 2 - 1st release
+- **Estimated Duration:** 2 weeks
+- **FTE:** 2FTE, 4PTE
+- **Costs:** 20,000 USD
 
-- **Estimated Duration:** 3 week
-- **FTE:**  2FTE, 4PTE
-- **Costs:** 30,000 USD
-  
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 |
 | **0b.** | Documentation | We will provide both documentation of the code and a basic video tutorial that explains how a user can easily use Starlay app |
+| **1.** | Flashloan function| Allow developers to borrow all available assets without collateral by borrowing and repaying in one transaction |
+| **2.** | Mobile support| Allow users to use Starlay from their mobile |
+
+
+### Milestone 3
+- **Estimated Duration:** 1 week
+- **FTE:** 2FTE, 4PTE
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
 | **1.** | Post-audit refinement | Replenish test cases based on audit findings to eliminate possible bugs |
-| **2.** | Repay_all function | Allow borrowers to repay their entire outstanding loan balance in a single transaction|
-| **3.** | Redeem_all function | Allow users to withdraw all of their supplied assets and any earned interest from the platform in a single transaction |
-| **4.** | Flashloan function| Allow developers to borrow all available assets without collateral by borrowing and repaying in one transaction |
-| **5.** | Mobile support| Allow users to use Starlay from their mobile |
 
 
 ## Future Plans
@@ -136,3 +142,11 @@ To increase the adoption of Starlay Finance, our team plans to:
 **How did you hear about the Bounty Program?** 
 
 By referral from the Astar team
+
+**Why we're dividing the milestone 2 despite the initial approval**
+
+In response to the comments from @HCastano (https://github.com/use-inkubator/Grant-Milestone-Delivery/pull/9#issuecomment-1780102970), we have decided to divide the original milestone 2 into two separate milestones as stated in the change above. It will provide clearer scope and better manage expectations for both the development team and stakeholders. 
+
+Also this adjustment allows us to facilitate prompt payment for deliverables that are ready and to address post-audit work with the necessary attention it requires.
+
+I appreciate the understanding.
