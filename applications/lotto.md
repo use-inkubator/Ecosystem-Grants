@@ -48,7 +48,7 @@ The next rounds will be limited to the addresses that stake on the Lucky dApp.
 
 Game 3 will be a kind of Lotto.
 The user chooses 4 or 5 numbers between 1 and 49. These numbers can be changed later.
-The user will need a NFT to play to the lottery. This NFT will use as a ticket and will be burned when the numbers are chosen.
+The user will need a NFT to play to the lottery. This NFT will be used as a ticket and will be burned when the numbers are chosen.
 Another NFT will be minted with the chosen numbers. If the RMRK NFT is implemented for ink!, we could use a single nft and update it. 
 
 Each X eras the raffle will start and a vrf (phat contract) will provide the winning numbers.
