@@ -10,7 +10,7 @@ We would like to build some games with ink! smart contracts and phat contracts.
 Now that we have released the offchain rollup request-response for ink! smart contracts and three decentralized oracles (price feed, vrf, graph api oracle), we would like to build some games on Astar Network to have fun on the community and promote dApps built with ink!.  
 This project will focus on building three games:
  - Game 1 : The user has to guess the random number (between 1 and 30 by example) given by the VRF. The user has a unique try. If the user finds the correct number, he will be rewarded.
- - Game 2 is an evolution of the first one. The user has several tries to find the mysterious number and the smart contract will give a clue (plus or minus) to find it. Again, the user is rewarded if he finds it.
+ - Game 2 is an evolution of the first one. The user has several tries to find the mystery number and the smart contract will give a clue (plus or minus) to find it. Again, the user is rewarded if he finds it.
  - Game 3 will be a kind of Lotto. The user chooses 4 or 5 numbers and if he has all the correct numbers, he wins the jackpot.
 
 ### Project Details
@@ -37,7 +37,7 @@ The next rounds will be limited to the addresses that stake on the Lucky dApp.
 #### Game 2
 
 This game is an evolution of the first one.
-The user has several tries to find the mysterious number and the smart contract will give a clue (plus or minus) to find it.
+The user has several tries to find the mystery number and the smart contract will give a clue (plus or minus) to find it.
 Again, the user is rewarded if they find it.
 We will use the treasury of the Lucky's Team to fund the rewards for this game.
 The first round will be open to all users.
