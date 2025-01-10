@@ -1,5 +1,9 @@
 <img src="./assets/logo-white.svg" alt="logo" style="height: 48px;">
 
+> [!TIP]
+> Update Jan 10, 2025: **Applications for cohort 2 will open soon.** Please check back here for updates.
+
+
 # ink!ubator: Ecosystem Grants<!-- omit in toc -->
 
 - [:wave: Introduction](#wave-introduction)
