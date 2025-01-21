@@ -161,8 +161,8 @@ Community support channels:
 
 ### 1. Application
 
-1. [Fork](https://github.com/smart-contract-bounty/Wasm-Bounty-01/fork) this repository.
-2. Create a copy of the application template ([`applications/application-template.md`](https://github.com/smart-contract-bounty/Ecosystem-Grants/blob/master/applications/application-template.md)).
+1. [Fork](https://github.com/use-inkubator/Ecosystem-Grants/fork) this repository.
+2. Create a copy of the application template ([`applications/application-template.md`](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/application-template.md)).
 3. Name the new file after your project: `project_name.md`.
 4. Complete the template with as much detail as possible.
 5. Submit a pull request to this repository. Only include **one new file** in your pull request.
