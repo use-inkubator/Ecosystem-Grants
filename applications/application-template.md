@@ -39,6 +39,11 @@ We expect the teams to already have a solid idea about the project expected fina
 (don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
 - CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
 
+### Business Plan
+
+An overview of the business model, including revenue streams, target market, and scalability.
+Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success.
+
 
 Things that shouldn’t be part of the application:
 - The (future) tokenomics of your project 
