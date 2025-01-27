@@ -111,30 +111,6 @@ Examples of successful infrastructure products:
 
 ---
 
-**Bounty Levels**
-
-The Smart Contract Bounty Program offers different levels based on your stage:
-
-### 🐣 Level 1
-
-- **Target:** Individuals & small teams
-- **Amount:** Up to $10,000
-- **Requirements:** 4 approvals
-
-### 🐤 Level 2
-
-- **Target:** Small teams/startups
-- **Amount:** Up to $30,000
-- **Requirements:** 4 approvals
-
-### 🐓 Level 3
-
-- **Target:** Companies/foundations with proven track records
-- **Amount:** Up to $250,000
-- **Requirements:** 5 approvals (for >$100k: Smart Contract Bounty Council approval + optional pitch call)
-
----
-
 **Benefits**
 
 - Feedback during application and evaluation
