@@ -3,6 +3,9 @@
 > [!TIP]
 > Update Jan 10, 2025: **Applications for cohort 2 will open soon.** Please check back here for updates.
 
+> [!TIP]
+> For a list of grants provided as part of this bounty, please see our dedicated [Accepted Grant Applications](applications/index.md) document.
+
 
 # ink!ubator: Ecosystem Grants<!-- omit in toc -->
 
