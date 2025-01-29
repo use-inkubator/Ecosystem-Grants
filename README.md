@@ -1,4 +1,5 @@
-<img src="./assets/logo-white.svg" alt="logo" style="height: 48px;">
+<img src="./assets/logo-white.svg#gh-dark-mode-only" width="300">
+<img src="./assets/logo-black.svg#gh-light-mode-only" width="300">
 
 > [!TIP]
 > Update Jan 10, 2025: **Applications for cohort 2 will open soon.** Please check back here for updates.
