@@ -34,7 +34,7 @@ The bounty includes Curators from the following Polkadot ecosystem teams:
 - [Michi](https://github.com/cmichi)
 - [Velocity Labs](https://www.velocitylabs.org/)
 - [David Semakula](https://davidsemakula.com/)
-- [R0GUE](https://github.com/al3mart)
+- [R0GUE](https://r0gue.io/)
 - **Facilitator**:
     - [Toma Sadova](https://www.linkedin.com/in/toma-sadova/)
 
