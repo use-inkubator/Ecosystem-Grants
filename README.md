@@ -152,7 +152,7 @@ Community support channels:
 
 ### 3. Milestone Delivery and Payment
 
-Milestones are to be delivered in the [Grant Milestone Delivery](https://github.com/smart-contract-bounty/Grant-Milestone-Delivery) repository.
+Milestones are to be delivered in the [Grant Milestone Delivery](https://github.com/use-inkubator/Grant-Milestone-Delivery) repository.
 
 ---
 
