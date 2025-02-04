@@ -6,15 +6,15 @@
 
 # ink!ubator 2.0 <!-- omit in toc -->
 
-- [Introduction](#wave-introduction)
+- [👋 Introduction](#-introduction)
 - [Guidelines](#guidelines)
 - [Project Ideas](#project-ideas)
-- [Process](#pencil-process)
+- [Benefits](#benefits)
+- [📝 Process](#-process)
   - [1. Application](#1-application)
   - [2. Application Review](#2-application-review)
   - [3. Milestone Delivery and Payment](#3-milestone-delivery-and-payment)
   - [Changes to a Grant after Approval](#changes-to-a-grant-after-approval)
-- [Benefits](#benefits)
 - [Support](#support)
 
 <img src="./assets/inkubator-tanks.svg" style="width: 100%;">
