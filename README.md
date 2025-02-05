@@ -6,25 +6,20 @@
 
 # ink!ubator 2.0 <!-- omit in toc -->
 
-- [\:wave: Introduction](#wave-introduction)
+- [👋 Introduction](#-introduction)
 - [Guidelines](#guidelines)
 - [Project Ideas](#project-ideas)
-- [Bounty Levels](#bounty-levels)
-- [Support](#support)
-- [Team](#team)
-- [\:pencil: Process](#pencil-process)
+- [Benefits](#benefits)
+- [📝 Process](#-process)
   - [1. Application](#1-application)
   - [2. Application Review](#2-application-review)
   - [3. Milestone Delivery and Payment](#3-milestone-delivery-and-payment)
   - [Changes to a Grant after Approval](#changes-to-a-grant-after-approval)
-- [\:mailbox_with_mail: Suggest a Project](#mailbox_with_mail-suggest-a-project)
-- [\:bulb: Help](#bulb-help)
-  - [Real-time conversation](#real-time-conversation)
-- [FAQ](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/FAQ.md)
+- [Support](#support)
 
 <img src="./assets/inkubator-tanks.svg" style="width: 100%;">
 
-**👋 Introduction**
+### 👋 Introduction
 
 Ecosystem Grants are part of the **ink!ubator**, a holistic bounty program with the goal of furthering the ink! smart contracting ecosystem. This bounty program is funded by the Polkadot treasury with the support of the community.
 
@@ -38,11 +33,9 @@ The bounty includes Curators from the following Polkadot ecosystem teams:
 - **Facilitator**:
     - [Toma Sadova](https://www.linkedin.com/in/toma-sadova/)
 
-The Ecosystem Grants are only one aspect of the ink!ubator. For more details on the rest of the initiative, see the [Polkadot Treasury Bounty Proposal](https://polkadot.polkassembly.io/bounty/19).
-
 ---
 
-**Guidelines**
+### Guidelines
 
 Anyone is welcome to apply for a grant. This program funds projects that are dedicated to ink! ecosystem growth. We focus on strong technical ideas that contribute to ink! infrastructure, demonstrate ink!'s potential, and unveil applicable business sides, thus growing the ecosystem.
 
@@ -69,27 +62,25 @@ We take licensing and proper attribution very seriously. Any misuse of others' w
 
 ---
 
-**Project Ideas**
+### Project Ideas
 
 The main acceptance criteria for any submitted project is its impact on the ink! ecosystem. Suggested categories include:
 
-### Business Dapp
+**Business Dapp**
 
 This category is for early-stage startups utilizing ink! that seek grant support. Applicants must demonstrate a viable business model, a capable team, and readiness to transform their idea into a functional company. A pitch deck is encouraged.
 
-### Canary Dapp
+**Canary Dapp**
 
 A Canary Dapp is a full-stack application that **could** be deployed on a value-bearing network but may not be fully production-ready. These projects serve as references for developers building production-grade dApps.
 
 Examples:
 
-- **Lending application** for earning interest on deposits and borrowing assets.
-- **Liquid staking** solutions issuing redeemable receipts for staked tokens.
-- **Aggregators** uniting decentralized protocols and liquidity sources.
+- Lending application for earning interest on deposits and borrowing assets.
+- Liquid staking solutions issuing redeemable receipts for staked tokens.
+- Aggregators uniting decentralized protocols and liquidity sources.
 
-We recommend using [Sol2ink](https://github.com/Brushfam/sol2ink) to accelerate development. Learn more in the [Sol2ink docs](https://learn.brushfam.io/docs/sol2ink).
-
-### Technical Showcase
+**Technical Showcase**
 
 This category involves applications demonstrating ink!'s advantages over other smart contract languages, such as:
 
@@ -97,21 +88,19 @@ This category involves applications demonstrating ink!'s advantages over other s
 - Decreased contract size
 - Improved developer and debugging experience
 
-### Infrastructure
+**Infrastructure**
 
-This category focuses on improving the ink! ecosystem's developer infrastructure and tooling. Innovative ideas that add differentiation to Polkadot/ink! are preferred over duplications of EVM tools.
+This category focuses on improving the ink! ecosystem's developer infrastructure and tooling.
 
 Examples of successful infrastructure products:
 
-- [OpenBrush](https://openbrush.io/)
-- [Swanky](https://github.com/AstarNetwork/swanky-cli)
 - Oracles (price feeds, VRF, customizable oracles, etc.)
 - DAO tooling (smart contracts, SDKs, UIs)
 - Bridges (XCM integration, external blockchain bridges)
 
 ---
 
-**Benefits**
+### Benefits
 
 - Feedback during application and evaluation
 - Introductions to relevant teams/projects
@@ -120,22 +109,11 @@ Examples of successful infrastructure products:
 
 ---
 
-**Support**
-
-While funding and milestone feedback are the main support mechanisms, general documentation and additional resources can be found at [use.ink](https://use.ink/).
-
-Community support channels:
-
-- [Smart contracts & Parity's ink! Element](https://matrix.to/#/#ink:matrix.parity.io)
-- [Brushfam ink! community Discord](https://discord.gg/9FRETSPmp9)
-
----
-
-**📝 Process**
+### 📝 Process
 
 > 📢 Payment is made in DOT (on Polkadot).
 
-### 1. Application
+#### 1. Application
 
 1. [Fork](https://github.com/use-inkubator/Ecosystem-Grants/fork) this repository.
 2. Create a copy of the application template ([`applications/application-template.md`](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/application-template.md)).
@@ -143,29 +121,27 @@ Community support channels:
 4. Complete the template with as much detail as possible.
 5. Submit a pull request to this repository. Only include **one new file** in your pull request.
 
-### 2. Application Review
+#### 2. Application Review
 
 1. Curators will review and comment on your pull request.
 2. Address feedback by modifying your application.
 3. Once ready, the application will be marked as `ready for review` and shared with the committee.
 4. Approval requires **4 votes** and will mark the project start date.
 
-### 3. Milestone Delivery and Payment
+#### 3. Milestone Delivery and Payment
 
 Milestones are to be delivered in the [Grant Milestone Delivery](https://github.com/use-inkubator/Grant-Milestone-Delivery) repository.
 
 ---
 
-**💡 Help**
+### Support
 
-For real-time support, join:
+While funding and milestone feedback are the main support mechanisms, general documentation and additional resources can be found at [use.ink](https://use.ink/).
 
-- [Ecosystem Grants Community](https://matrix.to/#/#sm-bounty-support:matrix.org)
+Community support channels:
 
-Additional channels:
-
-- [Smart contracts & Parity's ink!](https://matrix.to/#/#ink:matrix.parity.io)
-- [Brushfam ink! community](https://discord.gg/9FRETSPmp9)
+- [ink!ubator matrix room](https://matrix.to/#/#sm-bounty-support:matrix.org)
+- [ink telegram](https://t.me/inkathon/1)
 
 Useful links:
 
@@ -173,3 +149,4 @@ Useful links:
 - [GitHub ink!ubator 2.0](https://github.com/use-inkubator)
 - [ink!ubator 2.0 Website](https://use.ink/ubator/)
 - [ink!ubator 1.0 Report](https://forum.polkadot.network/t/final-report-of-ink-ubator/10120)
+
