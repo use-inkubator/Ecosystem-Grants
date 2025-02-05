@@ -38,6 +38,8 @@ We expect the teams to already have a solid idea about the project expected fina
 - Do you need an audit for the contacts? **YES/NO**
 (don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
 - CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
+- An overview of the business model, including revenue streams, target market, and scalability, if applicable.
+- Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success, if applicable.
 
 
 Things that shouldn’t be part of the application:
