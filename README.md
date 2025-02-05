@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 <img src="./assets/logo-white.svg#gh-dark-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 <img src="./assets/logo-black.svg#gh-light-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
-=======
-<img src="./assets/logo-white.svg#gh-dark-mode-only" width="300">
-<img src="./assets/logo-black.svg#gh-light-mode-only" width="300">
->>>>>>> origin/master
 
 > [!TIP]
 > Update Jan 21, 2025: **Applications for cohort 2 will open soon.** Please check back here for updates.
