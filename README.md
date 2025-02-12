@@ -2,8 +2,11 @@
 <img src="./assets/logo-black.svg#gh-light-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 
 > [!TIP]
+> Update Feb 12, 2025: **Applications for cohort 2 are now open.**
+
+> [!TIP]
 > Update Jan 21, 2025: **Applications for cohort 2 will open soon.** Please check back here for updates.
-> 
+>
 > You can in the meantime read up on what is currently going for ink! and plans for its future: [Q1/25](https://use.ink/6.x/current-state).
 
 > [!TIP]
@@ -155,4 +158,3 @@ Useful links:
 - [GitHub ink!ubator 2.0](https://github.com/use-inkubator)
 - [ink!ubator 2.0 Website](https://use.ink/ubator/)
 - [ink!ubator 1.0 Report](https://forum.polkadot.network/t/final-report-of-ink-ubator/10120)
-
