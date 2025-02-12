@@ -3,6 +3,8 @@
 
 > [!TIP]
 > Update Jan 21, 2025: **Applications for cohort 2 will open soon.** Please check back here for updates.
+> 
+> You can in the meantime read up on what is currently going for ink! and plans for its future: [Q1/25](https://use.ink/6.x/current-state).
 
 > [!TIP]
 > For a list of grants provided as part of this bounty, please see our dedicated [Accepted Grant Applications](applications/index.md) document.
