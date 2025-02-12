@@ -56,6 +56,7 @@ Generally, your project will have better chances of being accepted if:
 - You can demonstrate that the project will be **maintained** after completion of the grant, if applicable.
 - Your team has **proven experience** with relevant languages, technologies, and/or a strong technical background. GitHub profiles of team members should be included in your application.
 - Your application is **rich in technical details** and well-defined.
+- Your project uses the RISC-V compatible version of ink! language, [v6.X releases](https://use.ink/6.x/).
 
 Additionally, all projects must fulfill the following requirements:
 
