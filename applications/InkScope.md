@@ -1,8 +1,7 @@
 # InkScope (Ink! VS Code extension)
 
 - **Team name:** InkScope team
-- **Payment address:** [Polkadot Payment Address Placeholder]
-
+- **Payment address:** 5GHdT44FcYDALAkcqmKW1HkVzAcni8gkrpLy6T4kdMn17izE
 ---
 
 ## Project overview :page_facing_up:
@@ -16,7 +15,7 @@
 - **Importance**: Developer tools are foundational in the overall ecosystem. A unified method for debugging provides an important role to play in speeding up adoption and improving developer experience in the context of smart contracts.
 - **Why our team is interested**: Our team understands the big pains for the developers of Ink! because they don't have a centralized debugging solution. We would like to contribute with a tool that will remove these obstacles, enable faster prototyping, and ultimately contribute to the growth of the Ink! ecosystem.
 
----`
+---
 
 ### Ink! ecosystem impact
 
@@ -63,11 +62,11 @@ This **VS Code extension** will benefit the Ink! ecosystem by offering:
 
 ## Team :busts_in_silhouette:
 
-### Team members - TODO
+### Team members
 
 - Illia Abrosimov – Team leader / project lead
 - Yaroslav Kulpin – Ink! integration & testing engineer
-- **[Name 2]** – Front-end & extension engineer
+- Ivan Savin – Front-end & extension engineer
 
 ### Contact
 
@@ -87,9 +86,9 @@ Our team has combined expertise in:
 
 **GitHub accounts**:
 
-- https://github.com/last-dot
-- TODO
-- TODO
+- https://github.com/last-dot (prev. - https://github.com/LastSymbol0)
+- https://github.com/NeonMaliket
+- https://github.com/SoV3n04ek
 
 ### Team LinkedIn profiles
 
