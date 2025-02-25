@@ -81,21 +81,20 @@ Our team has combined expertise in:
 - **Ink! / Substrate** development, having contributed to small PoC contracts and experimenting with cross-contract calls.
 - **VS Code extensions / Front-end tools**: Experience using TypeScript and Node.js to build and publish custom extensions on the marketplace.
 
-### Team code repos - TODO
+### Team code repos
 
-- [https://github.com/your_organisation/ink-vscode-prototype](https://www.notion.so/Ink-VS-Code-Extension-1766adfdc5b48063a6edfeafa10d097d?pvs=21) *(Example — Placeholder)*
-- [https://github.com/your_organisation/ink-experiments](https://www.notion.so/Ink-VS-Code-Extension-1766adfdc5b48063a6edfeafa10d097d?pvs=21) *(Example — Placeholder)*
+- https://github.com/last-dot/InkScope
 
-**GitHub accounts - TODO**:
+**GitHub accounts**:
 
-- [https://github.com/team_member_1](https://www.notion.so/Ink-VS-Code-Extension-1766adfdc5b48063a6edfeafa10d097d?pvs=21)
-- [https://github.com/team_member_2](https://www.notion.so/Ink-VS-Code-Extension-1766adfdc5b48063a6edfeafa10d097d?pvs=21)
-- [https://github.com/team_member_3](https://www.notion.so/Ink-VS-Code-Extension-1766adfdc5b48063a6edfeafa10d097d?pvs=21)
+- https://github.com/last-dot
+- TODO
+- TODO
 
-### Team LinkedIn profiles - TODO (if available)
+### Team LinkedIn profiles
 
-- [https://www.linkedin.com/in/person_1](https://www.notion.so/Ink-VS-Code-Extension-1766adfdc5b48063a6edfeafa10d097d?pvs=21)
-- [https://www.linkedin.com/in/person_2](https://www.notion.so/Ink-VS-Code-Extension-1766adfdc5b48063a6edfeafa10d097d?pvs=21)
+- https://linkedin.com/in/illia-abrosimov
+- https://linkedin.com/in/jaroslav-kulpin-8aa91924b
 
 ---
 
