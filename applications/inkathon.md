@@ -1,95 +1,126 @@
-# ink!athon v2
+# Ink!athon v2
 
-> This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
-> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
-- **Team Name:** Legal name of your team (e.g. Duo)
+- **Team Name:** Scio Labs
 - **Payment Address:** Polkadot payment address.
-
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 ### Overview
 
-Please provide the following:
+"Ink!athon is a full-stack boilerplate for ink! dapp development"
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to ink! ecosystem.
-- Choosen project idea category or your alternative category with explanation of its importance
-- An indication of why your team is interested in creating this project.
+Ink!athon is the leading full-stack boilerplate for building production-grade dapps with ink! smart contracts and helps to drastically shorten the time developers need to get started with developing a fullstack application with ink!. The boilerplate comes in a monorepo setup for an efficient development experience and includes a state-of-the-art tech stack for frontend, backend, and smart contracts. It is enriched with a typesafe react hooks library (useInkathon), multiple basic pre-styled frontend components and different custom shorthand scripts to speed up the development as much as possible.
+
+The first version of ink!athon was released in 2023 as an answer to the lack of tooling and the high entry barrier for developers into the ink! ecosystem. It significantly supported the ink! adoption being just a few months old and a completely novel ecosystem for smart contract and protocol development. Since then, ink!athon has become the leading boilerplate for ink! dapps in the Substrate ecosystem and is used by different teams and projects with mainnet deplyoments in production such as the official name service on Aleph Zero (AZERO.ID)[https://azero.id] or the leading liqudid staking solution (ike.xyz)[https://ike.xyz].
+
+This application aims to support the development of Ink!athon v2 which will be a complete rewrite and upgrade of the existing boilerplate in order to modernize the codebase and bring it up to date with the latest version of ink! 6.0 and the Polkadot ecosystem with its transition from Wasm and pallet-contracts to the PolkaVM with RISC-V and pallet-revive. This is crucial as the switch to ink!v6 does not entail backwards compability with Wasm and ink! v5.
+
+Ink!athon v2 targets the infrastructure category within inkubator providing crucial tooling to enhance the developer experience in the ink! ecosystem and remain the go-to solution for bootstrapping ink! dapps.
+
 
 ### Ink! Ecosystem Impact
 
-Please clearly describe how exactly your project will benefit the ecosystem. If it's infrastructure - how it's going to be applied and by who. If it's canary dapp we would you to clearly demonstrate how this code will be used by other people. If it's technical showcase we would like you to demonstrate how ink! will be promoted using your results. 
+Ink!athon and it's underlying react-hooks library useInkathon have developed to one of the leading and most used developer toolings in the ink! ecosystem. Several usage & adoption metrices underline its success and importance:
+- 275 Github stars
+- 800+ commits
+- 65+ forks
+- 25k+ useInkathon downloads (total)
+- 250+ depending repositories and projects (e.g. Kusamarian - thekus.xyz, lastic, azero.id, ike.xyz, abax.finance, 1delta, soroswap, Regionx CoretimeHub, etc.)
 
-If it's a business case we would like to see business model and future production plans. 
+As a go-to-resource for developers building dApps on Polkadot, Inkathon offers not only a great start into any project and developer journey but also has itself proven as a reliable and robust building block for more complex production-grade dApps handling business use-cases in defi and more. Moreover, due to its ability to kickstart any ink! related product, it has become a key pillar for any ink! related hackathon and event aiming to onboard new developers and projects into the ink! ecosystem.
+
+Ink!athon Revive will ensure that ink!athon can continue devlivering value to the ink! developer community and further enhance and strengthen its positioning as the go-to-solution for dapps running on PolkaVM with pallets-revive.
+
+...
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
+Ink!athon Revive consists of a complete update and futureproofing of the boilerplate as well as the useinkathon react hooks library. Furthermore, we make ink!athon fully compatible with ink!6.0 and the future of pallet-revive and the PolkaVM.
 
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-- Do you need an audit for the contacts? **YES/NO**
-(don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
-- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
-- An overview of the business model, including revenue streams, target market, and scalability, if applicable.
-- Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success, if applicable.
+Updating the ink!athon boilerplate stack contains the following items and libraries:
+  
+- Update to ink! v6 & pallet-revive
+- Update to Next v15
+- Update to TailwindCSS & shadcn/ui v4
+- Add Network Definitions & Extend deployments.ts
+- Due Updates (i.e. polkadot.js) & Security Fixes
+- Switch to Bun
+- Switch to Biome.js
 
+Updating the useInkathon react hooks library contains the following items and libraries:
 
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+- Add Connection Button Example
+- Add the ability to add custom SubstrateChain objects
+- Due Updates (i.e. polkadot.js) & Security Fixes
+- Switch to Bun
+- Switch to Biome.js
 
+With these upgrades, ink!athon will provide all state-of-the-art frontend libraries and packages that enable production-grade dapp development without any friction. Ink! significantly relies on the quality of full-stack dapps built on top.
+
+In addition to upgrading the boilerplate and react hooks library, the following improvements and additions are planned in order to make inkathon as a whole even more robust, useful and powerful:
+
+- **Updating ink!athon to support Dedot:** Over the last year, Dedot has become a valuable JavaScript client for Substrate and a viable alternative to polkadot.js. It has improved the developer experience on Polkadot and is thus a great value-add for the overall ink!athon stack. This integration gives ink!athon users the option to choose between two different proven clients.
+- **Creating an inkathon-app CLI:** This will allow users to create new ink!athon projects with a single command fruther improving the developer experience and speed.
+- **Documentation:** Currently Ink!athon only has a basic README.md & generated Typedocs as an documentation. We will develop a new standalone documentation that is easily accessible and conprehensive for developers getting started with developing dapps with ink!.
+
+Here is what our project Ink!athon v2 will not entail:
+
+- abc
+- abc
+- abs
+
+Furthermore, NO external audit is needed for this project.
+
+Business Model. Ink!athon is a fully open-source community-driven project and a public good for the Polkadot developer ecosystem. As such, there is no commercial interest nor business model for the project. So far, Ink!athon has been mostly self-funded and maintained by the Scio Labs team with additional support by the Aleph Zero Foundation.
+
+Q: betonen, dass das projekt auch langfristig aud grant funding angewiesen ist?
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Dennis Zollmann
+- Maximilian Dietel
+- Mike Schneider
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Mike Schneider
+- **Contact Email:** mike@scio.xyz
+- **Website:** https://inkathon.xyz & https://scio.xyz
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Am Neuen Markt 9E-F, 14467 Potsdam, Germany
+- **Registered Legal Entity:** Scio Labs UG (haftungsbeschränkt)
 
 ### Team's experience
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
 
+The team of Scio Labs consists of experienced web3 developers with a rich background in development of ink!-focused products and tooling. One flagship project is the official on-chain domain name service AZERO.ID on the Aleph Zero Substrate chain, which has been one of the first production-grade dapps utilizing ink! smart contracts and running on top of inkathon and use!inkathon. Moreoever, the Scio Labs team has been one of the strongest proponents of ink! since 2022 and helped pushing its adoption in the wider Polkadot & Substrateecosystem by giving workshops, talks and helping curious developers across several hackathons. The team also started the "ink! developer group" on Telegram which over time, has become the leading ink developer community. The Scio Labs team already sucessfully worked for grants from Aleph Zero Foundation, Web3 Foundation, Ethereum Foundation and Aave among others.  
+
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/scio-labs/inkathon
+- https://github.com/azero-id
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+GitHub accounts of all team members:
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/wottpal
+- https://github.com/MaximilianDietel03
+- https://github.com/mike1third
 
-### Team LinkedIn Profiles (if available)
+### Team LinkedIn Profiles
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
-
+- https://www.linkedin.com/in/dennis-zoma/
+- https://www.linkedin.com/in/maxdietel/
+- https://www.linkedin.com/in/mike1third/
 
 ## Development Status :open_book:
 
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
+The current example frontend for ink!athon can be found [here](https://inkathon.xyz/) and the github repo [here](https://github.com/scio-labs/inkathon). The project has been started in September 2022 and has been improved and maintained ever since. In it's current state, ink!athon lacks certain updates and features to stay fully compatible with the latest and moreover, future expected updates of ink! and the Substrate ecosystem. As the go-to solution for frontend development of [ink! dapps](https://use.ink/frontend/overview#react) and its unique positioning and relevance among in-production projects, it is crucial to ensure that ink!athon always remains up to date and compatible with other building blocks in the ecosytem.
+
+Prior to this application, we discussed the needed and required updates for ink!athon together with stakeholders such as the creators of ink! and its biggest supporters and maintainers like R0gue from Pop Network. Upgrading ink!athon to the most up-to-date stack, maintaining it and ensuring its ecosystem compatability is a priority issue for all ink! stakeholders.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -101,51 +132,83 @@ Below we provide an **example roadmap**.
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
+- **Total Estimated Duration:** 5 months
+- **Full-Time Equivalent (FTE):**  1.5 FTE
+- **Total Costs:** 80,000 USD
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 Ink!athon & useInkathon stack upgrade
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated duration:** 2 month
+- **FTE:**  1.5
+- **Costs:** 30,000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0a.** | License | GPLv3 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code, a detailed **README.md** and a new detailed standalone documentation set up with a modern documentation tooling such as Gitbook. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 1. | Ink!athon Boilerplate| Upgrading & making Ink!athon compatible with Next.js v15 |
+| 2. | Ink!athon Boilerplate| Upgrading & making Ink!athon compatible TailwindCSS & shadcn/ui v4 |
+| 3. | Ink!athon Boilerplate| Add Network Definitions & Extend deployments.ts |
+| 4. | Ink!athon Boilerplate| Due Updates (i.e. polkadot.js) & Security Fixes |
+| 5. | Ink!athon Boilerplate| Switch Ink!athon stack to Bun |
+| 6. | Ink!athon Boilerplate| Switch Ink!athon stack to Biome.js |
+| 7. | useInkathon| Add Connection Button Example |
+| 8. | useInkathon| Add the ability to add custom SubstrateChain objects |
+| 9. | useInkathon| Due Updates (i.e. polkadot.js) & Security Fixes |
+| 10. | useInkathon| Switch useInkathon to Bun |
+| 11. | useInkathon| Switch useInkathon to Biome.js |
 
 
-### Milestone 2 Example — Additional features
+
+### Milestone 2 Ink!athon New & Advanced Features
+
+- **Estimated Duration:** 2 month
+- **FTE:**  2
+- **Costs:** 40,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | GPLv3 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code, a detailed **README.md** and a new detailed standalone documentation set up with a modern documentation tooling such as Gitbook. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 1. | ink!athon-app CLI | Create a simple ink!athon-app CLI to enable simple & fast project setup |
+| 2. | ink!athon-app CLI | ...|
+| 3. | Ink!athon Boilerplate | Adding support for the Dedot client as an alternative to polkadot.js |
+
+
+### Milestone 3 Upgrade to ink! v6 & pallet-revive
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **FTE:**  1
+- **Costs:** 10,000 USD
 
-...
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | GPLv3 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code, a detailed **README.md** and a new detailed standalone documentation set up with a modern documentation tooling such as Gitbook. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| **0e.** | Article | We will publish an **article** that explains what we achieved with Ink!athon v2 supported by the inkubator grant and how developers can get started utilzing it) |
+| 1. | Ink!athon Boilerplate | Upgrade to ink! v6 & pallet-revive |
+| 2. | useInkathon | Upgrade to ink! v6 & pallet-revive |
 
 
 ## Future Plans
 
-Please include here if you have a future plan after building this template in making it in to production.
+We plan to continue maintaining and improving ink!athon and useInkathon as a public good and leading developer tooling for ink! ecosystem. Potential future improvemebnts and upgrades may include among others:
+
+- abc
+- abc
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+We've been in close contact with different key stakeholders in the ink! ecosystem to explore together different potential sources of funding for inkathon. 
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+**How did you hear about the Bounty Program?** Personal recommendation from the ink! and R0gue teams.
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+[...additional information...]
