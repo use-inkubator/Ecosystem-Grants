@@ -6,41 +6,44 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-We aim to bring Verifiable Offchain Computing in ink! smart contracts through Phala Cloud.
+On-chain computation capabilities are inherently limited by blockchain design, which affects all smart contract platforms including ink!. Our project aims to complement ink! smart contracts by providing verifiable off-chain computing capabilities through Phala Cloud's Trusted Execution Environment (TEE), enabling developers to build more complex applications while maintaining blockchain security guarantees.
 
-Phala Cloud offers a secure and confidential computing platform powered by TEE (Trusted Execution Environment).
+This solution bridges the gap between blockchain's security and off-chain computational power through:
 
-To facilitate this, we propose developing a SDK designed to simplify the connection between smart contracts and dApps deployed on Phala Cloud. 
-Its primary goal is to enable transactional and atomic operations, ensuring seamless integration and interaction.
+1. A Professional SDK Suite
+   - Enterprise-ready toolkit for seamless smart contract integration
+   - Built-in ACID compliance for reliable state management
+   - Production-grade security with TEE protection
 
-After developing the SDK, we will implement several use cases:
-- Feed Price Oracle: an oracle to fetch price data from CoinGecko and feed the prices in the ink! smart contracts.
-- VRF Oracle: an oracle to provide random numbers using a Verifiable Random Function.
-- Graph API Oracle: an oracle to facilitate interaction with any indexer (SubQuery, Subsquid, The Graph, ...).
+2. Production-Ready Oracle Suite
+   - Price Feed Oracle: Real-time market data integration from CoinGecko
+   - VRF Oracle: Cryptographically secure random number generation
+   - Graph API Oracle: Universal indexer connectivity (SubQuery, Subsquid, The Graph, ...)
 
-For each oracle, we will provide the smart contract and worker/dApp to be deployed on Phala Cloud, as well as a user interface (UI) to interact with the dApp seamlessly.
+3. Next-Generation AI Integration
+   - Full Eliza OS integration for advanced AI capabilities
+   - Direct LLM connectivity through Phala Cloud
+   - Interactive proof-of-concept with Tic-Tac-Toe game
 
-We also propose integrating Eliza OS and LLMs in the sdk to connect the ink! smart contracts to AI/LLMs.
-
-Additionally, we plan to offer a simple game, such as Tic-Tac-Toe, where users can challenge an AI Agent, powered by OpenAI or another LLM, even if LLMs are not particularly skilled at this type of game.
-
+Each component is designed with enterprise-grade reliability and seamless integration capabilities, deployed on Phala Cloud's secure computing platform.
 
 ### Ink! Ecosystem Impact
 
-Verifiable Offchain Computing is crucial for ink! smart contracts because it enables complex computations to be executed off-chain while ensuring their integrity and verifiability on-chain. Here’s why it matters:
+Verifiable Offchain Computing is crucial for ink! smart contracts because it enables complex computations to be executed off-chain while ensuring their integrity and verifiability on-chain. Here's why it matters:
 
 1. Interoperability with External Systems
    - Smart contracts often need to access external APIs, databases, and oracles.
    - Verifiable Offchain Computing ensures that off-chain data used in smart contracts is correct and tamper-proof.
+
 2. Verifiable Computation
    - To ensure the integrity of off-chain computations, Remote Attestations are generated and Phala L2 Explorer tools simplify trustless verification.
+
 3. Use Cases
    - Rollups: Off-chain execution with verification.
    - Oracles: Retrieve and verify off-chain data for smart contracts.
    - AI: Use AI/LLM in your ink! smart contracts
 
-In summary, Verifiable Offchain Computing provide many benefits and use cases for dApps developed with ink! smart contracts.
-
+In summary, Verifiable Offchain Computing provides many benefits and use cases for dApps developed with ink! smart contracts.
 
 ### Project Details
 
@@ -60,35 +63,35 @@ Consistent state management is crucial when developing an application that commu
 The sdk is here to simplify development by providing a stable, ACID-compliant connection with ink! smart contracts. This eliminates concurrency issues and enables a request-response programming model for seamless interaction between the workers and on-chain smart contracts.
 
 ##### Key Benefits
-- seamless connectivity between ink! smart contracts and workers
-- Reliable kv-store on blockchains for durable state management
-- Transactional (ACID) on-chain kv-store designed for stateful dApp deployed on Phala Cloud
+- Seamless connectivity between ink! smart contracts and workers
+- Reliable KV-store on blockchains for durable state management
+- Transactional (ACID) on-chain KV-store designed for stateful dApps deployed on Phala Cloud
 - ACID-compliant read, write, and contract call operations for consistent data handling
 - Request-response programming model that simplifies interactions between worker and on-chain smart contracts
 
 ##### Note
-In 2023, our team built the [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) implementation to ink! smart contracts in context of Phala Builder.
+In 2023, our team built the [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) implementation for ink! smart contracts in the context of Phala Builder.
 Even if this sdk is still used in mainnet, it was built with ink! v4, OpenBrush and Phat Contracts. OpenBrush is now deprecated. Phat Contracts are replaced by Phala Cloud. 
-The main goal is to provide the same features as [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) but with the last technologies (ink! v5 or ink! v6 and Phala Cloud compatibility)
+The main goal is to provide the same features as [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) but with the latest technologies (ink! v5 or ink! v6 and Phala Cloud compatibility)
 
 ##### Languages
-The library/crate used in ink! smart contracts will be written in Rust and the last released ink! version.
-The library used in the worker deployed on Phala Cloud will be written in TypeScript and will be used the last version of Polkadot.js api.
+The library/crate used in ink! smart contracts will be written in Rust and the latest released ink! version.
+The library used in the worker deployed on Phala Cloud will be written in TypeScript and will use the latest version of Polkadot.js api.
 
 #### Price Feed Oracle, VRF Oracle, Graph Api Oracle
 
 In the previous cohort, we released the [decentralized oracles](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/decentralized_oracles.md) built with Phala's offchain rollup anchor.
-We want to build the same oracles with the new SDK to ensure the robustness of the new sdk and provides concrete and functional usage example.
+We want to build the same oracles with the new SDK to ensure the robustness of the new SDK and provide concrete and functional usage examples.
 - Price Feed Oracle. The Oracle will read the data from CoinGecko and feed the data in ink! smart contracts
 - VRF Oracle. It will generate cryptographically secure random numbers for ink! smart contracts
 - Graph API Oracle that: The Oracle will query a SubQuery/SubSquid endpoint and send the output to the ink! smart contract
 
-For both oracle, we will provide:
-- the worker to be deployed on Phala Cloud
-- the ink! smart contracts to interact with the worker
-- a UI to test and play with these smart contracts. 
-- for the Graph API Oracle, we will index the data from the dApps Staking on Astar and return the information about the stakers
-- the documentation to use these oracles
+For both oracles, we will provide:
+- The worker to be deployed on Phala Cloud
+- The ink! smart contracts to interact with the worker
+- A UI to test and play with these smart contracts
+- For the Graph API Oracle, we will index the data from the dApps Staking on Astar and return the information about the stakers
+- The documentation to use these oracles
 
 The smart contracts will be deployed on testnet.
 
@@ -96,10 +99,8 @@ The smart contracts will be deployed on testnet.
 
 We will release a version with the ElizaOS lib to provide AI/LLM into ink! smart contracts.
 
-We will deploy a dApp implementing the Tio-Tac-Toe game with an AI/LLM integration. 
+We will deploy a dApp implementing the Tic-Tac-Toe game with an AI/LLM integration. 
 The user will be able to discuss with OpenAI and play some games against the AI even if the LLM is not optimized to play this kind of games.
-
-
 
 ## Team :busts_in_silhouette:
 
@@ -124,7 +125,7 @@ GuiGou, a developer with over 20 years of experience, joined the web3 space in 2
 
 Arno, with his 20 years of experience in web2 development and a deep involvement in the web3 ecosystem since 2021, has worked as an ambassador for Polkadot, Acala, Talisman, and Phala Network. Arno brings a strong background in ecosystem engagement and developer education. He has been instrumental in building user interfaces to interact with smart contracts, integrating EVM and Substrate wallets, optimizing decentralized hosting via IPFS, and ensuring real-time synchronization of the UI with blockchain states.
 
-Together, the Lucky team have deployed the Lucky dApp on both [Astar](https://lucky.substrate.fi/astar) and [Shiden](https://lucky.substrate.fi/shiden), the Lotto dApp on [Astar](https://lucky.substrate.fi/lotto/astar) and [Soneium](https://lotto-evm.netlify.app/) a decentralized and multi-chain Lottery.
+Together, the Lucky team has deployed the Lucky dApp on both [Astar](https://lucky.substrate.fi/astar) and [Shiden](https://lucky.substrate.fi/shiden), the Lotto dApp on [Astar](https://lucky.substrate.fi/lotto/astar) and [Soneium](https://lotto-evm.netlify.app/), a decentralized and multi-chain Lottery.
 
 - Lucky
    - Lucky dApp on [Astar](https://lucky.substrate.fi/astar)
