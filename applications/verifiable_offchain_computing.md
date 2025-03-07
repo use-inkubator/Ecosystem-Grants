@@ -39,7 +39,7 @@ Verifiable Offchain Computing is crucial for ink! smart contracts because it ena
    - Oracles: Retrieve and verify off-chain data for smart contracts.
    - AI: Use AI/LLM in your ink! smart contracts
 
-In summary, Verifiable Offchain Computing provide many benefits and use cases for dApp developed with ink! smart contracts.
+In summary, Verifiable Offchain Computing provide many benefits and use cases for dApps developed with ink! smart contracts.
 
 
 ### Project Details
@@ -51,7 +51,7 @@ Its primary goal is to enable transactional and atomic cross-blockchain operatio
 
 ##### The Challenge
 Developing dApps that interact with blockchains can be a common but challenging task, especially when it comes to handling concurrency issues in off-chain programs. 
-Without a proper synchronization mechanism, this may end up conflicting between the contracts and dApp déployed on Phala Cloud.
+Without a proper synchronization mechanism, this may end up conflicting between the contracts and dApp deployed on Phala Cloud.
 
 Consider a real-world scenario: a smart contract distributes computation tasks to workers. These workers compete with each other when claiming tasks from the blockchain. Ideally, each task should only be claimed once. However, without coordination among the workers, they might send transactions simultaneously to claim the same task, resulting in inconsistent smart contract states.
 
