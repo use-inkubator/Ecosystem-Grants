@@ -103,6 +103,10 @@ Examples of successful infrastructure products:
 - DAO tooling (smart contracts, SDKs, UIs)
 - Bridges (XCM integration, external blockchain bridges)
 
+_ℹ️ We have created this document for specific ideas that we
+would love to see as applications:
+[Request For Proposals](./request-for-proposals.md)._
+
 ---
 
 ### Benefits
