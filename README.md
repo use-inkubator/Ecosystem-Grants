@@ -111,7 +111,7 @@ would love to see as applications:
 
 ### Benefits
 
-- Up to $50,000 in funding per team/project
+- Up to $50,000 in funding per application
 - Feedback during application and evaluation
 - Introductions to relevant teams/projects
 - Code reviews or audits (depending on scope)
