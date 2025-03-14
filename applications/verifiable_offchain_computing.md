@@ -69,7 +69,7 @@ The sdk is here to simplify development by providing a stable, ACID-compliant co
 ##### Note
 In 2023, our team built the [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) implementation to ink! smart contracts in context of Phala Builder.
 Even if this sdk is still used in mainnet, it was built with ink! v4, OpenBrush and Phat Contracts. OpenBrush is now deprecated. Phat Contracts are replaced by Phala Cloud. 
-The main goal is to provide the same features as [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) but with the last technologies (ink! v5 or ink! v6 and Phala Cloud compatibility)
+The main goal is to provide the same features as [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) but with the last technologies (ink! v6 and Phala Cloud compatibility)
 
 ##### Languages
 The library/crate used in ink! smart contracts will be written in Rust and the last released ink! version.
