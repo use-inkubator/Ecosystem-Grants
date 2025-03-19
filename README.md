@@ -51,10 +51,10 @@ Generally, your project will have better chances of being accepted if:
 - You can demonstrate that the project will be **maintained** after completion of the grant, if applicable.
 - Your team has **proven experience** with relevant languages, technologies, and/or a strong technical background. GitHub profiles of team members should be included in your application.
 - Your application is **rich in technical details** and well-defined.
-- Your project uses the RISC-V compatible version of the ink! language, [v6.X releases](https://use.ink/6.x/). The current cohort is focused on funding developments willing to push the ecosystem forward by leveraging ink!'s stack in its most ecosystem-aligned version.
 
 Additionally, all projects must fulfill the following requirements:
 
+- Your project uses the RISC-V compatible version of the ink! language, [v6.X releases](https://use.ink/6.x/). The current cohort is focused on funding developments willing to push the ecosystem forward by leveraging ink!'s stack in its most ecosystem-aligned version.
 - All code produced must be **open-sourced**, without relying on closed-source software for full functionality. Preferred licenses include Apache 2.0, GPLv3, MIT, or Unlicense.
 - Projects involved in token sales are not eligible.
 - Applications must not mention a specific token. Instead, focus on the software being implemented/researched.
@@ -111,6 +111,7 @@ would love to see as applications:
 
 ### Benefits
 
+- Up to $50,000 in funding per application
 - Feedback during application and evaluation
 - Introductions to relevant teams/projects
 - Code reviews or audits (depending on scope)
