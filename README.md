@@ -61,7 +61,7 @@ Additionally, all projects must fulfill the following requirements
 - Teams must finish an ongoing grant before applying for another one.
 - We do not fund projects encouraging gambling, illicit trade, money laundering, or criminal activities.
 - Communication:
-  - After you got the grant create a post on the Polkadot Forum. Post regular updates in that thread until the grant is finished.
+  - After your grant application is approved, create a post on the Polkadot Forum. Post regular updates in that thread until the grant is finished.
   - If your project needs an ink! contract to work, deploy at least one example to Polkadot AssetHub and write a Medium post about how to use it.
   - At the end of the grant, write a Medium post on the project and a tutorial on how to use it.
   - Explore other means of making the project visible in the community.
