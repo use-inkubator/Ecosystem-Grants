@@ -52,7 +52,7 @@ Generally, your project will have better chances of being accepted if:
 - Your team has **proven experience** with relevant languages, technologies, and/or a strong technical background. GitHub profiles of team members should be included in your application.
 - Your application is **rich in technical details** and well-defined.
 
-Additionally, all projects must fulfill the following requirements:
+Additionally, all projects must fulfill the following requirements
 
 - Your project uses the RISC-V compatible version of the ink! language, [v6.X releases](https://use.ink/6.x/). The current cohort is focused on funding developments willing to push the ecosystem forward by leveraging ink!'s stack in its most ecosystem-aligned version.
 - All code produced must be **open-sourced**, without relying on closed-source software for full functionality. Preferred licenses include Apache 2.0, GPLv3, MIT, or Unlicense.
@@ -60,6 +60,11 @@ Additionally, all projects must fulfill the following requirements:
 - Applications must not mention a specific token. Instead, focus on the software being implemented/researched.
 - Teams must finish an ongoing grant before applying for another one.
 - We do not fund projects encouraging gambling, illicit trade, money laundering, or criminal activities.
+- Communication:
+  - After your grant application is approved, create a post on the Polkadot Forum. Post regular updates in that thread until the grant is finished.
+  - If your project needs an ink! contract to work, deploy at least one example to Polkadot AssetHub and write a Medium post about how to use it.
+  - At the end of the grant, write a Medium post on the project and a tutorial on how to use it.
+  - Explore other means of making the project visible in the community.
 
 All projects must include documentation explaining their functionality. At a minimum, **written documentation** is required.
 
