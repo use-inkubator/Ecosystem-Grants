@@ -36,7 +36,7 @@ ink!athon v2 a.k.a. "ink!athon Revive" will ensure that ink!athon can continue d
 
 ink!athon v2 consists of major upgrades, rewrites, and futureproofing of the boilerplate. Furthermore, we make ink!athon fully compatible with ink! v6 and the future of pallet-revive and the PolkaVM.
 
-We have broken down the project into three major milestones which are further specified below under *Development Roadmap*:
+We have broken down the project into two major milestones which are further specified below under *Development Roadmap*:
 
 - **Milestone 1:** Upgrades & Improvements
   - [ink!athon & useInkathon] Restore compatiblity with latest polkadot.js (currently 3 versions behind due to breaking changes)
@@ -48,14 +48,10 @@ We have broken down the project into three major milestones which are further sp
   - [ink!athon] Major upgrade to TailwindCSS & shadcn/ui v4
   - [ink!athon] Major upgrade to Next.js v15
   - [ink!athon] Fix Dockerfiles for improved self-hosted deployment
-  - [useInkathon] Add vanilla (w/o ink!athon) connection button example 
+  - [useInkathon] Add vanilla (w/o ink!athon) connection button example
   - [useInkathon] Add the ability to add custom SubstrateChain objects
 
-- **Milestone 2:** New CLI & Alternative Client
-  - **Creating an ink!athon-app CLI:** We will create a `create-ink!athon` CLI to empower developers with simple and fast project scaffolding using a single command, significantly enhancing the developer experience and accelerating project setup.
-  - **Providing an Alternative ink!athon Boilerplate with Dedot:** We will deliver a completely alternative version of the ink!athon boilerplate utilizing `dedot` as a robust and type-safe alternative to polkadot.js. This integration will offer developers improved type safety and an enhanced overall development experience, allowing them to choose between two proven JavaScript clients for Substrate.
-
-- **Milestone 3:** ink! v6 Compatibility & New Standalone Documentation
+- **Milestone 2:** ink! v6 Compatibility & New Standalone Documentation
   - *Note:* This important upgrade is the last milestone on purpose, as depends on the ink! v6 development and certain ecosystem changes & tooling updates to be ready. We're happy to ship this milestone earlier when everything is ready.
   - **New Standalone Documentation:** Currently, ink!athon only has a basic README.md & generated Typedocs as an documentation. We will completely rewrite this and will supply a new standalone documentation that is easily accessible and comprehensive for developers getting started with developing dapps with ink!.
 
@@ -115,9 +111,9 @@ Prior to this application, we discussed the needed and required updates for ink!
 
 ### Overview
 
-- **Total Estimated Duration:** 5 months
+- **Total Estimated Duration:** 4 months
 - **Full-Time Equivalent (FTE):**  1.5 FTE
-- **Total Costs:** 80,000 USD
+- **Total Costs:** 50,000 USD
 
 ### Milestone 1: Upgrades & Improvements
 
@@ -143,23 +139,8 @@ Prior to this application, we discussed the needed and required updates for ink!
 | 10. | useInkathon | Add vanilla (w/o ink!athon) connection button example |
 | 11. | useInkathon | Add the ability to add custom SubstrateChain objects |
 
-### Milestone 2: New CLI & Alternative Client
-
-- **Estimated Duration:** 2 month
-- **FTE:**  1.5
-- **Costs:** 30,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | GPLv3 |
-| **0b.** | Documentation | We will provide both inline documentation of the code and a detailed README. As part of this grant, we will also provide a new standalone documentation. |
-| **0c.** | Testing and Testing Guide | Contract-level functions will be fully covered by unit tests and the boilerplate simplifies contract testing as part of the development workflow.  |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | ink!athon-app CLI | Create a `create-ink!athon` CLI to empower simple & fast project scaffolding in one command. |
-| 2. | ink!athon Boilerplate | Provide an completely alternate version of ink!athon using `dedot` as an alternative to polkadot.js for better type safety. |
-
  
-### Milestone 3: ink! v6 Compatibility & New Standalone Documentation
+### Milestone 2: ink! v6 Compatibility & New Standalone Documentation
 
 - **Estimated Duration:** 2 month
 - **FTE:**  1
