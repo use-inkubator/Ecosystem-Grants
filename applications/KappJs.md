@@ -135,8 +135,9 @@ This section should break the development roadmap down into milestones and deliv
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | An operable application on the Polka Blockchain. |
-| 2. | A Readme explaining the operations of the project. |
+| 1. | An operable DApp Framework . |
+| 2. | A Readme explaining the project. |
+| 3. | An npm package available on the npmjs website.|
 
 
 ### Milestone 2 — Additional features
@@ -152,7 +153,7 @@ This section should break the development roadmap down into milestones and deliv
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | A Wallet Addition. |
+| 1. | A example test suite. |
 | 2. | A comprehensive Readme file. |
 
 ### Milestone 3 — Fine tuning 
@@ -165,7 +166,7 @@ This section should break the development roadmap down into milestones and deliv
 
 - Grow user base and market the program for use.
 - Long Term Maintenance plans based on fund availability. 
-- 
+
 ## Referral Program (optional) :moneybag:
 
 You can find more information about the program [here](https://grants.web3.foundation/docs/referral-program).
