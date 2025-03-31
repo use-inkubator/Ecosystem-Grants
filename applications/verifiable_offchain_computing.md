@@ -108,8 +108,8 @@ For each oracle, we will provide:
 - The documentation to use these oracles
 
 All smart contracts will be deployed on testnet.
-The Price Feed Oracle will be deployed on Polkadot Asset Hub. 
-If there is a need for the community to deploy other oracles on Polkadot Asset Hub, we will do it.
+The Price Feed Oracle will be deployed on Polkadot AssetHub. 
+If there is a need for the community to deploy other oracles on Polkadot AssetHub, we will do it.
 
 ## Team :busts_in_silhouette:
 
@@ -189,15 +189,15 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - **FTE:**  1 FTE
 - **Costs:** 8,000 USD
 
-|  Number | Deliverable                      | Specification                                                                                                                                                                            |
-|--------:|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **0a.** | License                          | Apache 2.0                                                                                                                                                                               |
-| **0b.** | Documentation                    | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide        | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
-| **0d.** | Docker                           | We will provide the Dockerfile to set up the Price Feed Oracle on Phala Cloud                                                                                                            |
-|      1. | Smart contract                   | We will deliver the ink! smart contracts that will receive data from the oracle                                                                                                          |
-|      2. | UI                               | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
-|      3. | Deployment on Polkadot Asset Hub | The ink! smart contracts will be deployed on Polkadot Asset Hub and the UI will interact with them                                                                                       |
+|  Number | Deliverable                     | Specification                                                                                                                                                                            |
+|--------:|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0a.** | License                         | Apache 2.0                                                                                                                                                                               |
+| **0b.** | Documentation                   | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide       | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
+| **0d.** | Docker                          | We will provide the Dockerfile to set up the Price Feed Oracle on Phala Cloud                                                                                                            |
+|      1. | Smart contract                  | We will deliver the ink! smart contracts that will receive data from the oracle                                                                                                          |
+|      2. | UI                              | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
+|      3. | Deployment on Polkadot AssetHub | The ink! smart contracts will be deployed on Polkadot AssetHub and the UI will interact with them                                                                                        |
 
 
 ### Milestone 3 — VRF Oracle
