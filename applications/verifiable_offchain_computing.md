@@ -69,6 +69,20 @@ The sdk is here to simplify development by providing a stable, ACID-compliant co
 - ACID-compliant read, write, and contract call operations for consistent data handling
 - Request-response programming model that simplifies interactions between worker and on-chain smart contracts
 
+##### Architectural Diagram
+
+Ink! smart contracts, built with ink! v6, will be deployed on `pallet-revive` and an application, built on js/ts, will be deployed on Phala Cloud.
+
+Websocket and http requests will be used to communicate between the ink! smart contracts and the application on Phala Cloud.
+
+Our sdk will manage the synchronization mechanism and the developers would have a reliable and transactional way to perform operations, where read and write tasks are combined into a single unit and executed atomically on the blockchain.
+
+The SDK will be divided into two parts:
+- the client will be integrated as a Rust library within ink! smart contracts.
+- the rollup will be integrated as a JavaScript library within applications deployed on Phala Cloud.
+
+![communication-contracts.png](../assets/verifiable_offchain_computing/communication-contracts.png)
+
 ##### Note
 In 2023, our team built the [Phala's offchain rollup anchor](https://github.com/Phala-Network/phat-offchain-rollup) implementation for ink! smart contracts in the context of Phala Builder.
 Even if this sdk is still used in mainnet, it was built with ink! v4, OpenBrush and Phat Contracts. OpenBrush is now deprecated. Phat Contracts are replaced by Phala Cloud. 
