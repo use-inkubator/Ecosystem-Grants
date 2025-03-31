@@ -86,7 +86,7 @@ We want to build the same oracles with the new SDK to ensure the robustness of t
 - VRF Oracle. It will generate cryptographically secure random numbers for ink! smart contracts
 - Graph API Oracle that: The Oracle will query a SubQuery/SubSquid endpoint and send the output to the ink! smart contract
 
-For both oracles, we will provide:
+For each oracle, we will provide:
 - The worker to be deployed on Phala Cloud
 - The ink! smart contracts to interact with the worker
 - A UI to test and play with these smart contracts
