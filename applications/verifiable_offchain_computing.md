@@ -93,7 +93,9 @@ For each oracle, we will provide:
 - For the Graph API Oracle, we will index the data from the dApps Staking on Astar and return the information about the stakers
 - The documentation to use these oracles
 
-The smart contracts will be deployed on testnet.
+All smart contracts will be deployed on testnet.
+The Price Feed Oracle will be deployed on Polkadot Asset Hub. 
+If there is a need for the community to deploy other oracles on Polkadot Asset Hub, we will do it.
 
 ## Team :busts_in_silhouette:
 
@@ -166,6 +168,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 |      2. | Library for worker/dApp on Phala Cloud | We will deliver a Typescript library to use in worker/dApp to communicates with ink! smart contract                                                                                      |
 
 
+
 ### Milestone 2 — Price Feed Oracle
 
 - **Estimated Duration:** 1 month
@@ -180,6 +183,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0d.** | Docker                    | We will provide the Dockerfile to set up the Price Feed Oracle on Phala Cloud                                                                                                            |
 |      1. | Smart contract            | We will deliver the ink! smart contracts that will receive data from the oracle                                                                                                          |
 |      2. | UI                        | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
+|      3. | Deployment on Asset Hub   | The ink! smart contracts will be deployed on Asset Hub and the UI will interact with them                                                                                                |
 
 
 ### Milestone 3 — VRF Oracle
