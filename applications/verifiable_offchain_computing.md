@@ -20,7 +20,7 @@ This solution bridges the gap between blockchain's security and off-chain comput
    - VRF Oracle: Cryptographically secure random number generation
    - Graph API Oracle: Universal indexer connectivity (SubQuery, Subsquid, The Graph, ...)
 
-3. Next-Generation AI Integration
+3. Next-Generation AI Integration (Future implementation, outside of this grant)
    - Full Eliza OS integration for advanced AI capabilities
    - Direct LLM connectivity through Phala Cloud
    - Interactive proof-of-concept with Tic-Tac-Toe game
@@ -95,13 +95,6 @@ For each oracle, we will provide:
 
 The smart contracts will be deployed on testnet.
 
-#### AI Integration in ink! smart contract
-
-We will release a version with the ElizaOS lib to provide AI/LLM into ink! smart contracts.
-
-We will deploy a dApp implementing the Tic-Tac-Toe game with an AI/LLM integration. 
-The user will be able to discuss with OpenAI and play some games against the AI even if the LLM is not optimized to play this kind of games.
-
 ## Team :busts_in_silhouette:
 
 ### Team members
@@ -151,9 +144,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Overview
 
-- **Total Estimated Duration:** 7 months
+- **Total Estimated Duration:** 5.5 months
 - **Full-Time Equivalent (FTE):** 1 FTE
-- **Total Costs:** 69,000 USD
+- **Total Costs:** 49,000 USD
 
 ### Milestone 1 - SDK Implementation
 
@@ -218,23 +211,6 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
 | **0d.** | Docker                    | We will provide the Dockerfile to set up the Graph API Oracle on Phala Cloud                                                                                                             |
 |      1. | Smart contract            | We will deliver the ink! smart contracts that will receive data from the oracle                                                                                                          |
-|      2. | UI                        | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
-
-
-### Milestone 5 - AI Integration with chat message and Tic-Tac-Toe game
-
-- **Estimated Duration:** 2 months
-- **FTE:**  1.5 FTE
-- **Costs:** 20,000 USD
-
-|  Number | Deliverable               | Specification                                                                                                                                                                            |
-|--------:|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **0a.** | License                   | Apache 2.0                                                                                                                                                                               |
-| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
-| **0d.** | Docker                    | We will provide the Dockerfile to set up the AI agent on Phala Cloud                                                                                                                     |
-|     0e. | Article                   | We will publish an **article** that explains what was done/achieved as part of the grant                                                                                                 |
-|      1. | Smart contract            | We will deliver the ink! smart contracts that will communicate with the AI agent                                                                                                         |
 |      2. | UI                        | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
 
 
