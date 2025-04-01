@@ -90,7 +90,7 @@ The main goal is to provide the same features as [Phala's offchain rollup anchor
 
 ##### Languages
 The library/crate used in ink! smart contracts will be written in Rust and the latest released ink! version.
-The library used in the worker deployed on Phala Cloud will be written in TypeScript and will use the latest version of Polkadot.js api.
+The library used in the worker deployed on Phala Cloud will be written in TypeScript and will use the latest version of Polkadot-API (PAPI).
 
 #### Price Feed Oracle, VRF Oracle, Graph Api Oracle
 
