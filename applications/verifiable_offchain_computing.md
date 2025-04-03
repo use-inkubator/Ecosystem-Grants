@@ -178,6 +178,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0b.** | Documentation                          | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide              | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
 | **0d.** | Docker                                 | We will provide Dockerfile and smart contract artifacts that can be used to test all the functionality delivered with this milestone.                                                    |
+|     0e. | Polkadot Forum                         | We will create a post on the Polkadot Forum that explains what was done/achieved in this milestone                                                                                       |
 |      1. | Library for ink! smart contract        | We will deliver a rust crate to use in ink! smart contract to communicates with workers/dApps deployed on Phala Cloud                                                                    |
 |      2. | Library for worker/dApp on Phala Cloud | We will deliver a Typescript library to use in worker/dApp to communicates with ink! smart contract                                                                                      |
 
@@ -195,6 +196,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0b.** | Documentation                   | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide       | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
 | **0d.** | Docker                          | We will provide the Dockerfile to set up the Price Feed Oracle on Phala Cloud                                                                                                            |
+|     0e. | Polkadot Forum                  | We will create a post on the Polkadot Forum that explains what was done/achieved in this milestone                                                                                       |
 |      1. | Smart contract                  | We will deliver the ink! smart contracts that will receive data from the oracle                                                                                                          |
 |      2. | UI                              | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
 |      3. | Deployment on Polkadot AssetHub | The ink! smart contracts will be deployed on Polkadot AssetHub and the UI will interact with them                                                                                        |
@@ -212,6 +214,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
 | **0d.** | Docker                    | We will provide the Dockerfile to set up the VRF Oracle on Phala Cloud                                                                                                                   |
+|     0e. | Polkadot Forum            | We will create a post on the Polkadot Forum that explains what was done/achieved in this milestone                                                                                       |
 |      1. | Smart contract            | We will deliver the ink! smart contracts that will receive data from the oracle                                                                                                          |
 |      2. | UI                        | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
 
@@ -228,6 +231,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 | **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                          |
 | **0d.** | Docker                    | We will provide the Dockerfile to set up the Graph API Oracle on Phala Cloud                                                                                                             |
+|     0e. | Polkadot Forum            | We will create a post on the Polkadot Forum that explains what was done/achieved in this milestone                                                                                       |
+|     0f. | Article                   | We will publish an **article** that explains what was done/achieved as part of the grant                                                                                                 |
 |      1. | Smart contract            | We will deliver the ink! smart contracts that will receive data from the oracle                                                                                                          |
 |      2. | UI                        | We will deliver a user interface (UI) to interact with the dApp seamlessly                                                                                                               |
 
