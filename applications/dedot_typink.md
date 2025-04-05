@@ -43,7 +43,7 @@ These improvements will collectively lower the barrier to entry for developers i
 
 ##### 1.2. **ink! v6 Integration**
    - Ensure compatibility with ink! v4 and v5, allowing developers to use the latest ink! v6 version without breaking existing applications.
-   - Generate TypeScript Types and APIs based on contract metadata.
+   - Generate TypeScript Types and APIs based on traditional Rust metadata & Solidity metadata format supported by ink! v6.
    - Enable Auto-suggestions/IntelliSense for contract APIs based on the generated Types and APIs.
    - Ensure seamless interactions (queries, transaction, events) with ink! v6 contracts via pallet-revive.
 
@@ -148,10 +148,11 @@ This proposal builds upon these foundations to address the next set of challenge
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and **online documentation** for the new features on https://dedot.dev |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and **online documentation** for the new features on https://dedot.dev. This will include comprehensive examples of how developers can interact with ink! v6 contracts via dedot. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Article & Communication | We will publish an article introducing the changes and features implemented in this milestone and post regular updates on Polkadot Forum and social media. |
 | 1. | pallet-revive support | - Add support for 20-byte (H160) address format used in Ethereum-compatible environments<br />- Implement support for signing transactions with EVM wallets like MetaMask and SubWallet<br />- Implement comprehensive support for sending contract queries, submitting contract transactions, and deploying contracts.<br />- Develop functionality to listen to and decode contract events from pallet-revive<br /> |
-| 2. | ink! v6 integration | - Add support for ink! v6 while maintaining compatibility with v4/v5<br />- Implement processing of ink! v6 metadata for type generation<br />- Enhance the type and API generation based on ink! v6 metadata<br />- Enable auto-suggestions and IntelliSense for generated types and APIs<br />- Ensure seamless interaction between ink! v6 contracts and pallet-revive |
+| 2. | ink! v6 integration | - Add support for ink! v6 while maintaining compatibility with v4/v5<br />- Generate Typescript Types & APIs using both traditional Rust metadata & Solidity metadata format supported by ink! v6<br />- Enable auto-suggestions and IntelliSense for generated types and APIs<br />- Ensure seamless interaction between ink! v6 contracts and pallet-revive |
 
 ### Milestone 2: Typink - ink! v6 Integration, Wallet Support & CLI Improvements
 
@@ -164,7 +165,7 @@ This proposal builds upon these foundations to address the next set of challenge
 | **0a.** | License | MIT |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and **online documentation** for the new features on http://typink.dev |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Article | We will publish an article introducing the new features and improvements for Dedot & Typink |
+| **0d.** | Article & Communication | We will publish an article introducing the changes and features implemented in this milestone and post regular updates on Polkadot Forum and social media. |
 | 1. | Integration with Dedot's ink! v6 support | - Maintain backward compatibility with ink! v4/v5 to support existing contracts<br />- Leverage Dedot's type generation to provide suggestions for existing hooks<br />- Support all contract operations including signing & submitting contract transactions, sending contract queries, deploying contracts, and listening to & decoding contract events |
 | 2. | Improved txToaster system | - Create an abstraction layer that separates transaction tracking from UI implementation<br />- Enable support for multiple notification libraries through a simple adapter pattern<br />- Maintain backward compatibility with existing implementations |
 | 3. | `create-typink` CLI & template project improvements | - Allow developers to choose between pnpm, npm, yarn, or bun during project initialization<br />- Support ink! v6 while maintaining compatibility with v5/v4<br />- Adjust supported network lists to accommodate differences between ink! v6 and v5/v4 environments<br />- Provide expanded stack options including Next.js/React and updated UI libraries<br />- Update templates to handle differences between ink! versions |
