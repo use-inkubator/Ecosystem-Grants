@@ -1,7 +1,7 @@
 # Polkadot Meetup Hub
 
 - **Team Name:** Polkadot Meetup Hub Team  
-- **Payment Address:** `<Your Polkadot Payment Address>` *(DOT)*
+- **Payment Address:** `1nSko28kQQbXaP4aJDF5TxUxo8n1EoVb84qXF52mWD7u6aG` *(DOT)*
 
 ---
 
@@ -41,15 +41,14 @@ Polkadot Meetup Hub strengthens the ink! ecosystem by:
   - *PAPI Integration*: Polkadot API (PAPI) for efficient querying of blockchain state (e.g. balances) and real-time updates.  
   - *Light Clients*: Embedded light client support (e.g., via smoldot or similar) for lightweight, trustless frontend interactions without full nodes.  
   - *Multi-Wallet Integration*: Frontend supports Polkadot-compatible wallets (e.g., Polkadot.js, Talisman, Nightly, SubWallet) for authentication and transactions.  
-  - *IPFS (Optional)*: Decentralized storage for event metadata (e.g., images, descriptions) to reduce on-chain costs.  
 
 - **Audit Required:** Yes  
 - **Category:** Canary Dapp  
 - **Business Model:**  
   - Revenue from event creation fees and sponsorship tiers.  
-  - Scaling to enterprise-grade conferences with premium features.  
+  - Scaling to enterprise-grade conferences with premium features. (Future Plan)
 - **Future Plans:**  
-  - NFTs for proof of attendance/hosting, minted on Kusama Asset Hub.  
+  - NFTs for proof of attendance/hosting.  
   - Decentralized identity integration (e.g., KILT Protocol or Polkadot Citizenship).  
   - Partnerships with Polkadot projects for co-hosted events.  
 
@@ -58,38 +57,25 @@ Polkadot Meetup Hub strengthens the ink! ecosystem by:
 ## Team 👥
 
 ### Team Members
-- **Team Lead:** `Gabriel Jaeger`  
-- **Developers:** `Gabriel Jaeger`, `<Team Member 2>`  
-- **Designer:** `<Team Member 3>` 
+- **Team Lead:** `Gabriel Jaeger` 
 
 ### Contact
 - **Contact Name:** `Gabriel Jaeger`  
-- **Contact Email:** `<Your Email>`  
-- **Website:** `<Your Website>`  
-
-### Legal Structure
-- **Registered Address:** `<Your Address>`  
-- **Registered Legal Entity:** `<Your Legal Entity Name>`  
+- **Website:** `https://www.proofofchaos.app/`  
 
 ### Team Experience
-- Proven expertise in ink! smart contract and Polkadot development.  
-- Contributions to open-source blockchain projects.  
-- Background in decentralized governance and dApp design.  
+- Proven expertise in Polkadot development.  
 
 ### Team Code Repositories
 - `https://github.com/orgs/Proof-Of-Chaos/repositories`  
-
-### Team LinkedIn Profiles
-- `<https://www.linkedin.com/in/<person_1>>`  
-- `<https://www.linkedin.com/in/<person_2>>`  
 
 ---
 
 ## Development Status 📖
 
 Polkadot Meetup Hub is in active development, with foundational progress underway:  
-- **Smart Contract Development:** Core ink! v6 contracts are being built in our public repository (`<https://github.com/<your_organisation>/<project_repo>>`). Features like `create_meetup`, deposit registration, and state management are in progress, tracked via GitHub issues. Initial prototypes are deployed on a testnet (e.g., Pop Network testnet or Kusama Asset Hub test environment), with iterations based on testing feedback.  
-- **Current Progress:** As of April 2025, we’ve achieved a proof-of-concept with working ink! v6 contracts, PAPI integration for state queries, and light client support in early testing. The frontend is in early stages with mockups and basic connectivity to Pop Network or Kusama Asset Hub. Next steps align with Milestone 1 of our roadmap.  
+- **Smart Contract Development:** Core ink! v5 contract was played around with in our public repository (`https://github.com/gabrieljaegerde/meetup_sc`). Features like `create_meetup`, deposit registration, and state management are implmeneted. This smart contract was deployed to Shibuya.
+- **Current Progress:** As of April 2025, we’ve achieved a proof-of-concept with working ink! v5 contract, PAPI integration for state queries and light client support is in early testing in a separate repository. The frontend is in early stages with basic connectivity to Shibuya. Next steps align with Milestone 1 of our roadmap.  
 
 ---
 
@@ -97,7 +83,7 @@ Polkadot Meetup Hub is in active development, with foundational progress underwa
 
 ### Overview
 - **Total Estimated Duration:** 3 months  
-- **Full-Time Equivalent (FTE):** 2 FTE  
+- **Full-Time Equivalent (FTE):** 1.5 FTE  
 - **Total Costs:** 25,000 USD  
 - **Description:** Two milestones: core system deployment with PAPI and light clients (Milestone 1) and UI/feature enhancements (Milestone 2), with rigorous testing and documentation.
 
@@ -116,10 +102,10 @@ Polkadot Meetup Hub is in active development, with foundational progress underwa
 | 0e.    | Article              | Blog post on decentralized event management with ink! v6, published on ecosystem channels.  |
 | 1.     | Meetup Creation      | ink! v6 contract for event creation (title, description, datetime, location, capacity).         |
 | 2.     | Registration & Deposits | Deposit logic with automated refunds/forfeiture, balance checks.          |
-| 3.     | Timezone Scheduling  | Basic frontend with light client integration for timezone-aware event display, validated on-chain. |
+| 3.     | Timezone Scheduling  | Basic frontend with light client integration for timezone-aware event display. |
 
 - **Acceptance Criteria:**  
-  - Contracts deploy on Pop Network testnet or Kusama Asset Hub.  
+  - Contract deploys on Pop Network testnet or Kusama Asset Hub.  
   - Deposits/refunds work in test scenarios.  
   - Light client frontend shows timezone-adjusted events.
 
@@ -145,7 +131,7 @@ Polkadot Meetup Hub is in active development, with foundational progress underwa
 ### Additional Notes
 - **Dependencies:** Milestone 2 builds on Milestone 1 contracts and PAPI/light client setup.  
 - **Cost Breakdown:** 60% development, 20% docs/outreach, 20% UI/UX.  
-- **Next Steps:** Post-Milestone 2, focus on feedback, audits, and mainnet deployment with NFTs.
+- **Next Steps:** Post-Milestone 2, focus on feedback, audits, and mainnet deployment + future plans implementation.
 
 ---
 
