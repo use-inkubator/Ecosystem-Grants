@@ -8,7 +8,8 @@
 
 | Team                                          | Project                                                 | Link                                |
 | :---------------------------------------------| :-------------------------------------------------------| :-----------------------------------|
-| []()                                          | []()                                                    | []()                          |
+| [Scio Labs](https://scio.xyz/)                | [ink!athon v2](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/inkathon.md) | [GitHub](https://github.com/scio-labs/inkathon) |
+| []()                                          | []()                                                    | []()                                |
 
 
 ## 1st Cohort
