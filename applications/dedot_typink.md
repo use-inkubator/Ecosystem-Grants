@@ -1,7 +1,7 @@
 # Dedot + Typink
 
 - **Team Name:** Dedot Dev Team
-- **Payment Address:** `TODO`
+- **Payment Address:** 1nfu5pgjDzn2ozcBHVdAbGCvVyWRshVhtSixo61vx9sLrvD
 
 ## Project Overview :page_facing_up:
 ### Overview
@@ -139,11 +139,11 @@ This proposal builds upon these foundations to address the next set of challenge
 - **Full-Time Equivalent (FTE):** 1.5 FTE
 - **Total Costs:** 50,000 USD
 
-### Milestone 1: Dedot - pallet-revive Support & ink! v6 Integration
+### Milestone 1: Dedot - pallet-revive Support
 
-- **Estimated duration:** 2.5 months
+- **Estimated duration:** 1.5 months
 - **FTE:** 1.5
-- **Costs:** 25,000 USD
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -152,9 +152,23 @@ This proposal builds upon these foundations to address the next set of challenge
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Article & Communication | We will publish an article introducing the changes and features implemented in this milestone and post regular updates on Polkadot Forum and social media. |
 | 1. | pallet-revive support | - Add support for 20-byte (H160) address format used in Ethereum-compatible environments<br />- Implement support for signing transactions with EVM wallets like MetaMask and SubWallet<br />- Implement comprehensive support for sending contract queries, submitting contract transactions, and deploying contracts.<br />- Develop functionality to listen to and decode contract events from pallet-revive<br /> |
-| 2. | ink! v6 integration | - Add support for ink! v6 while maintaining compatibility with v4/v5<br />- Generate Typescript Types & APIs using both traditional Rust metadata & Solidity metadata format supported by ink! v6<br />- Enable auto-suggestions and IntelliSense for generated types and APIs<br />- Ensure seamless interaction between ink! v6 contracts and pallet-revive |
 
-### Milestone 2: Typink - ink! v6 Integration, Wallet Support & CLI Improvements
+
+### Milestone 2: Dedot - ink! v6 Integration
+
+- **Estimated duration:** 1 month
+- **FTE:** 1.5
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and **online documentation** for the new features on https://dedot.dev. This will include comprehensive examples of how developers can interact with ink! v6 contracts via dedot. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Article & Communication | We will publish an article introducing the changes and features implemented in this milestone and post regular updates on Polkadot Forum and social media. |
+| 1. | ink! v6 integration | - Add support for ink! v6 while maintaining compatibility with v4/v5<br />- Generate Typescript Types & APIs using both traditional Rust metadata & Solidity metadata format supported by ink! v6<br />- Enable auto-suggestions and IntelliSense for generated types and APIs<br />- Ensure seamless interaction between ink! v6 contracts and pallet-revive |
+
+### Milestone 3: Typink - ink! v6 Integration, Wallet Support & CLI Improvements
 
 - **Estimated duration:** 2.5 months
 - **FTE:** 1.5
