@@ -17,7 +17,7 @@ Our full documentation is available at https://polkadart.dev
 
 ### Ink! Ecosystem Impact
 
-Polkadart is allowing any Dart & Flutter developer to mamke hybrid applications for the Polkadot ecosystem.
+Polkadart is allowing any Dart & Flutter developer to make hybrid applications for the Polkadot ecosystem.
 
 It is important to note that Flutter is known by being able to support any platform with a single codebase
 
