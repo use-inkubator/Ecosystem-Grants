@@ -150,7 +150,8 @@ Yash Aryan ~ Our web3 genius.
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can complete the profile and get preferenced based quests using our AI Agent. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains what was completed on this milestone || 1. | UI/UX | Improve on the existing UI UX to create an abstracted experience for our web2 gamers |
+| 0e. | Article | We will publish an **article**/workshop that explains what was completed on this milestone |
+| 1. | UI/UX | Improve on the existing UI UX to create an abstracted experience for our web2 gamers |
 | 2. | Smart contracts: 1 | We will deliver a working reward model and a set of contracts that will store onchain data |
 | 3. | Smart contracts: 2 | A set of smart contracts that will fetch web2 gaming data from oracles |
 | 4. | AI Agent | Our Ai Agent would recommend quests based out of preferences and gameplay data build on Eliza OS and GOAT SDK |
