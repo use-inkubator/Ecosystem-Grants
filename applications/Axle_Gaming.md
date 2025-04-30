@@ -1,151 +1,204 @@
-# Name of your Project
+# Axle Gaming
 
-> This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
-> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** Polkadot payment address.
+[![3XNrlmF.png](https://iili.io/3XNrlmF.png)](https://freeimage.host/)
 
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+- **Team Name:** Axle Team
+- **Payment Address:** 14apLGynowTLGFC9s87BMDmLAHpm6o32yxFm7dXAKgMC2nZa
 
 ## Project Overview :page_facing_up:
 ### Overview
 
-Please provide the following:
+Project Description:
+Axle Gaming is creating a more impactful way of game distribution by creating a unified gamer identity that aggregates data from both Web2 game distribution channels (e.g., Steam, Epic Games, Xbox) and Web3 sources (e.g., wallets, NFTs, Game based transactions). This unified identity powers our AI agent, "Lorekeeper", built with ElizaOS and GOAT SDK which offers personalized quests, meaningful engagement insights to games and studios, and smart recommendations for games and in-game assets.​
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to ink! ecosystem.
-- Choosen project idea category or your alternative category with explanation of its importance
-- An indication of why your team is interested in creating this project.
+Relation to ink! ecosystem:
+We will bring real users with real data, mapped directly to ink! smart contracts. Our distribution layer can be leveraged by other infrastructure products, and Games build on the ecosystem. In return, we can integrate with ink!'s native projects like Aleph Zero and Phala Network, while bridging assets from other blockchains to the Axle marketplace, benefiting the entire ecosystem.
+
+Chosen Project Idea Category: Canary Dapp
+Explanation: As a Canary Dapp, Axle Gaming will serve as a pioneering application demonstrating the practical integration of ink! smart contracts in a real-world gaming context. This will showcase ink!'s potential in managing complex user identities and AI-driven interactions.​
+
+Team Interest:
+The team is passionate about creating a abstracted and engaging gaming ecosystem as we too are gamers. We aim to empower real gamers and provide developers with meaningful metrics and insights.​
+
+
 
 ### Ink! Ecosystem Impact
 
-Please clearly describe how exactly your project will benefit the ecosystem. If it's infrastructure - how it's going to be applied and by who. If it's canary dapp we would you to clearly demonstrate how this code will be used by other people. If it's technical showcase we would like you to demonstrate how ink! will be promoted using your results. 
+Axle Gaming distribution network will deliver significant contributions to the ink!'s ecosystem by providing practical, real-world game based data.
 
-If it's a business case we would like to see business model and future production plans. 
+Axle will be utilizing oracles and rollups as we bridge Web2 (e.g., Steam, Epic, Xbox preferences) and Web3 (NFTs, wallets) data over ink! smart contracts. Which other infrastructure/studios can leverage for their own dApps, games, marketplaces, or communities.
+
+Real-World User Onboarding & Ecosystem Growth:
+By attracting real users with real data, We will drive authentic user engagement within the ink! ecosystem. We will bring Games,Indi Developers to ink!'s ecosystem and its capabilities. Additionally, our multi-blockchain marketplace will bring a diverse set of assets (e.g., NFTs, in-game items) to ink!-powered platforms, enhancing liquidity and cross-chain interoperability.
+
+In summary, Axle Gaming will not only benefit the ink! ecosystem by utilizing its smart contracts for complex data management but also help expand its user base, and contribute to the growth of ink!-based gaming.
+
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
+Project Details
+Data Models / API Specifications:
 
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-- Do you need an audit for the contacts? **YES/NO**
-(don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
-- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
-- An overview of the business model, including revenue streams, target market, and scalability, if applicable.
-- Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success, if applicable.
+Gamer Identity Schema: Combining Web2 and Web3 data points to create a gamer profile.
 
+Questing set of APIs: Endpoints for quest creation, tracking within game, and completion status.
 
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+Reward Engine: Axle has a dual reward system, Users earn coins for every move & $AXL Tokens for epic wins.
+Coins (Non-Monetary):
+- Buy avatars
+- Mint common NFTs
+- Unlock cool perks
+
+$AXL Tokens (Real Value!):
+- Buy in-game items
+- Grab Steam vouchers & Web2 rewards
+- Exclusive NFTs & partner quests
+​
+Technology Stack:
+
+Smart Contracts: ink! for managing identities, preferences, and reward logic.
+
+AI Agent: ElizaOS powering "Lorekeeper" for personalized recommendations and GOAT SDK for reward distribution.
+
+Data Aggregation: Oracles and rollups to fetch and verify data from external sources, For now we are storing the preferences on our centralized database. We would also be working with databanks like Turf and Helika to fetch gameplay data.
+
+Frontend: Next.js for user interface.
+
+Backend: Node.js with Express for API management.​
+
+Proof of Concept / MVP:
+
+A live questing platform is available at https://dev.axlegaming.xyz/, The agent is still in development.​
+
+Audit Requirement: Yes
+
+Category: Canary Dapp
+
+Business Model Overview:
+
+Revenue Streams: We’re earning through quest/event creation fees, marketplace transaction fees, premium subscriptions, and revenue sharing from community partnerships.
+
+Target Market: Game developers and studios, Web2 gamers.
+
+Scalability: Designed to support a growing number of games and users, with our architecture for easy integration of new features.​
+
+Future Production Plans:
+
+H1 2025: Launch of MVP with core features and initial integrations.
+
+H2 2025: Expansion of Web2 onboarding tools, introduction of autonomous AI trading features, and development of comprehensive tools for game studios.
+
+Beyond 2025: Continuous enhancement of AI capabilities, expansion of our distribution layer.​
 
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Hardik Gupta
+- Abhishek Bisht, Sagar Nirwal, Anurag Asawa, Yash Aryan
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Hardik Gupta
+- **Contact Email:** Hardikgupta068@gmail.com
+- **Website:** https://www.linkedin.com/in/hardik-gupta-37a428174/
 
-### Legal Structure
-
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Hardik Gupta, Founder and CEO of Axle Gaming, has been working in the Web3 space for the past four years. He’s worked on DePIN solutions like Turf and was a speaker at Hyperledger’s Global Conference in Ireland in 2022. At his core, Hardik is a blockchain and backend developer.
+
+Anhishek Bhist, our CTO, is a tech wizard proficient in nearly every programming language. With over four years of experience in the tech space, he specializes in machine learning and front-end development. 
+
+Sagar Nirwal ~ Our UI wizard.
+Anurag Asawa ~ Our backend knight.
+Yash Aryan ~ Our web3 genius.
+
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/sn247776/
+- https://github.com/anuragasawa20/
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/hardik-gupta-37a428174/
+- https://www.linkedin.com/in/abhishek-bisht-5b9079190/
+- https://www.linkedin.com/in/anurag-asawa-a37223218/
+- https://www.linkedin.com/in/sn247776/
 
-
-## Development Status :open_book:
-
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
+- **Total Estimated Duration:** 6 months
+- **Full-Time Equivalent (FTE):**  2 FTE
+- **Total Costs:** 40,000 $
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 — Reward Engine and Onchain Identities
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated duration:** 2 months
+- **FTE:**  1
+- **Costs:** 15,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can complete the profile and get preferenced based quests using our AI Agent. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains what was completed on this milestone || 1. | UI/UX | Improve on the existing UI UX to create an abstracted experience for our web2 gamers |
+| 2. | Smart contracts: 1 | We will deliver a working reward model and a set of contracts that will store onchain data |
+| 3. | Smart contracts: 2 | A set of smart contracts that will fetch web2 gaming data from oracles |
+| 4. | AI Agent | Our Ai Agent would recommend quests based out of preferences and gameplay data build on Eliza OS and GOAT SDK |
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2 — Axle SDK
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated Duration:** 2 months
+- **FTE:**  2
+- **Costs:** 15,000 USD
 
-...
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can interact with our AI Agent and how games can connect with the Axle SDK. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains what was completed on this milestone |
+| 1. | UI/UX | Improve on the existing UI UX to create an abstracted experience for our web2 gamers |
+| 2. | AI Agent | Our Ai Agent would recommend game assets and games.|
+| 3. | Library: Axle | We will deliver a JS library that will be used by games to get insights created by our users and will be used by us to verify quests completion |
 
+### Milestone 3 — Axle Chain
+- **Estimated Duration:** 2 months
+- **FTE:**  2
+- **Costs:** 10,000 USD
 
-## Future Plans
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a studio can move their game onchain using Axle Substrate Chain |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains what was completed on this milestone |
+| 1. | UI/UX | Improve on the existing UI UX to create an abstracted experience for our web2 gamers |
+| 2. | AI Agent | Improve our AI Agent.|
+| 3. | Substrate chain | Our custom chain will be used by games to move onchain |
 
-Please include here if you have a future plan after building this template in making it in to production.
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Bounty Program?** Personal recommendation.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+Product Development: The product is almost ready, We are getting in data from distributors like Steam and Epic Games. Xbox and Play store are pending. Plus we are able to get in the data from wallets, just the recommendation part of the AI agent is pending. The reward distribution is also working both through the smart contract or through the AI Agent. Plus, we need to make few important changes in the UI/UX.
+
+User Growth: We’ve accumulated 2,500+ waitlist registrations along with a few hundred users on Discord, Telegram, and growing social media channels.
+
+Market Validation: Early LOIs with multiple game developers and positive validation from multiple gamers and ecosystems that were harmed by these bots and farmers. Will be creating list of these.
+
