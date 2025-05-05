@@ -10,7 +10,8 @@
 TreasuryFlow - A full-stack decentralized treasury management system supporting
 vested, recurring, and instant payments with multi-signature attestation and
 payment categories. It enables organizations to manage and automate payouts and
-accounting.
+accounting via a ink! smart contract and a react frontend for treasury contract
+deployment and management.
 
 #### Key Features
 
@@ -98,16 +99,16 @@ with ink!. Here’s how:
    programs, and working groups needing to automate and govern payouts. Users
    can deploy the ink! contract via the provided frontend, configure their
    treasury, and manage all types of payments (vested, recurring, instant) with
-   multi-signature governance and category-based reporting—without writing code.
-   The dApp will be open-source and free to use, lowering the barrier for new
-   teams to adopt ink! smart contracts for real-world treasury operations.
+   multi-signature approvals and category-based reporting - without writing
+   code. The dApp will be open-source and free to use, lowering the barrier for
+   new teams to adopt ink! smart contracts for real-world treasury operations.
 
 2. **The frontend** (built with Papi and Next.js) will demonstrate how to build
    modern, user-friendly dApps that interact with **and deploy** ink! contracts,
    serving as a template for future projects. With treasury flow we demonstrate
    how modern dApps can use the blockchain (Polkadot) as a backend and replace
    API calls by contract calls - powered by ink! - while maintaining the API
-   nature. E.g. the smart contract can be called from any program, e.g.
+   nature. E.g. the smart contract can be called from any ts app, e.g. react
    frontend, discord bot, ...
 
 3. **Open-Source Reusability:** Other teams can fork, extend, or integrate
@@ -160,8 +161,8 @@ enterprises
   - Different Payout Types (immediate, recurring, vested)
   - Payout Dates
   - Payout Thresholds (higher treasurer acceptens for higher amounts,
-    configurable), e.g. < 1000 USD, 1 treasurer, > 5000 USD 2 treasurers > 10000
-    USD 3 treasurers.
+    configurable), e.g. p < 1000 USD: 1 treasurer, p > 5000 USD 2 treasurers,
+    p > 10000 USD 3 treasurers.
 - Process Payouts
   - Can be triggered by anyone, signed
 - Authorization
@@ -169,6 +170,7 @@ enterprises
   - relevant smart contract functions can only be executed by treasurers
   - relevant smart contract functions need a threshold of existing treasurers to
     be executed
+- The contract stores processed payouts
 
 Functions and function signatures can be seen in the provided smart contracts.
 
