@@ -102,9 +102,10 @@ Hugo Caumo: Developer specializing in blockchain, smart contracts, and backend i
 | 0d.    | Docker                                                                       | Dockerfile for backend pipeline                    |
 | 1.     | Pluggy.ai integration and backend pipeline to ingest and normalize user data | Integration with Pluggy.ai API, data normalization |
 
+
 ### Milestone 2 — Frontend Dashboard
 
-- **Estimated duration:** 2 weeks
+- **Estimated duration:** 3 weeks
 - **FTE:** 2
 - **Costs:** 12,000 USD
 
@@ -113,6 +114,7 @@ Hugo Caumo: Developer specializing in blockchain, smart contracts, and backend i
 | 0a.-0d. | Standard deliverables |                               |
 | 1.      | React Frontend        | Dashboard                     |
 | 2.      | Supabase Backend      | Auth & marketplace base logic |
+| 3.    | Docs Package                                                  | User & technical 
 
 ### Milestone 3 — Anonymization Pipeline
 
@@ -124,50 +126,43 @@ Hugo Caumo: Developer specializing in blockchain, smart contracts, and backend i
 | ------ | ----------- | ------------- |
 | 0a.-0d. | Standard deliverables |  |
 | 1. | Anonymization Module | Hashing with test coverage |
+| 2.    | Docs Package                                                  | User & technical 
 
 ### Milestone 4 — Tokenization Engine
 
 - **Estimated duration:** 1 week
 - **FTE:** 2
-- **Costs:** 6,000 USD
+- **Costs:** 7,000 USD
 
 | Number | Deliverable | Specification |
 | ------ | ----------- | ------------- |
 | 0a.-0d. | Standard deliverables |  |
 | 1. | Ink! Tokenization | Minting on Pop Network Testnet |
+| 2.    | Docs Package                                                  | User & technical 
 
 ### Milestone 5 — Smart Contracts & Payments
 
 - **Estimated duration:** 1 week
 - **FTE:** 2
-- **Costs:** 6,000 USD
+- **Costs:** 7,000 USD
 
 | Number | Deliverable | Specification |
 | ------ | ----------- | ------------- |
 | 0a.-0d. | Standard deliverables |  |
 | 1. | Marketplace Contracts | Listings, access control, payments |
+| 2.    | Docs Package                                                  | User & technical 
 
 ### Milestone 6 — Launch & QA
 
 - **Estimated duration:** 1 week
 - **FTE:** 2
-- **Costs:** 3,000 USD
+- **Costs:** 4,000 USD
 
 | Number  | Deliverable           | Specification                     |
 | ------- | --------------------- | --------------------------------- |
 | 0a.-0d. | Standard deliverables |                                   |
 | 1.      | Deployment            | Mainnet deployment & stress tests |
-
-### Milestone 7 — Documentation & Support
-
-- **Estimated duration:** 1 week
-- **FTE:** 2
-- **Costs:** 3,000 USD
-
-| Number | Deliverable | Specification |
-| ------ | ----------- | ------------- |
-| 0a.-0e. | Standard deliverables + Article |  |
-| 1. | Docs Package | User & technical documentation |
+| 2.    | Docs Package                                                  | User & technical 
 
 ## Future Plans
 
