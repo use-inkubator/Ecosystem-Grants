@@ -51,13 +51,13 @@ Ink!Gov is divided into:
 **API:** Exposed functions for external applications to interact with InkGov contracts.
 
 
-Figure 1: Overview of InkGov system components (Asset Hub, DAO, Proposal, etc.)
+**Image 1**: System Components
+![Figure 1: Overview of InkGov system components](https://github.com/Lakaka-Labs/Ecosystem-Grants/blob/master/applications/image_1.png)
 
-Image 2: DAO Creation Process
-Figure 2: Flowchart of the DAO creation process
+**Image 2:** DAO Creation & Voting Process
+![Figure 2: Flowchart of the DAO creation process](https://github.com/Lakaka-Labs/Ecosystem-Grants/blob/master/applications/image_2.png)
 
-Image 3: Voting Process
-Figure 3: Flowchart of the voting mechanism
+
 
 
 **Languages**
@@ -69,7 +69,7 @@ Figure 3: Flowchart of the voting mechanism
 
 **1. DAO Creation & Customization:** Supports Multi-Signature Wallets, NFT Community DAOs, and Community Token DAOs, enabling governance rules customization using parachain-compatible assets.
 
-**2. Vote Escrowed Tokens (veTokens):** Voting power increases by locking tokens, incentivizing long-term engagement.
+**2. Vote Escrowed Tokens:** Voting power increases by locking tokens, incentivizing long-term engagement.
 
 **3. Treasury Management:** Facilitates staking, yield-generating activities, and resource allocation through community-driven proposals integrated with Polkadot DeFi platforms.
 
@@ -135,7 +135,7 @@ As alumni of the PBAX program, we’ve been deeply immersed in the technical and
 - **Total Estimated Duration:** 6 months
 - **Full-Time Equivalent (FTE):**  2 FTE
 - **Total Costs:** 41,000 USD
-### Milestone 1 — Smart Conctract Development
+### Milestone 1 — Smart Contract Development
 
 - **Estimated duration:** 3 month
 - **FTE:**  2 FTE
