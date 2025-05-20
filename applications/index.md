@@ -8,7 +8,9 @@
 
 | Team                                          | Project                                                 | Link                                |
 | :---------------------------------------------| :-------------------------------------------------------| :-----------------------------------|
-| []()                                          | []()                                                    | []()                          |
+| [Scio Labs](https://scio.xyz/)                | [ink!athon v2](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/inkathon.md) | [GitHub](https://github.com/scio-labs/inkathon) |
+| [Lucky Team](https://github.com/LuckyDapp) | [Using Verifiable Offchain Computing in ink! smart contracts](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/verifiable_offchain_computing.md) | [GitHub](https://github.com/LuckyDapp) |
+| []()                                          | []()                                                    | []()                                |
 
 
 ## 1st Cohort
