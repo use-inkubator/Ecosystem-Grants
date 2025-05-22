@@ -134,35 +134,34 @@ Our team has combined expertise in:
 
 ---
 
-### Month 2 — Implement Breakpoints, Stepping, and State Inspection
+### Month 2 — Basic Breakpoints and Stepping
 
-- **FTE**: 3
-- **Costs**: 30,000 USD
-- Implement debug session lifecycle, stepping, call stack tracking, and state inspection logic.
+- **FTE**: 2
+- **Costs**: 20,000 USD  
+- Implement minimal stepping support and basic breakpoint handling.
 
 | **Number** | **Deliverable** | **Specification** |
 | --- | --- | --- |
 | **6.** | Breakpoint hit | Stop execution at breakpoint, notify DAP client |
-| **7.** | Step execution | Support step over, into, out with temporary breakpoints or trace tracking |
-| **8.** | Call stack | Show function call hierarchy from CallTrace or PolkaVM stack info |
-| **9.** | Variable scope | Basic contract storage and function params inspection |
-| **10.** | Integration tests | Contracts for test cases: breakpoints, stepping, nested calls |
+| **7.** | Step execution | Step over and into using basic instruction tracking |
+| **8.** | Variable scope | Basic variables inspection |
+| **9.** | Integration tests | Contracts for basic test cases: breakpoints and stepping |
+
 
 ---
 
 ### Month 3 — VS Code Integration, Stability, and Documentation
 
-- **FTE**: 1.5
+- **FTE**: 1
 - **Costs**: 10,000 USD
-- Finalize extension packaging, cross-platform polish, and write usage guide.
+- Finalize extension packaging and write usage guide.
 
 | **Number** | **Deliverable** | **Specification** |
 | --- | --- | --- |
-| **11.** | VS Code extension | Publish a usable debugger integrated with DAP client in VS Code |
-| **12.** | Debug session UX | Launch.json templates, smooth F5 experience, readable variables |
-| **13.** | Variable pretty-printers | Format common types like Balance, AccountId nicely |
-| **14.** | Usage guide | Step-by-step doc with screenshots and limitations |
-| **15.** | Final demo | Showcase contract with working debugger, recorded or live |
+| **10.** | VS Code extension | Publish a usable debugger integrated with DAP client in VS Code |
+| **11.** | Debug session UX | Launch.json templates, smooth F5 experience |
+| **12.** | Usage guide | Step-by-step doc with screenshots and limitations |
+| **13.** | Final demo | Showcase contract with working debugger, recorded or live |
 
 ---
 
@@ -170,7 +169,11 @@ Our team has combined expertise in:
 
 Once MVP is complete, future phases may include:
 
-1. **Advanced variable inspection**: DWARF parsing to show local vars
+1. **Basic debug experience impovements**:
+- Full call stack visualization
+- Variable scope inspection (advanced)
+- Deep nested stepping logic
+- Variables pretty-printers
 2. **Expression evaluation & watch**: REPL and dynamic watches
 3. **Conditional breakpoints**: Pause when variables match conditions
 4. **Custom GUI**: Interactive visualization of state, execution flow
