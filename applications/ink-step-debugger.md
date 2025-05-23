@@ -116,10 +116,11 @@ Our team has combined expertise in:
 
 - **Total estimated duration:** 3 months
 - **Full-time equivalent (FTE):** ~3 FTE
-- **Total costs**: 60,000 USD
+- **Total costs**: 50,000 USD
 
-### Month 1 — Design and Prototype Execution Engine
+### Milestone 1 — Design and Prototype Execution Engine
 
+- **Estimated duration:** 1 month
 - **FTE**: 2
 - **Costs**: 20,000 USD
 - Research DRink!, PolkaVM, and tracing APIs. Set up sandbox execution. Define core architecture of the adapter.
@@ -134,8 +135,9 @@ Our team has combined expertise in:
 
 ---
 
-### Month 2 — Basic Breakpoints and Stepping
+### Milestone 2 — Basic Breakpoints and Stepping
 
+- **Estimated duration:** 1 month
 - **FTE**: 2
 - **Costs**: 20,000 USD  
 - Implement minimal stepping support and basic breakpoint handling.
@@ -150,8 +152,9 @@ Our team has combined expertise in:
 
 ---
 
-### Month 3 — VS Code Integration, Stability, and Documentation
+### Milestone 3 — VS Code Integration, Stability, and Documentation
 
+- **Estimated duration:** 1 month
 - **FTE**: 1
 - **Costs**: 10,000 USD
 - Finalize extension packaging and write usage guide.
