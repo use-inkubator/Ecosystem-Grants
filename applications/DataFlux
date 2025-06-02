@@ -10,7 +10,7 @@
 
 **Tagline:** Decentralized platform for tokenizing, anonymizing, and monetizing financial data via tokenization on Polkadot.
 
-We are building the first decentralized marketplace for tokenizing and trading anonymized financial data from Open Finance. Integrated with Pluggy.ai and Pop Network (Polkadot parachain), our solution leverages ink! smart contracts to ensure privacy, user control, and  stablecoin payments.
+We are building the first decentralized marketplace for tokenizing and trading anonymized financial data from Open Finance. Integrated with Pluggy.ai and Polkadot Asset Hub (Polkadot parachain), our solution leverages ink! smart contracts to ensure privacy, user control, and  stablecoin payments.
 
 
 **Relation to ink! ecosystem:** Native use of ink! smart contracts for data tokenization, marketplace logic.
@@ -28,7 +28,7 @@ This infrastructure can be expanded by other developers to tokenize different da
 ### Project Details
 
 - **Data Models / API Specs:** Integration with Pluggy.ai API for financial data ingestion; internal APIs for tokenization and marketplace interactions.
-- **Tech Stack:** React.js, Supabase, Typescript (Node.js), PostgreSQL, ink! smart contracts on Polkadot (Pop Network), Pluggy.ai integration.
+- **Tech Stack:** React.js, Supabase, Typescript (Node.js), PostgreSQL, ink! smart contracts on Polkadot (Polkadot Asset Hub), Pluggy.ai integration.
 - **Documentation:** Comprehensive technical documentation and partner onboarding materials.
 - **PoC/MVP:** Delivered within 10 weeks.
 - **Limitations:** The platform will not store personal data on-chain. We will not develop custom stablecoins—only USDC/USDT integrations.
@@ -78,7 +78,7 @@ Hugo Caumo: Developer specializing in blockchain, smart contracts, and backend i
 ## Development Status :open_book:
 
 - Prior research on decentralized data marketplaces.
-- Discussions within Pop Network and Pluggy.ai communities.
+- Discussions within Polkadot Asset Hub and Pluggy.ai communities.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -137,7 +137,7 @@ Hugo Caumo: Developer specializing in blockchain, smart contracts, and backend i
 | Number | Deliverable | Specification |
 | ------ | ----------- | ------------- |
 | 0a.-0d. | Standard deliverables |  |
-| 1. | Ink! Tokenization | Minting on Pop Network Testnet |
+| 1. | Ink! Tokenization | Minting on Polkadot Asset Hub Testnet |
 | 2.    | Docs Package                                                  | User & technical 
 
 ### Milestone 5 — Smart Contracts & Payments
@@ -169,7 +169,7 @@ Hugo Caumo: Developer specializing in blockchain, smart contracts, and backend i
 - Product Integration with PSPs (Payment System Providers).
 - Product Integration with KYC providers.
 - Marketing Campaing.
-- Mainnet deployment on Pop Network.
+- Mainnet deployment on Polkadot Asset Hub.
 - Expand integrations beyond Pluggy.ai.
 - Explore additional data monetization verticals (health, e-commerce).
 - Develop premium features and SaaS offerings.
