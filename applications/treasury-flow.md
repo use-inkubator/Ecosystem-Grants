@@ -314,10 +314,17 @@ activity, references to projects hosted elsewhere or live are also fine.
     Development, Design, QA, ...)
 
 - Frontend
+
   - Approval Flow Visualization (similar to multisig like mimir)
   - Accounting / Advanced statistics
   - Indexer that indexes contract events for better spending tracking
   - Category management
+
+- Integrations
+  - Github Payments: create a service that allows priviledged accounts to add
+    payments to github issues via reactions
+  - Discord Payments: create a service that allows priviledged accounts to add
+    payments via discord emojis
 
 ## Additional Information :heavy_plus_sign:
 
