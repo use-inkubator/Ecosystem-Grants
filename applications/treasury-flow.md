@@ -70,7 +70,7 @@ The Team has worked on several ecosystem projects where treasury management was
 needed and handled in complex ways
 (https://github.com/orgs/Wag-Media/repositories) which includes storing private
 keys in server environments: A discord bot tracks payment emojis added users
-posts. Every week the aggregated payouts are sent to the users’ wallets by the
+posts. Every week the aggregated payouts are sent to the users' wallets by the
 bot. Treasury flow can shift important parts to the blockchain and authorized
 smart contract requests.
 
@@ -93,7 +93,7 @@ smart contract requests.
 TreasuryFlow will directly benefit the ink! ecosystem by providing a real,
 treasury management dApp that is immediately usable by DAOs, teams, and
 organizations operating on Polkadot and any chain supporting `pallet-revive`
-with ink!. Here’s how:
+with ink!. Here's how:
 
 1. **Immediate Utility for Ecosystem Users**: DAOs, community treasuries, grant
    programs, and working groups needing to automate and govern payouts. Users
@@ -112,7 +112,7 @@ with ink!. Here’s how:
    frontend, discord bot, ...
 
 3. **Open-Source Reusability:** Other teams can fork, extend, or integrate
-   TreasuryFlow’s (audited) contracts and frontend for their own use cases
+   TreasuryFlow's (audited) contracts and frontend for their own use cases
    (e.g., grant programs, payroll, bounty management). The code can be used for
    educational purposes too.
 
@@ -259,27 +259,20 @@ activity, references to projects hosted elsewhere or live are also fine.
 - **FTE:** 1.5
 - **Costs:** 24,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all
-> milestones**, and deliverable 0e at least for the last one.
-
-|  Number | Deliverable               | Specification                                                                                                                                                                                                                                 |
-| ------: | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0a.** | MIT                       |
+| Number  | Deliverable               | Specification                                                                                                                                                                                                                                 |
+| ------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **0a.** | MIT                       |                                                                                                                                                                                                                                               |
 | **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** in a readme that explains how the smart contract can be deployed manually and how the frontend can be setup (also to deploy the smart contracts)           |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                               |
-| **0d.** | Docker                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                 |
-|     0e. | Article                   | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)                                                |
-|     1a. | Payout Creation           | We will create smart contract functions to add immediate / recurring / vested payouts that require signatures of a changing amount of treasurers based on configurable thresholds. There will also be functions to update and delete payouts. |
-|     1b. | User Management           | We will create smart contract functions to add and remove treasurers to the treasury contract. There will be options for priviledged or disabled owner access                                                                                 |
-|     1c. | State Retrieval           | We will create smart contract functions to read smart contract state of all relevant values                                                                                                                                                   |
-|     1d. | State Mutation            | We will create smart contract functions to mutate relevant smart contract state (threshold, payout frequency, ...)                                                                                                                            |
-|     2a. | Landing Page              | The landing page will list features of the app and a working CTA to create a treasury as well as see a demo app                                                                                                                               |
-|     2b. | Dashboard Page            | The dApp will show a dashboard page for each deployed treasury contract, some features (e.g. add payout) will be disabled / invisible for viewers and only be accessible to treasurers / owner of the contract                                |
-|     2c. | Add Treasury Form         | The dApp will show a form with relevant fields that will trigger the deployment of a new treasury contract                                                                                                                                    |
-|     2d. | Contract Configuration    | The dApp will allow authorized users to change contract settings = sign txs to interact with smart contract functions                                                                                                                         |
-|      3. | Substrate chain           | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible)                                                                                                            |
-|      5. | Library: ABC              | We will deliver a JS library that will implement the functionality described under "ABC Library"                                                                                                                                              |
-|      6. | Smart contracts: ...      | We will deliver a set of ink! smart contracts that will...                                                                                                                                                                                    |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the readme, we will describe how to run these tests.                                                                              |
+| **0d.** | Docker                    | We will provide a Dockerfile that sets up a complete frontend + contract environment for compiling, testing and interacting with the treasury flow contract.                                                                                  |
+| 1a.     | Payout Creation           | We will create smart contract functions to add immediate / recurring / vested payouts that require signatures of a changing amount of treasurers based on configurable thresholds. There will also be functions to update and delete payouts. |
+| 1b.     | User Management           | We will create smart contract functions to add and remove treasurers to the treasury contract. There will be options for priviledged or disabled owner access                                                                                 |
+| 1c.     | State Retrieval           | We will create smart contract functions to read smart contract state of all relevant values                                                                                                                                                   |
+| 1d.     | State Mutation            | We will create smart contract functions to mutate relevant smart contract state (threshold, payout frequency, ...)                                                                                                                            |
+| 2a.     | Landing Page              | The landing page will list features of the app and a working CTA to create a treasury as well as see a demo app                                                                                                                               |
+| 2b.     | Dashboard Page            | The dApp will show a dashboard page for each deployed treasury contract, some features (e.g. add payout) will be disabled / invisible for viewers and only be accessible to treasurers / owner of the contract                                |
+| 2c.     | Add Treasury Form         | The dApp will show a form with relevant fields that will trigger the deployment of a new treasury contract                                                                                                                                    |
+| 2d.     | Contract Configuration    | The dApp will allow authorized users to change contract settings = sign txs to interact with smart contract functions                                                                                                                         |
 
 ### Milestone 2 — Additional features
 
@@ -287,18 +280,18 @@ activity, references to projects hosted elsewhere or live are also fine.
 - **FTE:** 1
 - **Costs:** 16,000 USD
 
-|  Number | Deliverable               | Specification                                                                                                                                                                                                                       |
-| ------: | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  Number | Deliverable               | Specification                                                                                                                                                                                                                                   |
+| ------: | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **0a.** | MIT                       |
-| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** in a readme that explains how the smart contract can be deployed manually and how the frontend can be setup (also to deploy the smart contracts) |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                     |
-| **0d.** | Docker                    | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                       |
-|     0e. | Article                   | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)                                      |
-|      1. | User Feedback             | We will prepare a form to collect user feedback and incentivize participation in order to find missing functionality and UX issues                                                                                                  |
-|     2a. | Contract Optimizations    | After the audit, we will implement all proposed changes and focus on optimizing storage and contract upgradability                                                                                                                  |
-|     2b. | Contract Events           | The smart contract will emit relevant events after state mutations for better indexability and apply [topics](https://use.ink/docs/v5/basics/events#topics) where possible                                                          |
-|     2c. | Non Native Assets         | The smart contract will allow logic for payouts and other relevant functions for multiple (+non native) assets                                                                                                                      |
-|      3. | Frontend Optimizations    | The frontend will work on all device sizes and apply best practises in web development e.g. Server Side Rendering + caching where possible                                                                                          |
+| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** in the frontend (/docs) that explains how the smart contract can be deployed manually and how the frontend can be setup (also to deploy the smart contracts) |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the readme, we will describe how to run these tests.                                                                                |
+| **0d.** | Docker                    | We will provide a Dockerfile that sets up a complete frontend + contract environment for compiling, testing and interacting with the treasury flow contract and includes all changes made in Milestone 2                                        |
+|     0e. | Article                   | We will publish an **article** on Medium or X that explains all features of the frontend application and smart contract functionality as well as how it could be used in existing tresuries.                                                    |
+|      1. | User Feedback             | We will prepare a form to collect user feedback and incentivize participation in order to find missing functionality and UX issues                                                                                                              |
+|     2a. | Contract Optimizations    | After the audit, we will implement all proposed changes and focus on optimizing storage and contract upgradability                                                                                                                              |
+|     2b. | Contract Events           | The smart contract will emit relevant events after state mutations for better indexability and apply [topics](https://use.ink/docs/v5/basics/events#topics) where possible                                                                      |
+|     2c. | Non Native Assets         | The smart contract will allow logic for payouts and other relevant functions for multiple (+non native) assets                                                                                                                                  |
+|      3. | Frontend Optimizations    | The frontend will work on all device sizes and apply best practises in web development e.g. Server Side Rendering + caching where possible                                                                                                      |
 
 ## Future Plans
 
