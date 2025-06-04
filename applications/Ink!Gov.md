@@ -42,15 +42,13 @@ Ink!Gov smart contracts will be deployed on parachains like **Polkadot AssetHub*
 Ink!Gov is divided into:
 
 **Client:** A Rust library integrated within ink! smart contracts.
-**API:** Exposed functions for external applications to interact with InkGov contracts.
+**API:** Exposed functions for external applications to interact with Ink!Gov contracts.
 
-Figure 1: Overview of InkGov system components (Asset Hub, POP Network, DAO, Proposal, etc.)
+**Image 1**: System Components
+![Figure 1: Overview of InkGov system components](https://github.com/Lakaka-Labs/Ecosystem-Grants/blob/master/applications/image_1.png)
 
-Image 2: DAO Creation Process
-Figure 2: Flowchart of the DAO creation process
-
-Image 3: Voting Process
-Figure 3: Flowchart of the voting mechanism
+**Image 2:** DAO Creation & Voting Process
+![Figure 2: Flowchart of the DAO creation process](https://github.com/Lakaka-Labs/Ecosystem-Grants/blob/master/applications/image_2.png)
 
 **Languages**
 
