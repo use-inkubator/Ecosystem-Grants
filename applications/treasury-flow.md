@@ -329,3 +329,7 @@ repository is more feature rich than the v6 contract (vesting, cleanup, data
 types). We are aware that v6 contracts are needed for the submission. The
 difference is that some tooling did not work yet fully, that is why we continued
 developing the v5 contract first.
+
+A project with some similarities has been funded by the w3f 2 years ago:
+https://github.com/ankas-lab/openPayroll. We are aiming for a contract with
+extended functionality, inkv6 and a more feature rich frontend.
