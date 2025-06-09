@@ -126,10 +126,6 @@ with ink!. Here's how:
 
 Canary Dapp
 
-> - Do you need an audit for the contacts?
-
-**YES**
-
 > - What your project is _not_ or will _not_ provide or implement
 
 - fungibles apis for smart contracts (we rely on
@@ -280,18 +276,18 @@ activity, references to projects hosted elsewhere or live are also fine.
 - **FTE:** 1
 - **Costs:** 16,000 USD
 
-|  Number | Deliverable               | Specification                                                                                                                                                                                                                                   |
-| ------: | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  Number | Deliverable               | Specification                                                                                                                                                                                                                                                              |
+| ------: | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **0a.** | MIT                       |
-| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** in the frontend (/docs) that explains how the smart contract can be deployed manually and how the frontend can be setup (also to deploy the smart contracts) |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the readme, we will describe how to run these tests.                                                                                |
-| **0d.** | Docker                    | We will provide a Dockerfile that sets up a complete frontend + contract environment for compiling, testing and interacting with the treasury flow contract and includes all changes made in Milestone 2                                        |
-|     0e. | Article                   | We will publish an **article** on Medium or X that explains all features of the frontend application and smart contract functionality as well as how it could be used in existing tresuries.                                                    |
-|      1. | User Feedback             | We will prepare a form to collect user feedback and incentivize participation in order to find missing functionality and UX issues                                                                                                              |
-|     2a. | Contract Optimizations    | After the audit, we will implement all proposed changes and focus on optimizing storage and contract upgradability                                                                                                                              |
-|     2b. | Contract Events           | The smart contract will emit relevant events after state mutations for better indexability and apply [topics](https://use.ink/docs/v5/basics/events#topics) where possible                                                                      |
-|     2c. | Non Native Assets         | The smart contract will allow logic for payouts and other relevant functions for multiple (+non native) assets                                                                                                                                  |
-|      3. | Frontend Optimizations    | The frontend will work on all device sizes and apply best practises in web development e.g. Server Side Rendering + caching where possible                                                                                                      |
+| **0b.** | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** in the frontend (/docs) that explains how the smart contract can be deployed manually and how the frontend can be setup (also to deploy the smart contracts)                            |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the readme, we will describe how to run these tests.                                                                                                           |
+| **0d.** | Docker                    | We will provide a Dockerfile that sets up a complete frontend + contract environment for compiling, testing and interacting with the treasury flow contract and includes all changes made in Milestone 2                                                                   |
+|     0e. | Article                   | We will publish an **article** on Medium or X that explains all features of the frontend application and smart contract functionality as well as how it could be used in existing tresuries.                                                                               |
+|      1. | User Feedback             | We will prepare a form to collect user feedback and incentivize participation in order to find missing functionality and UX issues                                                                                                                                         |
+|     2a. | Contract Optimizations    | After an external and funded audit from e.g. [vCISO Program w/Spearbit](https://polkadot.subsquare.io/referenda/797) or [Polkadot Assurance Legion](https://dotpal.io/), we will implement all proposed changes and focus on optimizing storage and contract upgradability |
+|     2b. | Contract Events           | The smart contract will emit relevant events after state mutations for better indexability and apply [topics](https://use.ink/docs/v5/basics/events#topics) where possible                                                                                                 |
+|     2c. | Non Native Assets         | The smart contract will allow logic for payouts and other relevant functions for multiple (+non native) assets                                                                                                                                                             |
+|      3. | Frontend Optimizations    | The frontend will work on all device sizes and apply best practises in web development e.g. Server Side Rendering + caching where possible                                                                                                                                 |
 
 ## Future Plans
 
