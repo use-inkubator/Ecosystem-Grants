@@ -52,9 +52,9 @@ deployment and management.
 This project enhances the ink! ecosystem by providing a production-ready
 treasury management solution that demonstrates practical use cases for ink!
 smart contracts, sets standards for payment management, and enables integration
-with all `pallet-contract` / `pallet-revive` enabled chains with ink. It also
-showcases how a dApp without additional backend services can be built (even
-though we will use a db in the canary dApp to improve UX).
+with all `pallet-revive` enabled chains with ink. It also showcases how a dApp
+without additional backend services can be built (even though we will use a db
+in the canary dApp to improve UX).
 
 #### Project Idea Category
 
@@ -128,8 +128,6 @@ Canary Dapp
 
 > - What your project is _not_ or will _not_ provide or implement
 
-- fungibles apis for smart contracts (we rely on
-  [pop-api](https://github.com/r0gue-io/pop-node/blob/main/pop-api/src/v0/fungibles/mod.rs))
 - xcm calls for assets on other chains (not yet)
 - indexers or other apis for reading historical smart contract storage (e.g.
   balances)
@@ -265,6 +263,7 @@ activity, references to projects hosted elsewhere or live are also fine.
 | 1b.     | User Management           | We will create smart contract functions to add and remove treasurers to the treasury contract. There will be options for priviledged or disabled owner access                                                                                 |
 | 1c.     | State Retrieval           | We will create smart contract functions to read smart contract state of all relevant values                                                                                                                                                   |
 | 1d.     | State Mutation            | We will create smart contract functions to mutate relevant smart contract state (threshold, payout frequency, ...)                                                                                                                            |
+| 1e.     | Pallet-Asset Precompile   | The contract will work with [pallet-asset precompile](https://github.com/paritytech/polkadot-sdk/pull/8554) to allow payouts in non-native assets                                                                                             |
 | 2a.     | Landing Page              | The landing page will list features of the app and a working CTA to create a treasury as well as see a demo app                                                                                                                               |
 | 2b.     | Dashboard Page            | The dApp will show a dashboard page for each deployed treasury contract, some features (e.g. add payout) will be disabled / invisible for viewers and only be accessible to treasurers / owner of the contract                                |
 | 2c.     | Add Treasury Form         | The dApp will show a form with relevant fields that will trigger the deployment of a new treasury contract                                                                                                                                    |
@@ -323,6 +322,9 @@ https://use.ink page wich also includes the https://use.ink/inkubator/ page
 Part of the success of the project relies on non-native asset functionality.
 Currently the pop-api used in ink5 is not ported to inkv6 yet but the
 [ink alliance confirmed it will be developed](https://t.me/inkathon/569/2713).
+The contract will work with the
+[pallet-assets precompile](https://github.com/paritytech/polkadot-sdk/pull/8554)
+on AssetHub
 
 At the moment of submitting this application the v5 contract in the provided
 repository is more feature rich than the v6 contract (vesting, cleanup, data
