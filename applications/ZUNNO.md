@@ -7,12 +7,13 @@
 
 ### Overview
 
-ZUNNO is a multiplayer digital adaptation of the classic UNO game. ZUNNO leverages Polkadot's scalability, interoperability, and customization to deliver a transparent, fair, and engaging gaming experience. ZUNNO will be deployed on the Pop parachain, utilizing ink\! smart contracts for its backend logic. The proposed development falls into the ‘An Innovative Game’ sub-category of ‘Technical Showcase’ category.   
-Traditional online card games often suffer from trust issues, lack transparency, and are vulnerable to manipulation. ZUNNO addresses these concerns by implementing core game logic on-chain, ensuring verifiable and tamper-proof gameplay. Privacy is maintained through a commit-and-reveal scheme, enhanced with cryptographic randomisation, to keep players' hands and the deck hidden, preventing unfair advantages. The choice of the Pop parachain allows us to leverage the direct utility of DOT and cross chain assets to deliver the best possible user experience.
+ZUNNO is a multiplayer digital adaptation of the classic UNO game. ZUNNO leverages Polkadot's scalability, interoperability, and customization to deliver a transparent, fair, and engaging gaming experience. ZUNNO will be deployed on the AssetHub parachain, utilizing PolkaVM-compatible ink\! v6 smart contracts for its backend logic. The proposed development falls into the ‘An Innovative Game’ sub-category of ‘Technical Showcase’ category.   
+Traditional online card games often suffer from trust issues, lack transparency, and are vulnerable to manipulation. ZUNNO addresses these concerns by implementing core game logic on-chain, ensuring verifiable and tamper-proof gameplay. Privacy is maintained through a commit-and-reveal scheme, enhanced with cryptographic randomisation, to keep players' hands and the deck hidden, preventing unfair advantages. The choice of the AssetHub parachain allows us to leverage the direct utility of DOT and cross chain assets to deliver the best possible user experience.
 
 ### Ink\! Ecosystem Impact
 
-ZUNNO has the potential to attract new users to the Polkadot ecosystem while also promoting community engagement within the web2/web3 gaming space, adding more utility to DOT and contributing to the growth of the Pop parachain and indirectly the whole ecosystem. In-game fact popups of how ink\! powers ZUNNO and provide additional benefits over other smart contract languages will subliminally promote ink\! to the players.
+Utilising ink\! v6, ZUNNO will leverage deployment on AssetHub‘s pallet-revive/ PolkaVM, demonstrating future-proofing for the post-JAM ecosystem spectrum. This approach also aligns with the strategy of minimizing cross-chain hops.   
+ZUNNO has the potential to attract new users to the Polkadot ecosystem while also promoting community engagement within the web2/web3 gaming space, adding more utility to DOT and contributing to the growth of the AssetHub parachain and indirectly the whole ecosystem. In-game fact popups of how ink\! powers ZUNNO and provide additional benefits over other smart contract languages will subliminally promote ink\! to the players.
 
 ### Project Details
 
@@ -37,9 +38,9 @@ ZUNNO has the potential to attract new users to the Polkadot ecosystem while als
 
   * **Deck Shuffling:** Cryptographically secure deck shuffling to ensure randomness.
 
-  * **Deployment on Pop Parachain:** ZUNNO's backend, built with ink\! smart contracts, will be deployed on the Pop parachain.
+  * **Deployment on AssetHub Parachain:** ZUNNO's backend, built with v6 ink\! smart contracts, will be deployed on the AssetHub parachain`s PolkaVM.
 
-  The architecture comprises frontend components (Web UI, Wallet Connection, State Manager, Merkle Tree Manager), blockchain components (Smart Contract, Merkle Tree Storage, Game State \- residing on the Pop parachain), and backend services (P2P Sync Service, Card Service). The smart contract will be written in ink\!.  
+  The architecture comprises frontend components (Web UI, Wallet Connection, State Manager, Merkle Tree Manager), blockchain components (Smart Contract, Merkle Tree Storage, Game State \- residing on the AssetHub parachain), and backend services (P2P Sync Service, Card Service). The smart contract will be written in ink\!.  
   - Do you need an audit for the contacts? **NO**  
   - CATEGORY: Technical Showcase  
   - Business model:   
@@ -106,14 +107,14 @@ GitHub accounts of all team members:
 
 ### Overview
 
-- **Total Estimated Duration:** 3 months  
-- **Full-Time Equivalent (FTE):**  1.9375  
-- **Total Costs:** 49500
+- **Total Estimated Duration:** 2.5 months  
+- **Full-Time Equivalent (FTE):** 1.84
+- **Total Costs:** 39500
 
-### Milestone 1 — Development & Early Testing
+### Milestone 1 — Development, Early Testing and Refinement stage
 
-- **Estimated duration:** 1 month  
-- **FTE:**  3  
+- **Estimated duration:** 1.5 month  
+- **FTE:**  2  
 - **Costs:** 24000 USD
 
 | Number | Deliverable | Specification |
@@ -124,32 +125,16 @@ GitHub accounts of all team members:
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 1\. | Complete game development  | The core logic development will consist following phases: Game Initialisation Sequence Game Play Sequence State Synchronisation Sequence  |
 | 2\. | Substrate wallet access management | The development of universal wallet integration will serve following purpose: Connector for all existing ecosystem wallets.  Access management of the users’ profiles/ progress. |
-| 3\. | Contracts deployment on testnet | We will deliver a set of ink\! smart contracts that will serve as the backend of the game which will feature following component: Automated rules Fair rewards distribution engine |
-| 4\. | Launch beta | Launch of beta version on POP testnet. |
+| 3\. | Contracts deployment on testnet | We will deliver a set of PolkaVM-compatible/ v6 ink\! smart contracts that will serve as the backend of the game which will feature following component: Automated rules Fair rewards distribution engine |
+| 4\. | Launch beta | Launch of beta version on either of AssetHub testnets (Paseo PAssetHub or Westend AssetHub). |
+| 5\. | Community engagement campaigns on testnet | Launch of engagement campaigns to stress-test the beta release. |
+| 6\. | Gather feedback on beta release | Collection of feedback through an engagement campaign task. |
+| 7\. | Enhance privacy layer | Improve/optimise the core privacy layer which operates via the commit-and-reveal scheme |
+| 8\. | Revamp and finalise UI | Switch from functionality-oriented UI to production level UX. |
 
 ### 
 
-### Milestone 2 — Refinement stage
-
-- **Estimated duration:** 1 month  
-- **FTE:**  1.25  
-- **Costs:** 10000 USD
-
-| Number | Deliverable | Specification |
-| ----: | :---- | :---- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1\. | Community engagement campaigns on testnet | Launch of engagement campaigns to stress-test the beta release. |
-| 2\. | Gather feedback on beta release | Collection of feedback through an engagement campaign task. |
-| 3\. | Enhance privacy layer | Improve/optimise the core privacy layer which operates via the commit-and-reveal scheme |
-| 4\. | Revamp and finalise UI | Switch from functionality-oriented UI to production level UX. |
-| 5\. | (Tentative) Explore the Peer3 SDK integration | Leverage the Peer3 SDK into the tech stack if it can yield noticeable benefits. |
-
-### 
-
-### Milestone 3 — Strategic Launch & DOT’s Utility Integration
+### Milestone 2 — Strategic Launch & DOT’s Utility Integration
 
 - **Estimated duration:** 1 month  
 - **FTE:**  1.375  
@@ -165,19 +150,19 @@ GitHub accounts of all team members:
 | 1\. | Points system launch for the DOT holders/stakers | Introduce DeFi-oriented gamification via points which can be procured by staking DOT/vDOT/gDOT etc. |
 | 2\. | Implement ongoing campaigns for retention, and develop an ecosystem rewards program. | Reward points holders from the gamified DeFi yield. |
 | 3\. | Expand gameplay features | Add new modes, tournaments, custom decks, etc. |
-| 4\. | Official launch with targeted marketing | Deploy ZUNNO on POP mainnet, followup announcements and social media marketing. |
+| 4\. | Official launch with targeted marketing | Deploy ZUNNO on AssetHub mainnet, followup announcements and social media marketing. |
 
 ### 
 
 ### Milestone 0 — DevOps, operations and advisory by Edgetributor SubDAO
 
-- **Estimated duration:** 3 months  
-- **FTE:**  0.1875  
+- **Estimated duration:** 2.5 months  
+- **FTE:** 0.225  
 - **Costs:** 4500 USD
 
 | Number | Deliverable | Specification |
 | ----: | :---- | :---- |
-| 1\. | DevOps | Guiding and assisting the ZUNNO team with system architecture and integration with POP Parachain. |
+| 1\. | DevOps | Guiding and assisting the ZUNNO team with system architecture and integration with AssetHub Parachain. |
 | 2\. | Operations | Periodic feedback collection, review strategies, progress reports for the bounty and the Polkadot community. |
 | 3\. | Advisory | Introducing the ZUNNO team to the Polkadot ecosystem and bounty quirks/steps, along with the curation of the development scope/proposal. |
 
