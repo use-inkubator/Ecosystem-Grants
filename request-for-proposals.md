@@ -3,8 +3,8 @@
 This page is meant as a wishlist of projects we would love to see
 as applications.
 
-- [Ethernaut-inspired Web Game](#🎮-ethernaut-inspired-web-game)
-- [Token streaming mechanism](#🚰-a-token-streaming-mechanism)
+- [Ethernaut-inspired Web Game](#-ethernaut-inspired-web-game)
+- [Token streaming mechanism](#-a-token-streaming-mechanism)
 
 ---
 
