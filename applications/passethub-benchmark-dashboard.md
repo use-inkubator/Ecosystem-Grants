@@ -120,13 +120,19 @@ Things that shouldn’t be part of the application:
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
 
 ### Team Code Repos
+Github account: https://github.com/gil7788
+- End-to-end DApp: https://github.com/gil7788/meowmeow
+This project showcases Solidity and DeFi hands on experience of the team members as well as the ability to deliver products from scratch, that includes React front end with smart contracts integration, smart contract development and CI/CD integration for frontend webpage hosting.
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/gil7788/portfolio
+This project showcases React and design practices with hands on experience of the team members.
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+- https://github.com/gil7788/zero-knowledge-polkadot-machine
+This project showcases the knowledge of Rust, PassetHub hands on experience and is the reason for the create of this project as of a trial to migrate Groth16 Risc0 verifier failed due to PVM contract size.
 
-- https://github.com/gil7788
+- https://github.com/gil7788/terraform-cloud
+This repository show cases IAC with Terraform/Terraform Cloud hands on experience (unfortunatly I cannot share real world utilization of Terrform project as it is private and I cannot disclose it, that why I share a boilerplate)
+
 
 ### Team LinkedIn Profiles (if available)
 
@@ -135,28 +141,44 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
+The idea for this project was created during EthBelgrade Hackton, at the very begging I was brainstorming with WebZero team.
+
+Here is a link to an alpha version of the project's layout: **[TODO]**
 
 ## Development Roadmap :nut_and_bolt:
+
+This section presents the roadmap for PassetHub's Benchmark Dashboard:
+
+### Milestone 1
+
+### Milestone 2
+### Milestone 3
+### Milestone 4
 
 This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
 Below we provide an **example roadmap**.
 
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
+- **Total Estimated Duration:** Duration of the whole project 2 months
+- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration 320 hrs => 1 FTE for 2 month.
 
-### Milestone 1 Example — Basic functionality
+- **Total Costs:** 
+1. Developers Payment: 12,000
+2. Domain URL: ???
+3. Monthly expenses for Cloud services:
+  I. Compute Instance
+  II. Storage solution
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+* There might be a need for scaling and maintenance with time as the tool will be used more and more.
+
+### Milestone 1 Example — Front End Layout
+
+- **Estimated duration:** 2 weeks
+- **FTE:**  1
+- **Costs:** 2,000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
@@ -186,13 +208,8 @@ Below we provide an **example roadmap**.
 
 ## Future Plans
 
-Please include here if you have a future plan after building this template in making it in to production.
+Develop, deploy and maintain - including system monitoring, feature development and support to the team which responsible for PVM compilation process. 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+**How did you hear about the Bounty Program?** Personal recommendation.
