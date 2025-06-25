@@ -41,6 +41,7 @@ This section lists and describes the structure of the end-to-end application. Th
 * **Frontend** Display the data on the user browser in a human readable fashion and pleasant to the eye format.
 * **Backend** The connecting back bone of the system, responsible for database update and funneling stored stated to the frontend.
 * **Database** Responsible for application’s persistency and state management 
+* **CI/CD** Responsible for seemless deployment and system upgradability both for frontend and backend.
 
 ##### Front End
 This section presents the layout and the functional requirements of the application.
@@ -68,21 +69,40 @@ This page is responsible for adding a new smart contract to the benchmark dashbo
 
 ##### Back End
 
-This section presents the functional non-functional requirements of the application.
+This section presents the non-functional requirements of the application.
 
-The backend would be written in Rust, with a consideration of security and efficiency first. Leveraging Rust’s real time characteristics and strong type system.
+The backend would be written in Rust, with a consideration of security and efficiency first. Leveraging Rust’s real time characteristics and strong type system for extra security.
 
 ##### Database Hosting and State Managment
 A Web2 Centralized Cloud solution would be leveraged to store the database state (Bucket or NoSQL hosted solutions can be utilized for that), also a Cloud instance would be used to host Rust based backend server.
 
-Features
-Tack deployment status - failed/succeeded
-Display statistics of the following metrics - gas consumption, run time speed, PVM VS EVM size
+##### DevOps
+Automated pipelines for system maintanance and upgradabilty, will be accomplished by installing CI/CD pipelines with Github Runner, Github Actions, Terraform, Terraform Cloud, HCL and Vercel.
 
+#### Technological Stack
+This scetion presents the required tech stack to develop as system according to the specs above.
 
+##### Frontend
+The frontend will be develop leveraging "de-facto" Web3 industry standards such as:
+1. NextJs
+2. Css
+  I. TailwindCss
+  II. ShadCn
+3. Eth Scaffold-2
+4. React
+5. Typescript
+
+##### Backend
+Backend will use Rust.
+Tools such as message broker may or may not be part of the system. Should be decided in the next steps of the grant.
+
+##### Database
+A storage solution would be selected according to the needs of the scale of the system, there are a few viable solution - Bucket or NoSQL DB's on top of cloud provider such as - AWS, GCP, Azure.
+
+##### DevOps
+For CI/CD pipelines Github Runner, Github Actions, Terraform, Terraform Cloud, HCL and Vercel will be leveraged.
 
 - Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
@@ -91,11 +111,9 @@ Display statistics of the following metrics - gas consumption, run time speed, P
 - An overview of the business model, including revenue streams, target market, and scalability, if applicable.
 - Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success, if applicable.
 
+#### What the Project Will Not Provide
+The dashboard will not provide a deployment functionality - by specifing the address of already a deployed contract and an abi, the platform will be able to be flexible enough to support all contracts that are deployed on various networks.
 
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
 
 
 ## Team :busts_in_silhouette:
