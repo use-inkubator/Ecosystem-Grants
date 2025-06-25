@@ -1,4 +1,4 @@
-# Name of your Project
+# PassetHub Benchmark Dashboard
 
 - **Team Name:** Benchmark Elite
 - **Payment Address:** <b>[TODO]</b> Polkadot payment address.
@@ -100,8 +100,9 @@ Tools such as message broker may or may not be part of the system. Should be dec
 A storage solution would be selected according to the needs of the scale of the system, there are a few viable solution - Bucket or NoSQL DB's on top of cloud provider such as - AWS, GCP, Azure.
 
 ##### DevOps
-For CI/CD pipelines Github Runner, Github Actions, Terraform, Terraform Cloud, HCL and Vercel will be leveraged.
+For CI/CD pipelines Github Runner, Github Actions, Terraform, Terraform Cloud, HCL and Vercel will be leveraged, also docker, docker-compose and github-packages will be leveraged for containerization solution.
 
+**[Orig]**
 - Data models / API specifications of the core functionality
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
@@ -113,7 +114,6 @@ For CI/CD pipelines Github Runner, Github Actions, Terraform, Terraform Cloud, H
 
 #### What the Project Will Not Provide
 The dashboard will not provide a deployment functionality - by specifing the address of already a deployed contract and an abi, the platform will be able to be flexible enough to support all contracts that are deployed on various networks.
-
 
 
 ## Team :busts_in_silhouette:
@@ -167,12 +167,6 @@ Here is a link to an alpha version of the project's layout: **[TODO]**
 
 This section presents the roadmap for PassetHub's Benchmark Dashboard:
 
-### Milestone 1
-
-### Milestone 2
-### Milestone 3
-### Milestone 4
-
 This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
 Below we provide an **example roadmap**.
@@ -189,44 +183,90 @@ Below we provide an **example roadmap**.
 3. Monthly expenses for Cloud services:
   I. Compute Instance
   II. Storage solution
+4. Terraform Cloud - Free for small team up to 5 collaborators and open source projects
 
 * There might be a need for scaling and maintenance with time as the tool will be used more and more.
 
-### Milestone 1 Example — Front End Layout
+### Milestone 1 Frontend — Stateless Layout
 
 - **Estimated duration:** 2 weeks
 - **FTE:**  1
-- **Costs:** 2,000 USD
+- **Costs:** 3,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
+This milestone focuses on the implementation of appliaction's frontend layout and data management in the browser.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| **0b.** | Documentation | We will provide standard documentation that is analogous to Eth-Scaffold-2 |
+| **0c.** | Tests | There is nothing to test in this step it is just a stateless layout being developed, a by-hand test video demostrading the flow will be provided.
+| **0d.** | Docker | Application will not be dockarized as it is not needed inorder to deploy to vercel. |
+
+### Milestone 2 Backend Development — Rust Server Development 
+
+- **Estimated Duration:**  3 Weeks
+- **FTE:**  1 FTE
+- **Costs:** 4,500 USD
 
 
-### Milestone 2 Example — Additional features
+This milestone focuses on the implementation of appliaction's backend functionality in Rust with a stored state on the Rust server - moving the state managment to the server and facilitating the integration of the cloud provider for the next step.
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0b.** | Documentation | We will provide standard documentation leveraging Rust standard docs |
+| **0c.** | Tests | Thourough unit tests for CRUD operations will be provided to validate backend correcteness.
+| **0d.** | Docker | Application will be dockarized with docker and docker-compose file for deployment and future utilization in the CI/CD pipeline. |
 
-...
+### Milestone 3 Cloud Integration — Integration of Cloud Compute and Storage
+
+- **Estimated Duration:**  2 Weeks
+- **FTE:**  1 FTE
+- **Costs:** 3,000 USD
+
+
+This milestone focuses on manual provisioning of cloud service such as compute and storage, and integration with of Rust server, compute instace and hosted storage. That includes - manual provisioning of resources, server deployment to the compute resource, code refactoring to integrate and authenticate with cloud compute and hosted storage, test might be rewritten to fit the right format returned from the hosted storage.
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0b.** | Documentation | We will provide standard documentation that is analogous to Eth-Scaffold-2 |
+| **0c.** | Tests | Thourough unit tests for CRUD operations will be provided to validate backend correcteness.
+| **0d.** | Docker | Application will be dockarized with docker and docker-compose file for deployment and future utilization in the CI/CD pipeline. |
+
+
+### Milestone 4 DevOps — CI/CD Pipeline Installation
+
+- **Estimated Duration:**  1 Weeks
+- **FTE:**  1 FTE
+- **Costs:** 1,500 USD
+
+
+This milestone focuses on CI/CD pipeline installation, Terraform Cloud configuration, HCL Terrafom IAC files implementation, and server docker deployment to the Github package service as a docker registry.
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0b.** | Documentation | Docmentation for automatic system spin up will be provided. Also instruction for contribution will be provided, facilitating the ability to future contributers to so with extream ease  |
+| **0c.** | Tests | There is nothing to test in this step it is installation of a CI/CD pipeline being developed, a by-hand test video demostrading the flow will be provided.
+| **0d.** | Docker | Docker will be provided and stored in Github package service |
+
+### Milestone 5 Test, Validation, Corrections and System Documenation
+
+- **Estimated Duration:**  1 Week
+- **FTE:**  1 FTE
+- **Costs:** 1,500 USD
+
+
+This milestone focuses on polishing and making sure that project is clear enough so (if need it be) it can be handed off to some random developer. Ideally by this time the PVM compilation team had the chances to provide feedback the developing team and this week is the opportunity to address the feedback of the PVM team.
 
 
 ## Future Plans
 
-Develop, deploy and maintain - including system monitoring, feature development and support to the team which responsible for PVM compilation process. 
+1. Develop, deploy and maintain - including system monitoring, feature development and support to the team which responsible for PVM compilation process.
+2. Device and develop non-functional requirements that are required at scale such as - server/browser caching, horizontal/vertical scaling, message brokers and redesign for the underling architecture.
+3. Support Green/Blue Deployments (zero down time deployment) if system is widely used and there an going developement. 
 
 ## Additional Information :heavy_plus_sign:
 
