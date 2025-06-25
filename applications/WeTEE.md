@@ -229,6 +229,7 @@ but due to the team size being insufficient to maintain the operation of the par
 | 2. | Bridge web ui | Provide Bridge DAPP UI:<br/>1. TEE application registration bridge proxy<br/>2. Add API for TEE application<br/>3. Update API for TEE application<br/>4. Delete API for TEE application |
 | 3. | Bridge examples | We will provide examples for demonstration:<br/>1. Provide a WEB2 test program for both real SGX hardware and simulated SGX hardware<br/>2. Provide the configuration files to call the trusted program<br/>3. Provide ink! smart contract examples to call the trusted program |
 | 4. | Test/Main DAPP | Deploy the test dapp on the Westend Asset Hub, and after the review is passed, deploy the main dapp on the Polkadot Asset Hub |
+| 4. | Golang ink! sdk | We will provide Golang ink! sdk for ink! smart contract call.<br/>1. The contract code is automatically generated through ABI.<br/>2. contract query and call through the sdk <br/> 3. Test the code generation of all contracts in use-ink/ink-examples. |
 
 ## Future Plans
 
