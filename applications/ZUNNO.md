@@ -154,7 +154,7 @@ GitHub accounts of all team members:
 
 ### 
 
-### Milestone 0 — DevOps, operations and advisory by Edgetributor SubDAO
+### Milestone 3 — DevOps, operations and advisory by Edgetributor SubDAO
 
 - **Estimated duration:** 2.5 months  
 - **FTE:** 0.225  
