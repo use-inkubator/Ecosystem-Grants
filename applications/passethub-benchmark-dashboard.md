@@ -1,17 +1,16 @@
 # PassetHub Benchmark Dashboard
 
 - **Team Name:** Benchmark Elite
-- **Payment Address:** <b>[TODO]</b> Polkadot payment address.
+- **Payment Address:** 0x848a2C9C56c9073DB4813c7D80Ac4B324a5A4361
 
 ## Project Overview :page_facing_up:
 ### Overview
 
 The purpose of this proposal is to build a public benchmark and analytics dashboard that monitors solidity and ink! smart contracts deployed on the PassetHub network. The dashboard will help users, developers, and researchers observe, compare, and validate the performance and cost-efficiency of PVM smart contracts (in contrast to EVM contracts on various chains), with a particular focus on showcasing the advantages of the Risc5 PassetHub's PVM implementation.
 
-**[Orig]** An indication of how your project relates to ink! ecosystem.
-The project is related to ink! because it strive to present PassetHub and ink! in the best form that exists out there.
+Checkout live [demo](https://pvm-dashboard.vercel.app/)!
 
-This project is focused on DevEx by DebugEx by showcasing benchmark analysis in a transperant way.
+The project is related to ink! because it strive to present PassetHub and ink! in the best form. Focused on DevEx and DebugEx by showcasing benchmark analysis in a transperant way.
 We believe that such a project will increase the speed of PassetHub development while ensuring at the same time high quality and preformace of the underline building blocks of PVM.
 
 ### Ink! Ecosystem Impact
@@ -22,7 +21,7 @@ The goal of this project is to display the current state of the ecosystem, and p
 This proposal is a response to the following problems:
 1. PassetHub’s PVM is not compatible with EVM byte code, especially when it comes to heavy smart contracts such as Zk-verifiers
 2. It is not clear whether Risc5 is a better compiled format then EVM byte code.
-3. It is not clear what are the current bottlenecks in PVM compilation process
+3. It is not clear what are the current bottlenecks in PVM compilation process:
   I. Is it the memory?
   II. Is it the running time?
   III. Is it the memory/time? Maybe it is applied to specific evaluation and to some other not…?
@@ -32,8 +31,6 @@ This proposal is a response to the following problems:
 
 
 ### Project Details
-
-**[Orig]** We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
 
 #### Application Structure
 This section lists and describes the structure of the end-to-end application. The application is composed from:
@@ -47,7 +44,7 @@ This section lists and describes the structure of the end-to-end application. Th
 This section presents the layout and the functional requirements of the application.
 
 **Home Page**
-The home page is the landing page of the website - the entry point for the user. It should display a hero component that is 100% height and 100% width and should fit exactly the view.
+The home page is the landing page of the website - the entry point for the user. It should display a hero component that fit exactly the view.
 There should be 2 buttons at the landing page:
 1. View Contacts - Should redirect to "Contracts Index Page"
 2. Deploy a contract - Should redirect to "Contract Page"
@@ -102,16 +99,6 @@ A storage solution would be selected according to the needs of the scale of the 
 ##### DevOps
 For CI/CD pipelines Github Runner, Github Actions, Terraform, Terraform Cloud, HCL and Vercel will be leveraged, also docker, docker-compose and github-packages will be leveraged for containerization solution.
 
-**[Orig]**
-- Data models / API specifications of the core functionality
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
-- An overview of the business model, including revenue streams, target market, and scalability, if applicable.
-- Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success, if applicable.
-
 #### What the Project Will Not Provide
 The dashboard will not provide a deployment functionality - by specifing the address of already a deployed contract and an abi, the platform will be able to be flexible enough to support all contracts that are deployed on various networks.
 
@@ -135,7 +122,7 @@ The dashboard will not provide a deployment functionality - by specifing the add
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Down below are listed some projects that showcase work that is similar and required to develop the devised system.
 
 ### Team Code Repos
 Github account: https://github.com/gil7788
@@ -159,7 +146,7 @@ This repository show cases IAC with Terraform/Terraform Cloud hands on experienc
 
 ## Development Status :open_book:
 
-The idea for this project was created during EthBelgrade Hackton, at the very begging I was brainstorming with WebZero team.
+The idea for this project was created during EthBelgrade Hackton, at the very beginning while brainstorming with WebZero team.
 
 Here is a link to an alpha version of the project's layout: [https://pvm-dashboard.vercel.app/](https://pvm-dashboard.vercel.app/). Link to [Repo](https://github.com/gil7788/pvm-dashboard).
 
@@ -167,25 +154,21 @@ Here is a link to an alpha version of the project's layout: [https://pvm-dashboa
 
 This section presents the roadmap for PassetHub's Benchmark Dashboard:
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**.
-
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project 2 months
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration 320 hrs => 1 FTE for 2 month.
+- **Total Estimated Duration:** Duration of the whole project 9 weeks
+- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration 360 hrs => 40hrs for 9 weeks.
 
 - **Total Costs:** 
-1. Developers Payment: 12,000
-2. Domain URL: ???
+1. Developers Payment: 13,500
+2. Domain URL: Can leverage vercel's free url or by annual url
 3. Monthly expenses for Cloud services:
   I. Compute Instance
   II. Storage solution
 4. Terraform Cloud - Free for small team up to 5 collaborators and open source projects
 
-* There might be a need for scaling and maintenance with time as the tool will be used more and more.
+
+* There might be a need for scaling and maintenance with time as the tool will be used more and more and with higher rate. Tools such as Message Broker (probably not needed at small scale) might also be included with time and increase maintenance costs.
 
 ### Milestone 1 Frontend — Stateless Layout
 
@@ -265,7 +248,7 @@ This milestone focuses on polishing and making sure that project is clear enough
 ## Future Plans
 
 1. Develop, deploy and maintain - including system monitoring, feature development and support to the team which responsible for PVM compilation process.
-2. Device and develop non-functional requirements that are required at scale such as - server/browser caching, horizontal/vertical scaling, message brokers and redesign for the underling architecture.
+2. Devise and develop non-functional requirements that are required at scale such as - server/browser caching, horizontal/vertical scaling, message brokers and redesign for the underling architecture if needed.
 3. Support Green/Blue Deployments (zero down time deployment) if system is widely used and there an going developement. 
 
 ## Additional Information :heavy_plus_sign:
