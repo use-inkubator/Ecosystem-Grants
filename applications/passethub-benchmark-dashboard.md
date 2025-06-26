@@ -161,7 +161,7 @@ This repository show cases IAC with Terraform/Terraform Cloud hands on experienc
 
 The idea for this project was created during EthBelgrade Hackton, at the very begging I was brainstorming with WebZero team.
 
-Here is a link to an alpha version of the project's layout: **[TODO]**
+Here is a link to an alpha version of the project's layout: [https://pvm-dashboard.vercel.app/](https://pvm-dashboard.vercel.app/). Link to [Repo](https://github.com/gil7788/pvm-dashboard).
 
 ## Development Roadmap :nut_and_bolt:
 
