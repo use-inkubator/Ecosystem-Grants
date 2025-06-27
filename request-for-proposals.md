@@ -27,7 +27,7 @@ The scope of this idea is to:
 - Benchmark the Gas costs of certain operations (reading/writing to contract storage, cross-contract calls, etc.).
 - Benchmark arithmetic performance. EVM has 256-bit word size, and so uses 256-bit integers for all arithmetic operations. While PolkaVM has 64-bit word size, the solc→Yul→RISCV→PolkaVM compilation pipeline used by the revive compiler currently uses 256-bit integers for all arithmetic operations. However, ink!’s compilation pipeline takes advantage of PolkaVM’s reduced word size. A benchmark should quantify this performance difference. See https://contracts.polkadot.io/architecture/#reduced-word-size for details.
 - Evaluate the contract size difference of the same implementation in Solidity vs ink!. So e.g. a ERC-20 or an upgradeable contract that has exactly the same functionality, written in both ink! and Solidity. Once both contracts are compiled it will be possible to compare the contract size and the Gas cost of their publicly available functions.
-- We support both the Solidity and the ink! ABI in ink! v6. Our hypothesis is that the ink! ABI is more efficient, as the underlying SCALE codec it uses is more efficient than the Solidity one. A benchmark could try to validate this assumption.
+- We support both the Solidity and the ink! ABI in ink! v6. Our hypothesis is that the ink! ABI is more efficient, as the underlying SCALE codec it uses is more data efficient than the Solidity one. A benchmark could try to validate this assumption.
 
 # 🎮 Ethernaut-inspired Web Game
 
