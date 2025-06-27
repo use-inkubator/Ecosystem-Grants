@@ -1,25 +1,24 @@
-# PassetHub Benchmark Dashboard
+# PVM Benchmark Dashboard
 
 - **Team Name:** Benchmark Elite
-- **Payment Address:** 0x848a2C9C56c9073DB4813c7D80Ac4B324a5A4361
 
 ## Project Overview :page_facing_up:
 ### Overview
 
-The purpose of this proposal is to build a public benchmark and analytics dashboard that monitors solidity and ink! smart contracts deployed on the PassetHub network. The dashboard will help users, developers, and researchers observe, compare, and validate the performance and cost-efficiency of PVM smart contracts (in contrast to EVM contracts on various chains), with a particular focus on showcasing the advantages of the Risc5 PassetHub's PVM implementation.
+The purpose of this proposal is to build a public benchmark and analytics dashboard that monitors solidity and ink! smart contracts deployed on PVM compatible networks. The dashboard will help users, developers, and researchers observe, compare, and validate the performance and cost-efficiency of PVM smart contracts (compare and contrast  between a Solidity and ink! contracts), with a particular focus on showcasing the advantages of the ink! PVM implementation.
 
 Checkout live [demo](https://pvm-dashboard.vercel.app/)!
 
-The project is related to ink! because it strive to present PassetHub and ink! in the best form. Focused on DevEx and DebugEx by showcasing benchmark analysis in a transperant way.
-We believe that such a project will increase the speed of PassetHub development while ensuring at the same time high quality and preformace of the underline building blocks of PVM.
+The project is related to ink! because it strive to present ink! in the best form. Focused on DevEx and DebugEx by showcasing benchmark analysis in a transperant way.
+We believe that such a project will increase the speed of ink! development while ensuring at the same time high quality and preformace of the underline building blocks of PVM.
 
 ### Ink! Ecosystem Impact
 
-While PassetHub now is being developed there are challenges that revolve around PVM-EVM compatibility, huge smart contract size inflation and a big amount of uncertainty when it comes to whether PVM is the right approach to improve block chain evaluation.
+While ink! now is being developed there are challenges that revolve around PVM-EVM compatibility, huge smart contract size inflation and a big amount of uncertainty when it comes to whether PVM is the right approach to improve block chain evaluation.
 The goal of this project is to display the current state of the ecosystem, and pin point the bottlenecks and silos of PVM technology as a belief that transparency will lead to easier DevEx and DebugEx, which as a result will yield a better developed PVM tech stack.
 
 This proposal is a response to the following problems:
-1. PassetHub’s PVM is not compatible with EVM byte code, especially when it comes to heavy smart contracts such as Zk-verifiers
+1. PVM and ink! are not compatible with EVM byte code, especially when it comes to heavy smart contracts such as Zk-verifiers
 2. It is not clear whether Risc5 is a better compiled format then EVM byte code.
 3. It is not clear what are the current bottlenecks in PVM compilation process:
   I. Is it the memory?
@@ -50,19 +49,40 @@ There should be 2 buttons at the landing page:
 2. Deploy a contract - Should redirect to "Contract Page"
 
 **Contracts Index Page**
-Should display a table with all the deployed contracts, where each row describes a deployed contract - Contract Name, Deployed Address, Deployed Time, Deploy status (success/failure). The table should support sort and filtration functionalities that are aggregated with one another for a fully felxible user experience.
+Should display a table with all the deployed contracts, where each row describes a deployed contract - Contract Name, ink! Deployed Address, ink! Deployed Time, Solidity Deployed Address, Solidity Deployed Time. The table should support sort and filtration functionalities that are aggregated with one another for a fully felxible user experience.
 
 **Contract Page**
 This page is changing according to the contract provided as input to the page component and it displays the full details of a contract:
-1. Deployment status,
-If the contract was deployed successfully:
-2. Contract address
-3. Deployment gas consumption
-4. PVM and EVM byte code and their metadata
-5. Benchmark of run time and gas consumption average out of x runs (1, 10, 100, 1000)
+Each contract that exists in the system, might have a either solidity contract deployed, or a ink! or both. The page should display the following:
+1. Deployment status - either solidity or ink! or both,
+2. Contract address (for solidity and ink! according to the deployment status)
+3. Deployment gas consumption (for solidity and ink! according to the deployment status)
+4. Solidity and ink! byte code and their metadata (for solidity and ink! according to the deployment status)
+5. Benchmark of run time and gas consumption for each function (for solidity and ink! according to the deployment status)
+
+* Present data in tabs:
+1. The default tab should display metadata
+2. abi tabs should display abi of both ink! and solidity in a diff format (expandable and collapsable)
+3. PVM Bytecode tabs should display bytecode sizes and  bytecode of both ink! and solidity in a diff format (expandable and collapsable)
+4. Benchmark tab should provide a convenient way benchmark the "same" functions of the contracts (with inputs)
+5. Analytics tab should compare and contrast gas consumption, bytecode, bytecode size, last test runtime of each function.
+ 
 
 **Deploy Contract Page**
-This page is responsible for adding a new smart contract to the benchmark dashboard. A user will be able to add his previously deployed smart contract to the dashboard by pointing to the address of the already deployed smart contract on PassetHub and other Networks.
+This page is responsible for adding a new smart contract to the benchmark dashboard. A user will be able to add his previously deployed smart contract to the dashboard by pointing to the address of the already deployed smart contract on PVM based network.
+
+The form for contract creation will consist of the following fields:
+
+1. Contract Name
+2. ink! address
+3. ink! abi
+4. Solidity address
+5. Solidity abi
+6. Description (Optional)
+
+* In case the abi are not the same should warn about it, but not prevent from creation.
+* At contract creation should redirect to newly created contract page.
+
 
 ##### Back End
 
@@ -152,15 +172,18 @@ Here is a link to an alpha version of the project's layout: [https://pvm-dashboa
 
 ## Development Roadmap :nut_and_bolt:
 
-This section presents the roadmap for PassetHub's Benchmark Dashboard:
+This section presents the roadmap for PVM's Benchmark Dashboard:
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project 9 weeks
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration 360 hrs => 40hrs for 9 weeks.
+- **Total Estimated Duration:** Duration of the whole project 12 weeks
+- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration 480 hrs => 40hrs for 12 weeks.
 
 - **Total Costs:** 
-1. Developers Payment: 13,500
+1. Developers Payment: 
+  I. Iteration 1: 13,500 USD
+  II. Iteration 2: 4,500 USD
+  Total: 18,000 USD
 2. Domain URL: Can leverage vercel's free url or by annual url
 3. Monthly expenses for Cloud services:
   I. Compute Instance
@@ -170,7 +193,10 @@ This section presents the roadmap for PassetHub's Benchmark Dashboard:
 
 * There might be a need for scaling and maintenance with time as the tool will be used more and more and with higher rate. Tools such as Message Broker (probably not needed at small scale) might also be included with time and increase maintenance costs.
 
-### Milestone 1 Frontend — Stateless Layout
+### Iteration 1 - MVP and Seemless CI/CD
+In this iteration we present the bare minimum features that are required for the benchmarck dashboard to provide some value for ink! developers. Each iteration is a self contain unit that is layer on top of the prevoius iteration in such a way that they provide new features and flexible use cases that improve DevEx.
+
+#### Milestone 1 Frontend — Stateless Layout
 
 - **Estimated duration:** 2 weeks
 - **FTE:**  1
@@ -188,7 +214,7 @@ This milestone focuses on the implementation of appliaction's frontend layout an
 | **2.** | Infrastructure | Leverage a hosted Vercel server for frontend |
 | **3.** | CI/CD Pipeline | Configure and setup a Vercel CI/CD pipeline for easy and continuous work. |
 
-### Milestone 2 Backend Development — Rust Server Development 
+#### Milestone 2 Backend Development — Rust Server Development 
 
 - **Estimated Duration:**  3 Weeks
 - **FTE:**  1 FTE
@@ -203,13 +229,13 @@ This milestone focuses on the implementation of appliaction's backend functional
 | **0b.** | Documentation | We will provide standard documentation leveraging Rust standard docs |
 | **0c.** | Tests | Thourough unit tests for CRUD operations will be provided to validate backend correcteness.
 | **0d.** | Docker | Application will be dockarized with docker and docker-compose file for deployment and future utilization in the CI/CD pipeline. |
-| **1.** | Back End Server | A fully working Rust server that stores state in memory (not in file system or some other hosted solution) the server will support <br> 1. CRUD operations for contracts - Create, Remove, Update and Delete over restful https api <br> 2. Read all standard chain info from a service like Chainlink |
+| **1.** | Back End Server | A fully working Rust server that stores state in memory (not in file system or some other hosted solution) the server will support <br> 1. CRUD operations for contracts - Create, Remove, Update and Delete over restful https api.
 | **2.** | Front End | Front end will be refactor to fetch state from newly implemented server |
 | **3.** | Infrastructure | A compute server will be provisioned to deploy newly implemeted server. Frontend will stay hosted on firebase |
 
 At the end of this milestone the system will be functional yet stateless - this is when the development team will get to test the first version and provide first cycle of feedback while working in parallel (next milestones) on solid foundation and rubust infrastructor.
 
-### Milestone 3 Cloud Integration — Integration of Cloud Compute and Storage
+#### Milestone 3 Cloud Integration — Integration of Cloud Compute and Storage
 
 - **Estimated Duration:**  2 Weeks
 - **FTE:**  1 FTE
@@ -232,7 +258,7 @@ This milestone focuses on manual provisioning of cloud service such as compute a
 
 At the end of this milestone the system will be deployed, stateful and accessiable online. Core features should be delivered leaving only infastructure programability (IAC) as the missing part of the puzzle. 
 
-### Milestone 4 DevOps — CI/CD Pipeline Installation
+#### Milestone 4 DevOps — CI/CD Pipeline Installation
 
 - **Estimated Duration:**  1 Week
 - **FTE:**  1 FTE
@@ -252,17 +278,61 @@ This milestone focuses on CI/CD pipeline installation, Terraform Cloud configura
 
 At this step all the features should be delivered as they are described in all the milestones above (including this one). Each and every contributor should be able to contribute and a seemless and continous way (with out knowing the underling setup of the system, leveraing installed CI/CD pipelines).
 
-### Milestone 5 Test, Validation, Corrections and System Documenation
+#### Milestone 5 Test, Validation, Corrections and System Documenation
 
 - **Estimated Duration:**  1 Week
 - **FTE:**  1 FTE
 - **Costs:** 1,500 USD
 
 
-This milestone focuses on polishing and making sure that project is clear enough so (if need it be) it can be handed off to some random developer. Ideally by this time core user team had the chances to provide feedback. This week is a great opportunity to iterate on the dashboard again and address any an expected issues/features that were suggested in the feedback process.
+This milestone focuses on polishing and making sure that project is clear enough so (if need it be) it can be handed off to some random developer. Ideally by this time core user team had the chances to provide feedback. This week is a great opportunity to iterate on the dashboard again and address any unexpected issues/features that were suggested in the feedback process.
+
+### Iteration 2 - Public Hosted Benchmarking PolkaVM
+This iteration will focus on implementing a hosted PolkaVM solution that will run on the backend server and leverage homogeneous testing environment for all the tested functionalities.
+
+
+#### Milestone 6 DevOps — CI/CD Pipeline Installation
+
+- **Estimated Duration:**  2 Weeks
+- **FTE:**  1 FTE
+- **Costs:** 3,000 USD
+
+
+This milestone, the backend will implement dry-running capabilities for smart contract calls.
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0b.** | Documentation | Docmentation for automatic system spin up will be provided. Also instruction for contribution will be provided, facilitating the ability to future contributers to so with extream ease  |
+| **0c.** | Tests | Tests for PVM will be provided
+| **0d.** | Docker | Docker will be provided and stored in Github package service |
+| **1.** | Back End Server | At this milestone, the backend will implement dry-running capabilities for smart contract calls. This will be handled using one of the following options, the most sutiable one will be selected after tech research:<br><br>XCM Runtime API (DryRunApi): Enables runtime-level dry-run execution of XCM messages, suitable for simulating contract behavior without committing state changes.<br> EthRPC Dry Run (from pallet_revive): Exposes a dry run method for Ethereum-like execution environments. Although less commonly used, it may provide compatibility with EVM contracts. <br>System Extrinsic Dry Run (frame_system): Offers general-purpose dry-run support for extrinsics, making it suitable for testing contract deployment and interaction logic before submission. |
+| **2.** | Front End | Front End will support and expose a new option to select a PVM public network |
+| **3.** | Deployment | CI/CD Pipeline will be leveraged from previous milestones for continuous development |
+
+At this step all the features should be delivered as they are described in all the milestones above (including this one). Each and every contributor should be able to contribute and a seemless and continous way (with out knowing the underling setup of the system, leveraing installed CI/CD pipelines).
+
+#### Milestone 7 Test, Validation, Corrections and System Documenation
+
+- **Estimated Duration:**  1 Week
+- **FTE:**  1 FTE
+- **Costs:** 1,500 USD
+
+
+This milestone focuses on polishing and making sure that project is clear enough so (if need it be) it can be handed off to some random developer. Ideally by this time core user team had the chances to provide feedback. This week is a great opportunity to iterate on the dashboard again and address any unexpected issues/features that were suggested in the feedback process.
+
+
 
 ## Future Plans
+A short list of ideas that might be interesting to implement in the future, it's just likely that as the system will be developed, more and more use cases will be considered so that it will make to plan for iteration 3.
 
+
+### Features and Future Iterations
+1. Support native Smart Contract deployed from the dashboard
+2. Community vote on Smart Contract - which of the contracts implement the same functionalities.
+3. Expand benchmark for PVM vs EVM for end-to-end benchmark.
+
+### Maintenance
 1. Develop, deploy and maintain - including system monitoring, feature development and support to the team which responsible for PVM compilation process.
 2. Devise and develop non-functional requirements that are required at scale such as - server/browser caching, horizontal/vertical scaling, message brokers and redesign for the underling architecture if needed.
 3. Support Green/Blue Deployments (zero down time deployment) if system is widely used and there an going developement. 
