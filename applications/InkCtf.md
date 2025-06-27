@@ -58,7 +58,7 @@ Architecture(https://raw.githubusercontent.com/InkCTF/InkCTF/main/public/archite
     *   Manages achievements based on user progress and specific criteria.
 *   **Contract Interaction Service (Backend/Frontend):**
     *   A service (directly on frontend via user's wallet) responsible for deploying contracts.
-    *   Frontend components will use Polkadot.js to allow users to interact with their specific contract instances (send transactions, call messages).
+    *   Frontend components will use Polkadot.js and Metamask to allow users to interact with their specific contract instances (send transactions, call messages).
 *   **Level Content Service (Backend):**
     *   Serves level data (description, contract source, ABI, hints, walkthroughs) via API.
 *   **User Interface (Frontend):**
@@ -69,10 +69,21 @@ Architecture(https://raw.githubusercontent.com/InkCTF/InkCTF/main/public/archite
         *   Provides an interface for contract interaction (function calls, value inputs).
         *   Displays console output from interactions.
         *   Hints and Walkthrough sections.
+    *   **Multi Wallet Support:** Integration with both Polkadot.js extension and MetaMask
+    *   **Responsive Design:** Desktop-optimized with tablet responsiveness.
     *   **User Profile/Achievements Page.**
-*   **Admin Panel (Separate Interface or Backend Endpoints):**
-    *   CRUD operations for levels.
-    *   View user progress and statistics.
+
+#### Minimum Uptime Commitment:
+
+- Commit to maintaining the application for a minimum of 18 months post-delivery
+- Including bug fixes, security updates, and basic maintenance
+- Hosting costs and maintenance will be covered by the grant
+
+#### Domain & Infrastructure:
+
+- Host on ctf.ink domain (pending acquisition via Namecheap)
+- Deploy on Paseo testnet for optimal stability and ecosystem alignment
+- Desktop-first design with responsive tablet support (mobile limited by wallet connectivity)
 
 #### PoC/MVP:
 
@@ -115,6 +126,23 @@ Not directly applicable for this grant's scope, as the primary goal is education
 *   **Partnerships:** Collaborate with educational institutions or bootcamps.
 *   **Localization:** Translate the platform into multiple languages.
 *   **Regular Updates:** Add new levels and features based on community feedback and evolving ink! security landscape.
+
+## Community Engagement & Promotion Strategy
+
+### Promotion Strategy:
+
+- Regular updates on Polkadot Forum throughout development and post-launch
+- Detailed blog series covering each level's security concepts and real-world exploit examples.
+- Integration of blog content as reference material within the CTF platform
+- Community feedback collection and iteration on level content
+Participation in ink! developer events and workshops
+- We could also create a discord server for the project and invite ink! developers to join so that the developers that will be using the platform can get help from the community.
+
+### Content Development:
+
+- Gather feedback from ink! developers on initial level content and difficulty
+- Create educational blog posts for each vulnerability type covered in the game
+- I see the ink youtube channel is dead for a year now, if granted permission i could create a video walkthrough series covering each level
 
 ## Team :busts_in_silhouette:
 
@@ -192,10 +220,11 @@ This grant proposal focuses on transitioning this PoC from a client-side simulat
 | **0d.** | Docker | Dockerfile for backend service and database. Docker-compose setup for local development environment. |
 | 1. | Backend Setup | Initialize backend project (Node.js/Express or Rust/Actix). Setup PostgreSQL database schema for Users, Levels, UserProgress. |
 | 2. | User Authentication | Implement wallet-based authentication (e.g., sign a message with Polkadot.js). API endpoints for user registration/login. Session management. |
-| 3. | Level Content API | API endpoints to serve level data (description, contract source, hints, etc.) from the database. Admin endpoint to seed initial level data. |
+| 3. | Level Content API | API endpoints to serve level data (description, contract source, hints, etc.) from the database. Initial level data seeding. |
 | 4. | Basic Contract Deployment Service | Backend service to deploy a unique instance of an ink! contract for a user for Level 1 ("Hello Squink!"). Store instance address in `UserProgress`. |
 | 5. | Frontend Integration (Level 1) | Modify frontend to fetch Level 1 data from API. Integrate Polkadot.js for users to interact with their deployed Level 1 contract instance. Submit completion to backend for verification (basic verification logic for Level 1). |
 | 6. | User Progress (Basic) | Backend logic to track Level 1 completion status in `UserProgress` table. API endpoint for user to fetch their progress. |
+| 7. | Community Feedback Collection | Gather feedback from ink! developers on initial level content and difficulty. Create survey/feedback mechanism for iterating on level design. |
 
 ### Milestone 2 — Full Contract Lifecycle & Advanced Features Foundation
 
@@ -206,7 +235,7 @@ This grant proposal focuses on transitioning this PoC from a client-side simulat
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | MIT |
-| **0b.** | Documentation | Update API documentation. Inline documentation for new backend modules. Tutorial on how to add and manage levels via admin endpoints/scripts. |
+| **0b.** | Documentation | Update API documentation. Inline documentation for new backend modules. Tutorial on how to add and manage levels |
 | **0c.** | Testing and Testing Guide | Unit and integration tests for new features (all 6 level contract interactions, achievement logic). |
 | **0d.** | Docker | Updated Dockerfiles and docker-compose setup. |
 | 1. | Full Contract Deployment (Levels 2-6) | Extend contract deployment service to support deploying and managing instances for all 6 defined levels. |
@@ -214,7 +243,8 @@ This grant proposal focuses on transitioning this PoC from a client-side simulat
 | 3. | Frontend Integration (Levels 2-6) | Integrate frontend for all 6 levels to interact with their respective on-chain instances and submit for verification. |
 | 4. | Walkthrough System (Backend & Frontend) | API to serve walkthrough steps. Frontend UI to display step-by-step walkthroughs for each level. |
 | 5. | Achievement System (Backend & Frontend) | Define achievement criteria in the backend. Logic to check and award achievements based on `UserProgress` and other conditions (e.g., completing a level without hints, speed). API for achievements. Frontend UI to display user's achievements and notifications for new unlocks. |
-| 6. | Admin Panel (Basic) | Secure basic admin interface or CLI tools for: Seeding/updating level data. Viewing user progress. Manually deploying/terminating contract instances if needed. |
+| 6. | Multi-Wallet Integration | Implement support for both Polkadot.js and MetaMask wallets using ink! v6 Solidity ABI compatibility (#[ink::contract(abi = "all")]). |
+| 7. | Public Statistics Dashboard | Create publicly accessible dashboard showing user progress statistics, completion rates, and community metrics (replacing admin panel functionality). |
 
 ### Milestone 3 — Polish, Testing, Deployment & Documentation
 
@@ -235,6 +265,7 @@ This grant proposal focuses on transitioning this PoC from a client-side simulat
 | 4. | Testnet Deployment | Deploy the full application (frontend, backend, database) to a chosen cloud provider, interacting with a public Polkadot testnet. |
 | 5. | Comprehensive Testing | Conduct thorough internal testing of all features on the deployed testnet environment. Address any bugs found. |
 | 6. | Project Handover | Provide access to all code repositories, deployment scripts, and documentation. |
+| 7. | Blog Series Launch | Publish first 3 articles of the educational blog series covering security concepts from the first levels. |
 
 ## Future Plans
 
@@ -246,6 +277,8 @@ Upon successful completion and delivery of this grant, we envision the following
 4.  **Educational Partnerships:** Collaborate with ink! bootcamps, workshops, and educational platforms to integrate ink!Spector Gadget as a learning tool.
 5.  **Leaderboard & Competitive Features:** Introduce leaderboards (e.g., based on completion time, number of levels solved) and potentially time-boxed CTF events to foster friendly competition.
 6.  **Advanced Analytics:** Implement more detailed analytics to understand how users progress, where they get stuck, and use this data to improve levels and create targeted educational content.
+7.  **Content Evolution:** Continuously gather community feedback to refine existing levels and develop new ones based on emerging ink! security patterns
+8. **Educational Content:** Complete the blog series covering all levels and expand into video tutorials
 
 Our goal is for ink!Spector Gadget to become the go-to platform for hands-on ink! smart contract security education, continuously evolving with the ink! ecosystem.
 
