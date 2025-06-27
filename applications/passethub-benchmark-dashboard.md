@@ -182,8 +182,11 @@ This milestone focuses on the implementation of appliaction's frontend layout an
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
 | **0b.** | Documentation | We will provide standard documentation that is analogous to Eth-Scaffold-2 |
-| **0c.** | Tests | There is nothing to test in this step it is just a stateless layout being developed, a by-hand test video demostrading the flow will be provided.
-| **0d.** | Docker | Application will not be dockarized as it is not needed inorder to deploy to vercel. |
+| **0c.** | Tests | There is nothing to test in this step; it is just a stateless layout being developed. A by-hand test video demonstrating the flow will be provided. |
+| **0d.** | Docker | Application will not be dockerized as it is not needed in order to deploy to Vercel. |
+| **1.** | Front End Layout | A full working layout written in React and Next.js that leverages Tailwind CSS and ShadCN frameworks. It includes implementation of the following pages:<br>I. Home Page<br>II. Contract Creation Page<br>III. Contracts Index Page<br>IV. Contract Info Page<br><br>The pages will display only static information. Further details of layout of each page can be found in the [Application Structure](#application-structure) section. |
+| **2.** | Infrastructure | Leverage a hosted Vercel server for frontend |
+| **3.** | CI/CD Pipeline | Configure and setup a Vercel CI/CD pipeline for easy and continuous work. |
 
 ### Milestone 2 Backend Development — Rust Server Development 
 
@@ -200,6 +203,11 @@ This milestone focuses on the implementation of appliaction's backend functional
 | **0b.** | Documentation | We will provide standard documentation leveraging Rust standard docs |
 | **0c.** | Tests | Thourough unit tests for CRUD operations will be provided to validate backend correcteness.
 | **0d.** | Docker | Application will be dockarized with docker and docker-compose file for deployment and future utilization in the CI/CD pipeline. |
+| **1.** | Back End Server | A fully working Rust server that stores state in memory (not in file system or some other hosted solution) the server will support <br> 1. CRUD operations for contracts - Create, Remove, Update and Delete over restful https api <br> 2. Read all standard chain info from a service like Chainlink |
+| **2.** | Front End | Front end will be refactor to fetch state from newly implemented server |
+| **3.** | Infrastructure | A compute server will be provisioned to deploy newly implemeted server. Frontend will stay hosted on firebase |
+
+At the end of this milestone the system will be functional yet stateless - this is when the development team will get to test the first version and provide first cycle of feedback while working in parallel (next milestones) on solid foundation and rubust infrastructor.
 
 ### Milestone 3 Cloud Integration — Integration of Cloud Compute and Storage
 
@@ -217,11 +225,16 @@ This milestone focuses on manual provisioning of cloud service such as compute a
 | **0b.** | Documentation | We will provide standard documentation that is analogous to Eth-Scaffold-2 |
 | **0c.** | Tests | Thourough unit tests for CRUD operations will be provided to validate backend correcteness.
 | **0d.** | Docker | Application will be dockarized with docker and docker-compose file for deployment and future utilization in the CI/CD pipeline. |
+| **1.** | Cloud Resources | In order to run a persistent system, we will leverage a standard and minimalistic design that seperate compute resources and storage resources by provisioning by hand a compute instance (VM) and a storage (either a bucket or NoSQL solution) on GCP/AWS|
+| **2.** | Back End Server | Refactor server implementation:<br>  1. Refactor CRUD to integrate with storage solution <br> 2. Implement cloud authentication functionality | **3.** | Infrastructure | A compute server will be provisioned to deploy newly implemeted server. Frontend will stay hosted on firebase |
 
+
+
+At the end of this milestone the system will be deployed, stateful and accessiable online. Core features should be delivered leaving only infastructure programability (IAC) as the missing part of the puzzle. 
 
 ### Milestone 4 DevOps — CI/CD Pipeline Installation
 
-- **Estimated Duration:**  1 Weeks
+- **Estimated Duration:**  1 Week
 - **FTE:**  1 FTE
 - **Costs:** 1,500 USD
 
@@ -234,6 +247,10 @@ This milestone focuses on CI/CD pipeline installation, Terraform Cloud configura
 | **0b.** | Documentation | Docmentation for automatic system spin up will be provided. Also instruction for contribution will be provided, facilitating the ability to future contributers to so with extream ease  |
 | **0c.** | Tests | There is nothing to test in this step it is installation of a CI/CD pipeline being developed, a by-hand test video demostrading the flow will be provided.
 | **0d.** | Docker | Docker will be provided and stored in Github package service |
+| **1.** | Terraform | Programable HCL files will be provided for compute and storage provisioned in the last step |
+| **2.** | Terraform Cloud and CI/CD | Terraform Cloud  will be configured and set, including CI/CD workflows to update the source code. |
+
+At this step all the features should be delivered as they are described in all the milestones above (including this one). Each and every contributor should be able to contribute and a seemless and continous way (with out knowing the underling setup of the system, leveraing installed CI/CD pipelines).
 
 ### Milestone 5 Test, Validation, Corrections and System Documenation
 
@@ -242,8 +259,7 @@ This milestone focuses on CI/CD pipeline installation, Terraform Cloud configura
 - **Costs:** 1,500 USD
 
 
-This milestone focuses on polishing and making sure that project is clear enough so (if need it be) it can be handed off to some random developer. Ideally by this time the PVM compilation team had the chances to provide feedback the developing team and this week is the opportunity to address the feedback of the PVM team.
-
+This milestone focuses on polishing and making sure that project is clear enough so (if need it be) it can be handed off to some random developer. Ideally by this time core user team had the chances to provide feedback. This week is a great opportunity to iterate on the dashboard again and address any an expected issues/features that were suggested in the feedback process.
 
 ## Future Plans
 
