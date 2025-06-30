@@ -29,7 +29,7 @@ The scope of this idea is to:
 - Evaluate the contract size difference of the same implementation in Solidity vs ink!. So e.g. a ERC-20 or an upgradeable contract that has exactly the same functionality, written in both ink! and Solidity. Once both contracts are compiled it will be possible to compare the contract size and the Gas cost of their publicly available functions.
 - We support both the Solidity and the ink! ABI in ink! v6. Our hypothesis is that the ink! ABI is more efficient, as the underlying SCALE codec it uses is more data efficient than the Solidity one. A benchmark could try to validate this assumption.
 
-# 🎮 Ethernaut-inspired Web Game
+## 🎮 Ethernaut-inspired Web Game
 
 [Ethernaut](https://ethernaut.openzeppelin.com/) is a Capture-The-Flag style 
 game where players have to find vulnerabilities in Solidity contracts.
@@ -54,7 +54,7 @@ In terms of vulnerabilities for ink!: the usual suspects for smart contract
 vulnerabilities apply to ink! as well. A good source of inspiration is the 
 [Smart Contract Weakness Classification registry](https://swcregistry.io/).
 
-## Design Guidelines
+### Design Guidelines
 
 The design should fit the general ink!/squid branding and also make it 
 clear that the application is part of the Polkadot ecosystem.
