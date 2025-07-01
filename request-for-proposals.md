@@ -5,6 +5,11 @@ as applications.
 
 - [Ethernaut-inspired Web Game](#-ethernaut-inspired-web-game)
 - [Token Streaming Mechanism](#-token-streaming-mechanism)
+- [Retroactive Funding Platform](#-retroactive-funding-platform)
+- [dApp Template for an ink! contract using the Solidity ABI](#%EF%B8%8F-dapp-template-for-an-ink-contract-using-the-solidity-abi)
+- [Benchmark Solidity vs ink! on `pallet-revive`](#%EF%B8%8F-benchmark-solidity-vs-ink-on-pallet-revive)
+
+---
 
 ## 🎮 Ethernaut-inspired Web Game
 
