@@ -3,12 +3,17 @@
 This page is meant as a wishlist of projects we would love to see
 as applications.
 
+- [Ethernaut-inspired Web Game](#-ethernaut-inspired-web-game)
+- [Token streaming mechanism](#-a-token-streaming-mechanism)
+
+---
+
 # 🎮 Ethernaut-inspired Web Game
 
-[Ethernaut](https://ethernaut.openzeppelin.com/) is a Capture-The-Flag style 
+[Ethernaut](https://ethernaut.openzeppelin.com/) is a Capture-The-Flag style
 game where players have to find vulnerabilities in Solidity contracts.
 The contracts are given as source code and the players have to exploit them.
-Once a level has been completed, the players move on to increasingly difficult 
+Once a level has been completed, the players move on to increasingly difficult
 levels.
 
 We would very much like to see such a gamified experience for ink! contracts!
@@ -25,12 +30,23 @@ If your plan for long-term sustainability is to apply for treasury or grant fund
 the grant application should include an uptime of at least one year after delivery.
 
 In terms of vulnerabilities for ink!: the usual suspects for smart contract
-vulnerabilities apply to ink! as well. A good source of inspiration is the 
+vulnerabilities apply to ink! as well. A good source of inspiration is the
 [Smart Contract Weakness Classification registry](https://swcregistry.io/).
+
+
+# 🚰 A token streaming mechanism
+
+We are seeking proposals for a token streaming mechanism similar to the one implemented by [drips.network](https://www.drips.network/). On drips.network, this mechanism is represented through a “drips list,” which consists of recipients (including addresses, ENS names, or GitHub repositories) that receive a specified percentage of the total funds allocated to the list over time.
+
+The project would involve maintaining and updating a list of beneficiaries on-chain, allowing each recipient to receive a customized share of specific payments.
+
+We believe this approach presents a highly synergistic use case that could significantly benefit the ecosystem and are excited to explore innovative applications from applicants.
+
+---
 
 ## Design Guidelines
 
-The design should fit the general ink!/squid branding and also make it 
+The design should fit the general ink!/squid branding and also make it
 clear that the application is part of the Polkadot ecosystem.
 
 Our project attributes are:
