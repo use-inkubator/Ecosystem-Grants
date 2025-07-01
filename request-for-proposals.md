@@ -4,11 +4,14 @@ This page is meant as a wishlist of projects we would love to see
 as applications.
 
 - [Ethernaut-inspired Web Game](#-ethernaut-inspired-web-game)
-- [Token streaming mechanism](#-a-token-streaming-mechanism)
+- [Token Streaming Mechanism](#-token-streaming-mechanism)
+- [Retroactive Funding Platform](#-retroactive-funding-platform)
+- [dApp Template for an ink! contract using the Solidity ABI](#%EF%B8%8F-dapp-template-for-an-ink-contract-using-the-solidity-abi)
+- [Benchmark Solidity vs ink! on `pallet-revive`](#%EF%B8%8F-benchmark-solidity-vs-ink-on-pallet-revive)
 
 ---
 
-# 🎮 Ethernaut-inspired Web Game
+## 🎮 Ethernaut-inspired Web Game
 
 [Ethernaut](https://ethernaut.openzeppelin.com/) is a Capture-The-Flag style
 game where players have to find vulnerabilities in Solidity contracts.
@@ -33,14 +36,36 @@ In terms of vulnerabilities for ink!: the usual suspects for smart contract
 vulnerabilities apply to ink! as well. A good source of inspiration is the
 [Smart Contract Weakness Classification registry](https://swcregistry.io/).
 
-
-# 🚰 A token streaming mechanism
+## 🚰 Token Streaming Mechanism
 
 We are seeking proposals for a token streaming mechanism similar to the one implemented by [drips.network](https://www.drips.network/). On drips.network, this mechanism is represented through a “drips list,” which consists of recipients (including addresses, ENS names, or GitHub repositories) that receive a specified percentage of the total funds allocated to the list over time.
 
 The project would involve maintaining and updating a list of beneficiaries on-chain, allowing each recipient to receive a customized share of specific payments.
 
 We believe this approach presents a highly synergistic use case that could significantly benefit the ecosystem and are excited to explore innovative applications from applicants.
+
+## 💰 Retroactive Funding Platform
+
+A retroactive funding platform, analogous to Gitcoin Grants. Anyone can “create a round”, which allows projects to apply to this round. Admins select eligible projects for the round, then “badge holders” choose how much of the funds go to each project. Could be tied to the token streaming mechanism above, or neutral towards the distribution mechanism.
+
+For a simple example in Solidity, see https://easyretropgf.xyz/.
+
+## 🖼️ dApp Template for an ink! contract using the Solidity ABI
+
+A dApp Template using a Solidity frontend library with an ink! contract that has the Solidity ABI enabled. The scope of this RFP is to create a template that consists of:
+
+- A contract that demonstrates CRUD functionality. The contract needs to enable support for the Solidity ABI.
+- A website frontend for this contract. The frontend must make use of an established Solidity TypeScript (or JavaScript) library/framework. It also needs to support MetaMask for contract interactions.
+
+## ⏱️ Benchmark Solidity vs ink! on [`pallet-revive`](https://github.com/paritytech/polkadot-sdk/tree/master/substrate/frame/revive)
+
+The scope of this idea is to:
+
+- Benchmark the Gas costs of certain operations (reading/writing to contract storage, cross-contract calls, etc.).
+- Benchmark arithmetic performance. EVM has 256-bit word size, and so uses 256-bit integers for all arithmetic operations. While PolkaVM has 64-bit word size, the solc→Yul→RISCV→PolkaVM compilation pipeline used by the revive compiler currently uses 256-bit integers for all arithmetic operations. However, ink!’s compilation pipeline takes advantage of PolkaVM’s reduced word size. A benchmark should quantify this performance difference. See https://contracts.polkadot.io/architecture/#reduced-word-size for details.
+- Evaluate the contract size difference of the same implementation in Solidity vs ink!. So e.g. a ERC-20 or an upgradeable contract that has exactly the same functionality, written in both ink! and Solidity. Once both contracts are compiled it will be possible to compare the contract size and the Gas cost of their publicly available functions.
+- We support both the Solidity and the ink! ABI in ink! v6. Our hypothesis is that the ink! ABI is more efficient, as the underlying SCALE codec it uses is more data efficient than the Solidity one. A benchmark could try to validate this assumption.
+
 
 ---
 
