@@ -3,13 +3,45 @@
 This page is meant as a wishlist of projects we would love to see
 as applications.
 
-## 💸 Token Streaming Mechanism
+- [Ethernaut-inspired Web Game](#-ethernaut-inspired-web-game)
+- [Token Streaming Mechanism](#-token-streaming-mechanism)
 
-A token streaming mechanism, analogous to drips.network. On drips.network, this takes the form of a “drips list”, which are recipients (addresses, ENS names, or Github repos) that receive a percentage of the total funds for this list over time.
+## 🎮 Ethernaut-inspired Web Game
+
+[Ethernaut](https://ethernaut.openzeppelin.com/) is a Capture-The-Flag style
+game where players have to find vulnerabilities in Solidity contracts.
+The contracts are given as source code and the players have to exploit them.
+Once a level has been completed, the players move on to increasingly difficult
+levels.
+
+We would very much like to see such a gamified experience for ink! contracts!
+Our ideal grant application would be a web application that is just a lot of
+fun to use.
+
+We would like to see grant applications that are not just about the implementation
+of this web application. Too many grant projects suffer from being dead on arrival.
+Your application should have a strategy to avoid that. We would like to see a plan
+for the longer term sustainability; in terms of maintenance, hosting, and promotion
+of the game platform.
+
+If your plan for long-term sustainability is to apply for treasury or grant funding,
+the grant application should include an uptime of at least one year after delivery.
+
+In terms of vulnerabilities for ink!: the usual suspects for smart contract
+vulnerabilities apply to ink! as well. A good source of inspiration is the
+[Smart Contract Weakness Classification registry](https://swcregistry.io/).
+
+## 🚰 Token Streaming Mechanism
+
+We are seeking proposals for a token streaming mechanism similar to the one implemented by [drips.network](https://www.drips.network/). On drips.network, this mechanism is represented through a “drips list,” which consists of recipients (including addresses, ENS names, or GitHub repositories) that receive a specified percentage of the total funds allocated to the list over time.
+
+The project would involve maintaining and updating a list of beneficiaries on-chain, allowing each recipient to receive a customized share of specific payments.
+
+We believe this approach presents a highly synergistic use case that could significantly benefit the ecosystem and are excited to explore innovative applications from applicants.
 
 ## 💰 Retroactive Funding Platform
 
-A retroactive funding platform, analogous to Gitcoin Grants. Anyone can “create a round”, which allows projects to apply to this round. Admins select eligible projects for the round, then “badge holders” choose how much of the funds go to each project. Could be tied to the token streaming mechanism above, or neutral towards the distribution mechanism. 
+A retroactive funding platform, analogous to Gitcoin Grants. Anyone can “create a round”, which allows projects to apply to this round. Admins select eligible projects for the round, then “badge holders” choose how much of the funds go to each project. Could be tied to the token streaming mechanism above, or neutral towards the distribution mechanism.
 
 For a simple example in Solidity, see https://easyretropgf.xyz/.
 
@@ -29,34 +61,12 @@ The scope of this idea is to:
 - Evaluate the contract size difference of the same implementation in Solidity vs ink!. So e.g. a ERC-20 or an upgradeable contract that has exactly the same functionality, written in both ink! and Solidity. Once both contracts are compiled it will be possible to compare the contract size and the Gas cost of their publicly available functions.
 - We support both the Solidity and the ink! ABI in ink! v6. Our hypothesis is that the ink! ABI is more efficient, as the underlying SCALE codec it uses is more data efficient than the Solidity one. A benchmark could try to validate this assumption.
 
-## 🎮 Ethernaut-inspired Web Game
 
-[Ethernaut](https://ethernaut.openzeppelin.com/) is a Capture-The-Flag style 
-game where players have to find vulnerabilities in Solidity contracts.
-The contracts are given as source code and the players have to exploit them.
-Once a level has been completed, the players move on to increasingly difficult 
-levels.
+---
 
-We would very much like to see such a gamified experience for ink! contracts!
-Our ideal grant application would be a web application that is just a lot of
-fun to use.
+## Design Guidelines
 
-We would like to see grant applications that are not just about the implementation
-of this web application. Too many grant projects suffer from being dead on arrival.
-Your application should have a strategy to avoid that. We would like to see a plan
-for the longer term sustainability; in terms of maintenance, hosting, and promotion
-of the game platform.
-
-If your plan for long-term sustainability is to apply for treasury or grant funding,
-the grant application should include an uptime of at least one year after delivery.
-
-In terms of vulnerabilities for ink!: the usual suspects for smart contract
-vulnerabilities apply to ink! as well. A good source of inspiration is the 
-[Smart Contract Weakness Classification registry](https://swcregistry.io/).
-
-### Design Guidelines
-
-The design should fit the general ink!/squid branding and also make it 
+The design should fit the general ink!/squid branding and also make it
 clear that the application is part of the Polkadot ecosystem.
 
 Our project attributes are:
