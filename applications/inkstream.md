@@ -112,10 +112,14 @@ Overall, our business model emphasizes **open innovation first, monetization sec
 
 ### Team members
 
-- Kartik Gupta
-- Harsh Arora
-- Dikshant Singh
+* Kartik Gupta: Team lead and full-stack engineer specializing in Web, Solidity and Rust Applications, with extensive experience building and 
+deploying web3-based smart contract systems. His deep understanding of ink! and Substrate ensures robust and efficient contract logic for InkStream.
 
+* Harsh Arora: Backend engineer and team lead at Tessera, experienced in web3 backend infrastructure, consensus mechanisms, 
+and TypeScript APIs. Harsh’s background ensures InkStream’s backend logic, SDK, and integrations are performant and developer-friendly.
+
+* Dikshant Singh: Frontend engineer with a strong command of Polkadot tooling and ecosystem integrations. Dikshant excels in 
+creating intuitive UI&UX and seamless wallet integrations, enhancing InkStream’s accessibility and adoption.
 
 ### Contact
 
@@ -125,26 +129,31 @@ Overall, our business model emphasizes **open innovation first, monetization sec
 
 ### Legal Structure
 
-* **Registered Address:** *3-136, Eleven West, Pan Card Road, Baner, Pune IN 411045*
+* **Registered Address:** *S.NO 320/1. D-16, Vignahar Sankul, Narayangaon, Pune IN 410504*
 * **Registered Legal Entity:** *Chainscore Private Limited*
 
 ### Team's experience
 
-Chainscore Labs’ team has strong experience in blockchain development, particularly in Rust and Substrate. Collectively, we have **3+ years of experience with ink! and Substrate**:
+Chainscore Labs is a Web3 Research and Development firm, specialized in blockchain infrastructure, Rust, TypeScript, and full-stack Web3 development. 
+Our members have experience building Substrate-based solutions, decentralized applications, and ecosystem tooling, uniquely positioning us to deliver 
+and maintain InkStream as robust Polkadot infrastructure. **:
 
-* Building JAM 
-* PBA Grads
+* We are behind:
+- Tessera, a JAM client in Python (Link)[https://graypaper.com/clients/]
+- TSRKit-PVM: PVM interpreter and recompiler library  
+- JAMC - C-based SDK for JAM
+- DotRing - Suite of cryptographic libraries impl various EC Curves (inc. Bandersnatch), IETF+Pedersen+Ring VRF, W3F Ring Proof and Fiat Shamir Transcript 
+* Founded by PBA Alumni
+* 1x W3F Grant Recipient 
 
 ### Team Code Repos
 
-* *Organization GitHub:* (to be created) – We will host the InkStream code under an open-source repository in Chainscore Labs’ GitHub.
-* *Previous projects:* Our team members’ past project repositories can be provided on request. (Examples include a Substrate-based game and a Solidity DeFi contract – omitted here for brevity and anonymity.)
-
-*(Individual GitHub accounts and links will be added in the final version, showcasing our work. We omit them here as instructed.)*
-
-### Team LinkedIn Profiles (if available)
-
-*Not provided in this draft.* (Team members will share LinkedIn or personal profiles in the final submission as needed.)
+* *Organization GitHub:* (TBA) – We will host the InkStream code under an open-source repository in Chainscore Labs’ GitHub.
+* *Previous projects:* (Please note some of our project are not yet public to avoid JAM Prize's collusion, but we'd be happy to provide access for review)
+- (Tessera)[https://github.com/chainscore/tessera]
+- (TSRKit-PVM)[https://github.com/chainscore/tsrkit-pvm]
+- (JAMC)[https://github.com/chainscore/jamc]
+- (Dot Ring)[https://github.com/chainscore/dot-ring] 
 
 ## Development Status \:open\_book:
 
