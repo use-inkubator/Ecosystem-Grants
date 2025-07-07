@@ -12,6 +12,7 @@
 | [Lucky Team](https://github.com/LuckyDapp) | [Using Verifiable Offchain Computing in ink! smart contracts](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/verifiable_offchain_computing.md) | [GitHub](https://github.com/LuckyDapp) |
 | [Dedot Dev Team](https://github.com/dedotdev) | [Dedot & Typink](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/dedot_typink.md) | [GitHub](https://github.com/dedotdev) |
 | [Ink Step-Debugger Team](https://github.com/last-dot/Ink-Step-Debugger) | [Ink! Step-Debugger](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/ink-step-debugger.md) | [GitHub](https://github.com/last-dot/Ink-Step-Debugger) |
+| [Treasury Flow](https://github.com/niklasp/treasuryflow) | [Treasury Flow](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/applications/treasury-flow.md) | [GitHub](https://github.com/niklasp/treasuryflow) |
 | []()                                          | []()                                                    | []()                                |
 
 
