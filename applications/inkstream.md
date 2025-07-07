@@ -237,6 +237,8 @@ After completing the Inkubator grant, Chainscore Labs plans to **push InkStream 
 
 * **Sustainability & Business Model:** As outlined, we will gradually introduce a sustainable funding model. For example, after gaining a user base, a tiny fee on each stream could be enabled (through a contract upgrade). The collected fees could fund a treasury used for maintenance, grants to projects building on InkStream, or buy-back-and-burn if a token model is present. We will also explore **enterprise partnerships** – for instance, helping a major organization use InkStream for payroll could come with a support contract for Chainscore Labs.
 
+* **JAM Integration:** Integrations with JAM services based on the post-JAM ecosystem.
+
 * **Feature Roadmap:** We have many ideas beyond the initial scope:
 
   * **Stream NFTs or SBTs:** Represent ongoing streams as NFTs or Soulbound Tokens that could be transferable or used as proof-of-funding.
