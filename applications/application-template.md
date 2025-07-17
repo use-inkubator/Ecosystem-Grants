@@ -62,5 +62,60 @@ PetChain enables permanent, tamper-proof, zero-trust storage and sharing of pet 
 - Build test zk circuits.
 - Publish tutorial and Medium article.
 
+### Milestone 3 – Tag System and Frontend Demo
+- Connect scannable tag flow (tag > contract call > permission check).
+- Build frontend mockup (React or PolkadotJS).
+- Offline data fallback support.
+- Public GitHub + Documentation.
+
+---
+
+## Innovation
+
+PetChain is one of the first zk-integrated, medically focused smart contract systems using ink!. Unlike Solidity-based solutions, we’re building with ink! to demonstrate:
+- Modular contract architecture
+- Privacy-first recordkeeping on public chains
+
+## Ecosystem Impact
+
+We aim to:
+- Onboard vet clinics and emergency responders into Polkadot's ecosystem.
+- Create real-world traction for ink! by solving a physical-world problem.
+- Offer privacy tooling (zk templates, access management libraries) to other ink! developers.
+
+---
+
+## License
+
+All code will be licensed under **MIT** and fully open source. No external proprietary dependencies.
+
+---
+
+## Funding Request
+
+**Amount:** $50,000 in DOT  
+To cover:
+- ink! development (3–4 months)
+- zk integration (circuit dev + logic)
+- Tag hardware integration (demo only)
+- Community documentation and forum engagement
+
+## Maintenance
+
+Post-grant, PetChain will continue as a standalone startup. We’re building a business around interoperable pet health infrastructure across chains, with ink! forming the backbone of the Polkadot version.
+
+We commit to:
+- Open-source maintenance
+- Forum support
+- Regular contract audits as we grow
+
+## Links
+
+- Website (Coming Soon)
+- Temp site:  https://pet-chain-frontend-tmqq-99r37ln4i.vercel.app/
+- Github repo: https://github.com/orgs/DogStark/repositories
+- Telegram Community: https://t.me/+fLbWYLN8jZw3ZTNk
+
+
 
 
