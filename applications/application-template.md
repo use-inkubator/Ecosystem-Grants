@@ -42,9 +42,25 @@ PetChain enables permanent, tamper-proof, zero-trust storage and sharing of pet 
 
 ### Features
 
-1. **Scannable Smart Tags:** QR/NFC tags link to live, minimal-reserve public data (e.g., emergency info), with a private vault accessed via zkAuth for full history.
+1. **Scannable Smart Tags:** QRcode tags link to live, minimal-reserve public data (e.g., emergency info), with a private vault accessed when you scan the tag.
 2. **Medical Record Ledger:** Written in ink! and stored on AssetHub (Polkadot), with updates pushed via permissioned channels.
 3. **Privacy Layer:** Selective disclosure of data using zk-proofs; customizable by the pet owner.
 4. **Alerts & Notifications:** Auto-reminders for vaccination dates and treatments.
 5. **Offline Mode:** Display basic data via cached tag scan, even without internet.
 6. **Clinic Integration:** API and SDK for vet practices to upload new entries or pull past data securely.
+
+## Roadmap and Milestones
+
+### Milestone 1 – Core ink! Contract and AssetHub Deployment
+- Build core smart contract in ink! for pet profiles and medical logs.
+- Enable QR-to-data mapping (read-only access).
+- Deploy contract to AssetHub.
+- Document usage.
+
+### Milestone 2 – Privacy Layer + zkProof Sharing
+- Owner-signed permission for full record access.
+- Build test zk circuits.
+- Publish tutorial and Medium article.
+
+
+
