@@ -5,10 +5,16 @@
 
 ## Project Overview :page\_facing\_up:
 
+**RFP Opted**: [dApp Template for an ink! contract using the Solidity ABI](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/request-for-proposals.md#%EF%B8%8F-dapp-template-for-an-ink-contract-using-the-solidity-abi)
+
 ### Overview
 
 ZUNNO is a multiplayer digital adaptation of the classic UNO game. ZUNNO leverages Polkadot's scalability, interoperability, and customization to deliver a transparent, fair, and engaging gaming experience. ZUNNO will be deployed on the AssetHub parachain, utilizing PolkaVM-compatible ink\! v6 smart contracts for its backend logic. The proposed development falls into the ‘An Innovative Game’ sub-category of ‘Technical Showcase’ category.   
 Traditional online card games often suffer from trust issues, lack transparency, and are vulnerable to manipulation. ZUNNO addresses these concerns by implementing core game logic on-chain, ensuring verifiable and tamper-proof gameplay. Privacy is maintained through a commit-and-reveal scheme, enhanced with cryptographic randomisation, to keep players' hands and the deck hidden, preventing unfair advantages. The choice of the AssetHub parachain allows us to leverage the direct utility of DOT and cross chain assets to deliver the best possible user experience.
+
+### Alignment with the '[dApp Template for an ink! contract using the Solidity ABI](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/request-for-proposals.md#%EF%B8%8F-dapp-template-for-an-ink-contract-using-the-solidity-abi)' RFP
+- We will have a dedicated github template repo for a dApp Template with CRUD functionality featuring TS/JS(nextjs/react) frontend with metamask connector and example ink\! contracts with support for the Solidity ABI. This template can be used for the accelerated developments of ink\! projects with Solidity ABI.
+- ZUNNO will be demonstrated as the production level example initialised from the dApp Template.
 
 ### Ink\! Ecosystem Impact
 
@@ -41,15 +47,25 @@ ZUNNO has the potential to attract new users to the Polkadot ecosystem while als
   * **Deployment on AssetHub Parachain:** ZUNNO's backend, built with v6 ink\! smart contracts, will be deployed on the AssetHub parachain`s PolkaVM.
 
   The architecture comprises frontend components (Web UI, Wallet Connection, State Manager, Merkle Tree Manager), blockchain components (Smart Contract, Merkle Tree Storage, Game State \- residing on the AssetHub parachain), and backend services (P2P Sync Service, Card Service). The smart contract will be written in ink\!.  
-  - Do you need an audit for the contacts? **NO**  
-  - CATEGORY: Technical Showcase  
-  - Business model:   
-    - Players need to stake DOT/gDOT/vDOT on hydration to get in-game points to play.   
-    - Players will earn or lose points based on the outcome of the games.  
-    - Random airdrops to the point holders.   
+  - Do you need an audit for the contacts? **NO**
+  
+  - CATEGORY: Technical Showcase + RFP
+
+  - Business model:  
+    - For the dApp Template:
+      - NA as it will be a free to use, open source MIT-licensed github template.
+    - For the ZUNNO Game:
+      - Players need to stake DOT/gDOT/vDOT on hydration to get in-game points to play.   
+      - Players will earn or lose points based on the outcome of the games.  
+      - Random airdrops to the point holders.
+  
   - Target market:  
-    - Solo players looking to play UNO digitally  
-    - DeFi farmers  
+    - For the dApp Template:
+      - Developers with Solidity and Rust experience and want to leverage the best of both worlds
+      - Developers looking for accelerated development in ink\! with minimum learning curve
+    - For the ZUNNO Game:
+      - Solo players looking to play UNO digitally  
+      - DeFi farmers  
   - Future production plans and growth strategy:  
     - Tentative DeFi derivative to generate income stream  
     - Protocol income can be utilised to host campaigns and as an income stream for the treasury/ink\! bounty. 
@@ -123,14 +139,15 @@ GitHub accounts of all team members:
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1\. | Complete game development  | The core logic development will consist following phases: Game Initialisation Sequence Game Play Sequence State Synchronisation Sequence  |
-| 2\. | Substrate wallet access management | The development of universal wallet integration will serve following purpose: Connector for all existing ecosystem wallets.  Access management of the users’ profiles/ progress. |
-| 3\. | Contracts deployment on testnet | We will deliver a set of PolkaVM-compatible/ v6 ink\! smart contracts that will serve as the backend of the game which will feature following component: Automated rules Fair rewards distribution engine |
-| 4\. | Launch beta | Launch of beta version on either of AssetHub testnets (Paseo PAssetHub or Westend AssetHub). |
-| 5\. | Community engagement campaigns on testnet | Launch of engagement campaigns to stress-test the beta release. |
-| 6\. | Gather feedback on beta release | Collection of feedback through an engagement campaign task. |
-| 7\. | Enhance privacy layer | Improve/optimise the core privacy layer which operates via the commit-and-reveal scheme |
-| 8\. | Revamp and finalise UI | Switch from functionality-oriented UI to production level UX. |
+| 1\. | dApp Template development  | CRUD-based template consisting of TS/JS(nextjs/react) frontend with metamask connector and example ink\! contracts with support for the Solidity ABI  |
+| 2\. | Complete game development  | The core logic development will consist following phases: Game Initialisation Sequence Game Play Sequence State Synchronisation Sequence  |
+| 3\. | Substrate wallet access management | The development of universal wallet integration will serve following purpose: Connector for all existing ecosystem wallets.  Access management of the users’ profiles/ progress. |
+| 4\. | Contracts deployment on testnet | We will deliver a set of PolkaVM-compatible/ v6 ink\! smart contracts that will serve as the backend of the game which will feature following component: Automated rules Fair rewards distribution engine |
+| 5\. | Launch beta | Launch of beta version on either of AssetHub testnets (Paseo PAssetHub or Westend AssetHub). |
+| 6\. | Community engagement campaigns on testnet | Launch of engagement campaigns to stress-test the beta release. |
+| 7\. | Gather feedback on beta release | Collection of feedback through an engagement campaign task. |
+| 8\. | Enhance privacy layer | Improve/optimise the core privacy layer which operates via the commit-and-reveal scheme |
+| 9\. | Revamp and finalise UI | Switch from functionality-oriented UI to production level UX. |
 
 ### 
 
