@@ -42,8 +42,66 @@ This infrastructure multiplies development efficiency across the ecosystem - ins
 We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
 
 ####  Data models / API specifications of the core functionality
+##### Core CRUD Contract Interface:
+```rust
+// Primary data model
+#[ink::storage_item]
+pub struct Record {
+    id: u32,
+    title: String,
+    description: String,
+    owner: AccountId,
+    created_at: u64,
+    updated_at: u64,
+}
+
+// Contract storage
+#[ink(storage)]
+pub struct CrudContract {
+    records: Mapping<u32, Record>,
+    next_id: u32,
+    owners: Mapping<AccountId, Vec<u32>>,
+}
+
+// Public API (Solidity ABI compatible)
+impl CrudContract {
+    #[ink(message)]
+    pub fn create_record(&mut self, title: String, description: String) -> u32;
+    
+    #[ink(message)]
+    pub fn get_record(&self, id: u32) -> Option<Record>;
+    
+    #[ink(message)]
+    pub fn update_record(&mut self, id: u32, title: String, description: String) -> bool;
+    
+    #[ink(message)]
+    pub fn delete_record(&mut self, id: u32) -> bool;
+    
+    #[ink(message)]
+    pub fn get_user_records(&self, owner: AccountId) -> Vec<u32>;
+}
+```
 ####  An overview of the technology stack to be used
+##### Smart Contract Layer:
+- Language: Rust with ink! v6 framework
+ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
+- Build Tool: cargo-contract (latest from GitHub)
+- Network: Polkadot Hub Testnet initially, with mainnet compatibility
+
+##### Frontend Stack:
+- Framework: React 18+ with TypeScript
+- Ethereum Integration: Wagmi v2 + Viem for type-safe contract interactions
+- Wallet: MetaMask connection with custom network configuration
+- UI Components: Tailwind CSS with shadcn/ui components
+- Build Tool: Vite for fast development and optimized production builds
+
+##### Development Infrastructure:
+
+- Testing: Hardhat integration for contract testing
+- Deployment: Automated deployment scripts using ethers.js
+- Documentation: Comprehensive README with setup instructions and examples
 ####  Documentation of core components, protocols, architecture, etc. to be deployed
+
 ####  PoC/MVP or other relevant prior work or research on the topic
 
 #### Scope Exclusions:
