@@ -40,39 +40,40 @@ We expect the teams to already have a solid idea about the project expected finl
 ```rust
 // Primary data model
 #[ink::storage_item]
-pub struct Record {
+pub struct Book {
     id: u32,
-    title: String,
-    description: String,
-    owner: AccountId,
+    title: String,           // "The Rust Programming Language"
+    author: String,          // Book author
+    notes: String,           // Personal reading notes
+    owner: AccountId,        // Book owner
     created_at: u64,
     updated_at: u64,
 }
 
 // Contract storage
 #[ink(storage)]
-pub struct CrudContract {
-    records: Mapping<u32, Record>,
+pub struct BookshelfContract {
+    books: Mapping<u32, Book>,
     next_id: u32,
     owners: Mapping<AccountId, Vec<u32>>,
 }
 
 // Public API (Solidity ABI compatible)
-impl CrudContract {
+impl BookshelfContract {
     #[ink(message)]
-    pub fn create_record(&mut self, title: String, description: String) -> u32;
+    pub fn add_book(&mut self, title: String, author: String, notes: String) -> u32;
     
     #[ink(message)]
-    pub fn get_record(&self, id: u32) -> Option<Record>;
+    pub fn get_book(&self, id: u32) -> (bool, Book);
     
     #[ink(message)]
-    pub fn update_record(&mut self, id: u32, title: String, description: String) -> bool;
+    pub fn update_book(&mut self, id: u32, title: String, author: String, notes: String) -> bool;
     
     #[ink(message)]
-    pub fn delete_record(&mut self, id: u32) -> bool;
+    pub fn remove_book(&mut self, id: u32) -> bool;
     
     #[ink(message)]
-    pub fn get_user_records(&self, owner: AccountId) -> Vec<u32>;
+    pub fn get_user_books(&self, owner: AccountId) -> Vec<u32>;
 }
 ```
 ####  An overview of the technology stack to be used
