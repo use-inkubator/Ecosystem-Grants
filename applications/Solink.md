@@ -11,8 +11,6 @@
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-
 Solink is a dApp Template using a Solidity frontend library with an ink! contract that has the Solidity ABI enabled.
 - A brief description of your project.
 
