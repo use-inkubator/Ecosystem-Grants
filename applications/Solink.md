@@ -15,7 +15,7 @@ Solink provides a production-ready template that bridges the Polkadot and Ethere
 
 Solink directly showcases ink! v6's Solidity ABI compatibility feature, one of the ecosystem's most significant interoperability advancements. By providing a complete dApp template that integrates ink! contracts with Ethereum tooling (MetaMask, Wagmi, ethers.js), it serves as both a reference implementation and developer onboarding tool for the ink! community. The template leverages core ink! infrastructure including cargo-contract and the latest ABI generation capabilities, while demonstrating how ink! contracts can seamlessly bridge Substrate and Ethereum ecosystems. This directly supports ink!'s strategic vision of unifying blockchain development experiences and helps validate the practical applications of ink!'s cross-chain compatibility features.
 
-####Category Choice & Its Importance 
+#### Category Choice & Its Importance 
 Infrastructure.
 The dapp provides essential developer tooling that improves the ink! ecosystem's integration capabilities. By creating a comprehensive template that bridges ink! contracts with Ethereum's mature frontend ecosystem (MetaMask, Wagmi, ethers.js), it serves as foundational infrastructure that enables developers to leverage familiar tools while building on Substrate chains. This infrastructure is critically important because it reduces adoption barriers, accelerates development time, and demonstrates the practical value of ink!'s Solidity ABI compatibility feature - ultimately expanding the developer base by making ink! accessible to the large Ethereum developer community through familiar tooling patterns.
 
@@ -184,14 +184,14 @@ N/A
 ### Overview
 
 - **Total Estimated Duration:** 2 months
-- **Full-Time Equivalent (FTE):** 9.6 FTE
-- **Total Costs:** 50,000 USD
+- **Full-Time Equivalent (FTE):** 3 FTE
+- **Total Costs:** 25,000 USD
 
 ### Milestone 1 Example — Basic functionality
 
 - **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **FTE:**  1.5
+- **Costs:** 15,000 USD
 
 > :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
@@ -213,7 +213,7 @@ N/A
 
 - **Estimated Duration:** 1 month
 - **FTE:**  1.5
-- **Costs:** 8,000 USD
+- **Costs:** 10,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -246,5 +246,7 @@ N/A
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+- **Work you have already done:** Our team has successfully completed the Polkadot Africa ink! and Rust bootcamp, gaining hands-on experience with ink! smart contract development and Rust programming. We have also deployed and tested the flipper smart contract with frontend integration as part of our learning process.
+- **Training Background:** As recent graduates of the intensive Rust and ink! training through Polkadot Africa, we have documented our learning journey through comprehensive articles covering Rust fundamentals, ownership, lifetimes, traits, and ink! development patterns.
+- **Community Involvement:** We are active members of the Kisumu Polkadot Community and have contributed to local developer education through workshops and bootcamp participation.
+- **No external financial contributors:** This project is being developed independently by our team without external financial backing.
