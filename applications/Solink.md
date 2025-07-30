@@ -105,8 +105,6 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
     + [lifetimes-traits-enums-and-pattern-matching-in-rust](https://dev.to/nyagooh/understanding-lifetimes-traits-enums-and-pattern-matching-in-rust-2dc7)
     + [beginners-guide-to-rust-for-polkadot-devs](https://dev.to/githaiga22/getting-your-feet-rust-y-a-beginners-guide-to-rust-for-polkadot-devs-3bh)
     + [steps on deploying ink! smart contracts](https://dev.to/fredgitonga/getting-started-with-smart-contracts-on-polkadot-a-guide-to-ink-4lgg)
-    + []()
-
 
 #### Scope Exclusions:
 - Production Deployment: Template provides local development setup only when project is cloned; users deploy to their chosen networks
@@ -150,6 +148,15 @@ N/A
 
 ### Team's experience
 
+- **Cheryl Owalla (Team Leader):** 3+ years of software development experience with a focus on Rust and ink! development. Strong background in backend development and system architecture. Recently completed Polkadot Africa ink! bootcamp with hands-on smart contract development experience.
+
+- **Anne Maina:** 2+ years of software development experience with extensive involvement in multiple hackathons. Specializes in UI/UX design and frontend development, bringing strong design thinking and user experience expertise to the project.
+
+- **Valery Odinga:** 2+ years of software development experience with strong background in Rust and ink! development. Possesses comprehensive knowledge of Ethereum ecosystem and Solidity smart contracts, making him ideal for bridging ink! and Ethereum tooling.
+
+- **Allan Robinson:** 2+ years of software development experience. Brings valuable project management experience and coordination skills to ensure smooth project delivery and team collaboration. Team lead at [Polkadot Kisumu](https://github.com/polkadotkisumubootcamp) and [imara.xyz](imara.xyz)
+
+- **Fred Gitonga:** 1.5 years of software development experience with extensive Solidity smart contract development, including [Imara's staking mechanism smart contracts](https://github.com/ImaraHub/Imara-Platform/tree/main/backend/contracts). Has successfully integrated Solidity smart contracts with frontend applications using React and ethers.js, providing crucial experience for the Ethereum-ink! bridge implementation.
 
 ### Team Code Repos
 
