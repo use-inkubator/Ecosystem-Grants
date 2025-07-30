@@ -104,7 +104,7 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
     + [understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management](https://dev.to/nyagooh/understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management-51o5)
     + [lifetimes-traits-enums-and-pattern-matching-in-rust](https://dev.to/nyagooh/understanding-lifetimes-traits-enums-and-pattern-matching-in-rust-2dc7)
     + [beginners-guide-to-rust-for-polkadot-devs](https://dev.to/githaiga22/getting-your-feet-rust-y-a-beginners-guide-to-rust-for-polkadot-devs-3bh)
-    + []()
+    + [steps on deploying ink! smart contracts](https://dev.to/fredgitonga/getting-started-with-smart-contracts-on-polkadot-a-guide-to-ink-4lgg)
     + []()
 
 
