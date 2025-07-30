@@ -9,8 +9,6 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-Please provide the following:
-
 Solink is a dApp Template using a Solidity frontend library with an ink! contract that has the Solidity ABI enabled.
 
 Solink provides a production-ready template that bridges the Polkadot and Ethereum ecosystems by showcasing ink! contracts with Solidity ABI compatibility. Developers can leverage familiar Ethereum tools (MetaMask, Wagmi, ethers.js) while deploying on Substrate-based chains, combining the best of both worlds - Ethereum's mature tooling ecosystem with Polkadot's superior performance and lower costs.
@@ -88,7 +86,7 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
 - Framework: React 18+ with TypeScript
 - Ethereum Integration: Wagmi v2 + Viem for type-safe contract interactions
 - Wallet: MetaMask connection with custom network configuration
-- UI Components: Tailwind CSS with shadcn/ui components
+- UI Components: Tailwind CSS 
 - Build Tool: Vite for fast development and optimized production builds
 
 ##### Development Infrastructure:
@@ -99,9 +97,17 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
 ####  Documentation of core components, protocols, architecture, etc. to be deployed
 
 ####  PoC/MVP or other relevant prior work or research on the topic
-- We've reviewed provided documentation at use.ink on Ethereum compatibility
-- We've deployed the flipper smart contract and integrated with a front-end.(github.com/fredmunene/ink)[github.com/fredmunene/ink]
-- During rust & ink cohort, wrote extensive articles ()[] ,()[], ()[]
+- We've reviewed provided documentation at [use.ink](use.ink) on Ethereum compatibility
+- We've deployed the flipper smart contract(provided as an example in docs) and integrated with a front-end.[github.com/fredmunene/ink](github.com/fredmunene/ink)
+- During rust & ink cohort, wrote extensive articles 
+
+    + [understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management](https://dev.to/nyagooh/understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management-51o5)
+    + [lifetimes-traits-enums-and-pattern-matching-in-rust](https://dev.to/nyagooh/understanding-lifetimes-traits-enums-and-pattern-matching-in-rust-2dc7)
+    + [beginners-guide-to-rust-for-polkadot-devs](https://dev.to/githaiga22/getting-your-feet-rust-y-a-beginners-guide-to-rust-for-polkadot-devs-3bh)
+    + []()
+    + []()
+
+
 #### Scope Exclusions:
 - Production Deployment: Template provides local development setup only when project is cloned; users deploy to their chosen networks
 - Advanced Features: No complex DeFi functionality, governance mechanisms, or multi-sig implementations
@@ -110,7 +116,8 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
 - Multi-Chain Support: Focus solely on Polkadot/Substrate chains with Ethereum tooling
 - Security Audits: Template includes best practices but requires independent security review for production use
 - Maintenance/Support: Open-source template with community-driven updates only
-- 
+
+
 #### Technical Boundaries:
 - Limited to ink! types that have established Solidity ABI mappings
 - No support for Rust-specific features (Option, Result) that lack Solidity equivalents
@@ -143,7 +150,6 @@ N/A
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
 
 ### Team Code Repos
 
@@ -191,15 +197,19 @@ Please describe the team's relevant experience. If your project involves develop
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| **0a.** | License | MIT  |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **README** that explains how to set up the development environment and run the frontend application. |
+| **0c.** | Testing and Testing Guide | Frontend components will be covered by unit tests. We will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile that can be used to run the frontend development environment. |
+| 0e. | Article | We will publish an **article** that explains the design decisions and user experience approach for bridging Ethereum tooling with ink! contracts. |
+| 1. | UI/UX Design & Wireframes | We will deliver wireframes and design mockups for the dApp interface, including wallet connection, contract interaction flows, and CRUD operations interface. |
+| 2. | Frontend Application Setup | We will deliver a React 18+ TypeScript/Javascript application with Vite build setup, Tailwind CSS styling, and basic routing structure. |
+| 3. | Wallet Integration | We will implement MetaMask connection with custom network configuration for Polkadot/Substrate chains using Wagmi . |
+| 4. | UI Components Library | We will create reusable React components for contract interactions, including forms for CRUD operations and data display components. |
+| 5. | Mock Contract Interface | We will implement mock contract interactions to demonstrate the frontend functionality without requiring deployed contracts. |
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2 — Smart Contract Development & Integration
 
 - **Estimated Duration:** 1 month
 - **FTE:**  1.5
@@ -207,15 +217,16 @@ Please describe the team's relevant experience. If your project involves develop
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) 
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
-
+| **0a.** | License |  MIT |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a **tutorial** that explains how to deploy contracts and interact with them via the frontend. |
+| **0c.** | Testing and Testing Guide | Smart contracts will be covered by unit tests and integration tests. Frontend-contract integration will be tested. We will describe how to run all tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone, including contract deployment and frontend integration. |
+| 0e. | Article | We will publish an **article** that explains the complete Solink template, demonstrating how developers can leverage Ethereum tooling with ink! contracts and showcasing the bridge between ecosystems. |
+| 1. | CRUD Smart Contract | We will deliver an ink! v6 smart contract with Solidity ABI compatibility that implements create, read, update, and delete operations for records with proper access control and event emission. |
+| 2. | Contract Deployment Scripts | We will provide automated deployment scripts using ethers.js that can deploy contracts to Polkadot Hub Testnet. |
+| 3. | Frontend-Contract Integration | We will integrate the deployed smart contract with the frontend application, replacing mock interfaces with real contract interactions using Wagmi v2 . |
+| 4. | Testing Infrastructure | We will implement Hardhat integration for contract testing and provide test suites for both smart contracts and frontend-contract interactions. |
+| 5. | Complete Template Package | We will deliver the complete production-ready template with setup scripts, configuration files, and comprehensive documentation for developers to fork and customize. |
 
 
 
