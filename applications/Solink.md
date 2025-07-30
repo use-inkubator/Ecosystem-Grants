@@ -12,17 +12,16 @@
 Please provide the following:
 
 Solink is a dApp Template using a Solidity frontend library with an ink! contract that has the Solidity ABI enabled.
-- A brief description of your project.
 
-This project provides a production-ready template that bridges the Polkadot and Ethereum ecosystems by showcasing ink! contracts with Solidity ABI compatibility. Developers can leverage familiar Ethereum tools (MetaMask, Wagmi, ethers.js) while deploying on Substrate-based chains, combining the best of both worlds - Ethereum's mature tooling ecosystem with Polkadot's superior performance and lower costs.
-- An indication of how your project relates to ink! ecosystem.
+Solink provides a production-ready template that bridges the Polkadot and Ethereum ecosystems by showcasing ink! contracts with Solidity ABI compatibility. Developers can leverage familiar Ethereum tools (MetaMask, Wagmi, ethers.js) while deploying on Substrate-based chains, combining the best of both worlds - Ethereum's mature tooling ecosystem with Polkadot's superior performance and lower costs.
 
-This project directly showcases ink! v6's Solidity ABI compatibility feature, one of the ecosystem's most significant interoperability advancements. By providing a complete dApp template that integrates ink! contracts with Ethereum tooling (MetaMask, Wagmi, ethers.js), it serves as both a reference implementation and developer onboarding tool for the ink! community. The template leverages core ink! infrastructure including cargo-contract and the latest ABI generation capabilities, while demonstrating how ink! contracts can seamlessly bridge Substrate and Ethereum ecosystems. This directly supports ink!'s strategic vision of unifying blockchain development experiences and helps validate the practical applications of ink!'s cross-chain compatibility features.
-- Choosen project idea category or your alternative category with explanation of its importance
-Infrastructure. 
+Solink directly showcases ink! v6's Solidity ABI compatibility feature, one of the ecosystem's most significant interoperability advancements. By providing a complete dApp template that integrates ink! contracts with Ethereum tooling (MetaMask, Wagmi, ethers.js), it serves as both a reference implementation and developer onboarding tool for the ink! community. The template leverages core ink! infrastructure including cargo-contract and the latest ABI generation capabilities, while demonstrating how ink! contracts can seamlessly bridge Substrate and Ethereum ecosystems. This directly supports ink!'s strategic vision of unifying blockchain development experiences and helps validate the practical applications of ink!'s cross-chain compatibility features.
 
+####Category Choice & Its Importance 
+Infrastructure.
 The dapp provides essential developer tooling that improves the ink! ecosystem's integration capabilities. By creating a comprehensive template that bridges ink! contracts with Ethereum's mature frontend ecosystem (MetaMask, Wagmi, ethers.js), it serves as foundational infrastructure that enables developers to leverage familiar tools while building on Substrate chains. This infrastructure is critically important because it reduces adoption barriers, accelerates development time, and demonstrates the practical value of ink!'s Solidity ABI compatibility feature - ultimately expanding the developer base by making ink! accessible to the large Ethereum developer community through familiar tooling patterns.
-- An indication of why your team is interested in creating this project.
+
+#### Team's Motivation 
 
 As members of the Kisumu Polkadot Community with recent intensive training in Rust and ink! through Polkadot Africa, our team combines diverse expertise in software engineering, design, and product management. Having experienced the learning curve firsthand, we're uniquely positioned to understand the challenges developers face when transitioning to ink! from other ecosystems. This project directly aligns with our mission to significantly improve developer experience by creating infrastructure that reduces learning barriers and development friction. Our goal is to leverage familiar Ethereum tooling patterns to make ink! more accessible, ultimately accelerating ecosystem adoption and empowering developers to build robust applications more efficiently.
 
@@ -33,12 +32,11 @@ This template will serve as foundational infrastructure that directly addresses 
 #### Concrete Usage Scenarios:
 The open-source template provides immediate value through reusable components, integration patterns, and configuration setups that eliminate weeks of trial-and-error development. Teams can fork the repository, customize the CRUD contract for their specific use case (NFT marketplace, DeFi protocol, governance system), and deploy with confidence knowing the Ethereum tooling integration is production-tested. Educational institutions and bootcamps can use it as a teaching resource, while hackathon participants can rapidly prototype cross-ecosystem dApps.
 #### Measurable Ecosystem Benefits:
-This infrastructure multiplies development efficiency across the ecosystem - instead of each team independently solving Ethereum integration challenges, they can build upon proven foundations. It validates ink!'s Solidity ABI compatibility through real-world usage, encourages broader adoption by reducing technical barriers, and establishes best practices that benefit all future ink! + Ethereum integrations. The template essentially transforms ink!'s interoperability features from documentation into actionable developer infrastructure.
+This infrastructure multiplies development efficiency across the ecosystem, instead of each team independently solving Ethereum integration challenges, they can build upon proven foundations. It validates ink!'s Solidity ABI compatibility through real-world usage, encourages broader adoption by reducing technical barriers, and establishes best practices that benefit all future ink! + Ethereum integrations. The template essentially transforms ink!'s interoperability features from documentation into actionable developer infrastructure.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
-
+We expect the teams to already have a solid idea about the project expected finl state.
 ####  Data models / API specifications of the core functionality
 ##### Core CRUD Contract Interface:
 ```rust
@@ -101,18 +99,19 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
 ####  Documentation of core components, protocols, architecture, etc. to be deployed
 
 ####  PoC/MVP or other relevant prior work or research on the topic
-
+- We've reviewed provided documentation at use.ink on Ethereum compatibility
+- We've deployed the flipper smart contract and integrated with a front-end.(github.com/fredmunene/ink)[github.com/fredmunene/ink]
+- During rust & ink cohort, wrote extensive articles ()[] ,()[], ()[]
 #### Scope Exclusions:
-- Production Deployment: Template provides local development setup only; users deploy to their chosen networks
+- Production Deployment: Template provides local development setup only when project is cloned; users deploy to their chosen networks
 - Advanced Features: No complex DeFi functionality, governance mechanisms, or multi-sig implementations
 - Custom UI Themes: Single, clean UI theme; customization left to developers
-- Backend Services: No off-chain indexing, APIs, or database integrations
-- Mobile Applications: Web-only template; mobile app development not included
+- Backend Services: No off-chain indexing, APIs, or database integration
 - Multi-Chain Support: Focus solely on Polkadot/Substrate chains with Ethereum tooling
 - Security Audits: Template includes best practices but requires independent security review for production use
 - Maintenance/Support: Open-source template with community-driven updates only
+- 
 #### Technical Boundaries:
-
 - Limited to ink! types that have established Solidity ABI mappings
 - No support for Rust-specific features (Option, Result) that lack Solidity equivalents
 - Template demonstrates core patterns; complex business logic implementation is user responsibility
