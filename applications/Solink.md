@@ -98,7 +98,7 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
 ####  Documentation of core components, protocols, architecture, etc. to be deployed
 
 ####  PoC/MVP or other relevant prior work or research on the topic
-- We've reviewed provided documentation at [use.ink](use.ink) on Ethereum compatibility
+- We've reviewed provided documentation at [docs](https://use.ink/docs/v6/background/solidity-metamask-compatibility) on Ethereum compatibility
 - We've deployed the flipper smart contract(provided as an example in docs) and integrated with a front-end.[repo](https://github.com/fredmunene/ink)
 - During rust & ink cohort, wrote extensive articles 
 
