@@ -66,6 +66,12 @@ The scope of this idea is to:
 - Evaluate the contract size difference of the same implementation in Solidity vs ink!. So e.g. a ERC-20 or an upgradeable contract that has exactly the same functionality, written in both ink! and Solidity. Once both contracts are compiled it will be possible to compare the contract size and the Gas cost of their publicly available functions.
 - We support both the Solidity and the ink! ABI in ink! v6. Our hypothesis is that the ink! ABI is more efficient, as the underlying SCALE codec it uses is more data efficient than the Solidity one. A benchmark could try to validate this assumption.
 
+The ink! CI has some infrastructure in place that we want to point out here, as inspiration or for reusing code. On each PR, the CI posts a comment that displays the size of the contracts in the `integration-tests/` folder:
+
+<img width="1007" height="517" alt="image" src="https://github.com/user-attachments/assets/0baea35f-8a1b-43da-9205-2017a9bbfb4f" />
+
+This job is defined in the [ci.yml](https://github.com/use-ink/ink/blob/master/.github/workflows/ci.yml) file. A comparison diagram is displayed in the GitHub comment (using Mermaid and, as a hack, Gantt diagrams). The CSV file with the comparison data is output in the job log though; this file can be easily imported into other programs to draw more elaborate diagrams.
+
 
 ---
 
