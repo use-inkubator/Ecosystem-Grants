@@ -2,7 +2,7 @@
 
 
 - **Team Name:** Polkadot Kisumu
-- **Payment Address:** Polkadot payment address.
+- **Payment Address:**(in DOT) 15MmVHDWD5gkJzJfGVRGeHewNmRFqbuMXUSZN4spR22Lu9cM 
 
 
 
