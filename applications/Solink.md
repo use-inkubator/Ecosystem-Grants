@@ -149,13 +149,18 @@ N/A
 
 ### Team's experience
 
-- **Cheryl Owalla (Team Leader):** 3+ years of software development experience with a focus on Rust and ink! development. Strong background in backend development and system architecture. Recently completed Polkadot Africa ink! bootcamp with hands-on smart contract development experience.
+- **Cheryl Owalla (Team Leader):** - Cheryl Owala is a member of Polkadot Africa and an advocate Polkadot Ambassador with a Bachelors degree in Computer Technology from Murang'a University.She's a developer with 2 years experience in Blockchain and proficient in Go, Typescript and Rust.She recently completed **PBA-X** from the wave 2 (2025). She is the Community lead at [Polkadot Kisumu](https://github.com/polkadotkisumubootcamp). Full-Stack Engineer at [Prognosys](https://prognosys.vercel.app/). In addition to her technical work, She writes technical articles (which can be found on [dev.to](https://dev.to/Cherrypick14)) and contributes to open source projects. 
 
-- **Anne Maina:** 2+ years of software development experience with extensive involvement in multiple hackathons. Specializes in UI/UX design and frontend development, bringing strong design thinking and user experience expertise to the project.
+- **Anne Maina:** - Ann Maina is a skilled Product Designer and Frontend Developer with over 3 years of hands-on experience in building user-centric digital products. She leads [Codessippers](https://github.com/Codes-Sipers), a women-led initiative focused on creating inclusive technology solutions. 
+Ann has designed and developed the [Carbon Chama Frontend](https://carbonchama.onrender.com/), a platform that enables users to save and manage carbon credits. She also created the design system for [BongoHub](https://www.figma.com/design/PHCO2KkLcq9c8BhoKzDRy4/BongoHub?node-id=0-1&p=f&t=Wsbg053gCmzWWuqb-0), ensuring consistency and a smooth user experience across the platform.
+Her work is grounded in strong design thinking, accessibility, and a deep commitment to user experience.
 
-- **Valery Odinga:** 2+ years of software development experience with strong background in Rust and ink! development. Possesses comprehensive knowledge of Ethereum ecosystem and Solidity smart contracts, making him ideal for bridging ink! and Ethereum tooling.
 
-- **Allan Robinson:** 2+ years of software development experience. Brings valuable project management experience and coordination skills to ensure smooth project delivery and team collaboration. Team lead at [Polkadot Kisumu](https://github.com/polkadotkisumubootcamp) and [imara.xyz](imara.xyz)
+- **Valery Odinga:** - **Valery Odinga:** Valery Odinga is askilled Software Developer with over 1 years of experience, specializing in Solidity, Rust and ink! smart contract development. She possesses a strong understanding of the Ethereum ecosystem as she graduated from the recent **women in Ethereum** cohort and made contributions to their repository which can be accessed [here](https://github.com/wiepteam/studygroup/pull/122) and is proficient in Solidity, enabling her to work seamlessly across both Substrate-based chains and EVM-compatible environments.
+Her expertise makes her well-suited for projects that require bridging between **ink!** and **Ethereum tooling**, such as integrating smart contracts, handling cross-chain interactions, or optimizing developer workflows between Polkadot and Ethereum platforms.
+
+
+- **Allan Robinson:** - Allan Robinson is an advocate Polkadot Ambassador. He's a developer with 2 years expirience in Blockchain and proficient in Go and Rust.He recently completed **PBA-X** from the wave 2 (2025). He is the Community lead at [Polkadot Kisumu](https://github.com/polkadotkisumubootcamp) and [imara.xyz](imara.xyz) where he also serves as a Product Manager. In addition to his technical work, Allan writes technical articles (which can be found on [dev.to](https://dev.to/githaiga22)) and contributes to project documentation. 
 
 - **Fred Gitonga:** 1.5 years of software development experience with extensive Solidity smart contract development, including [Imara's staking mechanism smart contracts](https://github.com/ImaraHub/Imara-Platform/tree/main/backend/contracts). Has successfully integrated Solidity smart contracts with frontend applications using React and ethers.js, providing crucial experience for the Ethereum-ink! bridge implementation.
 
@@ -179,13 +184,18 @@ N/A
 - https://www.linkedin.com/in/odinga-valery/
 - https://www.linkedin.com/in/maina-anne-37797820b/
 - https://www.linkedin.com/in/allan-robinson-3b54511a4
-- https://www.linkedin.com/in/Fredmunene
+- https://www.linkedin.com/in/Fredgitonga
 
 
 ## Development Status :open_book:
 
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
+    + [understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management](https://dev.to/nyagooh/understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management-51o5)
+    + [lifetimes-traits-enums-and-pattern-matching-in-rust](https://dev.to/nyagooh/understanding-lifetimes-traits-enums-and-pattern-matching-in-rust-2dc7)
+    + [beginners-guide-to-rust-for-polkadot-devs](https://dev.to/githaiga22/getting-your-feet-rust-y-a-beginners-guide-to-rust-for-polkadot-devs-3bh)
+    + [steps on deploying ink! smart contracts](https://dev.to/fredgitonga/getting-started-with-smart-contracts-on-polkadot-a-guide-to-ink-4lgg)
+
+
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -195,13 +205,12 @@ N/A
 - **Full-Time Equivalent (FTE):** 3 FTE
 - **Total Costs:** 25,000 USD
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 - Frontend  functionality
 
 - **Estimated duration:** 1 month
 - **FTE:**  1.5
 - **Costs:** 15,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
