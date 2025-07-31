@@ -99,7 +99,7 @@ ABI Compatibility: Solidity ABI generation via abi = "sol" configuration
 
 ####  PoC/MVP or other relevant prior work or research on the topic
 - We've reviewed provided documentation at [use.ink](use.ink) on Ethereum compatibility
-- We've deployed the flipper smart contract(provided as an example in docs) and integrated with a front-end.[github.com/fredmunene/ink](github.com/fredmunene/ink)
+- We've deployed the flipper smart contract(provided as an example in docs) and integrated with a front-end.[repo](https://github.com/fredmunene/ink)
 - During rust & ink cohort, wrote extensive articles 
 
     + [understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management](https://dev.to/nyagooh/understanding-ownership-in-rust-a-devs-guide-to-safe-memory-management-51o5)
