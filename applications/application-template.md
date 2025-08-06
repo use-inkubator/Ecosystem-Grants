@@ -112,7 +112,7 @@ We commit to:
 ## Links
 
 - Website (Coming Soon)
-- Temp site:  https://pet-chain-frontend-tmqq-99r37ln4i.vercel.app/
+- Temp site:  https://petchain-emergency.vercel.app/
 - Github repo: https://github.com/orgs/DogStark/repositories
 - Telegram Community: https://t.me/+fLbWYLN8jZw3ZTNk
 
