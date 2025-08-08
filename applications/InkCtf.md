@@ -8,19 +8,25 @@
 ### Overview
 
 - **Tag Line:** Hack your way through vulnerable ink! smart contracts and become an ink! security expert!
-- **Brief Description:** ink!Spector Gadget is an Ethernaut-inspired, interactive Capture-The-Flag (CTF) style web game designed to teach developers about common vulnerabilities in ink! smart contracts. Players will solve progressively challenging levels by identifying and exploiting weaknesses in real ink! contracts deployed on a testnet. The platform will feature a user-friendly interface, real-time contract interaction, persistent progress tracking, guided walkthroughs, and an achievement system to enhance the learning experience(as mentioned in [RFP](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/request-for-proposals.md)).
+- **Brief Description:** ink!Spector Gadget is an Ethernaut-inspired, interactive Capture-The-Flag (CTF) style web game designed to teach developers about common vulnerabilities in ink smart contracts. Players will solve progressively challenging levels by identifying and exploiting weaknesses in real ink! contracts deployed on a testnet. The platform will feature a user-friendly interface, real-time contract interaction, persistent progress tracking, guided walkthroughs, and an achievement system to enhance the learning experience(as mentioned in [RFP](https://github.com/use-inkubator/Ecosystem-Grants/blob/master/request-for-proposals.md)).
+
+Apart from the RFP requirements, I am thinking of interaction with the contract through a frontend, similar to how https://speedrunethereum.com/ does it, our goal is to educate users on how ink smart contracts work by enabling them to interact with the frontend of our game, and alongside that, exploit common vulnerabilities in real ink! contracts deployed on a testnet.
+
+For example, a level might feature an ink contract with a vulnerable withdraw function that allows `reentrancy`. Through the game’s frontend, the player can interact with this contract by calling its public methods—initially depositing some balance, then triggering a crafted exploit sequence using a UI button (e.g., "Call Attack Contract") that simulates how an attacker would recursively call withdraw before the state is properly updated. The frontend would show the live contract state, event logs, and balance changes in real-time, helping the player see the vulnerability being exploited. This hands-on interaction reinforces the learning experience and bridges the gap between theoretical vulnerabilities and how they play out in actual ink! smart contracts.
+
+
 - **Relation to ink! Ecosystem:** This project directly contributes to the ink! ecosystem by providing a crucial educational tool for developers. By learning to identify and mitigate vulnerabilities, developers can write more secure ink! smart contracts, strengthening the overall security and reliability of applications built on Polkadot and Substrate-based chains using ink!.
 - **Chosen Project Idea Category:** Canary Dapp / Technical Showcase.
     -   **Canary Dapp:** It will be a fully functional application deployed for public use, serving as a reference for building interactive dApps with ink! and demonstrating best practices for frontend-backend-blockchain communication.
     -   **Technical Showcase:** It will showcase the capabilities of ink! for creating complex applications and highlight common security pitfalls, thereby promoting secure ink! development.
-- **Team's Interest:** Our team is passionate about smart contract security and the potential of the Polkadot ecosystem. We believe that hands-on, gamified learning is the most effective way to educate developers. We see a need for a dedicated platform like Ethernaut for ink! and are excited to build it to help grow a community of security-conscious ink! developers.
+- **Team's Interest:** Our team is passionate about smart contract security and the potential of the Polkadot ecosystem. We believe that hands-on, gamified learning is the most effective way to educate developers.
 
 ### Ink! Ecosystem Impact
 
 ink!Spector Gadget will significantly benefit the ink! ecosystem by:
 
 1.  **Educating Developers:** Providing a practical, engaging platform for developers to learn about ink!-specific vulnerabilities and general smart contract security patterns. This will lead to a higher standard of security in ink! projects.
-2.  **Improving Code Quality:** By understanding how contracts can be exploited, developers will write more robust and secure code from the outset.
+2.  **Improving Code Quality:** By understanding how contracts can be exploited, developers will write more robust and secure code from the outset t.
 3.  **Community Building:** Fostering a community around ink! security, where users can discuss challenges, share solutions (after completion), and contribute to new levels.
 4.  **Onboarding New Developers:** Serving as an attractive entry point for developers new to ink! or smart contract development, offering a fun way to learn core concepts.
 5.  **Showcasing ink! Capabilities:** Demonstrating how ink! can be used to build interactive and complex applications, including those requiring on-chain logic and state.
@@ -38,8 +44,8 @@ Architecture(https://raw.githubusercontent.com/InkCTF/InkCTF/main/public/archite
 #### Technology Stack:
 
 *   **Frontend:** Next.js, TypeScript, Tailwind CSS (Current PoC stack)
-*   **Backend:** Node.js with Express.js/NestJS (TypeScript) OR Rust with Actix/Axum
-*   **Database:** PostgreSQL (for relational data integrity)
+*   **Backend:**  Rust with Actix (primarily thinking of writing it in rust we can also do in nextjs/expressjs )
+*   **Database:** PostgreSQL hosted on AWS (for relational data integrity)
 *   **Blockchain Interaction:** Polkadot.js API for interacting with ink! contracts.
 *   **Smart Contracts:** ink!
 *   **Deployment & Hosting:** Docker, Vercel/Netlify (Frontend), AWS/GCP/Heroku (Backend & DB), Polkadot Testnet
@@ -102,8 +108,8 @@ This grant aims to elevate the PoC to a fully functional, on-chain, server-backe
 *   **Its own token or complex tokenomics.** The focus is purely educational.
 *   **Mainnet deployment of the game platform itself.** The game will interact with testnets.
 *   **A full-fledged ink! IDE.** The contract interaction interface will be tailored for gameplay, not general development.
-*   **Automated generation of new CTF challenges.** Levels will be manually designed and curated.
-*   **Financial incentives for playing.** Rewards will be in the form of achievements and learning.
+*   **Automated generation of new CTF challenges.** Levels will be manually designed and curated with the help of ink community.
+*   **Financial incentives for playing.** Rewards will be in the form of achievements and learning, I am thinking of giving faucets tokens and badges to users completing the challenges so that they can get some visibility on the community.
 *   **Audits of user-submitted exploit code.**
 *   **Hosting costs, ongoing maintenance, or marketing post-grant delivery within this proposal's budget.** (Long-term sustainability is a separate consideration, see Future Plans).
 
@@ -126,6 +132,10 @@ Not directly applicable for this grant's scope, as the primary goal is education
 *   **Partnerships:** Collaborate with educational institutions or bootcamps.
 *   **Localization:** Translate the platform into multiple languages.
 *   **Regular Updates:** Add new levels and features based on community feedback and evolving ink! security landscape.
+
+To ensure a higher profile/visibility of the project in the Polkadot community, I am thinking of creating a detailed blog series on each level covering exploit examples from past, in future we could bring that into the ink system so that blog series serves as reference to each level to the ink ctf and also I am thinking of creating a video tutorial series for each level, we could make the video series published on ink youtube channel.
+
+And also with ink v6 we will extend the contract to support bot for metamask and polkadot.js wallets, so that the projects see wider audience without setting up a polkadot.js wallets.
 
 ## Community Engagement & Promotion Strategy
 
@@ -150,11 +160,15 @@ Participation in ink! developer events and workshops
 ### Team members
 
 - Gmin2(https://github.com/Gmin2)
+- ItsMoh(https://github.com/ItshMoh)
 
 ### Contact
 
 - **Contact Name:** Mintu Gogoi
 - **Contact Email:** mintugogoi567@gmail.com
+
+- **Contact Name:** Mohan Kumar
+- **Contact Email:** whitelovemohan@gmail.com
 
 ### Legal Structure
 
@@ -162,7 +176,7 @@ Participation in ink! developer events and workshops
 
 ### Team's experience
 
-
+I have worked with rust lang team for implementing the autocomplete features in cargo and also I have worked with near team for implementing off chain message support in near-cli
 
 ### Team Code Repos
 
@@ -204,13 +218,13 @@ This grant proposal focuses on transitioning this PoC from a client-side simulat
 
 - **Total Estimated Duration:** 4 months
 - **Full-Time Equivalent (FTE):** 2 FTE
-- **Total Costs:** 50,000 USD
+- **Total Costs:** 35,000 USD
 
 ### Milestone 1 — Backend Foundation & Basic On-Chain Interaction
 
 - **Estimated duration:** 1.5 months
 - **FTE:** 2
-- **Costs:** 20,000 USD
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -230,7 +244,7 @@ This grant proposal focuses on transitioning this PoC from a client-side simulat
 
 - **Estimated duration:** 1.5 months
 - **FTE:** 2
-- **Costs:** 15,000 USD
+- **Costs:** 10,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -250,7 +264,7 @@ This grant proposal focuses on transitioning this PoC from a client-side simulat
 
 - **Estimated duration:** 1 month
 - **FTE:** 2
-- **Costs:** 15,000 USD
+- **Costs:** 10,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -286,6 +300,6 @@ Our goal is for ink!Spector Gadget to become the go-to platform for hands-on ink
 
 **How did you hear about the Bounty Program?** 
 
-X(previously twitter)
+X(twitter)
 
-I have make an poc of this product and it is availaible at https://inkctf.netlify.app/
+I have make an poc of this product and it is availaible at https://inkctf.netlify.app/, although I need to revamp some part of the website like the editor and the contract interaction part we want to make it more engaging
