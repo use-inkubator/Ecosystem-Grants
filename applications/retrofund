@@ -1,0 +1,309 @@
+# RetroFund ink!
+
+- **Team Name:** RetroFund Labs
+- **Payment Address:** [Your Polkadot Address Here]
+
+## Project Overview :page_facing_up:
+
+### Overview
+
+**Tagline:** A decentralized retroactive funding platform built natively on Polkadot using ink! smart contracts.
+
+**Brief Description:** RetroFund ink! is a retroactive public goods funding platform that enables communities to reward projects based on demonstrated impact rather than future promises. The core principle behind retroactive funding is simple: it's easier to agree on what was useful than what will be useful. Our platform allows anyone to create funding rounds, projects to apply retroactively after demonstrating value, and badge holders to allocate funds based on proven impact.
+
+**Polkadot Integration:** RetroFund ink! leverages Polkadot's unique advantages:
+- **ink! Smart Contracts:** Built using ink! v6.x, showcasing Rust-based smart contract development with better memory safety and performance
+- **Cross-Chain Compatibility:** Integration with Polkadot Asset Hub for seamless token management across parachains
+- **SCALE Codec Efficiency:** Utilizing SCALE encoding for more efficient data serialization compared to ABI encoding
+- **Substrate Integration:** Native integration with Polkadot's ecosystem and governance mechanisms
+- **Lower Gas Costs:** Demonstrating ink!'s efficiency advantages over Solidity implementations
+
+**Team Interest:** Having successfully built energy infrastructure (PowerGrid Network - Polkadot Fast Grant recipient) and gaming applications, we're passionate about creating funding mechanisms that can sustainably support public goods and ecosystem development. Retroactive funding represents a paradigm shift from speculative to evidence-based allocation, perfectly suited for the Polkadot ecosystem's focus on real utility and impact.
+
+### ink! Ecosystem Impact
+
+**Direct Benefits:**
+1. **Technical Showcase:** First comprehensive retroactive funding platform built in ink!, demonstrating advantages over Solidity implementations like EasyRetroPGF.xyz
+2. **Developer Reference:** Complete open-source codebase serving as a template for other funding platforms in the Polkadot ecosystem
+3. **Ecosystem Growth:** Sustainable funding mechanism specifically designed for Polkadot projects and public goods
+
+**Infrastructure Application:**
+- **Polkadot Projects:** Direct funding mechanism for parachain teams, ink! developers, and ecosystem builders
+- **Public Goods Funding:** Supporting documentation, tutorials, tools, and infrastructure projects
+- **Community Governance:** Enabling DAOs and communities to allocate treasury funds based on demonstrated impact
+
+**Business Model & Production Plans:**
+- **Platform Fees:** 2-3% fee on distributed funds to ensure sustainability
+- **Premium Features:** Advanced analytics, automated badge holder selection, and custom branding
+- **Consulting Services:** Implementation support for organizations wanting to run their own rounds
+- **Long-term Vision:** Becoming the default retroactive funding infrastructure for Polkadot ecosystem
+
+### Project Details
+
+**Data Models:**
+```rust
+// Core smart contract structures
+pub struct FundingRound {
+    id: u32,
+    title: String,
+    description: String,
+    total_pool: Balance,
+    admin: AccountId,
+    badge_holders: Vec<AccountId>,
+    application_deadline: u64,
+    voting_deadline: u64,
+    status: RoundStatus,
+}
+
+pub struct Project {
+    id: u32,
+    round_id: u32,
+    applicant: AccountId,
+    title: String,
+    description: String,
+    impact_metrics: String,
+    funding_received: Balance,
+    votes: Vec<Vote>,
+}
+
+pub struct BadgeHolder {
+    account: AccountId,
+    reputation_score: u32,
+    rounds_participated: u32,
+    voting_power: u32,
+}
+
+pub struct Vote {
+    badge_holder: AccountId,
+    allocation_percentage: u32,
+    reasoning: String,
+}
+```
+
+**Technology Stack:**
+- **Smart Contracts:** ink! v6.x (Rust-based)
+- **Frontend:** Next.js 14 with TypeScript
+- **Blockchain Integration:** Polkadot-API (PAPI) for seamless parachain interactions
+- **Styling:** Tailwind CSS with custom ink!/Polkadot design system
+- **Database:** PostgreSQL for off-chain data indexing
+- **IPFS:** Decentralized storage for project documentation and impact evidence
+- **Testing:** ink! testing framework + Redspot for comprehensive contract testing
+
+**Core Architecture:**
+1. **Round Management Contract:** Create and manage funding rounds with configurable parameters
+2. **Project Registry Contract:** Handle project applications with impact verification
+3. **Voting Contract:** Secure badge holder voting with various allocation mechanisms  
+4. **Distribution Contract:** Automated fund distribution based on voting results
+5. **Badge Management Contract:** Dynamic badge holder selection and reputation system
+6. **Treasury Contract:** Multi-signature treasury management with role-based access
+
+**Key Features:**
+- **Flexible Round Types:** Support for different voting mechanisms (simple allocation, quadratic voting, ranked choice)
+- **Impact Verification:** On-chain and off-chain impact metrics integration
+- **Transparent Governance:** All voting and allocation decisions recorded on-chain
+- **Cross-Chain Integration:** Native Asset Hub support for token management
+- **Mobile-First Design:** Responsive interface optimized for mobile badge holder participation
+
+**What RetroFund ink! Will NOT Include:**
+- Direct token launching or ICO functionality
+- Complex DeFi integrations beyond basic token handling  
+- Real-time streaming payments (potential future integration)
+- Non-Polkadot ecosystem integrations in initial version
+- Advanced fraud detection beyond basic sybil resistance
+
+**CATEGORY:** Infrastructure
+
+**Business Model:**
+- **Revenue Streams:** Platform fees (2-3%), premium features, consulting services
+- **Target Market:** Polkadot ecosystem organizations, DAOs, grant programs, public goods funding initiatives
+- **Scalability:** Modular architecture supporting unlimited concurrent rounds and cross-parachain expansion
+
+## Team :busts_in_silhouette:
+
+### Team members
+
+- **Kunal** - Project Lead & ink! Smart Contracts Engineer
+- **Priya** - Frontend & Integration Engineer
+
+
+### Contact
+
+- **Contact Name:** Kunal
+- **Contact Email:** kunaldrall29@gmail.com
+- **Website:** https://github.com/kunal-drall/powergrid_network
+
+### Legal Structure
+
+- **Registered Legal Entity:** RetroFund Labs (to be incorporated)
+
+### Team's experience
+
+**Priya (Frontend & Integration Lead):**
+With extensive blockchain development experience, Priya specializes in creating intuitive user interfaces for complex DeFi applications:
+- **ChainPay:** https://chainpay-agoric.netlify.app - Cross-chain payment system demonstrating deep understanding of blockchain UX
+- **LQSphere:** https://lq-sphere.netlify.app - DeFi liquidity management interface  
+- **Technical Expertise:** React/Next.js, TypeScript, Polkadot-API (PAPI), cross-chain UX design, mobile-first development
+
+**Kunal (ink! Smart Contracts Lead):**
+Proven blockchain architect with significant competitive achievements and grant funding success:
+- **PowerGrid Network:** Polkadot Fast Grant recipient for decentralized virtual power plant solution
+- **ISA Solarthon Winner (3rd Position):** https://isa.int/solarthon - Blockchain-based solar forecasting system
+- **EducateFi:** https://github.com/kunal-drall/EducateFi - Educational finance platform with blockchain integration
+- **CuraChain:** https://github.com/kunal-drall/curachain - Healthcare blockchain interface and backend systems
+- **Technical Expertise:** ink! smart contracts, Substrate development, Rust programming, tokenomics design, cross-chain architecture
+
+**Combined Team Strengths:**
+- **Proven Success:** Polkadot Fast Grant recipient with demonstrated execution capability
+- **Full-Stack Coverage:** Complete expertise from smart contracts to frontend to infrastructure
+- **Polkadot Native:** Deep understanding of Polkadot ecosystem, Asset Hub integration, and ink! development
+- **User-Centric Design:** Experience building intuitive interfaces for complex blockchain applications
+
+### Team Code Repos
+
+- https://github.com/kunal-drall/powergrid_network (PowerGrid Network - Fast Grant Winner)
+- https://github.com/kunal-drall/EducateFi (Blockchain education platform)
+
+### Team GitHub Accounts
+
+- https://github.com/priaaa29 (Priya)
+- https://github.com/kunal-drall (Kunal)
+
+### Team LinkedIn Profiles
+
+- https://www.linkedin.com/in/priaaa29 (Priya)
+- https://linkedin.com/in/kunaldrall (Kunal)
+
+## Development Status :open_book:
+
+**Research Completed:**
+- Comprehensive analysis of existing retroactive funding platforms, particularly EasyRetroPGF.xyz which has been used by Filecoin, Celo, and Libp2p ecosystems, distributing millions in funding
+- ink! vs Solidity comparative analysis for funding platform requirements
+- Polkadot Asset Hub integration patterns for cross-chain token management  
+- Badge holder selection mechanisms and governance models
+- Economic modeling for platform sustainability and fee structures
+
+**Technical Preparation:**
+- ink! v6.x development environment setup and testing
+- PAPI integration patterns for multi-parachain applications
+- Smart contract architecture design optimized for gas efficiency
+- Frontend mockups and user experience flow documentation
+
+**Market Validation:**
+- Discussions with Polkadot ecosystem teams about retroactive funding needs
+- Analysis of current grant program pain points and improvement opportunities
+- Competitive analysis of funding platforms in other ecosystems
+
+**Repository:** https://github.com/Retrofund-Labs
+
+## Development Roadmap :nut_and_bolt:
+
+### Overview
+
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):** 2.0 (Kunal: 1.0 FTE, Priya: 1.0 FTE)
+- **Total Costs:** $40,000 USD
+
+### Milestone 1 — Core Smart Contracts & Architecture
+
+- **Estimated Duration:** 5 weeks
+- **FTE:** 2.0  
+- **Costs:** $18,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | MIT License |
+| **0b.** | Documentation | Comprehensive inline documentation of smart contracts, API specifications, integration guides, and deployment instructions |
+| **0c.** | Testing and Testing Guide | 95%+ test coverage for all smart contracts with integration tests, gas optimization validation, and cross-chain interaction testing |
+| **0d.** | Docker | Complete Docker setup for local development and testing environment |
+| **0e.** | Article | Technical deep-dive article comparing ink! vs Solidity implementations for funding platforms, highlighting performance and security advantages |
+| 1. | Round Management Contract | ink! smart contract handling funding round creation, configuration, lifecycle management with role-based access control |
+| 2. | Project Registry Contract | Smart contract for project applications, impact metrics verification, and eligibility management with IPFS integration |
+| 3. | Voting Contract | Advanced voting mechanisms including simple allocation, quadratic voting, and weighted voting with sybil resistance |
+| 4. | Distribution Contract | Automated fund distribution with multi-signature security, partial disbursement support, and audit trails |
+| 5. | Badge Management Contract | Dynamic badge holder selection, reputation scoring, and participation tracking with governance integration |
+
+### Milestone 2 — Frontend Application & Asset Hub Integration  
+
+- **Estimated Duration:** 4 weeks
+- **FTE:** 2.0
+- **Costs:** $14,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | MIT License |
+| **0b.** | Documentation | User guides, admin documentation, Asset Hub integration tutorial, and API documentation |
+| **0c.** | Testing and Testing Guide | Frontend testing suite with E2E tests, cross-browser compatibility, and mobile responsiveness validation |
+| **0d.** | Docker | Production-ready Docker containers with automated deployment scripts |
+| 1. | Web Application Frontend | Next.js application with TypeScript, responsive design following ink!/Polkadot design guidelines, mobile-optimized interface |
+| 2. | PAPI Integration Layer | Seamless integration with Polkadot-API for multi-parachain interactions, wallet connectivity, and transaction handling |
+| 3. | Asset Hub Integration | Native token management with Asset Hub, cross-chain transfers, and treasury management interface |
+| 4. | Admin Dashboard | Comprehensive admin interface for round management, badge holder administration, and platform analytics |
+| 5. | Badge Holder Interface | Dedicated voting interface with project comparison tools, allocation mechanisms, and decision tracking |
+
+### Milestone 3 — Beta Testing Program & Platform Optimization
+
+- **Estimated Duration:** 3 weeks  
+- **FTE:** 2.0
+- **Costs:** $8,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | MIT License |
+| **0b.** | Documentation | Complete platform documentation, deployment guides, governance documentation, and user onboarding materials |
+| **0c.** | Testing and Testing Guide | Comprehensive beta testing framework including user acceptance testing, performance validation, and feedback integration systems |
+| **0d.** | Docker | Production-ready Docker containers with monitoring, logging, and automated deployment systems |
+| **0e.** | Article | Comprehensive case study of building retroactive funding infrastructure on Polkadot, lessons learned, and ecosystem impact analysis |
+| 1. | Beta Testing Program | Comprehensive beta testing with 20+ selected Polkadot ecosystem participants, including parachain teams, developers, and community members |
+| 2. | Performance Optimization | Gas optimization for smart contracts, frontend performance tuning, and cross-chain interaction efficiency improvements |
+| 3. | User Experience Refinement | UI/UX improvements based on beta feedback, mobile responsiveness optimization, and accessibility enhancements |
+| 4. | Analytics & Reporting | Platform analytics dashboard with funding metrics, participation tracking, and impact measurement tools |
+| 5. | Documentation & Tutorials | Complete user guides, admin documentation, developer integration guides, and video tutorials for platform usage |
+
+## Future Plans
+
+**Immediate Post-Grant (Months 4-6):**
+- Production launch based on beta testing feedback
+- Integration with major Polkadot ecosystem organizations
+- First pilot funding rounds with selected community partners
+- Community onboarding and documentation expansion
+
+**Medium-Term Development (Year 1):**
+- Advanced voting mechanisms (conviction voting, liquid democracy)
+- Integration with streaming payment systems for continuous funding
+- Multi-parachain expansion beyond Asset Hub integration  
+- Mobile application development for iOS and Android
+
+**Long-Term Vision (Years 2-3):**
+- Cross-ecosystem bridges for funding coordination with other blockchain networks
+- AI-powered impact assessment and fraud detection
+- Advanced analytics and impact measurement tools
+- Governance token launch with community ownership transition
+
+**Sustainability Strategy:**
+- Platform fee model ensuring self-sustaining operations
+- Premium feature development for enterprise customers
+- Consulting services for custom retroactive funding implementations
+- Strategic partnerships with grant programs and funding organizations
+
+## Additional Information :heavy_plus_sign:
+
+**How did you hear about the ink!ubator Program?** 
+Through our previous Polkadot Fast Grant success with PowerGrid Network and active participation in the Polkadot developer community.
+
+**Additional Relevant Information:**
+
+**Prior Grant Success:** Our team previously received a Polkadot Fast Grant for PowerGrid Network, demonstrating our ability to execute complex Polkadot ecosystem projects successfully.
+
+**Ecosystem Alignment:** This project directly addresses one of the key infrastructure needs identified in the ink!ubator request-for-proposals, providing a native Polkadot alternative to Ethereum-based funding platforms.
+
+**Technical Innovation:** RetroFund ink! will be the first comprehensive demonstration of ink!'s advantages over Solidity for complex governance and funding applications, showcasing:
+- Superior memory safety and performance through Rust
+- More efficient data encoding with SCALE vs ABI  
+- Better integration with Substrate and Polkadot ecosystem
+- Lower gas costs and improved scalability
+
+**Community Impact:** By creating infrastructure specifically for retroactive funding, we're enabling more sustainable and evidence-based public goods funding throughout the Polkadot ecosystem.
+
+**Open Source Commitment:** All code will be open-source and available as a reference implementation for other teams building funding platforms on Polkadot.
+
+**Market Opportunity:** Similar platforms like EasyRetroPGF have successfully distributed over $1 million among projects in single rounds, demonstrating clear market demand for retroactive funding infrastructure.
