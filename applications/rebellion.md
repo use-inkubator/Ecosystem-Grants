@@ -101,29 +101,54 @@ DEVELOPMENT STATUS
 --------------------------------------------------
 ROADMAP
 --------------------------------------------------
-Overview:
-- Duration: 6 months
-- FTE: 2–3
-- Total Costs: 100,000 USD
+Overview
 
-Milestone 1 — Testnet Prize Pool Contracts
-- Duration: 2 months
-- FTE: 2
-- Costs: 30,000 USD
-- Deliverables: ink! contracts for entry/payout logic; deployed on testnet; 200+ validated txns
+Total Estimated Duration: 4 months
+Full-Time Equivalent (FTE): 2
+Total Costs: $50,000 USD
 
-Milestone 2 — Mainnet Deployment
-- Duration: 2 months
-- FTE: 3
-- Costs: 40,000 USD
-- Deliverables: Security audit + fixes; mainnet deployment; dashboard integration; first public prize league
+Milestone 1 — Rebellion MVP on Astar ink!
 
-Milestone 3 — Open Source + Ecosystem Expansion
-- Duration: 2 months
-- FTE: 2
-- Costs: 30,000 USD
-- Deliverables: Open-source contracts (MIT license); developer docs + tutorials; sponsored league pilot
+Estimated duration: 4 months
+FTE: 2
+Costs: $50,000 USD
 
+Deliverables
+
+0a. License
+Rebellion MVP will remain closed source at this stage. We will provide sufficient technical documentation, a hosted demo, and private access to the Inkubator reviewers to verify functionality.
+
+0b. Documentation
+Internal documentation covering smart contract design, APIs, and user flows.
+A step-by-step guide showing how to interact with the MVP on Astar testnet.
+
+0c. Testing and Testing Guide
+Internal unit tests for league creation, scoring, and prize logic.
+Testing guide shared privately with Inkubator reviewers to reproduce results.
+
+0d. Docker
+A Docker image will be shared privately with Inkubator reviewers to demonstrate the local setup of the MVP.
+
+0e. Article
+Blog post: “Bringing Gamified Trading to Astar ink!” explaining the project vision, user experience, and the benefits to the Astar ecosystem.
+
+1. Smart Contracts
+Implement ink! contracts for league creation, portfolio drafting, scoring, and prize distribution.
+Deploy contracts to Astar testnet.
+
+2. Frontend Integration
+Integrate contracts into a React frontend.
+Provide UI for creating and joining leagues.
+Wallet integration with Polkadot.js and Astar-native options.
+
+3. MVP Deployment
+Hosted deployment on app.rebellion.live connected to Astar testnet.
+Target: 500 wallets testing fantasy trading leagues.
+
+4. Demonstration Environment
+Live demo environment hosted by the Rebellion team.
+
+Walkthrough and credentials provided privately to Inkubator reviewers for validation.
 --------------------------------------------------
 FUTURE PLANS
 --------------------------------------------------
