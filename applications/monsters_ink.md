@@ -1,7 +1,8 @@
 # Monster's Ink
+<img width="1435" height="985" alt="image" src="https://github.com/user-attachments/assets/582066a2-ef89-4a6c-b88c-4c19d3dd3eb1" />
+
 
 > Learn ink! by creating an adorable monster on chain.
-
 - **Team Name:** Monster's Ink
 
 - **Payment Addresses:**
@@ -28,7 +29,7 @@ Monster's Ink is designed as a foundational educational asset for the entire **i
 
 **🎨 Viral Marketing Through Art:** Each unique monster NFT becomes a shareable work of art, organically promoting Polkadot across social media as developers proudly display their creations.
 
-**🤝 Ecosystem Partnership Hub:** The extensible platform enables seamless integration with Alliance partners—imagine branded monster variations for different parachains, special achievements for ecosystem milestones, or collaborative educational campaigns.
+**🤝 Ecosystem Partnership Hub:** The extensible platform enables seamless integration with Ink Alliance partners. Imagine branded monster variations for different parachains, special achievements for ecosystem milestones, or collaborative educational campaigns.
 
 **📈 Sustainable Growth Foundation:** The modular architecture supports infinite expansion possibilities: advanced ink! courses, Substrate development tracks, XCM integration tutorials, and custom educational experiences for enterprise partners.
 
@@ -38,7 +39,7 @@ Monster's Ink is designed as a foundational educational asset for the entire **i
 
 **Progressive Gamification:** Users begin with a mysterious egg that cracks to reveal their nascent creature. As they master ink! concepts through hands-on coding, they unlock increasingly sophisticated customization options—from basic colors to advanced materials, lighting effects, and magical backgrounds.
 
-**Community-Driven Expansion:** Built on an extensible JSON lesson framework, the platform invites the entire ink! community to contribute new educational content, ensuring continuous evolution and relevance as the ecosystem grows. (Note: Although anyone can create lessons, the Ink! Team will be responsible for curation.)
+**Content Partnership:** Built on an extensible JSON lesson framework, with educational content provided by the ink! team. The Monsters Ink team will focus on creating the platform infrastructure and user experience while the ink! team provides the technical curriculum content and ensures its accuracy and relevance.
 
 ### **Technical Architecture & User Experience**
 
@@ -62,6 +63,8 @@ Our revolutionary 3D monster generation pipeline creates truly unique creatures 
 2. **3D Transformation:** fal.ai's cutting-edge image-to-3D technology converts each 2D monster into a fully manipulatable 3D model (.glb format) in 30-60 seconds, with engaging progress screens to maintain user engagement during generation.
 3. **Interactive 3D Playground:** Advanced Three.js integration provides a sophisticated yet intuitive interface where developers can adjust lighting, materials, backgrounds, and magical effects at 1024x1024 resolution.
 4. **Dynamic NFT Creation:** After completing lesson 1, users mint a dynamic NFT on Polkadot AssetHub that evolves with their learning progress. The NFT's image updates automatically through server-side generation as users customize their monster through subsequent lessons.
+<img width="911" height="855" alt="image" src="https://github.com/user-attachments/assets/436b2dcf-1fb7-43c7-b6b7-e5a5a6787856" />
+
 
 **Progressive Learning Journey:**
 
@@ -80,18 +83,19 @@ Built on a comprehensive JSON schema that enables the entire ink! community to c
 
 **Core Curriculum - "From Flipper to Creator":**
 
-The platform launches with 3 core lessons that take users from zero to building complete ink!-powered experiences. Each lesson is split into progressive stages, ensuring a smooth journey from fundamentals to advanced integration. The architecture is fully extensible, enabling the community to add unlimited specialized lessons on ecosystem products and advanced techniques.
+The platform architecture supports comprehensive ink! education through a structured lesson system. The ink! team will provide the technical content and curriculum design, while the Monsters Ink platform will deliver this content through an engaging gamified experience. Each lesson is split into progressive stages, ensuring a smooth journey from fundamentals to advanced integration.
 
-Initial Lesson Path:
+The curriculum structure will be designed around:
 
 1. ink! Fundamentals – Syntax, variables, data types, and core patterns
 
-2. Advanced Development – Storage, constructors, state changes, testing, and key smart contract  
-   Standards
+2. Advanced Development – Storage, constructors, state changes, testing, and key smart contract Standards
 
 3. Deployment & Integration – Build, deploy via pop-cli, and connect to frontends
 
-Every stage blends technical learning with a creative monster-evolution theme, so users feel like they’re creating, not just coding—while gaining all the skills needed to develop full ink! applications.
+Every stage blends technical learning with a creative monster-evolution theme, so users feel like they're creating, not just coding—while gaining all the skills needed to develop full ink! applications.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d7fa5b34-5e2b-4b69-b210-9acbd3464fb2" />
+
 
 ## **Sustainability & Revenue Model**
 
@@ -113,34 +117,36 @@ The modular lesson framework ensures minimal development overhead for content ex
 
 These are best guesses based on current API pricing research and usage patterns:
 
-**Per Image Generation:**
+**Per Image Generation (including 20% tax):**
 
-- **GPT-Image-1 (1024x1024, high quality):** $0.18 per image
-- **fal.ai 3D Conversion:** $0.45 per 2D-to-3D conversion
+- **GPT-Image-1 (1024x1024, high quality):** $0.216 per image
+- **fal.ai 3D Conversion:** $0.54 per 2D-to-3D conversion
 - **OpenAI Content Moderation:** $0.00 (free service)
-- **Cost per successful image + 3D conversion:** $0.63
+- **Cost per successful image + 3D conversion:** $0.756
 
 **Per User Experience:**
 
 - **Initial stages:** Egg progression (no AI generation costs)
-- **Post-GitHub auth:** 2 AI-generated monster evolution stages (young + grown-up) × $0.63 = $1.26 per user
-- **30% failure rate requiring retries:** $1.26 × 1.3 = $1.64 per user
-- **Total cost per complete user journey:** $1.64
+- **Post-GitHub auth:** 2 AI-generated monster evolution stages (young + grown-up) × $0.756 = $1.512 per user
+- **30% failure rate requiring retries:** $1.512 × 1.3 = $1.97 per user
+- **Total cost per complete user journey:** $1.97
 
 ### **Development Phase Budget Allocation**
 
-**AI Credit Allocation:** $2,000 **Docker/Hosting Infrastructure:** $1,000
+**AI Credit Allocation:** $2,000 **Docker/Hosting and Image Serving Infrastructure:** $1,000
 
 This allocation enables:
 
-- **~ 1,220 complete user journeys** ($2,000 ÷ $1.64)
-- **~ 2,440 total successful monster generations** (1,220 users × 2 monsters each)
-- **Expected user base:** ~1,000 users over first 3 months, providing substantial budget buffer for development/testing overhead and unexpected usage spikes
+- **~ 1,015 complete user journeys** ($2,000 ÷ $1.97)
+- **~ 2,030 total successful monster generations** (1,015 users × 2 monsters each)
+- **Expected user base:** ~1,000 users over first 3 months, providing budget for development/testing overhead and unexpected usage spikes
 - **Secure Docker hosting** for the pop-cli compilation service, restricted to users who have authenticated via GitHub authentication to prevent abuse
 
 ### **Budget Flexibility & Real-Time Adaptation**
 
 These allocations ($2,000 AI credits, $1,000 hosting) represent soft budgeting to demonstrate cost awareness and planning. The actual budget distribution will adapt in real-time based on observed usage patterns, user engagement, and operational requirements during development and launch phases.
+
+In short, if people really love it, we'll find the money somehow!
 
 ### **Cost Efficiency Strategy**
 
@@ -206,7 +212,7 @@ The labor will be divided according to our specializations, with significant cro
 
 - **Owen Barnes:** Full-stack web developer with extensive experience at Advertising.com/AOL, McKinsey and as tech lead at multiple London startups. Early web3 adopter (Bitcoin since 2013, attended Devcon 1) with deep expertise in frontend development, UI/UX design, and decentralized technologies. Creator of Poly.site and frequent speaker at technical conferences including Urbit Assembly, EthBrno, and Urbit Volcano Summit. Will lead Frontend, UI/UX, Graphics, and the Art Generation pipeline.
 
-- **Kilián Valdman:** Self-taught blockchain developer with a proven track record building Web3 platforms—most notably allstake.io (NFT launches, raffles, auctions), plus apps like Cellular Domination Station (Game of Life–inspired game that placed Top 20 overall and 8th in Idea out of 105 entries in a game jam) and CrypTick (real-time crypto price alert app in Rust/Tauri/Svelte). Active developer for the Ronkeverse community on the Ronin blockchain, delivering NFT gaming applications and interactive Web3 experiences. Winner of multiple international hackathons, including ETHGlobal Cannes – Best Consumer App on Ronin, and a triple win at Polkadot Berlin (Main Track, Ink Alliance Bounty, UX Bounty). Specialized in smart contract architecture, scalable backend systems, and developer tooling. Will lead Backend, Lesson Content, pop-cli infrastructure, Dockerization, and code validation.
+- **Kilián Valdman:** Self-taught blockchain developer with a proven track record building Web3 platforms—most notably allstake.io (NFT launches, raffles, auctions), plus apps like Cellular Domination Station (Game of Life–inspired game that placed Top 20 overall and 8th in Idea out of 105 entries in a game jam) and CrypTick (real-time crypto price alert app in Rust/Tauri/Svelte). Active developer for the Ronkeverse community on the Ronin blockchain, delivering NFT gaming applications and interactive Web3 experiences. Winner of multiple international hackathons, including ETHGlobal Cannes – Best Consumer App on Ronin, and a triple win at Polkadot Berlin (Main Track, Ink Alliance Bounty, UX Bounty). Specialized in smart contract architecture, scalable backend systems, and developer tooling. Will lead Backend, Content Integration Systems, pop-cli infrastructure, Dockerization, and code validation.
 
 ### **Team Code Repos**
 
@@ -233,13 +239,13 @@ The project concept is well-defined, and a clear 9-week development roadmap has 
 
 - **Total Estimated Duration:** 9 Weeks (3 milestones × 3 weeks each)
 - **Full-Time Equivalent (FTE):** 2
-- **Total Costs:** $50,000 USD
+- **Total Costs:** $35,000 USD
 
 ### **Milestone 1 — Pipeline Research & Proof-of-Concept (3 Weeks)**
 
 - **Estimated duration:** 3 Weeks from project approval
 - **FTE:** 2
-- **Costs:** $18,000 USD
+- **Costs:** $12,000 USD
 
 | Number  | Deliverable                    | Specification                                                                                                                                                                 |
 | :------ | :----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -256,7 +262,7 @@ The project concept is well-defined, and a clear 9-week development roadmap has 
 
 - **Estimated duration:** 3 Weeks
 - **FTE:** 2
-- **Costs:** $18,000 USD
+- **Costs:** $12,000 USD
 
 | Number  | Deliverable                    | Specification                                                                                                                                                                                      |
 | :------ | :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -267,14 +273,14 @@ The project concept is well-defined, and a clear 9-week development roadmap has 
 | 1\.     | JSON Lesson Schema & Framework | Extensible JSON schema for lessons with validation, progression tracking, and community contribution workflows. Documentation for creating new lessons.                                            |
 | 2\.     | Browser-based IDE              | Interactive coding environment with syntax highlighting, auto-completion, and real-time feedback for ink! development.                                                                             |
 | 3\.     | Code Validation Service        | Secure, scalable `pop-cli` service for compiling and testing user-submitted ink! code with detailed error reporting and educational feedback.                                                      |
-| 4\.     | Initial Lesson Content         | Complete draft curriculum "From Flipper to Creator" - 3 comprehensive lessons, each containing multiple steps, covering fundamental to advanced ink! concepts. Reviewed and approved by ink! team. |
+| 4\.     | Lesson Content Integration     | Integration framework for ink! team-provided curriculum content, including content validation system and platform integration for "From Flipper to Creator" educational content. |
 | 5\.     | User Progression System        | Monster evolution system tied to lesson stage completion, with GitHub authentication integration and dynamic NFT updating.                                                                         |
 
 ### **Milestone 3 — Production Polish & Deployment (3 Weeks)**
 
 - **Estimated duration:** 3 Weeks
 - **FTE:** 2
-- **Costs:** $14,000 USD (includes $3,000 for operational costs: AI credits and hosting infrastructure)
+- **Costs:** $11,000 USD (includes $3,000 for operational costs: AI credits and hosting infrastructure)
 
 | Number  | Deliverable               | Specification                                                                                                                            |
 | :------ | :------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------- |
@@ -286,7 +292,7 @@ The project concept is well-defined, and a clear 9-week development roadmap has 
 | 1\.     | Production Error Handling | Comprehensive error handling, logging, monitoring, and graceful degradation for all system components including AI service failures.     |
 | 2\.     | Performance Optimization  | Optimized asset loading, 3D model compression, caching strategies, and performance monitoring for production-scale usage.                |
 | 3\.     | Analytics Dashboard       | Basic administrative dashboard showing user engagement metrics, lesson completion rates, drop-off points, and platform usage statistics. |
-| 4\.     | Production Deployment     | Fully deployed application on public URL with monitoring, analytics, and handover documentation for ink! team maintenance.               |
+| 4\.     | Production Deployment     | Fully deployed application on public URL with monitoring, analytics, and handover documentation for long-term ink! team maintenance.     |
 
 ## **Future Plans & Maintenance**
 
@@ -296,9 +302,9 @@ Monster's Ink is designed as a foundational resource for the entire **ink!** eco
 
 ### **Project Handover & Sustainability**
 
-Upon successful completion and launch, the Monster's Ink project, including all code and assets, will be handed over to the core ink! team for long-term maintenance, hosting, and community support. This arrangement was initiated by the ink! team and has been agreed upon prior to this application. Our team's role is to deliver a complete, well-documented, and production-ready system within the 9-week grant period.
+Upon successful completion and launch, the Monster's Ink project, including all code and assets, will be handed over to the core ink! team for long-term maintenance, hosting, and community support. This arrangement was initiated by the ink! team and has been agreed upon prior to this application. Our team's role is to deliver a complete, well-documented, and production-ready platform within the 9-week grant period.
 
-The extensible lesson format is designed to allow the ink! team and the wider community to contribute new content easily, ensuring the platform remains a relevant and evolving resource.
+The platform architecture is designed to seamlessly integrate content provided by the ink! team, with our team focusing on the technical infrastructure, user experience, and gamification elements that make learning ink! engaging and accessible.
 
 ### **Future Collaboration Potential**
 
