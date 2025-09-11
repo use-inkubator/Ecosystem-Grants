@@ -130,7 +130,7 @@ Our team has combined expertise in:
 | **1.** | License | Publish code under **MIT** license |
 | **2.** | Docs | Document architecture, sandbox setup, debugging process |
 | **3.** | Adapter prototype | Can launch debug session and execute a contract to completion |
-| **4.** | Breakpoint architecture | Implement file:line -> instruction address mapping, planning for future |
+| **4.** | Breakpoint architecture | Architecture for Step interrupt, logging PC on each step, planning for future |
 | **5.** | Contract run | DRink!-based or custom PolkaVM sandbox for isolated execution |
 
 ---
