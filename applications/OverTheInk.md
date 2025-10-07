@@ -88,8 +88,8 @@ Things that shouldn’t be part of the application:
 ### Contact
 
 - **Contact Name:** Hritwik Tripathi
-- **Contact Email:** info@innoviksha.xyz
-- **Website:** https://innoviksha.xyz/
+- **Contact Email:** info@hie.agency
+- **Website:** https://hie.agency/
 
 ### Legal Structure
 
