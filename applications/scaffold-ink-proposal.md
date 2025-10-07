@@ -73,11 +73,12 @@ The Polkadot ecosystem currently lacks a unified, developer-friendly toolkit for
 
 ### Team's experience
 
-- contribution in web3uikit
+- contribution in web3uikit by moralis
+- Created community subgraph for NFT20 project for fractional NFTs
 - 8+ web3 hackathon winner web3 majorly
 - Top 16 Auditor (16/231)
 - Ranked in the top 16 out of 231 participants for outstanding performance in identifying vulnerabilities and analyzing smart contract security during the Cork Protocol audit competition.
-- Selected as top 0.5% candidates and awarded fellowship in Track 2.
+- Selected as top 0.5% candidates and awarded fellowship(Ethereum India Fellowship by Ethereum foundation).
 
 ### Team Code Repos
 
@@ -99,9 +100,9 @@ This section breaks the development roadmap into two milestones, with indexing h
 
 ### Overview
 
-- **Total Estimated Duration:** 4 months
+- **Total Estimated Duration:** 5 months
 - **Full-Time Equivalent (FTE):** 1 FTE
-- **Total Costs:** 42,000 USD
+- **Total Costs:** 46,000 USD
 
 ### Milestone 1 — Core Toolkit Foundation (0–2 months)
 
@@ -121,9 +122,9 @@ This section breaks the development roadmap into two milestones, with indexing h
 | 4. | SubQuery Indexing Templates | One-click SubQuery project template for ink! event indexing, automatic GraphQL API generation, and TypeScript types. |
 | 5. | Local Development Environment | Automated substrate-contracts-node launcher with Docker support, pre-configured accounts, local faucet. |
 
-### Milestone 2 — Enhancement & Polish (3–4 months)
+### Milestone 2 — Enhancement & Polish (3–5 months)
 
-- **Estimated Duration:** 2 months
+- **Estimated Duration:** 3 months
 - **FTE:** 1.0 FTE
 - **Costs:** 21,000 USD
 
@@ -136,12 +137,12 @@ This section breaks the development roadmap into two milestones, with indexing h
 | 1. | Advanced Components | Additional UI elements for multi-signature operations, batch transactions, and governance interfaces. |
 | 2. | Multi-Network Support | Configuration templates and switching capabilities for Rococo, Westend, and parachain testnets. |
 | 3. | SubQuery Integration Enhancement | Advanced SubQuery templates with complex event filtering, aggregations, and real-time subscriptions for ink! contracts. |
-| 4. | Example Applications | Three complete dApp examples: token contract, NFT marketplace, and simple DAO with full frontend integration and SubQuery indexing. |
+| 4. | Example Applications | Two complete dApp examples: token contract, NFT marketplace, and simple DAO with full frontend integration and SubQuery indexing. |
 | 5. | Community Integration | GitHub templates, contribution guidelines, plugin development docs, and early adopter feedback integration. |
 
 ## Future Plans
 
-Phase 2 Development (Months 7-12): Extension marketplace for community-developed plugins, advanced debugging tools with contract execution tracing, and enterprise features including team collaboration and deployment pipelines. Enhanced SubQuery templates for complex multi-contract indexing scenarios.
+Phase 2 Development (Months 6-12): Extension marketplace for community-developed plugins, advanced debugging tools with contract execution tracing, and enterprise features including team collaboration and deployment pipelines. Enhanced SubQuery templates for complex multi-contract indexing scenarios.
 
 Long-term Vision: Establish Scaffold-ink! as the de-facto development standard for ink! projects, foster a thriving ecosystem of community extensions, and maintain compatibility with evolving Polkadot infrastructure while serving as a catalyst for developer adoption and ecosystem growth. SubQuery will remain the primary indexing solution with deep integration and optimization.
 
