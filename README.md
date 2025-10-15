@@ -119,7 +119,6 @@ would love to see as applications:
 - Up to $50,000 in funding per application
 - Feedback during application and evaluation
 - Introductions to relevant teams/projects
-- Code reviews or audits (depending on scope)
 - Co-promotion opportunities
 
 ---
