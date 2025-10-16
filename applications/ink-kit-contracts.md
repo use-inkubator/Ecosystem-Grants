@@ -1,7 +1,7 @@
 # ink-kit Contracts: A Foundational Standard Library for ink! v6
 
 **Team Name:** Chainscore Private Limited  
-**Payment Address:** TBA
+**Payment Address:** 1iP4qFqt7SRtditzaDBodiwWePpQdUhWGf3bXgL5WYN96hV
 
 ## Project Overview :page_facing_up:
 
