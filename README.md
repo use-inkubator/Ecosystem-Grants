@@ -2,7 +2,10 @@
 <img src="./assets/logo-black.svg#gh-light-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 
 > [!TIP]
-> Update Feb 12, 2025: **Applications for cohort 2 are now open.**
+> Update Oct 27, 2025: **We’re no longer accepting new applications or PRs for the current ink!ubator cohort.**
+The cohort is already full, and our team is currently reviewing the accepted applications.
+Thank you for your interest and patience — stay tuned for updates on future programs and opportunities! 🚀
+
 
 > [!TIP]
 > For a list of grants provided as part of this bounty, please see our dedicated [Accepted Grant Applications](applications/index.md) document.
