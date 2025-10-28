@@ -1,7 +1,7 @@
 <img src="./assets/logo-white.svg#gh-dark-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 <img src="./assets/logo-black.svg#gh-light-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 
-> [!TIP]
+> [!IMPORTANT]
 > Update Oct 27, 2025: **We’re no longer accepting new applications or PRs for the current ink!ubator cohort.**
 The cohort is already full, and our team is currently reviewing the accepted applications.
 Thank you for your interest and patience — stay tuned for updates on future programs and opportunities! 🚀
