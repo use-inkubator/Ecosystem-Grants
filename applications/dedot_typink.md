@@ -34,12 +34,14 @@ These improvements will collectively lower the barrier to entry for developers i
 
 ##### 1.1. **pallet-revive Support**
    - Support for 20-byte (H160) address format
-   - Signing transactions with EVM-compatible Wallets (e.g: MetaMask, SubWallet ...)
    - Contract interactions: 
       - Sending contract queries (read)
       - Signing & submitting contract transactions (write)
       - Deploying contracts
    - Listen to and decode contract events
+   - New API to access contract storage directly
+     - Users interacting with contracts deployed on pallet-revive via Substrate-based (32-byte) addresses must map their accounts first, resulting in poor UX. The contract storage API provides an alternative way to read contract state without requiring initial account mapping.
+
 
 ##### 1.2. **ink! v6 Integration**
    - Ensure compatibility with ink! v4 and v5, allowing developers to use the latest ink! v6 version without breaking existing applications.
@@ -74,8 +76,9 @@ These improvements will collectively lower the barrier to entry for developers i
        - Upgrade Chakra UI to latest version (v3)
      - **Enhanced template projects**: Update templates to handle differences between ink! v6 and v5/v4 implementations, including wallet integration and contract interactions
 
-##### 2.4. **EVM wallets support**
-   - Integrate with MetaMask, SubWallet EVM, and potentially other EVM wallets to enable signing transactions that will be sent through pallet-revive
+##### 2.4. **Contract Storage API**
+   - Provide React hooks to access contract storage directly without requiring account mapping
+   - This addresses the poor UX of requiring users to map accounts before interacting with contracts via Substrate addresses
 
 ##### 2.5. **Documentation and tutorials**
    - **Updated documentation**: Comprehensively update [Typink](http://typink.dev/) documentation to cover all new features & changes.
@@ -151,7 +154,7 @@ This proposal builds upon these foundations to address the next set of challenge
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and **online documentation** for the new features on https://dedot.dev. This will include comprehensive examples of how developers can interact with ink! v6 contracts via dedot. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Article & Communication | We will publish an article introducing the changes and features implemented in this milestone and post regular updates on Polkadot Forum and social media. |
-| 1. | pallet-revive support | - Add support for 20-byte (H160) address format used in Ethereum-compatible environments<br />- Implement support for signing transactions with EVM wallets like MetaMask and SubWallet<br />- Implement comprehensive support for sending contract queries, submitting contract transactions, and deploying contracts.<br />- Develop functionality to listen to and decode contract events from pallet-revive<br /> |
+| 1. | pallet-revive support | - Add support for 20-byte (H160) address format used in Ethereum-compatible environments<br />- Implement comprehensive support for sending contract queries, submitting contract transactions, and deploying contracts.<br />- Develop functionality to listen to and decode contract events from pallet-revive<br /> - Implement Storage API to access contract storage directly to work around account mapping requirements and improve UX |
 
 
 ### Milestone 2: Dedot - ink! v6 Integration
@@ -183,7 +186,7 @@ This proposal builds upon these foundations to address the next set of challenge
 | 1. | Integration with Dedot's ink! v6 support | - Maintain backward compatibility with ink! v4/v5 to support existing contracts<br />- Leverage Dedot's type generation to provide suggestions for existing hooks<br />- Support all contract operations including signing & submitting contract transactions, sending contract queries, deploying contracts, and listening to & decoding contract events |
 | 2. | Improved txToaster system | - Create an abstraction layer that separates transaction tracking from UI implementation<br />- Enable support for multiple notification libraries through a simple adapter pattern<br />- Maintain backward compatibility with existing implementations |
 | 3. | `create-typink` CLI & template project improvements | - Allow developers to choose between pnpm, npm, yarn, or bun during project initialization<br />- Support ink! v6 while maintaining compatibility with v5/v4<br />- Adjust supported network lists to accommodate differences between ink! v6 and v5/v4 environments<br />- Provide expanded stack options including Next.js/React and updated UI libraries<br />- Update templates to handle differences between ink! versions |
-| 4. | EVM wallet support | - Integrate with MetaMask, SubWallet EVM, and potentially other EVM wallets to enable signing transactions that will be sent through pallet-revive |
+| 4. | New hooks | - Implement React hooks to access contract storage directly without requiring account mapping<br />- Provide a hook to check if an account is mapped for pallet-revive interactions |
 | 5. | Documentation and tutorials | - Comprehensively update Typink documentation with all new features<br />- Develop a step-by-step tutorial for building a dApp with the new ink! v6 integration |
 
 ## Future Plans
