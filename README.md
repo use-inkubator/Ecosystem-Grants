@@ -1,4 +1,4 @@
-<img src="./assets/logo-white.svg#gh-dark-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
+`<img src="./assets/logo-white.svg#gh-dark-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 <img src="./assets/logo-black.svg#gh-light-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 
 > [!IMPORTANT]
@@ -128,7 +128,7 @@ would love to see as applications:
 
 ### 📝 Process
 
-> 📢 Payment is made in DOT (on Polkadot).
+> 📢 All payments from the ink!ubator program are made in DOT. To determine the USD equivalent at the time of disbursement, the EMA30 (30-day moving average) DOT/USD rate is applied. This approach ensures consistency across all recipients and minimizes the impact of short-term market volatility.
 
 #### 1. Application
 
