@@ -1,4 +1,4 @@
-`<img src="./assets/logo-white.svg#gh-dark-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
+<img src="./assets/logo-white.svg#gh-dark-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 <img src="./assets/logo-black.svg#gh-light-mode-only" alt="ink!ubator" title="ink!ubator 2.0" style="height: 48px;">
 
 > [!IMPORTANT]
