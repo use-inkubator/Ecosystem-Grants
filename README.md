@@ -128,7 +128,7 @@ would love to see as applications:
 
 ### 📝 Process
 
-> 📢 Payment is made in DOT (on Polkadot).
+> 📢 All payments from the ink!ubator program are made in DOT. To determine the USD equivalent, the EMA30 (30-day moving average) DOT/USD rate is applied **at the time of disbursement**. This approach ensures consistency across all recipients and minimizes the impact of short-term market volatility.
 
 #### 1. Application
 
